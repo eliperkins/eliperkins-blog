@@ -10,7 +10,7 @@ With the advent of Swift, these frameworks have seen their implementations rende
 they depend heavily on the Objective-C runtime.
 
 But with Swift, there might be a better way to setup our programs that don't require Objective-C
-~~funtime~~runtime hacks and swizzles.
+~~funtime~~ runtime hacks and swizzles.
 
 ## Mocking `UIApplication`
 
