@@ -5,7 +5,7 @@ date: 2014-05-28
 
 I figured I'd put my hat in the ring here.
 
-![](https://devimages.apple.com.edgekey.net/wwdc/images/wwdc14-home-branding.png)
+![](https://9to5mac.files.wordpress.com/2014/04/wwdc14-home-branding-v2.png?w=655)
 
 # Predictions
 
