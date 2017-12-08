@@ -9876,6 +9876,13 @@ typography-plugin-code@^0.16.11:
     gray-percentage "^2.0.0"
     lodash "^4.13.1"
 
+typography-theme-fairy-gates@^0.15.11:
+  version "0.15.11"
+  resolved "https://registry.yarnpkg.com/typography-theme-fairy-gates/-/typography-theme-fairy-gates-0.15.11.tgz#305ec02548e4065ab6ba9c7b47ff5099b6f9be5c"
+  dependencies:
+    gray-percentage "^2.0.0"
+    typography-breakpoint-constants "^0.15.10"
+
 typography-theme-wordpress-2016@^0.15.10:
   version "0.15.10"
   resolved "https://registry.yarnpkg.com/typography-theme-wordpress-2016/-/typography-theme-wordpress-2016-0.15.10.tgz#8f14f002af9334303b858093358455e02d33131d"

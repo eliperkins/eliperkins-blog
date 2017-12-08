@@ -3,6 +3,7 @@ import Link from 'gatsby-link';
 import { Container } from 'react-responsive-grid';
 
 import { rhythm, scale } from '../utils/typography';
+
 import 'prism-themes/themes/prism-base16-ateliersulphurpool.light.css';
 
 class Template extends React.Component {
@@ -32,7 +33,7 @@ class Template extends React.Component {
             }}
             to={'/'}
           >
-            Gatsby Starter Blog.
+            Eli Perkins.
           </Link>
         </h1>
       );
@@ -40,9 +41,8 @@ class Template extends React.Component {
       header = (
         <h3
           style={{
-            fontFamily: 'Montserrat, sans-serif',
             marginTop: 0,
-            marginBottom: rhythm(-1)
+            marginBottom: rhythm(1.5)
           }}
         >
           <Link
@@ -53,7 +53,7 @@ class Template extends React.Component {
             }}
             to={'/'}
           >
-            Gatsby Starter Blog
+            Eli Perkins.
           </Link>
         </h3>
       );
