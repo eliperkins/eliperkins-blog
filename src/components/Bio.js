@@ -24,7 +24,7 @@ class Bio extends React.Component {
           }}
         />
         <p>
-          Written by <strong>Eli Perkins</strong>.{' '}
+          Written by <strong>Eli Perkins</strong>, a mobile engineer based in New York City.{' '}
           <a href="https://twitter.com/_eliperkins">Say hello on Twitter.</a>
         </p>
       </div>
