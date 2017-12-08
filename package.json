@@ -26,6 +26,7 @@
     "gatsby-transformer-sharp": "^1.6.15",
     "lodash": "^4.17.4",
     "prism-themes": "^1.0.0",
+    "react-helmet": "^5.2.0",
     "react-responsive-grid": "^0.3.4",
     "typeface-merriweather": "0.0.45",
     "typeface-montserrat": "0.0.45",
