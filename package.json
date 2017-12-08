@@ -30,6 +30,7 @@
     "react-responsive-grid": "^0.3.4",
     "typeface-merriweather": "0.0.45",
     "typeface-montserrat": "0.0.45",
+    "typography-breakpoint-constants": "^0.15.10",
     "typography-plugin-code": "^0.16.11",
     "typography-theme-fairy-gates": "^0.15.11",
     "typography-theme-wordpress-2016": "^0.15.10"

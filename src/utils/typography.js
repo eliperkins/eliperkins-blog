@@ -1,15 +1,19 @@
 import Typography from 'typography';
 import CodePlugin from 'typography-plugin-code';
 import Theme from 'typography-theme-fairy-gates';
+import { MOBILE_MEDIA_QUERY } from 'typography-breakpoint-constants';
 
 Theme.plugins = [new CodePlugin()];
+
+const linkColor = '#d17821';
 
 Theme.overrideThemeStyles = ({ adjustFontSizeTo, scale, rhythm }, options) => ({
   blockquote: {
     ...scale(1 / 5),
+    borderLeft: `${rhythm(6 / 16)} solid ${linkColor}`,
     color: 'hsla(0,0%,60%,1.0)',
     fontStyle: 'italic',
-    paddingLeft: rhythm(13 / 16),
+    paddingLeft: rhythm(10 / 16),
     marginLeft: rhythm(-1),
     borderLeft: `${rhythm(3 / 16)} solid ${'hsla(0,0%,100%,0.1)'}`
   },
@@ -40,7 +44,11 @@ Theme.overrideThemeStyles = ({ adjustFontSizeTo, scale, rhythm }, options) => ({
     fontStyle: 'italic'
   },
   a: {
-    textDecoration: 'none'
+    color: linkColor,
+    textDecoration: 'none',
+    textShadow:
+      '.03em 0 #fff,-.03em 0 #fff,0 .03em #fff,0 -.03em #fff,.06em 0 #fff,-.06em 0 #fff,.09em 0 #fff,-.09em 0 #fff,.12em 0 #fff,-.12em 0 #fff,.15em 0 #fff,-.15em 0 #fff', // eslint-disable-line
+    backgroundImage: `linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 1px, ${linkColor} 1px, ${linkColor} 2px, rgba(0, 0, 0, 0) 2px)` // eslint-disable-line
   },
   'a:hover,a:active': {
     boxShadow: 'none',
@@ -51,6 +59,16 @@ Theme.overrideThemeStyles = ({ adjustFontSizeTo, scale, rhythm }, options) => ({
     color: 'white',
     padding: `${rhythm(1 / 16)} ${rhythm(1 / 8)}`,
     textDecoration: 'none'
+  },
+  [MOBILE_MEDIA_QUERY]: {
+    blockquote: {
+      borderLeft: `${rhythm(3 / 16)} solid ${linkColor}`,
+      color: 'hsla(0,0%,60%,1.0)',
+      paddingLeft: rhythm(9 / 16),
+      fontStyle: 'italic',
+      marginLeft: rhythm(-3 / 4),
+      marginRight: 0
+    }
   }
 });
 
