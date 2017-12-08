@@ -43,6 +43,17 @@ module.exports = {
         trackingId: 'UA-47801301-1',
       },
     },
+    {
+      resolve: 'gatsby-plugin-manifest',
+      options: {
+        name: "Blog – Eli Perkins",
+        short_name: "Blog – Eli Perkins",
+        start_url: "/",
+        background_color: "#d17821",
+        theme_color: "#a2466c",
+        display: "browser",
+      },
+    },
     `gatsby-plugin-feed`,
     `gatsby-plugin-offline`,
     `gatsby-plugin-react-helmet`,
