@@ -45,7 +45,6 @@ Theme.overrideThemeStyles = ({ adjustFontSizeTo, scale, rhythm }, options) => ({
   'a:hover,a:active': {
     boxShadow: 'none',
     textDecoration: 'none'
-
   },
   'mark,ins': {
     background: '#007acc',
