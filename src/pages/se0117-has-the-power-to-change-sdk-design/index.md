@@ -15,7 +15,7 @@ However, I do think there are some resulting behaviors that have the power to pu
 
 ## Lean on Protocols to Define the Behavior You Expect
 
-APIs that expose functions that take in *protocols* rather than classes or subclasses will flourish. We don’t need to wrap up our intended behavior or properties into a `class` just to get the code we need run, but rather we can make the decision to use a struct or class, choosing value vs reference semantics.
+APIs that expose functions that take in _protocols_ rather than classes or subclasses will flourish. We don’t need to wrap up our intended behavior or properties into a `class` just to get the code we need run, but rather we can make the decision to use a struct or class, choosing value vs reference semantics.
 
 This means that no matter what type we pass in, we’ll be able to get some property or call some function, regardless of what class, subclass, or subsubsubclass with its subsubclasses pass in.
 

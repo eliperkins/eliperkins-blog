@@ -3,9 +3,9 @@ title: How We Learn
 date: 2014-02-04
 ---
 
-> He said people who were right a lot of the time *were people who often changed their minds*.
+> He said people who were right a lot of the time _were people who often changed their minds_.
 
---  **[Jason Fried](http://37signals.com/svn/posts/3289-some-advice-from-jeff-bezos)** on Jeff Bezos
+-- **[Jason Fried](http://37signals.com/svn/posts/3289-some-advice-from-jeff-bezos)** on Jeff Bezos
 
 Tonight, Bill Nye and Ken Ham put on a bit of a show in Kentucky [and on YouTube](http://www.youtube.com/watch?v=z6kgvhG3AkI). Those who know me may know that I'm in no way religious, but I don't shun those who are. I do, however, believe religion is a necessary piece to a functioning society, but that's a piece for a whole 'nother blog post.
 
@@ -17,11 +17,11 @@ What really struck me was that Ham chose to accept a belief that may not have be
 
 While I may not stand for everything Ham stands for, I am all for learning by questioning what already exists. I am all for digging deeper into what we think we may know, with the sole purpose of learning more. And importantly, I am all for listening to what others say and drawing my own personal opinion from that.
 
-***
+---
 
 Last year, I read a blurb from Jeff Bezos on [a Signal vs. Noise post](http://37signals.com/svn/posts/3289-some-advice-from-jeff-bezos) that really resonated with me.
 
-> He said people who were right a lot of the time *were people who often changed their minds*.
+> He said people who were right a lot of the time _were people who often changed their minds_.
 
 -- [Jason Fried](http://37signals.com/svn/posts/3289-some-advice-from-jeff-bezos)
 

@@ -49,7 +49,6 @@ class PushNotificationControllerTests: XCTestCase {
 
 ![](http://i.imgur.com/yS9zFJK.gif)
 
-
 ## What's in a Test?
 
 Let's take a step back here and figure out what has made our code untestable. There's a couple things that we're fighting against. We don't own `UIApplication` or it's `sharedApplication()` method, so it's a bit difficult to substitute our own functionality into these. Additionally, we don't have a way to know if calling `UIApplication.sharedApplication().registerUserNotificationSettings(_:)` really does anything in our unit test. We can't assert that the screen has the alert view on it now.
