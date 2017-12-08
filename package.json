@@ -1,10 +1,10 @@
 {
-  "name": "gatsby-starter-blog",
-  "description": "Starter Gatsby Blog",
+  "name": "eliperkins-blog",
+  "description": "Blog",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Eli Perkins <eli.j.perkins@gmail.com>",
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby-starter-blog/issues"
+    "url": "https://github.com/eliperkins/eliperkins-blog/issues"
   },
   "dependencies": {
     "gatsby": "^1.9.118",
@@ -37,7 +37,7 @@
     "gh-pages": "^1.1.0",
     "prettier": "^1.8.2"
   },
-  "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
+  "homepage": "https://blog.eliperkins.me",
   "keywords": [
     "gatsby"
   ],
@@ -45,7 +45,7 @@
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
+    "url": "git+https://github.com/eliperkins/eliperkins-blog.git"
   },
   "scripts": {
     "dev": "gatsby develop",
