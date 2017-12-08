@@ -40,12 +40,12 @@ Theme.overrideThemeStyles = ({ adjustFontSizeTo, scale, rhythm }, options) => ({
     fontStyle: 'italic'
   },
   a: {
-    boxShadow: '0 1px 0 0 currentColor',
-    color: '#007acc',
     textDecoration: 'none'
   },
   'a:hover,a:active': {
-    boxShadow: 'none'
+    boxShadow: 'none',
+    textDecoration: 'none'
+
   },
   'mark,ins': {
     background: '#007acc',
