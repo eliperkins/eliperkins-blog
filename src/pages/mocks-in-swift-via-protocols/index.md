@@ -59,7 +59,7 @@ class PushNotificationControllerTests: XCTestCase {
 }
 ```
 
-![](http://i.imgur.com/yS9zFJK.gif)
+![](https://i.imgur.com/yS9zFJK.gif)
 
 ## What's in a Test?
 
