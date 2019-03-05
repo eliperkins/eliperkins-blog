@@ -218,3 +218,4 @@ Beautiful! Now we have two new components that cna
 - useReducer possible? might alleviate the Hooks Explosion™
 - illlustrate how `mapStateToProps` kinda does this?
 - Could we have created a DataLoader-like `useManyModels` Hook?
+- make DataStore code less verbose...
