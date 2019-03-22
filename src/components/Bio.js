@@ -1,8 +1,9 @@
-import React from 'react';
+import * as React from 'react';
 
 import profilePic from './headshot.jpg';
-import { rhythm } from '../utils/typography';
+import Typography from '../utils/typography';
 
+const { rhythm } = Typography;
 class Bio extends React.Component {
   render() {
     return (

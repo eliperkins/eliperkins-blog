@@ -1,22 +1,26 @@
-import React from 'react';
+import * as React from 'react';
 import Helmet from 'react-helmet';
-import get from 'lodash/get';
 
 import Bio from '../components/Bio';
-import { rhythm, scale } from '../utils/typography';
+import Layout from '../components/layout';
+import Typography from '../utils/typography';
+import { graphql } from 'gatsby';
 
-class BlogPostTemplate extends React.Component {
-  render() {
-    const post = this.props.data.markdownRemark;
-    const siteTitle = get(
-      this.props,
-      'data.site.siteMetadata.title'
-    );
+const { rhythm, scale } = Typography;
 
-    return (
+const BlogPost = ({ data }) => {
+  const { markdownRemark, site } = data;
+  if (!markdownRemark) {
+    console.log({ data, markdownRemark });
+    return null;
+  }
+  return (
+    <Layout>
       <div>
         <Helmet
-          title={`${post.frontmatter.title} | ${siteTitle}`}
+          title={`${markdownRemark.frontmatter.title} | ${
+            site.siteMetadata.title
+          }`}
         />
         <p
           style={{
@@ -25,11 +29,13 @@ class BlogPostTemplate extends React.Component {
             marginBottom: rhythm(-2)
           }}
         >
-          {post.frontmatter.date}
+          {markdownRemark.frontmatter.date}
         </p>
-        <h1>{post.frontmatter.title}</h1>
+        <h1>{markdownRemark.frontmatter.title}</h1>
         <div
-          dangerouslySetInnerHTML={{ __html: post.html }}
+          dangerouslySetInnerHTML={{
+            __html: markdownRemark.html
+          }}
         />
         <hr
           style={{
@@ -38,14 +44,12 @@ class BlogPostTemplate extends React.Component {
         />
         <Bio />
       </div>
-    );
-  }
-}
-
-export default BlogPostTemplate;
+    </Layout>
+  );
+};
 
 export const pageQuery = graphql`
-  query BlogPostBySlug($slug: String!) {
+  query($slug: String!) {
     site {
       siteMetadata {
         title
@@ -62,3 +66,5 @@ export const pageQuery = graphql`
     }
   }
 `;
+
+export default BlogPost;
