@@ -4,8 +4,7 @@
   "version": "1.0.0",
   "author": "Eli Perkins <eli.j.perkins@gmail.com>",
   "bugs": {
-    "url":
-      "https://github.com/eliperkins/eliperkins-blog/issues"
+    "url": "https://github.com/eliperkins/eliperkins-blog/issues"
   },
   "dependencies": {
     "@reach/router": "^1.2.1",
@@ -18,6 +17,7 @@
     "gatsby-plugin-offline": "^2.0.25",
     "gatsby-plugin-react-helmet": "^3.0.10",
     "gatsby-plugin-sharp": "^2.0.30",
+    "gatsby-plugin-twitter": "^2.0.13",
     "gatsby-plugin-typography": "^2.2.10",
     "gatsby-remark-autolink-headers": "^2.0.16",
     "gatsby-remark-copy-linked-files": "^2.0.11",
@@ -55,21 +55,20 @@
     "semver": "^5.6.0"
   },
   "homepage": "https://blog.eliperkins.me",
-  "keywords": ["gatsby"],
+  "keywords": [
+    "gatsby"
+  ],
   "license": "MIT",
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url":
-      "git+https://github.com/eliperkins/eliperkins-blog.git"
+    "url": "git+https://github.com/eliperkins/eliperkins-blog.git"
   },
   "scripts": {
     "dev": "gatsby develop",
-    "lint":
-      "./node_modules/.bin/eslint --ext .js,.jsx --ignore-pattern public .",
+    "lint": "./node_modules/.bin/eslint --ext .js,.jsx --ignore-pattern public .",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "format":
-      "prettier --single-quote --write 'src/**/*.js' 'src/**/*.md'",
+    "format": "prettier --single-quote --write 'src/**/*.js' 'src/**/*.md'",
     "develop": "gatsby develop",
     "build": "gatsby build",
     "deploy": "discharge deploy"

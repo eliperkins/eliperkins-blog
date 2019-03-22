@@ -19,7 +19,6 @@ Everyone is entitled to their opinion, sure. But to bash
 others for their opinion is just wrong.
 
 <blockquote class="twitter-tweet" lang="en"><p>This type of blatant disrespect /against others/ literally keeps me up at night: <a href="http://t.co/S6deW2xlZP">http://t.co/S6deW2xlZP</a></p>&mdash; Eloy Durán (@alloy) <a href="https://twitter.com/alloy/statuses/433989599107751936">February 13, 2014</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 The way I've noticed a lot of iOS dev's acting lately has
 been a lot like an old man telling everyone to get off his
@@ -41,7 +40,6 @@ kid, there's alternatives out there that
 etc., too). My point is, everyone is different.
 
 <blockquote class="twitter-tweet" lang="en"><p>Throwing some positivism into the twitter-sphere. I liked <a href="https://twitter.com/CocoaPods">@CocoaPods</a> a lot, but it didn’t do what I wanted. So I fixed it &amp; helped. OSS wins</p>&mdash; orta (@orta) <a href="https://twitter.com/orta/statuses/433723905082392576">February 12, 2014</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 I've been watching a lot of the Olympics this week and an
 entertaining bit for me has been Johnny Weir.
