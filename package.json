@@ -4,7 +4,8 @@
   "version": "1.0.0",
   "author": "Eli Perkins <eli.j.perkins@gmail.com>",
   "bugs": {
-    "url": "https://github.com/eliperkins/eliperkins-blog/issues"
+    "url":
+      "https://github.com/eliperkins/eliperkins-blog/issues"
   },
   "dependencies": {
     "@reach/router": "^1.2.1",
@@ -54,22 +55,23 @@
     "semver": "^5.6.0"
   },
   "homepage": "https://blog.eliperkins.me",
-  "keywords": [
-    "gatsby"
-  ],
+  "keywords": ["gatsby"],
   "license": "MIT",
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eliperkins/eliperkins-blog.git"
+    "url":
+      "git+https://github.com/eliperkins/eliperkins-blog.git"
   },
   "scripts": {
     "dev": "gatsby develop",
-    "lint": "./node_modules/.bin/eslint --ext .js,.jsx --ignore-pattern public .",
+    "lint":
+      "./node_modules/.bin/eslint --ext .js,.jsx --ignore-pattern public .",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "format": "prettier --single-quote --write 'src/**/*.js' 'src/**/*.md'",
+    "format":
+      "prettier --single-quote --write 'src/**/*.js' 'src/**/*.md'",
     "develop": "gatsby develop",
     "build": "gatsby build",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
+    "deploy": "discharge deploy"
   }
 }
