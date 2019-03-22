@@ -6,7 +6,7 @@ import Typography from '../utils/typography';
 
 const { rhythm, scale } = Typography;
 
-import 'prism-themes/themes/prism-base16-ateliersulphurpool.light.css';
+import '../utils/prism-base16ocean.css';
 
 const Layout = ({ children }) => (
   <Location>
