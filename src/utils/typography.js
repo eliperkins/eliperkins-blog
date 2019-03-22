@@ -82,6 +82,9 @@ Theme.overrideThemeStyles = (
   'li code': {
     fontSize: '1rem'
   },
+  code: {
+    fontSize: '0.85rem'
+  },
   [MOBILE_MEDIA_QUERY]: {
     blockquote: {
       borderLeft: `${rhythm(3 / 16)} solid ${linkColor}`,
