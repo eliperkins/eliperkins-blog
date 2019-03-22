@@ -5,19 +5,19 @@ import { StaticQuery, graphql } from 'gatsby';
 
 import Bio from '../components/Bio';
 import Layout from '../components/layout';
+import SEO from '../components/SEO';
 import Typography from '../utils/typography';
 
 const { rhythm } = Typography;
 
 const BlogIndex = props => {
-  const { site, allMarkdownRemark } = props;
-  const siteTitle = site.siteMetadata.title;
+  const { allMarkdownRemark } = props;
   const posts = allMarkdownRemark.edges;
 
   return (
     <Layout>
       <div>
-        <Helmet title={siteTitle} />
+        <SEO />
         <Bio />
         {posts.map(({ node }) => {
           const title =
@@ -54,11 +54,6 @@ export default () => (
   <StaticQuery
     query={graphql`
       query IndexQuery {
-        site {
-          siteMetadata {
-            title
-          }
-        }
         allMarkdownRemark(
           sort: {
             fields: [frontmatter___date]

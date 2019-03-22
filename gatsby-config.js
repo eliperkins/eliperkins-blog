@@ -3,7 +3,10 @@ module.exports = {
     title: 'Blog — Eli Perkins',
     author: 'Eli Perkins',
     description: 'A bunch of ramblings from Eli Perkins.',
-    siteUrl: 'https://blog.eliperkins.me/'
+    siteUrl: 'https://blog.eliperkins.me',
+    social: {
+      twitter: '@_eliperkins'
+    }
   },
   plugins: [
     {

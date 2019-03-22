@@ -1,27 +1,20 @@
 import * as React from 'react';
-import Helmet from 'react-helmet';
 
 import Bio from '../components/Bio';
 import Layout from '../components/layout';
+import SEO from '../components/SEO';
 import Typography from '../utils/typography';
 import { graphql } from 'gatsby';
 
 const { rhythm, scale } = Typography;
 
 const BlogPost = ({ data }) => {
-  const { markdownRemark, site } = data;
-  if (!markdownRemark) {
-    console.log({ data, markdownRemark });
-    return null;
-  }
+  const { markdownRemark } = data;
+  const { frontmatter, fields, html } = markdownRemark;
   return (
     <Layout>
       <div>
-        <Helmet
-          title={`${markdownRemark.frontmatter.title} | ${
-            site.siteMetadata.title
-          }`}
-        />
+        <SEO title={frontmatter.title} slug={fields.slug} />
         <p
           style={{
             ...scale(-1 / 2),
@@ -29,12 +22,12 @@ const BlogPost = ({ data }) => {
             marginBottom: rhythm(-2)
           }}
         >
-          {markdownRemark.frontmatter.date}
+          {frontmatter.date}
         </p>
-        <h1>{markdownRemark.frontmatter.title}</h1>
+        <h1>{frontmatter.title}</h1>
         <div
           dangerouslySetInnerHTML={{
-            __html: markdownRemark.html
+            __html: html
           }}
         />
         <hr
@@ -50,15 +43,12 @@ const BlogPost = ({ data }) => {
 
 export const pageQuery = graphql`
   query($slug: String!) {
-    site {
-      siteMetadata {
-        title
-        author
-      }
-    }
     markdownRemark(fields: { slug: { eq: $slug } }) {
       id
       html
+      fields {
+        slug
+      }
       frontmatter {
         title
         date(formatString: "MMMM DD, YYYY")
