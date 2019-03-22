@@ -8,8 +8,9 @@ date: 2019-03-22
 
 I'm a big fan of GraphQL (seriously, ask me about GraphQL).
 One tool I've been absolutely loving lately has been
-[Relay](https://facebook.github.io/relay/). We use Relay to
-build some really awesome features in
+[Relay](https://facebook.github.io/relay/). We use Relay at
+[Clubhouse](https://clubhouse.io) to build some really
+awesome features in
 [Clubhouse for iOS](https://itunes.apple.com/us/app/clubhouse/id1193784808?mt=8).
 As of the writing of this blog post, we've got nearly 100
 different components using Relay in some way, shape or form!
