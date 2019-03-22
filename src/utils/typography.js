@@ -59,14 +59,28 @@ Theme.overrideThemeStyles = (
     boxShadow: 'none',
     textDecoration: 'none'
   },
+  'a.anchor': {
+    boxShadow: 'none',
+    backgroundImage: 'none'
+  },
+  'a.anchor svg[aria-hidden="true"]': {
+    stroke: linkColor
+  },
   'mark,ins': {
     background: '#007acc',
     color: 'white',
     padding: `${rhythm(1 / 16)} ${rhythm(1 / 8)}`,
     textDecoration: 'none'
   },
-  code: {
-    fontSize: '15px'
+  'p code': {
+    fontSize: '1rem'
+  },
+  // TODO: why tho
+  'h1 code, h2 code, h3 code, h4 code, h5 code, h6 code': {
+    fontSize: 'inherit'
+  },
+  'li code': {
+    fontSize: '1rem'
   },
   [MOBILE_MEDIA_QUERY]: {
     blockquote: {
