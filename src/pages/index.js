@@ -8,15 +8,23 @@ import { rhythm } from '../utils/typography';
 
 class BlogIndex extends React.Component {
   render() {
-    const siteTitle = get(this, 'props.data.site.siteMetadata.title');
-    const posts = get(this, 'props.data.allMarkdownRemark.edges');
+    const siteTitle = get(
+      this,
+      'props.data.site.siteMetadata.title'
+    );
+    const posts = get(
+      this,
+      'props.data.allMarkdownRemark.edges'
+    );
 
     return (
       <div>
         <Helmet title={siteTitle} />
         <Bio />
         {posts.map(({ node }) => {
-          const title = get(node, 'frontmatter.title') || node.fields.slug;
+          const title =
+            get(node, 'frontmatter.title') ||
+            node.fields.slug;
           return (
             <div key={node.fields.slug}>
               <h3
@@ -24,12 +32,19 @@ class BlogIndex extends React.Component {
                   marginBottom: rhythm(1 / 4)
                 }}
               >
-                <Link style={{ boxShadow: 'none' }} to={node.fields.slug}>
+                <Link
+                  style={{ boxShadow: 'none' }}
+                  to={node.fields.slug}
+                >
                   {title}
                 </Link>
               </h3>
               <small>{node.frontmatter.date}</small>
-              <p dangerouslySetInnerHTML={{ __html: node.excerpt }} />
+              <p
+                dangerouslySetInnerHTML={{
+                  __html: node.excerpt
+                }}
+              />
             </div>
           );
         })}
@@ -47,7 +62,9 @@ export const pageQuery = graphql`
         title
       }
     }
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+    allMarkdownRemark(
+      sort: { fields: [frontmatter___date], order: DESC }
+    ) {
       edges {
         node {
           excerpt

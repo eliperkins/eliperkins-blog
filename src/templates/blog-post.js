@@ -8,11 +8,16 @@ import { rhythm, scale } from '../utils/typography';
 class BlogPostTemplate extends React.Component {
   render() {
     const post = this.props.data.markdownRemark;
-    const siteTitle = get(this.props, 'data.site.siteMetadata.title');
+    const siteTitle = get(
+      this.props,
+      'data.site.siteMetadata.title'
+    );
 
     return (
       <div>
-        <Helmet title={`${post.frontmatter.title} | ${siteTitle}`} />
+        <Helmet
+          title={`${post.frontmatter.title} | ${siteTitle}`}
+        />
         <p
           style={{
             ...scale(-1 / 2),
@@ -23,7 +28,9 @@ class BlogPostTemplate extends React.Component {
           {post.frontmatter.date}
         </p>
         <h1>{post.frontmatter.title}</h1>
-        <div dangerouslySetInnerHTML={{ __html: post.html }} />
+        <div
+          dangerouslySetInnerHTML={{ __html: post.html }}
+        />
         <hr
           style={{
             marginBottom: rhythm(1)

@@ -12,7 +12,10 @@ class Template extends React.Component {
     let header;
 
     let rootPath = `/`;
-    if (typeof __PREFIX_PATHS__ !== `undefined` && __PREFIX_PATHS__) {
+    if (
+      typeof __PREFIX_PATHS__ !== `undefined` &&
+      __PREFIX_PATHS__
+    ) {
       rootPath = __PATH_PREFIX__ + `/`;
     }
 

@@ -7,7 +7,10 @@ Theme.plugins = [new CodePlugin()];
 
 const linkColor = '#d17821';
 
-Theme.overrideThemeStyles = ({ adjustFontSizeTo, scale, rhythm }, options) => ({
+Theme.overrideThemeStyles = (
+  { adjustFontSizeTo, scale, rhythm },
+  options
+) => ({
   blockquote: {
     ...scale(1 / 5),
     borderLeft: `${rhythm(6 / 16)} solid ${linkColor}`,
@@ -15,7 +18,9 @@ Theme.overrideThemeStyles = ({ adjustFontSizeTo, scale, rhythm }, options) => ({
     fontStyle: 'italic',
     paddingLeft: rhythm(10 / 16),
     marginLeft: rhythm(-1),
-    borderLeft: `${rhythm(3 / 16)} solid ${'hsla(0,0%,100%,0.1)'}`
+    borderLeft: `${rhythm(
+      3 / 16
+    )} solid ${'hsla(0,0%,100%,0.1)'}`
   },
   'blockquote > :last-child': {
     marginBottom: 0
@@ -59,6 +64,9 @@ Theme.overrideThemeStyles = ({ adjustFontSizeTo, scale, rhythm }, options) => ({
     color: 'white',
     padding: `${rhythm(1 / 16)} ${rhythm(1 / 8)}`,
     textDecoration: 'none'
+  },
+  code: {
+    fontSize: '15px'
   },
   [MOBILE_MEDIA_QUERY]: {
     blockquote: {
