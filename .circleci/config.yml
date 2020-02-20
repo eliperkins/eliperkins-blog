@@ -3,7 +3,7 @@ version: 2
 references:
   js_container_config: &js_container_config
     docker:
-      - image: circleci/node:10.9
+      - image: circleci/node:10
         environment:
           ENV: CI
     working_directory: ~/eliperkins-blog
