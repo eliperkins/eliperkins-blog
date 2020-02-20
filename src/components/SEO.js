@@ -42,9 +42,7 @@ const SEO = ({
             htmlAttributes={{ lang }}
             {...(title
               ? {
-                  titleTemplate: `%s — ${
-                    siteMetadata.title
-                  }`,
+                  titleTemplate: `%s — ${siteMetadata.title}`,
                   title
                 }
               : {
