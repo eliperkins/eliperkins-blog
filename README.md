@@ -2,7 +2,7 @@
 
 Home of all things Eli Perkins.
 
-> Gatsby is pretty fuckin’ cool.
+> Gatsby is overkill for a personal blog (probably).
 >
 > — Eli Perkins.
 
