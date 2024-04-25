@@ -58,7 +58,7 @@ export default async function BlogPost({ params }: Props) {
         className="font-serif prose md:prose-lg lg:prose-xl prose-a:font-semibold prose-a:underline-offset-4 prose-a:text-amber-600 hover:prose-a:text-amber-700 prose-pre:bg-[#011627]"
         dangerouslySetInnerHTML={{ __html: content }}
       ></article>
-      <hr className="my-4" />
+      <hr className="mt-8 mb-6" />
       <Bio />
     </main>
   );
