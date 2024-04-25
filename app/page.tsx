@@ -17,11 +17,6 @@ const MainHeader = () => (
 export default async function Home() {
   var posts = await fetchPosts();
 
-  // parse date strings into new Date with date-fns, then sort by newest first
-  posts = posts.sort((a, b) => {
-    return new Date(b.date).getTime() - new Date(a.date).getTime();
-  });
-
   return (
     <main>
       <MainHeader />
@@ -32,7 +27,7 @@ export default async function Home() {
             <h3>
               <Link href={post.slug}>{post.title}</Link>
             </h3>
-            <time dateTime={post.date} className="text-sm lg:text-base">
+            <time dateTime={post.date.toISOString()} className="text-sm lg:text-base">
               {format(post.date, 'MMMM dd, yyyy')}
             </time>
             {post.excerpt && (

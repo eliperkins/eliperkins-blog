@@ -13,7 +13,7 @@ import type { VFile } from 'vfile';
 
 type Post = {
   title: string;
-  date: string;
+  date: Date;
   slug: string;
   content: string;
   excerpt: string;
@@ -27,7 +27,10 @@ type FrontMatter = {
 
 export async function fetchPosts(): Promise<Post[]> {
   const slugs = await fs.promises.readdir(path.join(process.cwd(), 'posts'));
-  const posts = Promise.all(slugs.map((slug) => fetchPost(slug)));
+  const posts = await Promise.all(slugs.map((slug) => fetchPost(slug)));
+  posts.sort((a, b) => {
+    return b.date.getTime() - a.date.getTime();
+  });
   return posts;
 }
 
@@ -50,7 +53,7 @@ export async function fetchPost(slug: string): Promise<Post> {
 
   return {
     title,
-    date,
+    date: new Date(date),
     slug,
     content,
     excerpt: parsedExcerpt,

@@ -50,7 +50,7 @@ export default async function BlogPost({ params }: Props) {
     <main className="">
       <Script src="https://platform.twitter.com/widgets.js" />
       <BlogPostHeader />
-      <time dateTime={post.date} className="text-sm lg:text-base">
+      <time dateTime={post.date.toISOString()} className="text-sm lg:text-base">
         {format(post.date, 'MMMM dd, yyyy')}
       </time>
       <h1 className="mt-1 mb-4 text-4xl font-bold">{post.title}</h1>
