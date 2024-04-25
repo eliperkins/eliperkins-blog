@@ -1,6 +1,6 @@
 {
   "domain": "blog.eliperkins.com",
-  "build_command": "npm build",
+  "build_command": "npm run build",
   "upload_directory": "out",
   "index_key": "index.html",
   "error_key": "index.html",
