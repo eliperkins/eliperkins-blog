@@ -1,7 +1,7 @@
 {
-  "domain": "blog.eliperkins.me",
-  "build_command": "yarn build",
-  "upload_directory": "public",
+  "domain": "blog.eliperkins.com",
+  "build_command": "npm build",
+  "upload_directory": "out",
   "index_key": "index.html",
   "error_key": "index.html",
   "cache": 3600,
