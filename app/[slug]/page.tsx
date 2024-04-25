@@ -28,7 +28,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       url: 'https://blog.eliperkins.com',
       siteName: 'Blog - Eli Perkins',
       type: 'article',
-      publishedTime: post.date,
+      publishedTime: post.date.toUTCString(),
     },
   };
 }
