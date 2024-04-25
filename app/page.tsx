@@ -26,15 +26,18 @@ export default async function Home() {
     <main>
       <MainHeader />
       <Bio />
-      <ul className="prose md:prose-lg lg:prose-xl font-serif prose-a:font-semibold prose-a:underline-offset-4 prose-a:text-amber-600 hover:prose-a:text-amber-700">
+      <ul className="prose md:prose-lg lg:prose-xl font-serif prose-a:font-semibold prose-a:underline-offset-4 prose-a:text-amber-600 hover:prose-a:text-amber-700 prose-h3:mb-0 prose-p:my-0">
         {posts.map((post) => (
           <li key={post.slug}>
-            <h3 >
+            <h3>
               <Link href={post.slug}>{post.title}</Link>
             </h3>
             <time dateTime={post.date} className="text-sm lg:text-base">
               {format(post.date, 'MMMM dd, yyyy')}
             </time>
+            {post.excerpt && (
+              <div dangerouslySetInnerHTML={{ __html: post.excerpt}} />
+            )}
           </li>
         ))}
       </ul>

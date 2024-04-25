@@ -1,6 +1,7 @@
 ---
 title: How We Learn
 date: 2014-02-04
+excerpt: Find success by seeking to learn more, shaping one's own personal opinion, and changing one's mind.
 ---
 
 > He said people who were right a lot of the time _were

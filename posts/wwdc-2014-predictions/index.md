@@ -1,6 +1,7 @@
 ---
 title: WWDC 2014 Predictions
 date: 2014-05-28
+excerpt: Boy, was I wrong... maybe?
 ---
 
 I figured I'd put my hat in the ring here.

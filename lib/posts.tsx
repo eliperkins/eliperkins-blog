@@ -15,6 +15,14 @@ type Post = {
   title: string;
   date: string;
   slug: string;
+  content: string;
+  excerpt: string;
+};
+
+type FrontMatter = {
+  title: string;
+  date: string;
+  excerpt: string;
 };
 
 export async function fetchPosts(): Promise<Post[]> {
@@ -35,26 +43,33 @@ async function parsePostFile(slug: string): Promise<VFile> {
 export async function fetchPost(slug: string): Promise<Post> {
   const file = await parsePostFile(slug);
 
-  const { title, date }: { title: string; date: string } = file.data
-    .matter as any;
+  const { title, date, excerpt }: FrontMatter = file.data.matter as any;
+
+  const content = await fetchPostContent(slug);
+  const parsedExcerpt = await parseMarkdownContent(excerpt);
 
   return {
     title,
     date,
     slug,
+    content,
+    excerpt: parsedExcerpt,
   };
 }
 
-export async function fetchPostContent(slug: string): Promise<string> {
-  const file = await parsePostFile(slug);
-
+async function parseMarkdownContent(content: string): Promise<string> {
   const output = await unified()
     .use(remarkParse)
     .use(remarkGfm)
     .use(remarkRehype, { allowDangerousHtml: true })
     .use(rehypeHighlight)
     .use(rehypeStringify, { allowDangerousHtml: true })
-    .process(String(file));
+    .process(String(content));
 
   return String(output);
+}
+
+export async function fetchPostContent(slug: string): Promise<string> {
+  const file = await parsePostFile(slug);
+  return parseMarkdownContent(String(file));
 }

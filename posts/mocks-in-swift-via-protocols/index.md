@@ -1,6 +1,7 @@
 ---
 title: Mocks in Swift via Protocols
 date: 2015-10-01
+excerpt: How to use protocols to mock types in Swift to test your iOS apps without relying on Objective-C runtime hacks and swizzles.
 ---
 
 Testing the nitty gritty dirty innards of a lot of iOS apps

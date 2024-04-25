@@ -1,6 +1,7 @@
 ---
 title: Get Off My Lawn
 date: 2014-02-13
+excerpt: Respect each other's opinions in the iOS community and let's focus on creating cool things with the tools we like.
 ---
 
 There's been a lot of drama among the iOS community these
