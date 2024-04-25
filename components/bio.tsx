@@ -13,7 +13,10 @@ function Bio() {
       />
       <p>
         Written by{' '}
-        <Link href="https://eliperkins.com" className="font-semibold underline underline-offset-2">
+        <Link
+          href="https://eliperkins.com"
+          className="font-semibold underline underline-offset-2"
+        >
           Eli Perkins
         </Link>
         , a mobile engineer based in Denver.{' '}

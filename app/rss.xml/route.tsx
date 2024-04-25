@@ -1,14 +1,10 @@
 import { Feed } from 'feed';
+import { NextResponse } from 'next/server';
 import { fetchPosts } from '@/lib/posts';
 
-import { NextResponse, type NextRequest } from 'next/server';
-
-export async function GET(request: NextRequest) {
+export async function GET() {
   const posts = await fetchPosts();
-  const lastUpdated = posts.reduce((acc, post) => {
-    const postDate = new Date(post.date);
-    return postDate > acc ? postDate : acc;
-  }, new Date('1970-01-01'));
+  const lastUpdated = posts[0].date;
 
   const feed = new Feed({
     title: `Eli Perkins's Blog`,

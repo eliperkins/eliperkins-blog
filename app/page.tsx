@@ -27,11 +27,14 @@ export default async function Home() {
             <h3>
               <Link href={post.slug}>{post.title}</Link>
             </h3>
-            <time dateTime={post.date.toISOString()} className="text-sm lg:text-base">
+            <time
+              dateTime={post.date.toISOString()}
+              className="text-sm lg:text-base"
+            >
               {format(post.date, 'MMMM dd, yyyy')}
             </time>
             {post.excerpt && (
-              <div dangerouslySetInnerHTML={{ __html: post.excerpt}} />
+              <div dangerouslySetInnerHTML={{ __html: post.excerpt }} />
             )}
           </li>
         ))}

@@ -6,6 +6,8 @@ import Bio from '@/components/bio';
 import type { Metadata } from 'next';
 import { fetchPosts, fetchPostContent, fetchPost } from '@/lib/posts';
 
+import '../highlightjs-nightowl.css';
+
 type Props = {
   params: { slug: string };
 };

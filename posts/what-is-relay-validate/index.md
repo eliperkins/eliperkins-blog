@@ -5,43 +5,36 @@ excerpt: |
   tl;dr: Use `relay --validate` to catch Relay validation errors in CI.
 ---
 
-> tl;dr: Use `relay --validate` to catch Relay validation
-> errors in CI!
+> tl;dr: Use `relay --validate` to catch Relay validation errors in CI!
 
-I'm a big fan of GraphQL (seriously, ask me about GraphQL).
-One tool I've been absolutely loving lately has been
-[Relay](https://facebook.github.io/relay/). We use Relay at
-[Clubhouse](https://clubhouse.io) to build some really
-awesome features in
+I'm a big fan of GraphQL (seriously, ask me about GraphQL). One tool I've been
+absolutely loving lately has been [Relay](https://facebook.github.io/relay/). We
+use Relay at [Clubhouse](https://clubhouse.io) to build some really awesome
+features in
 [Clubhouse for iOS](https://itunes.apple.com/us/app/clubhouse/id1193784808?mt=8).
-As of the writing of this blog post, we've got nearly 100
-different components using Relay in some way, shape or form!
+As of the writing of this blog post, we've got nearly 100 different components
+using Relay in some way, shape or form!
 
 ### Hold up, what's Relay again?
 
-Relay is to GraphQL and data fetching what React is to DOM
-and UI. It's a declarative way to dictate _what_ data your
-components need, rather than _how and when_ to fetch it.
+Relay is to GraphQL and data fetching what React is to DOM and UI. It's a
+declarative way to dictate _what_ data your components need, rather than _how
+and when_ to fetch it.
 
-A typical use-case of Relay looks something like this. Say
-you've got an social media app that shows a list of friends
-for the current user.
+A typical use-case of Relay looks something like this. Say you've got an social
+media app that shows a list of friends for the current user.
 
-Each of these components gets data from a different part of
-our tree. We can **colocate** our queries of how to fetch
-the data for each component using Relay. A common way to do
-this is using Relay's `createFragmentContainer` (there's
-other methods to do this too, to handle pagination,
-refetching, etc. , but for the sake brevity in this post,
-let's focus on fragment containers).
+Each of these components gets data from a different part of our tree. We can
+**colocate** our queries of how to fetch the data for each component using
+Relay. A common way to do this is using Relay's `createFragmentContainer`
+(there's other methods to do this too, to handle pagination, refetching, etc. ,
+but for the sake brevity in this post, let's focus on fragment containers).
 
 Some of the components may look like this:
 
 ```jsx
 // in src/Avatar.js
-const Avatar = ({ user }) => (
-  <Image src={user.thumbnailImgSrc} />
-);
+const Avatar = ({ user }) => <Image src={user.thumbnailImgSrc} />;
 
 const AvatarContainer = createFragmentContainer(
   Avatar,
@@ -49,7 +42,7 @@ const AvatarContainer = createFragmentContainer(
     fragment AvatarContainer_user on User {
       thumbnailImgSrc
     }
-  `
+  `,
 );
 
 // in src/FriendListItem.js
@@ -67,16 +60,14 @@ const FriendListItemContainer = createFragmentContainer(
       name
       ...AvatarContainer_user
     }
-  `
+  `,
 );
 
 // in src/FriendsList.js
 const FriendsList = ({ currentUser }) => (
   <FlatList
     data={currentUser.friends}
-    renderItem={({ item }) => (
-      <FriendListItem user={item} />
-    )}
+    renderItem={({ item }) => <FriendListItem user={item} />}
   />
 );
 
@@ -88,20 +79,19 @@ const FriendListItemContainer = createFragmentContainer(
         ...FriendListItemContainer_user
       }
     }
-  `
+  `,
 );
 ```
 
-Now each of our components **composes** together both is UI
-components and it's data-requirements, declaratively!
+Now each of our components **composes** together both is UI components and it's
+data-requirements, declaratively!
 
 ### Dope. Relay seems cool. But what's this `__generated__` directory I've got here?
 
 The
 [Relay Compiler](https://facebook.github.io/relay/docs/en/compiler-architecture.html)
-will read through our source code to find Relay components
-and their colocated GraphQL queries to generate artifacts
-that will be used by the Relay runtime.
+will read through our source code to find Relay components and their colocated
+GraphQL queries to generate artifacts that will be used by the Relay runtime.
 
 These artifacts look something like this (abbreviated here):
 
@@ -119,29 +109,25 @@ const node /*: ReaderFragment*/ = {
       alias: null,
       name: 'thumbnailImgSrc',
       args: null,
-      storageKey: null
-    }
-  ]
+      storageKey: null,
+    },
+  ],
 };
 (node/*: any*/).hash = '693ff4889bc9965ae9f6512d628b7292'; // prettier-ignore
 module.exports = node;
 ```
 
-We can see that for the `Avatar` component, the compiler
-generates a static set of data for the GraphQL fragment it
-needs to fetch the data.
+We can see that for the `Avatar` component, the compiler generates a static set
+of data for the GraphQL fragment it needs to fetch the data.
 
-Relay recommends checking in these artifacts from the Relay
-Compiler into your source control, as they're crucial and
-necessary to run your app.
+Relay recommends checking in these artifacts from the Relay Compiler into your
+source control, as they're crucial and necessary to run your app.
 
-As you work through your app, you'll likely run
-`yarn relay --watch` to run the compiler in watch mode to
-automatically generate these artifacts and as you build new
-components, pages, features and so on. You'll see that as
-your change your GraphQL queries, the Relay Compiler will
-indicate what is changed, and you can see the changes in
-your `git diff` as well.
+As you work through your app, you'll likely run `yarn relay --watch` to run the
+compiler in watch mode to automatically generate these artifacts and as you
+build new components, pages, features and so on. You'll see that as your change
+your GraphQL queries, the Relay Compiler will indicate what is changed, and you
+can see the changes in your `git diff` as well.
 
 ```bash
 ❯ yarn relay
@@ -163,24 +149,21 @@ Changes not staged for commit:
 	modified:   src/__generated__/AvatarContainer_user.graphql.js
 ```
 
-However, _these artifacts are only autogenerated if you run
-the Relay Compiler while you're working_! If a team member
-(or even yourself) forgets to run `yarn relay` while you're
-working, and a GraphQL query changes, your generated
+However, _these artifacts are only autogenerated if you run the Relay Compiler
+while you're working_! If a team member (or even yourself) forgets to run
+`yarn relay` while you're working, and a GraphQL query changes, your generated
 artifacts will be out of sync with your product code! 😰
 
-🤔 **So how do we fix this?** How do we prevent our product
-code's queries from coming out of sync with our
-autogenerated Relay artifacts?
+🤔 **So how do we fix this?** How do we prevent our product code's queries from
+coming out of sync with our autogenerated Relay artifacts?
 
 Luckily, **Relay makes this easy**.
 
 The Relay Compiler includes
 [a flag called `--validate`](https://github.com/facebook/relay/blob/0ec46fd8c52bd2f4128a55dae5d59cf8ecb5d633/packages/relay-compiler/bin/RelayCompilerBin.js#L76-L81).
-This flag will run the Relay Compiler and if there are any
-autogenerated artifacts that will be overwritten based on
-the GraphQL queries, the compiler will indicate that an
-artifact is our of date and exit with an error.
+This flag will run the Relay Compiler and if there are any autogenerated
+artifacts that will be overwritten based on the GraphQL queries, the compiler
+will indicate that an artifact is our of date and exit with an error.
 
 ```bash
 ❯ yarn relay --validate
@@ -193,7 +176,6 @@ Out of date:
 error Command failed with exit code 101.
 ```
 
-This makes it really easy to validate your Relay codebase in
-CI, just as you might run your tests in CI! Add
-`relay --validate` to your CI flow today and catch changes
-in GraphQL queries before they land on master.
+This makes it really easy to validate your Relay codebase in CI, just as you
+might run your tests in CI! Add `relay --validate` to your CI flow today and
+catch changes in GraphQL queries before they land on master.
