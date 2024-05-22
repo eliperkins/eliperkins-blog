@@ -2,6 +2,7 @@ import Bio from '@/components/bio';
 import { fetchPosts } from '@/lib/posts';
 import Link from 'next/link';
 import { format } from 'date-fns';
+import { useEffect } from 'react';
 
 const MainHeader = () => (
   <h1 className="text-5xl mb-4 font-bold">
@@ -14,8 +15,26 @@ const MainHeader = () => (
   </h1>
 );
 
+const unregisterGatsbyWorker = () => {
+  if (
+    navigator &&
+    navigator.serviceWorker &&
+    navigator.serviceWorker.getRegistrations
+  ) {
+    navigator.serviceWorker.getRegistrations().then((registrations) => {
+      for (let registration of registrations) {
+        registration.unregister();
+      }
+    });
+  }
+};
+
 export default async function Home() {
   var posts = await fetchPosts();
+
+  useEffect(() => {
+    unregisterGatsbyWorker();
+  }, []);
 
   return (
     <main>
