@@ -1,29 +1,13 @@
-self.addEventListener("activate", function (event) {
-  event.waitUntil(
-    caches.keys().then(function (cacheNames) {
-      return Promise.all(
-        cacheNames
-          .filter(function (cacheName) {
-            // Return true if you want to remove this cache,
-            // but remember that caches are shared across
-            // the whole origin
-          })
-          .map(function (cacheName) {
-            return caches.delete(cacheName);
-          })
-      );
-    })
-  );
+self.addEventListener('install', function(e) {
+  self.skipWaiting();
+});
 
-  if (
-    navigator &&
-    navigator.serviceWorker &&
-    navigator.serviceWorker.getRegistrations
-  ) {
-    navigator.serviceWorker.getRegistrations().then((registrations) => {
-      for (let registration of registrations) {
-        registration.unregister();
-      }
+self.addEventListener('activate', function(e) {
+  self.registration.unregister()
+    .then(function() {
+      return self.clients.matchAll();
+    })
+    .then(function(clients) {
+      clients.forEach(client => client.navigate(client.url))
     });
-  }
 });
