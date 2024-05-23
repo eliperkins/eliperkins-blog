@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { GoogleAnalytics } from '@next/third-parties/google'
+import { GoogleAnalytics } from "@next/third-parties/google";
 import { Raleway, Quattrocento_Sans } from "next/font/google";
 import "./globals.css";
 

@@ -8,4 +8,7 @@ Home of words written by Eli Perkins.
 
 ## Running in development
 
-`npm run dev`
+```bash
+yarn install
+yarn dev
+```
