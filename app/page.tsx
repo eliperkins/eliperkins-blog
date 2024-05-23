@@ -1,8 +1,8 @@
-import Bio from '@/components/bio';
-import { fetchPosts } from '@/lib/posts';
-import Link from 'next/link';
-import { format } from 'date-fns';
-import Head from 'next/head';
+import Bio from "@/components/bio";
+import { fetchPosts } from "@/lib/posts";
+import Link from "next/link";
+import { format } from "date-fns";
+import Script from "next/script";
 
 const MainHeader = () => (
   <h1 className="text-5xl mb-4 font-bold">
@@ -20,9 +20,7 @@ export default async function Home() {
 
   return (
     <>
-      <Head>
-        <script src="/sw.js" async />
-      </Head>
+      <Script src="/sw.js" strategy="beforeInteractive" />
       <main>
         <MainHeader />
         <Bio />
@@ -36,7 +34,7 @@ export default async function Home() {
                 dateTime={post.date.toISOString()}
                 className="text-sm lg:text-base"
               >
-                {format(post.date, 'MMMM dd, yyyy')}
+                {format(post.date, "MMMM dd, yyyy")}
               </time>
               {post.excerpt && (
                 <div dangerouslySetInnerHTML={{ __html: post.excerpt }} />

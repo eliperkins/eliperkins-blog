@@ -1,15 +1,15 @@
-import fs from 'fs';
-import path from 'path';
-import { read } from 'to-vfile';
-import { matter } from 'vfile-matter';
-import { unified } from 'unified';
-import remarkParse from 'remark-parse';
-import remarkRehype from 'remark-rehype';
-import rehypeStringify from 'rehype-stringify';
-import remarkGfm from 'remark-gfm';
-import rehypeHighlight from 'rehype-highlight';
+import fs from "fs";
+import path from "path";
+import { read } from "to-vfile";
+import { matter } from "vfile-matter";
+import { unified } from "unified";
+import remarkParse from "remark-parse";
+import remarkRehype from "remark-rehype";
+import rehypeStringify from "rehype-stringify";
+import remarkGfm from "remark-gfm";
+import rehypeHighlight from "rehype-highlight";
 
-import type { VFile } from 'vfile';
+import type { VFile } from "vfile";
 
 type Post = {
   title: string;
@@ -26,7 +26,7 @@ type FrontMatter = {
 };
 
 export async function fetchPosts(): Promise<Post[]> {
-  const slugs = await fs.promises.readdir(path.join(process.cwd(), 'posts'));
+  const slugs = await fs.promises.readdir(path.join(process.cwd(), "posts"));
   const posts = await Promise.all(slugs.map((slug) => fetchPost(slug)));
   posts.sort((a, b) => {
     return b.date.getTime() - a.date.getTime();
@@ -35,7 +35,7 @@ export async function fetchPosts(): Promise<Post[]> {
 }
 
 async function parsePostFile(slug: string): Promise<VFile> {
-  const contentPath = path.join(process.cwd(), 'posts', slug, 'index.md');
+  const contentPath = path.join(process.cwd(), "posts", slug, "index.md");
   const file = await read(contentPath);
 
   matter(file, { strip: true });

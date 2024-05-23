@@ -1,12 +1,12 @@
-import { format } from 'date-fns';
-import Link from 'next/link';
-import Script from 'next/script';
-import Bio from '@/components/bio';
+import { format } from "date-fns";
+import Link from "next/link";
+import Script from "next/script";
+import Bio from "@/components/bio";
 
-import type { Metadata } from 'next';
-import { fetchPosts, fetchPostContent, fetchPost } from '@/lib/posts';
+import type { Metadata } from "next";
+import { fetchPosts, fetchPostContent, fetchPost } from "@/lib/posts";
 
-import '../highlightjs-nightowl.css';
+import "../highlightjs-nightowl.css";
 
 type Props = {
   params: { slug: string };
@@ -24,10 +24,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: `${post.title} · Blog · Eli Perkins`,
     openGraph: {
       title: `${post.title} · Blog · Eli Perkins`,
-      description: 'A bunch of ramblings from Eli Perkins',
-      url: 'https://blog.eliperkins.com',
-      siteName: 'Blog - Eli Perkins',
-      type: 'article',
+      description: "A bunch of ramblings from Eli Perkins",
+      url: "https://blog.eliperkins.com",
+      siteName: "Blog - Eli Perkins",
+      type: "article",
       publishedTime: post.date.toUTCString(),
     },
   };
@@ -53,7 +53,7 @@ export default async function BlogPost({ params }: Props) {
       <Script src="https://platform.twitter.com/widgets.js" />
       <BlogPostHeader />
       <time dateTime={post.date.toISOString()} className="text-sm lg:text-base">
-        {format(post.date, 'MMMM dd, yyyy')}
+        {format(post.date, "MMMM dd, yyyy")}
       </time>
       <h1 className="mt-1 mb-4 text-4xl font-bold">{post.title}</h1>
       <article

@@ -98,16 +98,16 @@ These artifacts look something like this (abbreviated here):
 ```jsx
 // from src/__generated__/AvatarContainer_user.graphql.js
 const node /*: ReaderFragment*/ = {
-  kind: 'Fragment',
-  name: 'AvatarContainer_user',
-  type: 'User',
+  kind: "Fragment",
+  name: "AvatarContainer_user",
+  type: "User",
   metadata: null,
   argumentDefinitions: [],
   selections: [
     {
-      kind: 'ScalarField',
+      kind: "ScalarField",
       alias: null,
-      name: 'thumbnailImgSrc',
+      name: "thumbnailImgSrc",
       args: null,
       storageKey: null,
     },
