@@ -13,7 +13,7 @@
   "dependencies": {
     "date-fns": "^3.6.0",
     "feed": "^4.2.2",
-    "next": "14.2.2",
+    "next": "14.2.3",
     "react": "^18",
     "react-dom": "^18",
     "rehype-highlight": "^7.0.0",
