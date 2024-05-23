@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "deploy": "discharge deploy"
+    "deploy": "discharge deploy",
+    "format": "prettier --write ."
   },
   "dependencies": {
     "date-fns": "^3.6.0",
