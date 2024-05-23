@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { GoogleAnalytics } from "@next/third-parties/google";
 import { Raleway, Quattrocento_Sans } from "next/font/google";
+import WebVitals from "@/components/web-vitals";
 import "./globals.css";
 
 const quattrocentoSans = Quattrocento_Sans({
@@ -43,7 +44,10 @@ export default function RootLayout({
       className={`${quattrocentoSans.variable} ${raleway.variable}`}
     >
       <GoogleAnalytics gaId="G-TTM2G39MRR" />
-      <body className="p-8 md:p-12 lg:p-16">{children}</body>
+      <body className="p-8 md:p-12 lg:p-16">
+        <WebVitals />
+        {children}
+      </body>
     </html>
   );
 }
