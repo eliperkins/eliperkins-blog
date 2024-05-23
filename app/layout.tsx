@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { GoogleAnalytics } from '@next/third-parties/google'
 import { Raleway, Quattrocento_Sans } from "next/font/google";
 import "./globals.css";
 
@@ -41,6 +42,7 @@ export default function RootLayout({
       lang="en"
       className={`${quattrocentoSans.variable} ${raleway.variable}`}
     >
+      <GoogleAnalytics gaId="G-TTM2G39MRR" />
       <body className="p-8 md:p-12 lg:p-16">{children}</body>
     </html>
   );

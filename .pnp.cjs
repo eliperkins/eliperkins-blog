@@ -27,6 +27,7 @@ const RAW_RUNTIME_STATE =
       [null, {\
         "packageLocation": "./",\
         "packageDependencies": [\
+          ["@next/third-parties", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:14.2.3"],\
           ["@static/discharge", "npm:2.0.1"],\
           ["@tailwindcss/typography", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:0.5.13"],\
           ["@types/node", "npm:20.12.12"],\
@@ -526,6 +527,33 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/unplugged/@next-swc-win32-x64-msvc-npm-14.2.3-d5afefe541/node_modules/@next/swc-win32-x64-msvc/",\
         "packageDependencies": [\
           ["@next/swc-win32-x64-msvc", "npm:14.2.3"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@next/third-parties", [\
+      ["npm:14.2.3", {\
+        "packageLocation": "./.yarn/cache/@next-third-parties-npm-14.2.3-1ad93816de-3e6a516660.zip/node_modules/@next/third-parties/",\
+        "packageDependencies": [\
+          ["@next/third-parties", "npm:14.2.3"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:14.2.3", {\
+        "packageLocation": "./.yarn/__virtual__/@next-third-parties-virtual-10c8c6f63a/0/cache/@next-third-parties-npm-14.2.3-1ad93816de-3e6a516660.zip/node_modules/@next/third-parties/",\
+        "packageDependencies": [\
+          ["@next/third-parties", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:14.2.3"],\
+          ["@types/next", null],\
+          ["@types/react", "npm:18.3.2"],\
+          ["next", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:14.2.3"],\
+          ["react", "npm:18.3.1"],\
+          ["third-party-capital", "npm:1.0.20"]\
+        ],\
+        "packagePeers": [\
+          "@types/next",\
+          "@types/react",\
+          "next",\
+          "react"\
         ],\
         "linkType": "HARD"\
       }]\
@@ -2261,6 +2289,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./",\
         "packageDependencies": [\
           ["eliperkins-blog", "workspace:."],\
+          ["@next/third-parties", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:14.2.3"],\
           ["@static/discharge", "npm:2.0.1"],\
           ["@tailwindcss/typography", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:0.5.13"],\
           ["@types/node", "npm:20.12.12"],\
@@ -7714,6 +7743,15 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["thenify-all", "npm:1.6.0"],\
           ["thenify", "npm:3.3.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["third-party-capital", [\
+      ["npm:1.0.20", {\
+        "packageLocation": "./.yarn/cache/third-party-capital-npm-1.0.20-63003fae3f-40e2531b42.zip/node_modules/third-party-capital/",\
+        "packageDependencies": [\
+          ["third-party-capital", "npm:1.0.20"]\
         ],\
         "linkType": "HARD"\
       }]\

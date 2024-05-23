@@ -1,5 +1,5 @@
 {
-  "domain": "blog.eliperkins.me",
+  "domain": "blog.eliperkins.com",
   "build_command": "yarn build",
   "upload_directory": "out",
   "index_key": "index.html",
