@@ -18,4 +18,4 @@ jobs:
       - name: Lint
         run: yarn lint
       - name: Check types
-        run: npx tsc --noEmit
+        run: yarn tsc --noEmit
