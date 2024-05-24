@@ -42,5 +42,9 @@
     "tailwindcss": "^3.4.1",
     "typescript": "^5"
   },
+  "resolutions": {
+    "meow": "^9.0.0",
+    "update-notifier": "^5.1.0"
+  },
   "packageManager": "yarn@4.2.2"
 }
