@@ -44,7 +44,8 @@
   },
   "resolutions": {
     "meow": "^9.0.0",
-    "update-notifier": "^5.1.0"
+    "update-notifier": "^5.1.0",
+    "got": "^11.0.0"
   },
   "packageManager": "yarn@4.2.2"
 }
