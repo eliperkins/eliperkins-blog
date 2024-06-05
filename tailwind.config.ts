@@ -11,8 +11,8 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
-        serif: ["var(--font-quattrocento)"],
-        sans: ["var(--font-raleway)"],
+        serif: ["var(--font-quattrocento)", "Quattrocento"],
+        sans: ["var(--font-raleway)", "Raleway"],
       },
     },
   },

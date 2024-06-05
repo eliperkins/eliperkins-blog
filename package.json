@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "@next/third-parties": "^14.2.3",
+    "@vercel/og": "^0.6.2",
     "date-fns": "^3.6.0",
     "feed": "^4.2.2",
     "hastscript": "^9.0.0",

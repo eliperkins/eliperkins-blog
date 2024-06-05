@@ -29,6 +29,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       siteName: "Blog - Eli Perkins",
       type: "article",
       publishedTime: post.date.toUTCString(),
+      images: [`${post.slug}/image.png`],
     },
   };
 }

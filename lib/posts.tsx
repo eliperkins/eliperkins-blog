@@ -20,6 +20,9 @@ type Post = {
   slug: string;
   content: string;
   excerpt: string;
+  unprocessedExcerpt: string;
+  readingTime: number;
+  wordCount: number;
 };
 
 type FrontMatter = {
@@ -53,6 +56,9 @@ export async function fetchPost(slug: string): Promise<Post> {
 
   const content = await fetchPostContent(slug);
   const parsedExcerpt = await parseMarkdownContent(excerpt);
+  const wordCount = content.trim().split(/\s+/).length;
+  const wordsPerMinute = 238;
+  const readingTime = Math.ceil(wordCount / wordsPerMinute);
 
   return {
     title,
@@ -60,6 +66,9 @@ export async function fetchPost(slug: string): Promise<Post> {
     slug,
     content,
     excerpt: parsedExcerpt,
+    unprocessedExcerpt: excerpt,
+    readingTime,
+    wordCount,
   };
 }
 
@@ -73,13 +82,10 @@ async function parseMarkdownContent(content: string): Promise<string> {
     .use(rehypeAutolinkHeadings, {
       behavior: "wrap",
       headingProperties: {
-        class: "heading-group group"
+        class: "heading-group group",
       },
       content(node) {
-        return [
-          h('span.heading-link', '#'),
-          ...node.children
-        ]
+        return [h("span.heading-link", "#"), ...node.children];
       },
     })
     .use(rehypeStringify, { allowDangerousHtml: true })
