@@ -73,13 +73,10 @@ async function parseMarkdownContent(content: string): Promise<string> {
     .use(rehypeAutolinkHeadings, {
       behavior: "wrap",
       headingProperties: {
-        class: "heading-group group"
+        class: "heading-group group",
       },
       content(node) {
-        return [
-          h('span.heading-link', '#'),
-          ...node.children
-        ]
+        return [h("span.heading-link", "#"), ...node.children];
       },
     })
     .use(rehypeStringify, { allowDangerousHtml: true })
