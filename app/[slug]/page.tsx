@@ -24,7 +24,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: `${post.title} · Blog · Eli Perkins`,
     openGraph: {
       title: `${post.title} · Blog · Eli Perkins`,
-      description: "A bunch of ramblings from Eli Perkins",
+      description: post.unprocessedExcerpt,
       url: "https://blog.eliperkins.com",
       siteName: "Blog - Eli Perkins",
       type: "article",
