@@ -57,7 +57,13 @@ export default async function BlogPost({ params }: Props) {
       </time>
       <h1 className="mt-1 mb-4 text-4xl font-bold">{post.title}</h1>
       <article
-        className="font-serif prose md:prose-lg lg:prose-xl prose-a:font-semibold prose-a:underline-offset-4 prose-a:text-amber-600 hover:prose-a:text-amber-700 prose-pre:bg-[#011627]"
+        className={`font-serif prose md:prose-lg
+        lg:prose-xl prose-a:font-semibold prose-a:underline-offset-4
+        prose-a:text-amber-600 hover:prose-a:text-amber-700
+        prose-pre:bg-[#011627]
+        prose-a:prose-headings:no-underline
+        prose-a:prose-headings:text-gray-950
+        hover:prose-a:prose-headings:text-gray-950`}
         dangerouslySetInnerHTML={{ __html: content }}
       ></article>
       <hr className="mt-8 mb-6" />

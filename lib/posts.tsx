@@ -8,6 +8,9 @@ import remarkRehype from "remark-rehype";
 import rehypeStringify from "rehype-stringify";
 import remarkGfm from "remark-gfm";
 import rehypeHighlight from "rehype-highlight";
+import rehypeAutolinkHeadings from "rehype-autolink-headings";
+import rehypeSlug from "rehype-slug";
+import { h } from "hastscript";
 
 import type { VFile } from "vfile";
 
@@ -66,6 +69,19 @@ async function parseMarkdownContent(content: string): Promise<string> {
     .use(remarkGfm)
     .use(remarkRehype, { allowDangerousHtml: true })
     .use(rehypeHighlight)
+    .use(rehypeSlug)
+    .use(rehypeAutolinkHeadings, {
+      behavior: "wrap",
+      headingProperties: {
+        class: "heading-group group"
+      },
+      content(node) {
+        return [
+          h('span.heading-link', '#'),
+          ...node.children
+        ]
+      },
+    })
     .use(rehypeStringify, { allowDangerousHtml: true })
     .process(String(content));
 
