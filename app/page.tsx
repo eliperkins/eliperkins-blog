@@ -3,16 +3,20 @@ import { fetchPosts } from "@/lib/posts";
 import Link from "next/link";
 import { format } from "date-fns";
 import Script from "next/script";
+import RSSLink from "@/components/rss-link";
 
 const MainHeader = () => (
-  <h1 className="text-5xl mb-4 font-bold">
-    <Link
-      className="underline decoration-amber-600 decoration-2 underline-offset-8 hover:text-amber-700"
-      href="/"
-    >
-      Eli Perkins.
-    </Link>
-  </h1>
+  <div className="flex justify-between w-full max-w-screen-lg items-center">
+    <h1 className="text-5xl mb-4 font-bold">
+      <Link
+        className="underline decoration-amber-600 decoration-2 underline-offset-8 hover:text-amber-700"
+        href="/"
+      >
+        Eli Perkins.
+      </Link>
+    </h1>
+    <RSSLink size="large" />
+  </div>
 );
 
 export default async function Home() {

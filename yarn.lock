@@ -504,6 +504,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@primer/octicons-react@npm:^19.9.0":
+  version: 19.9.0
+  resolution: "@primer/octicons-react@npm:19.9.0"
+  peerDependencies:
+    react: ">=16.3"
+  checksum: 10/0cf248f95646c0aa5f199d220887b7ee22a3ccab48f71a50f0c874a99da964d95d190dec040aff416592852e155e217009e9d96fe8bb9b650b2360efa965e497
+  languageName: node
+  linkType: hard
+
 "@resvg/resvg-wasm@npm:2.4.0":
   version: 2.4.0
   resolution: "@resvg/resvg-wasm@npm:2.4.0"
@@ -1980,6 +1989,7 @@ __metadata:
   resolution: "eliperkins-blog@workspace:."
   dependencies:
     "@next/third-parties": "npm:^14.2.3"
+    "@primer/octicons-react": "npm:^19.9.0"
     "@static/discharge": "npm:^2.0.1"
     "@tailwindcss/typography": "npm:^0.5.13"
     "@types/node": "npm:^20"
