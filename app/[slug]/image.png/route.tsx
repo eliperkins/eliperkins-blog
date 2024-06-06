@@ -27,9 +27,9 @@ export async function GET(
   const post = await fetchPost(params.slug);
   return new ImageResponse(
     (
-      <div tw="flex flex-col w-full h-full bg-white px-8 py-10 justify-between">
+      <div tw="flex flex-col w-full h-full bg-white px-10 py-12 justify-between">
         <div tw="flex flex-col mb-8">
-          <h1 tw="font-sans text-8xl font-bold text-black my-2 mb-8">
+          <h1 tw="font-sans text-7xl font-bold text-black my-2 mb-8">
             {post.title}
           </h1>
           <h3 tw="font-serif text-5xl font-semibold italic text-gray-500 mt-0">
@@ -44,7 +44,7 @@ export async function GET(
           />
           <div tw="text-4xl grow flex flex-col pl-6 text-gray-700 font-medium">
             <div tw="flex justify-between">
-              <p tw="text-gray-600 my-0 mr-4">
+              <p tw="text-gray-500 my-0 mr-4">
                 {format(post.date, "MMMM dd, yyyy")}
               </p>
               <p tw="my-0 text-gray-400">
@@ -57,7 +57,7 @@ export async function GET(
               </p>
             </div>
             <div tw="flex justify-between">
-              <p tw="text-gray-600 my-0 mr-4">Eli Perkins</p>
+              <p tw="text-gray-500 my-0 mr-4">Eli Perkins</p>
               <p tw="my-0 text-gray-400">
                 {new Intl.NumberFormat("en-US", {}).format(post.wordCount)}{" "}
                 words
