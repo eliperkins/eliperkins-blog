@@ -25,11 +25,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     openGraph: {
       title: `${post.title} · Blog · Eli Perkins`,
       description: post.unprocessedExcerpt,
-      url: `https://blog.eliperkins.com/${post.slug}`,
+      url: post.slug,
       siteName: "Blog - Eli Perkins",
       type: "article",
       publishedTime: post.date.toUTCString(),
-      images: [`https://blog.eliperkins.com/${post.slug}/image.png`],
+      images: [`${post.slug}/image.png`],
     },
   };
 }

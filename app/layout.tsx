@@ -15,6 +15,7 @@ const raleway = Raleway({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://blog.eliperkins.com'),
   title: "Blog - Eli Perkins",
   authors: {
     name: "Eli Perkins",
@@ -31,6 +32,13 @@ export const metadata: Metadata = {
     locale: "en_US",
     type: "website",
   },
+  alternates: {
+    canonical: "https://blog.eliperkins.com",
+    types: {
+      "application/rss+xml": "https://blog.eliperkins.com/rss.xml",
+    },
+  },
+  category: 'technology',
 };
 
 export default function RootLayout({
