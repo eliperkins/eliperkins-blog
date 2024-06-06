@@ -2,6 +2,7 @@ import { format } from "date-fns";
 import Link from "next/link";
 import Script from "next/script";
 import Bio from "@/components/bio";
+import Comments from "@/components/comments";
 
 import type { Metadata } from "next";
 import { fetchPosts, fetchPostContent, fetchPost } from "@/lib/posts";
@@ -69,6 +70,7 @@ export default async function BlogPost({ params }: Props) {
       ></article>
       <hr className="mt-8 mb-6" />
       <Bio />
+      <Comments />
     </main>
   );
 }

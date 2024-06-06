@@ -27,6 +27,7 @@ const RAW_RUNTIME_STATE =
       [null, {\
         "packageLocation": "./",\
         "packageDependencies": [\
+          ["@giscus/react", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:3.0.0"],\
           ["@next/third-parties", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:14.2.3"],\
           ["@primer/octicons-react", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:19.9.0"],\
           ["@static/discharge", "npm:2.0.1"],\
@@ -181,6 +182,33 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/cache/@eslint-js-npm-8.57.0-00ead3710a-3c501ce8a9.zip/node_modules/@eslint/js/",\
         "packageDependencies": [\
           ["@eslint/js", "npm:8.57.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@giscus/react", [\
+      ["npm:3.0.0", {\
+        "packageLocation": "./.yarn/cache/@giscus-react-npm-3.0.0-d92f31fa98-802892935d.zip/node_modules/@giscus/react/",\
+        "packageDependencies": [\
+          ["@giscus/react", "npm:3.0.0"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:3.0.0", {\
+        "packageLocation": "./.yarn/__virtual__/@giscus-react-virtual-aca108f48d/0/cache/@giscus-react-npm-3.0.0-d92f31fa98-802892935d.zip/node_modules/@giscus/react/",\
+        "packageDependencies": [\
+          ["@giscus/react", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:3.0.0"],\
+          ["@types/react", "npm:18.3.3"],\
+          ["@types/react-dom", "npm:18.3.0"],\
+          ["giscus", "npm:1.5.0"],\
+          ["react", "npm:18.3.1"],\
+          ["react-dom", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:18.3.1"]\
+        ],\
+        "packagePeers": [\
+          "@types/react-dom",\
+          "@types/react",\
+          "react-dom",\
+          "react"\
         ],\
         "linkType": "HARD"\
       }]\
@@ -465,6 +493,25 @@ const RAW_RUNTIME_STATE =
           ["@jridgewell/trace-mapping", "npm:0.3.25"],\
           ["@jridgewell/resolve-uri", "npm:3.1.2"],\
           ["@jridgewell/sourcemap-codec", "npm:1.4.15"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@lit-labs/ssr-dom-shim", [\
+      ["npm:1.2.0", {\
+        "packageLocation": "./.yarn/cache/@lit-labs-ssr-dom-shim-npm-1.2.0-6bda8c35cb-33679defe0.zip/node_modules/@lit-labs/ssr-dom-shim/",\
+        "packageDependencies": [\
+          ["@lit-labs/ssr-dom-shim", "npm:1.2.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@lit/reactive-element", [\
+      ["npm:2.0.4", {\
+        "packageLocation": "./.yarn/cache/@lit-reactive-element-npm-2.0.4-4836436301-16aa5a8d91.zip/node_modules/@lit/reactive-element/",\
+        "packageDependencies": [\
+          ["@lit/reactive-element", "npm:2.0.4"],\
+          ["@lit-labs/ssr-dom-shim", "npm:1.2.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -969,6 +1016,15 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@types/responselike", "npm:1.0.3"],\
           ["@types/node", "npm:20.14.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@types/trusted-types", [\
+      ["npm:2.0.7", {\
+        "packageLocation": "./.yarn/cache/@types-trusted-types-npm-2.0.7-a07fc44f59-8e4202766a.zip/node_modules/@types/trusted-types/",\
+        "packageDependencies": [\
+          ["@types/trusted-types", "npm:2.0.7"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -2447,6 +2503,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./",\
         "packageDependencies": [\
           ["eliperkins-blog", "workspace:."],\
+          ["@giscus/react", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:3.0.0"],\
           ["@next/third-parties", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:14.2.3"],\
           ["@primer/octicons-react", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:19.9.0"],\
           ["@static/discharge", "npm:2.0.1"],\
@@ -3510,6 +3567,16 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["get-tsconfig", "npm:4.7.5"],\
           ["resolve-pkg-maps", "npm:1.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["giscus", [\
+      ["npm:1.5.0", {\
+        "packageLocation": "./.yarn/cache/giscus-npm-1.5.0-535d839b9c-ff0609ec6e.zip/node_modules/giscus/",\
+        "packageDependencies": [\
+          ["giscus", "npm:1.5.0"],\
+          ["lit", "npm:3.1.4"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -4954,6 +5021,40 @@ const RAW_RUNTIME_STATE =
           ["cli-cursor", "npm:2.1.0"],\
           ["date-fns", "npm:1.30.1"],\
           ["figures", "npm:2.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["lit", [\
+      ["npm:3.1.4", {\
+        "packageLocation": "./.yarn/cache/lit-npm-3.1.4-b7dcc2d5a3-5479981882.zip/node_modules/lit/",\
+        "packageDependencies": [\
+          ["lit", "npm:3.1.4"],\
+          ["@lit/reactive-element", "npm:2.0.4"],\
+          ["lit-element", "npm:4.0.6"],\
+          ["lit-html", "npm:3.1.4"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["lit-element", [\
+      ["npm:4.0.6", {\
+        "packageLocation": "./.yarn/cache/lit-element-npm-4.0.6-bfca4f9870-31b4400fbf.zip/node_modules/lit-element/",\
+        "packageDependencies": [\
+          ["lit-element", "npm:4.0.6"],\
+          ["@lit-labs/ssr-dom-shim", "npm:1.2.0"],\
+          ["@lit/reactive-element", "npm:2.0.4"],\
+          ["lit-html", "npm:3.1.4"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["lit-html", [\
+      ["npm:3.1.4", {\
+        "packageLocation": "./.yarn/cache/lit-html-npm-3.1.4-58e56c5010-0f95b7e6fd.zip/node_modules/lit-html/",\
+        "packageDependencies": [\
+          ["lit-html", "npm:3.1.4"],\
+          ["@types/trusted-types", "npm:2.0.7"]\
         ],\
         "linkType": "HARD"\
       }]\
