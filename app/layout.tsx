@@ -49,7 +49,12 @@ function Footer() {
       <RSSLink size="small" />
       <p>
         &copy; {new Date().getFullYear()}{" "}
-        <Link className="underline underline-offset-2" href="https://eliperkins.com">Eli Perkins.</Link>
+        <Link
+          className="underline underline-offset-2"
+          href="https://eliperkins.com"
+        >
+          Eli Perkins.
+        </Link>
       </p>
     </footer>
   );

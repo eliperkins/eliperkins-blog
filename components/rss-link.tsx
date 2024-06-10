@@ -22,7 +22,10 @@ export default function RSSLink(props: RSSLinkProps) {
         href="/rss.xml"
         className="transition-all flex h-10 group border px-3 py-2 rounded text-gray-400 hover:text-gray-800 hover:shadow-sm hover:border-gray-300 mb-4"
       >
-        <RssIcon size={20} className="transition-all -mr-[72px] group-hover:mr-1" />
+        <RssIcon
+          size={20}
+          className="transition-all -mr-[72px] group-hover:mr-1"
+        />
         <div className="font-semibold group-hover:block transition-all overflow-hidden line-clamp-1 opacity-0 group-hover:opacity-100">
           RSS Feed
         </div>
