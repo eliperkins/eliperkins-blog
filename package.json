@@ -31,7 +31,7 @@
     "remark-rehype": "^11.1.0",
     "sharp": "^0.33.4",
     "to-vfile": "^8.0.0",
-    "unified": "^11.0.4",
+    "unified": "^11.0.5",
     "vfile": "^6.0.1",
     "vfile-matter": "^5.0.0"
   },
