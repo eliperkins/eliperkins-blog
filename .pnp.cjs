@@ -32,7 +32,7 @@ const RAW_RUNTIME_STATE =
           ["@primer/octicons-react", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:19.10.0"],\
           ["@static/discharge", "npm:2.0.1"],\
           ["@tailwindcss/typography", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:0.5.13"],\
-          ["@types/node", "npm:20.14.9"],\
+          ["@types/node", "npm:20.14.10"],\
           ["@types/react", "npm:18.3.3"],\
           ["@types/react-dom", "npm:18.3.0"],\
           ["@vercel/og", "npm:0.6.2"],\
@@ -879,7 +879,7 @@ const RAW_RUNTIME_STATE =
           ["@types/cacheable-request", "npm:6.0.3"],\
           ["@types/http-cache-semantics", "npm:4.0.4"],\
           ["@types/keyv", "npm:3.1.4"],\
-          ["@types/node", "npm:20.14.9"],\
+          ["@types/node", "npm:20.14.10"],\
           ["@types/responselike", "npm:1.0.3"]\
         ],\
         "linkType": "HARD"\
@@ -928,7 +928,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/cache/@types-keyv-npm-3.1.4-a8082ea56b-e009a2bfb5.zip/node_modules/@types/keyv/",\
         "packageDependencies": [\
           ["@types/keyv", "npm:3.1.4"],\
-          ["@types/node", "npm:20.14.9"]\
+          ["@types/node", "npm:20.14.10"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -962,10 +962,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@types/node", [\
-      ["npm:20.14.9", {\
-        "packageLocation": "./.yarn/cache/@types-node-npm-20.14.9-a4571e1932-f313b06c79.zip/node_modules/@types/node/",\
+      ["npm:20.14.10", {\
+        "packageLocation": "./.yarn/cache/@types-node-npm-20.14.10-5efcbc9009-672892cf94.zip/node_modules/@types/node/",\
         "packageDependencies": [\
-          ["@types/node", "npm:20.14.9"],\
+          ["@types/node", "npm:20.14.10"],\
           ["undici-types", "npm:5.26.5"]\
         ],\
         "linkType": "HARD"\
@@ -1015,7 +1015,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/cache/@types-responselike-npm-1.0.3-de0150f03d-6ac4b35723.zip/node_modules/@types/responselike/",\
         "packageDependencies": [\
           ["@types/responselike", "npm:1.0.3"],\
-          ["@types/node", "npm:20.14.9"]\
+          ["@types/node", "npm:20.14.10"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -2508,7 +2508,7 @@ const RAW_RUNTIME_STATE =
           ["@primer/octicons-react", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:19.10.0"],\
           ["@static/discharge", "npm:2.0.1"],\
           ["@tailwindcss/typography", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:0.5.13"],\
-          ["@types/node", "npm:20.14.9"],\
+          ["@types/node", "npm:20.14.10"],\
           ["@types/react", "npm:18.3.3"],\
           ["@types/react-dom", "npm:18.3.0"],\
           ["@vercel/og", "npm:0.6.2"],\
