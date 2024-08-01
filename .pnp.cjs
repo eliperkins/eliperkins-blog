@@ -58,7 +58,7 @@ const RAW_RUNTIME_STATE =
           ["tailwindcss", "npm:3.4.6"],\
           ["to-vfile", "npm:8.0.0"],\
           ["typescript", "patch:typescript@npm%3A5.4.5#optional!builtin<compat/typescript>::version=5.4.5&hash=5adc0c"],\
-          ["unified", "npm:11.0.4"],\
+          ["unified", "npm:11.0.5"],\
           ["vfile", "npm:6.0.1"],\
           ["vfile-matter", "npm:5.0.0"]\
         ],\
@@ -2534,7 +2534,7 @@ const RAW_RUNTIME_STATE =
           ["tailwindcss", "npm:3.4.6"],\
           ["to-vfile", "npm:8.0.0"],\
           ["typescript", "patch:typescript@npm%3A5.4.5#optional!builtin<compat/typescript>::version=5.4.5&hash=5adc0c"],\
-          ["unified", "npm:11.0.4"],\
+          ["unified", "npm:11.0.5"],\
           ["vfile", "npm:6.0.1"],\
           ["vfile-matter", "npm:5.0.0"]\
         ],\
@@ -8441,6 +8441,20 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/cache/unified-npm-11.0.4-8cd6f1dc4d-425f0618d6.zip/node_modules/unified/",\
         "packageDependencies": [\
           ["unified", "npm:11.0.4"],\
+          ["@types/unist", "npm:3.0.2"],\
+          ["bail", "npm:2.0.2"],\
+          ["devlop", "npm:1.1.0"],\
+          ["extend", "npm:3.0.2"],\
+          ["is-plain-obj", "npm:4.1.0"],\
+          ["trough", "npm:2.2.0"],\
+          ["vfile", "npm:6.0.1"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:11.0.5", {\
+        "packageLocation": "./.yarn/cache/unified-npm-11.0.5-ac5333017e-d9e6e88900.zip/node_modules/unified/",\
+        "packageDependencies": [\
+          ["unified", "npm:11.0.5"],\
           ["@types/unist", "npm:3.0.2"],\
           ["bail", "npm:2.0.2"],\
           ["devlop", "npm:1.1.0"],\
