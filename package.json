@@ -29,7 +29,7 @@
     "remark-gfm": "^4.0.0",
     "remark-parse": "^11.0.0",
     "remark-rehype": "^11.1.0",
-    "sharp": "^0.33.4",
+    "sharp": "^0.33.5",
     "to-vfile": "^8.0.0",
     "unified": "^11.0.4",
     "vfile": "^6.0.1",
