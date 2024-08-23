@@ -663,7 +663,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/hast@npm:^3.0.0":
+"@types/hast@npm:^3.0.0, @types/hast@npm:^3.0.4":
   version: 3.0.4
   resolution: "@types/hast@npm:3.0.4"
   dependencies:
@@ -2042,6 +2042,7 @@ __metadata:
     "@primer/octicons-react": "npm:^19.11.0"
     "@static/discharge": "npm:^2.0.1"
     "@tailwindcss/typography": "npm:^0.5.14"
+    "@types/hast": "npm:^3.0.4"
     "@types/node": "npm:^22.4.1"
     "@types/react": "npm:^18"
     "@types/react-dom": "npm:^18"
@@ -2050,6 +2051,7 @@ __metadata:
     eslint: "npm:^8"
     eslint-config-next: "npm:14.2.5"
     feed: "npm:^4.2.2"
+    hast: "npm:^1.0.0"
     hastscript: "npm:^9.0.0"
     next: "npm:14.2.5"
     postcss: "npm:^8"
@@ -2062,6 +2064,7 @@ __metadata:
     rehype-stringify: "npm:^10.0.0"
     remark: "npm:^15.0.1"
     remark-gfm: "npm:^4.0.0"
+    remark-github-blockquote-alert: "npm:^1.2.1"
     remark-parse: "npm:^11.0.0"
     remark-rehype: "npm:^11.1.0"
     sharp: "npm:^0.33.5"
@@ -3294,6 +3297,13 @@ __metadata:
   dependencies:
     "@types/hast": "npm:^3.0.0"
   checksum: 10/8c7e9eeb8131fc18702f3a42623eb6b0b09d470347aa8badacac70e6d91f79657ab8c6b57c4c6fee3658cff405fac30e816d1cdfb3ed1fbf6045d0a4555cf4d4
+  languageName: node
+  linkType: hard
+
+"hast@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "hast@npm:1.0.0"
+  checksum: 10/3891e00e634172029d92fd49cc3b62ad99b1e6e8833ea626ca5ffe1c5c631a9a52c439e296c7e2984ddcf23b04c8dd1f57fda251996081ccb3dca9ec38cff730
   languageName: node
   linkType: hard
 
@@ -6116,6 +6126,15 @@ __metadata:
     remark-stringify: "npm:^11.0.0"
     unified: "npm:^11.0.0"
   checksum: 10/9f7b17aae0e9dc79ba9c989c2a679baff7161e1831a87307cfa2e0e9b0c492bd8c1900cdf7305855b898a2a9fab9aa8e586d71ce49cbc1ea90f68b714c249c0d
+  languageName: node
+  linkType: hard
+
+"remark-github-blockquote-alert@npm:^1.2.1":
+  version: 1.2.1
+  resolution: "remark-github-blockquote-alert@npm:1.2.1"
+  dependencies:
+    unist-util-visit: "npm:^5.0.0"
+  checksum: 10/0163f7faa3d78e9452eb3733e6c35571c5de1dd1587f3d64fae43dc809775bdb816e660ad6d3dc8e58ff0a50eb08296f889bc3da8f51dba9abf7bcfd6ebec73b
   languageName: node
   linkType: hard
 

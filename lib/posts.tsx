@@ -10,9 +10,16 @@ import remarkGfm from "remark-gfm";
 import rehypeHighlight from "rehype-highlight";
 import rehypeAutolinkHeadings from "rehype-autolink-headings";
 import rehypeSlug from "rehype-slug";
+import { remarkAlert } from "remark-github-blockquote-alert";
 import { h } from "hastscript";
 
 import type { VFile } from "vfile";
+
+/** @type {import("unified").Plugin<[{ legacyTitle: boolean }]>} */
+function remarkAlertFixed(options: any) {
+  // @ts-ignore
+  return remarkAlert(options);
+}
 
 type Post = {
   title: string;
@@ -76,6 +83,7 @@ async function parseMarkdownContent(content: string): Promise<string> {
   const output = await unified()
     .use(remarkParse)
     .use(remarkGfm)
+    .use(remarkAlertFixed, { legacyTitle: true })
     .use(remarkRehype, { allowDangerousHtml: true })
     .use(rehypeHighlight)
     .use(rehypeSlug)
@@ -84,7 +92,7 @@ async function parseMarkdownContent(content: string): Promise<string> {
       headingProperties: {
         class: "heading-group group",
       },
-      content(node) {
+      content(node: h.JSX.Element) {
         return [h("span.heading-link", "#"), ...node.children];
       },
     })

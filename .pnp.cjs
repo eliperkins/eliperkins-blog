@@ -32,6 +32,7 @@ const RAW_RUNTIME_STATE =
           ["@primer/octicons-react", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:19.11.0"],\
           ["@static/discharge", "npm:2.0.1"],\
           ["@tailwindcss/typography", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:0.5.14"],\
+          ["@types/hast", "npm:3.0.4"],\
           ["@types/node", "npm:22.4.1"],\
           ["@types/react", "npm:18.3.3"],\
           ["@types/react-dom", "npm:18.3.0"],\
@@ -40,6 +41,7 @@ const RAW_RUNTIME_STATE =
           ["eslint", "npm:8.57.0"],\
           ["eslint-config-next", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:14.2.5"],\
           ["feed", "npm:4.2.2"],\
+          ["hast", "npm:1.0.0"],\
           ["hastscript", "npm:9.0.0"],\
           ["next", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:14.2.5"],\
           ["postcss", "npm:8.4.41"],\
@@ -52,6 +54,7 @@ const RAW_RUNTIME_STATE =
           ["rehype-stringify", "npm:10.0.0"],\
           ["remark", "npm:15.0.1"],\
           ["remark-gfm", "npm:4.0.0"],\
+          ["remark-github-blockquote-alert", "npm:1.2.1"],\
           ["remark-parse", "npm:11.0.0"],\
           ["remark-rehype", "npm:11.1.0"],\
           ["sharp", "npm:0.33.5"],\
@@ -2520,6 +2523,7 @@ const RAW_RUNTIME_STATE =
           ["@primer/octicons-react", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:19.11.0"],\
           ["@static/discharge", "npm:2.0.1"],\
           ["@tailwindcss/typography", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:0.5.14"],\
+          ["@types/hast", "npm:3.0.4"],\
           ["@types/node", "npm:22.4.1"],\
           ["@types/react", "npm:18.3.3"],\
           ["@types/react-dom", "npm:18.3.0"],\
@@ -2528,6 +2532,7 @@ const RAW_RUNTIME_STATE =
           ["eslint", "npm:8.57.0"],\
           ["eslint-config-next", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:14.2.5"],\
           ["feed", "npm:4.2.2"],\
+          ["hast", "npm:1.0.0"],\
           ["hastscript", "npm:9.0.0"],\
           ["next", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:14.2.5"],\
           ["postcss", "npm:8.4.41"],\
@@ -2540,6 +2545,7 @@ const RAW_RUNTIME_STATE =
           ["rehype-stringify", "npm:10.0.0"],\
           ["remark", "npm:15.0.1"],\
           ["remark-gfm", "npm:4.0.0"],\
+          ["remark-github-blockquote-alert", "npm:1.2.1"],\
           ["remark-parse", "npm:11.0.0"],\
           ["remark-rehype", "npm:11.1.0"],\
           ["sharp", "npm:0.33.5"],\
@@ -3869,6 +3875,15 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["hasown", "npm:2.0.2"],\
           ["function-bind", "npm:1.1.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["hast", [\
+      ["npm:1.0.0", {\
+        "packageLocation": "./.yarn/cache/hast-npm-1.0.0-8bc837c888-3891e00e63.zip/node_modules/hast/",\
+        "packageDependencies": [\
+          ["hast", "npm:1.0.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -7224,6 +7239,16 @@ const RAW_RUNTIME_STATE =
           ["remark-parse", "npm:11.0.0"],\
           ["remark-stringify", "npm:11.0.0"],\
           ["unified", "npm:11.0.5"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["remark-github-blockquote-alert", [\
+      ["npm:1.2.1", {\
+        "packageLocation": "./.yarn/cache/remark-github-blockquote-alert-npm-1.2.1-bc1e04240f-0163f7faa3.zip/node_modules/remark-github-blockquote-alert/",\
+        "packageDependencies": [\
+          ["remark-github-blockquote-alert", "npm:1.2.1"],\
+          ["unist-util-visit", "npm:5.0.0"]\
         ],\
         "linkType": "HARD"\
       }]\
