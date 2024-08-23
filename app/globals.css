@@ -3,39 +3,59 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+    --foreground-rgb: 0, 0, 0;
+    --background-start-rgb: 214, 219, 220;
+    --background-end-rgb: 255, 255, 255;
 }
 
 @media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+    :root {
+        --foreground-rgb: 255, 255, 255;
+        --background-start-rgb: 0, 0, 0;
+        --background-end-rgb: 0, 0, 0;
+    }
 }
 
 @layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+    .text-balance {
+        text-wrap: balance;
+    }
 }
 
 @layer components {
-  .heading-group {
-    @apply flex first:relative first:border-none first:lg:-ml-2 first:lg:pl-2;
-  }
-  .heading-link {
-    @apply hidden transition absolute -ml-4 pr-4 items-center border-0 opacity-0 group-hover:opacity-100 group-focus:opacity-100 lg:flex text-gray-500;
-  }
-  h1.heading-group > a > .heading-link {
-    @apply -ml-8 pr-8;
-  }
-  h2.heading-group > a > .heading-link {
-    @apply -ml-6 pr-6;
-  }
-  h3.heading-group > a > .heading-link {
-    @apply -ml-6 pr-6;
-  }
+    .heading-group {
+        @apply flex first:relative first:border-none first:lg:-ml-2 first:lg:pl-2;
+    }
+    .heading-link {
+        @apply hidden transition absolute -ml-4 pr-4 items-center border-0 opacity-0 group-hover:opacity-100 group-focus:opacity-100 lg:flex text-gray-500;
+    }
+    h1.heading-group > a > .heading-link {
+        @apply -ml-8 pr-8;
+    }
+    h2.heading-group > a > .heading-link {
+        @apply -ml-6 pr-6;
+    }
+    h3.heading-group > a > .heading-link {
+        @apply -ml-6 pr-6;
+    }
+}
+
+.markdown-alert {
+    @apply border-l-4 border-gray-500 px-4;
+}
+
+.markdown-alert > .markdown-alert-title {
+    @apply flex items-center font-bold gap-x-1 normal-case mb-0;
+}
+
+.markdown-alert > p {
+    @apply my-1;
+}
+
+.markdown-alert.markdown-alert-note {
+    @apply border-blue-700;
+}
+
+.markdown-alert.markdown-alert-note > .markdown-alert-title {
+    @apply text-blue-700 fill-blue-700;
 }

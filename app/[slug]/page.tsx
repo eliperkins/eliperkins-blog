@@ -62,7 +62,9 @@ export default async function BlogPost({ params }: Props) {
         className={`font-serif prose md:prose-lg
         lg:prose-xl prose-a:font-semibold prose-a:underline-offset-4
         prose-a:text-amber-600 hover:prose-a:text-amber-700
-        prose-pre:bg-[#011627]
+        prose-pre:border
+        prose-pre:bg-[#ffffff]
+        dark:prose-pre:bg-[#011627]
         prose-a:prose-headings:no-underline
         prose-a:prose-headings:text-gray-950
         hover:prose-a:prose-headings:text-gray-950`}
