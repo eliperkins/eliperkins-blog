@@ -32,9 +32,9 @@ jobs:
       - uses: actions/cache@v4
         with:
           path: ${{ github.workspace }}/.next/cache
-          key: v1-${{ runner.os }}-${{ outputs.setup-node.node-version }}-nextjs-${{ hashFiles('**/yarn.lock') }}-${{ hashFiles('**/*.js', '**/*.jsx', '**/*.ts', '**/*.tsx', '**/*.md', '**/*.css') }}
+          key: v1-${{ runner.os }}-${{ steps.setup-node.outputs.node-version }}-nextjs-${{ hashFiles('**/yarn.lock') }}-${{ hashFiles('**/*.js', '**/*.jsx', '**/*.ts', '**/*.tsx', '**/*.md', '**/*.css') }}
           restore-keys: |
-            v1-${{ runner.os }}-${{ outputs.setup-node.node-version }}-nextjs-${{ hashFiles('**/yarn.lock') }}-
+            v1-${{ runner.os }}-${{ steps.setup-node.outputs.node-version }}-nextjs-${{ hashFiles('**/yarn.lock') }}-
 
       - name: Deploy
         run: yarn deploy
