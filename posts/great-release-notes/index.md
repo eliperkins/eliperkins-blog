@@ -187,7 +187,7 @@ As release captain, if that week's release notes have no user-facing changes in 
 
 This gives us a second chance to communicate the changes that our customers _will_ get in that build, as well as giving the previous week's release notes another week to get in front of our customers.
 
-If a feature has been ["Introduced"](#milestone-ships-are-introduced), feel free to work with the epic team to adjust the copy such that "Introducing..."  can be adjusted to the benefit of that feature. For example:
+If a feature has been ["Introduced"](#milestone-ships-are-introduced), feel free to work with the epic team to adjust the copy such that "Introducing..." can be adjusted to the benefit of that feature. For example:
 
 ```diff
 - "Introducing Actions! View workflow run details and manage your pull request checks on the go."
