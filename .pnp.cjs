@@ -31,7 +31,7 @@ const RAW_RUNTIME_STATE =
           ["@next/third-parties", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:14.2.6"],\
           ["@primer/octicons-react", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:19.11.0"],\
           ["@static/discharge", "npm:2.0.1"],\
-          ["@tailwindcss/typography", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:0.5.14"],\
+          ["@tailwindcss/typography", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:0.5.15"],\
           ["@types/hast", "npm:3.0.4"],\
           ["@types/node", "npm:22.4.1"],\
           ["@types/react", "npm:18.3.3"],\
@@ -840,17 +840,17 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@tailwindcss/typography", [\
-      ["npm:0.5.14", {\
-        "packageLocation": "./.yarn/cache/@tailwindcss-typography-npm-0.5.14-ea794a140b-89b88d48a6.zip/node_modules/@tailwindcss/typography/",\
+      ["npm:0.5.15", {\
+        "packageLocation": "./.yarn/cache/@tailwindcss-typography-npm-0.5.15-9a4acf8b32-8c677e4de2.zip/node_modules/@tailwindcss/typography/",\
         "packageDependencies": [\
-          ["@tailwindcss/typography", "npm:0.5.14"]\
+          ["@tailwindcss/typography", "npm:0.5.15"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:0.5.14", {\
-        "packageLocation": "./.yarn/__virtual__/@tailwindcss-typography-virtual-1917e0e719/0/cache/@tailwindcss-typography-npm-0.5.14-ea794a140b-89b88d48a6.zip/node_modules/@tailwindcss/typography/",\
+      ["virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:0.5.15", {\
+        "packageLocation": "./.yarn/__virtual__/@tailwindcss-typography-virtual-6c8d4b9377/0/cache/@tailwindcss-typography-npm-0.5.15-9a4acf8b32-8c677e4de2.zip/node_modules/@tailwindcss/typography/",\
         "packageDependencies": [\
-          ["@tailwindcss/typography", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:0.5.14"],\
+          ["@tailwindcss/typography", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:0.5.15"],\
           ["@types/tailwindcss", null],\
           ["lodash.castarray", "npm:4.4.0"],\
           ["lodash.isplainobject", "npm:4.0.6"],\
@@ -2522,7 +2522,7 @@ const RAW_RUNTIME_STATE =
           ["@next/third-parties", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:14.2.6"],\
           ["@primer/octicons-react", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:19.11.0"],\
           ["@static/discharge", "npm:2.0.1"],\
-          ["@tailwindcss/typography", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:0.5.14"],\
+          ["@tailwindcss/typography", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:0.5.15"],\
           ["@types/hast", "npm:3.0.4"],\
           ["@types/node", "npm:22.4.1"],\
           ["@types/react", "npm:18.3.3"],\
