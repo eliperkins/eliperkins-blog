@@ -62,7 +62,7 @@ const RAW_RUNTIME_STATE =
           ["to-vfile", "npm:8.0.0"],\
           ["typescript", "patch:typescript@npm%3A5.5.4#optional!builtin<compat/typescript>::version=5.5.4&hash=379a07"],\
           ["unified", "npm:11.0.5"],\
-          ["vfile", "npm:6.0.2"],\
+          ["vfile", "npm:6.0.3"],\
           ["vfile-matter", "npm:5.0.0"]\
         ],\
         "linkType": "SOFT"\
@@ -2553,7 +2553,7 @@ const RAW_RUNTIME_STATE =
           ["to-vfile", "npm:8.0.0"],\
           ["typescript", "patch:typescript@npm%3A5.5.4#optional!builtin<compat/typescript>::version=5.5.4&hash=379a07"],\
           ["unified", "npm:11.0.5"],\
-          ["vfile", "npm:6.0.2"],\
+          ["vfile", "npm:6.0.3"],\
           ["vfile-matter", "npm:5.0.0"]\
         ],\
         "linkType": "SOFT"\
@@ -8713,6 +8713,15 @@ const RAW_RUNTIME_STATE =
           ["vfile", "npm:6.0.2"],\
           ["@types/unist", "npm:3.0.2"],\
           ["unist-util-stringify-position", "npm:4.0.0"],\
+          ["vfile-message", "npm:4.0.2"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:6.0.3", {\
+        "packageLocation": "./.yarn/cache/vfile-npm-6.0.3-a16e09914c-a5a85293c9.zip/node_modules/vfile/",\
+        "packageDependencies": [\
+          ["vfile", "npm:6.0.3"],\
+          ["@types/unist", "npm:3.0.2"],\
           ["vfile-message", "npm:4.0.2"]\
         ],\
         "linkType": "HARD"\
