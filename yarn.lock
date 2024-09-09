@@ -455,15 +455,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@next/third-parties@npm:^14.2.6":
-  version: 14.2.6
-  resolution: "@next/third-parties@npm:14.2.6"
+"@next/third-parties@npm:^14.2.8":
+  version: 14.2.8
+  resolution: "@next/third-parties@npm:14.2.8"
   dependencies:
     third-party-capital: "npm:1.0.20"
   peerDependencies:
     next: ^13.0.0 || ^14.0.0
     react: ^18.2.0
-  checksum: 10/e08818e1d8b48d0c70f6ff2bc47a037e01377dec43596193e43d1a39a7d13c64932e739674f196ffb3e65ded7d9212afa90b770eb854875d016d13e8eb0d5a47
+  checksum: 10/005bd1dd84bdf4f7b8d484306c9300a372d654db9d6d6e69589f8fd792c45cf30e42f39b9496ac99006bda1377aa62aab77731a02c366b4a1dd18100647f915a
   languageName: node
   linkType: hard
 
@@ -2038,7 +2038,7 @@ __metadata:
   resolution: "eliperkins-blog@workspace:."
   dependencies:
     "@giscus/react": "npm:^3.0.0"
-    "@next/third-parties": "npm:^14.2.6"
+    "@next/third-parties": "npm:^14.2.8"
     "@primer/octicons-react": "npm:^19.11.0"
     "@static/discharge": "npm:^2.0.1"
     "@tailwindcss/typography": "npm:^0.5.15"
