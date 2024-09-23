@@ -28,7 +28,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./",\
         "packageDependencies": [\
           ["@giscus/react", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:3.0.0"],\
-          ["@next/third-parties", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:14.2.11"],\
+          ["@next/third-parties", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:14.2.13"],\
           ["@primer/octicons-react", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:19.11.0"],\
           ["@static/discharge", "npm:2.0.1"],\
           ["@tailwindcss/typography", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:0.5.15"],\
@@ -610,17 +610,17 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@next/third-parties", [\
-      ["npm:14.2.11", {\
-        "packageLocation": "./.yarn/cache/@next-third-parties-npm-14.2.11-abafe19767-424ed39a09.zip/node_modules/@next/third-parties/",\
+      ["npm:14.2.13", {\
+        "packageLocation": "./.yarn/cache/@next-third-parties-npm-14.2.13-2fe8bd9957-2da0233143.zip/node_modules/@next/third-parties/",\
         "packageDependencies": [\
-          ["@next/third-parties", "npm:14.2.11"]\
+          ["@next/third-parties", "npm:14.2.13"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:14.2.11", {\
-        "packageLocation": "./.yarn/__virtual__/@next-third-parties-virtual-421a3b3dcc/0/cache/@next-third-parties-npm-14.2.11-abafe19767-424ed39a09.zip/node_modules/@next/third-parties/",\
+      ["virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:14.2.13", {\
+        "packageLocation": "./.yarn/__virtual__/@next-third-parties-virtual-059d74a761/0/cache/@next-third-parties-npm-14.2.13-2fe8bd9957-2da0233143.zip/node_modules/@next/third-parties/",\
         "packageDependencies": [\
-          ["@next/third-parties", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:14.2.11"],\
+          ["@next/third-parties", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:14.2.13"],\
           ["@types/next", null],\
           ["@types/react", "npm:18.3.8"],\
           ["next", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:14.2.11"],\
@@ -2519,7 +2519,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["eliperkins-blog", "workspace:."],\
           ["@giscus/react", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:3.0.0"],\
-          ["@next/third-parties", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:14.2.11"],\
+          ["@next/third-parties", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:14.2.13"],\
           ["@primer/octicons-react", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:19.11.0"],\
           ["@static/discharge", "npm:2.0.1"],\
           ["@tailwindcss/typography", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:0.5.15"],\
