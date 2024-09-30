@@ -51,7 +51,7 @@ const RAW_RUNTIME_STATE =
           ["rehype-autolink-headings", "npm:7.1.0"],\
           ["rehype-highlight", "npm:7.0.0"],\
           ["rehype-slug", "npm:6.0.0"],\
-          ["rehype-stringify", "npm:10.0.0"],\
+          ["rehype-stringify", "npm:10.0.1"],\
           ["remark", "npm:15.0.1"],\
           ["remark-gfm", "npm:4.0.0"],\
           ["remark-github-blockquote-alert", "npm:1.2.1"],\
@@ -2542,7 +2542,7 @@ const RAW_RUNTIME_STATE =
           ["rehype-autolink-headings", "npm:7.1.0"],\
           ["rehype-highlight", "npm:7.0.0"],\
           ["rehype-slug", "npm:6.0.0"],\
-          ["rehype-stringify", "npm:10.0.0"],\
+          ["rehype-stringify", "npm:10.0.1"],\
           ["remark", "npm:15.0.1"],\
           ["remark-gfm", "npm:4.0.0"],\
           ["remark-github-blockquote-alert", "npm:1.2.1"],\
@@ -7211,10 +7211,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["rehype-stringify", [\
-      ["npm:10.0.0", {\
-        "packageLocation": "./.yarn/cache/rehype-stringify-npm-10.0.0-caaa3e672e-d5cf4e0951.zip/node_modules/rehype-stringify/",\
+      ["npm:10.0.1", {\
+        "packageLocation": "./.yarn/cache/rehype-stringify-npm-10.0.1-cc1170acb2-76ded4b2b1.zip/node_modules/rehype-stringify/",\
         "packageDependencies": [\
-          ["rehype-stringify", "npm:10.0.0"],\
+          ["rehype-stringify", "npm:10.0.1"],\
           ["@types/hast", "npm:3.0.4"],\
           ["hast-util-to-html", "npm:9.0.1"],\
           ["unified", "npm:11.0.5"]\
