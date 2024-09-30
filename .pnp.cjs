@@ -36,7 +36,7 @@ const RAW_RUNTIME_STATE =
           ["@types/node", "npm:22.5.5"],\
           ["@types/react", "npm:18.3.8"],\
           ["@types/react-dom", "npm:18.3.0"],\
-          ["@vercel/og", "npm:0.6.2"],\
+          ["@vercel/og", "npm:0.6.3"],\
           ["date-fns", "npm:3.6.0"],\
           ["eslint", "npm:8.57.0"],\
           ["eslint-config-next", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:14.2.7"],\
@@ -1141,10 +1141,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@vercel/og", [\
-      ["npm:0.6.2", {\
-        "packageLocation": "./.yarn/cache/@vercel-og-npm-0.6.2-607449ee7a-7844d692b7.zip/node_modules/@vercel/og/",\
+      ["npm:0.6.3", {\
+        "packageLocation": "./.yarn/cache/@vercel-og-npm-0.6.3-cf4974ecb5-c683d2d4a9.zip/node_modules/@vercel/og/",\
         "packageDependencies": [\
-          ["@vercel/og", "npm:0.6.2"],\
+          ["@vercel/og", "npm:0.6.3"],\
           ["@resvg/resvg-wasm", "npm:2.4.0"],\
           ["satori", "npm:0.10.9"],\
           ["yoga-wasm-web", "npm:0.3.3"]\
@@ -2527,7 +2527,7 @@ const RAW_RUNTIME_STATE =
           ["@types/node", "npm:22.5.5"],\
           ["@types/react", "npm:18.3.8"],\
           ["@types/react-dom", "npm:18.3.0"],\
-          ["@vercel/og", "npm:0.6.2"],\
+          ["@vercel/og", "npm:0.6.3"],\
           ["date-fns", "npm:3.6.0"],\
           ["eslint", "npm:8.57.0"],\
           ["eslint-config-next", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:14.2.7"],\
