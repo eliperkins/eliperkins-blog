@@ -14,7 +14,7 @@
     "@giscus/react": "^3.0.0",
     "@next/third-parties": "^14.2.13",
     "@primer/octicons-react": "^19.11.0",
-    "@vercel/og": "^0.6.2",
+    "@vercel/og": "^0.6.3",
     "date-fns": "^3.6.0",
     "feed": "^4.2.2",
     "hastscript": "^9.0.0",
