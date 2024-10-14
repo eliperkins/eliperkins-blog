@@ -18,7 +18,7 @@
     "date-fns": "^4.1.0",
     "feed": "^4.2.2",
     "hastscript": "^9.0.0",
-    "next": "14.2.13",
+    "next": "14.2.15",
     "react": "^18",
     "react-dom": "^18",
     "rehype-autolink-headings": "^7.1.0",
