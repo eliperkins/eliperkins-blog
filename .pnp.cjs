@@ -35,7 +35,7 @@ const RAW_RUNTIME_STATE =
           ["@types/hast", "npm:3.0.4"],\
           ["@types/node", "npm:22.7.5"],\
           ["@types/react", "npm:18.3.11"],\
-          ["@types/react-dom", "npm:18.3.0"],\
+          ["@types/react-dom", "npm:18.3.1"],\
           ["@vercel/og", "npm:0.6.3"],\
           ["date-fns", "npm:4.1.0"],\
           ["eslint", "npm:8.57.0"],\
@@ -192,7 +192,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@giscus/react", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:3.0.0"],\
           ["@types/react", "npm:18.3.11"],\
-          ["@types/react-dom", "npm:18.3.0"],\
+          ["@types/react-dom", "npm:18.3.1"],\
           ["giscus", "npm:1.5.0"],\
           ["react", "npm:18.3.1"],\
           ["react-dom", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:18.3.1"]\
@@ -1002,10 +1002,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@types/react-dom", [\
-      ["npm:18.3.0", {\
-        "packageLocation": "./.yarn/cache/@types-react-dom-npm-18.3.0-111444d3eb-6ff53f5a7b.zip/node_modules/@types/react-dom/",\
+      ["npm:18.3.1", {\
+        "packageLocation": "./.yarn/cache/@types-react-dom-npm-18.3.1-15935b4e84-33f9ba79b2.zip/node_modules/@types/react-dom/",\
         "packageDependencies": [\
-          ["@types/react-dom", "npm:18.3.0"],\
+          ["@types/react-dom", "npm:18.3.1"],\
           ["@types/react", "npm:18.3.11"]\
         ],\
         "linkType": "HARD"\
@@ -2526,7 +2526,7 @@ const RAW_RUNTIME_STATE =
           ["@types/hast", "npm:3.0.4"],\
           ["@types/node", "npm:22.7.5"],\
           ["@types/react", "npm:18.3.11"],\
-          ["@types/react-dom", "npm:18.3.0"],\
+          ["@types/react-dom", "npm:18.3.1"],\
           ["@vercel/og", "npm:0.6.3"],\
           ["date-fns", "npm:4.1.0"],\
           ["eslint", "npm:8.57.0"],\
@@ -6178,7 +6178,7 @@ const RAW_RUNTIME_STATE =
           ["@types/opentelemetry__api", null],\
           ["@types/playwright__test", null],\
           ["@types/react", "npm:18.3.11"],\
-          ["@types/react-dom", "npm:18.3.0"],\
+          ["@types/react-dom", "npm:18.3.1"],\
           ["@types/sass", null],\
           ["busboy", "npm:1.6.0"],\
           ["caniuse-lite", "npm:1.0.30001649"],\
