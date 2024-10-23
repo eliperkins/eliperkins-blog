@@ -41,8 +41,8 @@
     "@tailwindcss/typography": "^0.5.15",
     "@types/hast": "^3.0.4",
     "@types/node": "^22.7.5",
-    "@types/react": "^18.3.12",
-    "@types/react-dom": "^18.3.1",
+    "@types/react": "npm:types-react@rc",
+    "@types/react-dom": "npm:types-react-dom@rc",
     "eslint": "^9.13.0",
     "eslint-config-next": "15.0.1",
     "hast": "^1.0.0",
@@ -55,6 +55,10 @@
     "meow": "^9.0.0",
     "update-notifier": "^5.1.0",
     "got": "^11.0.0"
+  },
+  "overrides": {
+    "@types/react": "npm:types-react@rc",
+    "@types/react-dom": "npm:types-react-dom@rc"
   },
   "packageManager": "yarn@4.5.1"
 }

@@ -803,12 +803,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-dom@npm:^18.3.1":
-  version: 18.3.1
-  resolution: "@types/react-dom@npm:18.3.1"
+"@types/react-dom@npm:types-react-dom@rc":
+  version: 19.0.0-rc.1
+  resolution: "types-react-dom@npm:19.0.0-rc.1"
   dependencies:
     "@types/react": "npm:*"
-  checksum: 10/33f9ba79b26641ddf00a8699c30066b7e3573ab254e97475bf08f82fab83a6d3ce8d4ebad86afeb49bb8df3374390a9ba93125cece33badc4b3e8f7eac3c84d8
+  checksum: 10/fca4e7565308a109d4b126e5c7f5c387789a0187c9a46cb2a5af6120a7014beaa05736841be0ae658c7115871088500ddb0ef0bce60a21af4ec899cee8bb3c75
   languageName: node
   linkType: hard
 
@@ -822,13 +822,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:^18.3.12":
-  version: 18.3.12
-  resolution: "@types/react@npm:18.3.12"
+"@types/react@npm:types-react@rc":
+  version: 19.0.0-rc.1
+  resolution: "types-react@npm:19.0.0-rc.1"
   dependencies:
-    "@types/prop-types": "npm:*"
     csstype: "npm:^3.0.2"
-  checksum: 10/c9bbdfeacd5347d2240e0d2cb5336bc57dbc1b9ff557b6c4024b49df83419e4955553518169d3736039f1b62608e15b35762a6c03d49bd86e33add4b43b19033
+  checksum: 10/342da9ffeab93600a0cff4c8829e5350d935577e3f81bce7ead41d7cd074035e2c4a4bdd976fa8e3f5390fe6a32169370a805291a88a77c2f2ce2613bde54587
   languageName: node
   linkType: hard
 
@@ -2104,8 +2103,8 @@ __metadata:
     "@tailwindcss/typography": "npm:^0.5.15"
     "@types/hast": "npm:^3.0.4"
     "@types/node": "npm:^22.7.5"
-    "@types/react": "npm:^18.3.12"
-    "@types/react-dom": "npm:^18.3.1"
+    "@types/react": "npm:types-react@rc"
+    "@types/react-dom": "npm:types-react-dom@rc"
     "@vercel/og": "npm:^0.6.3"
     date-fns: "npm:^4.1.0"
     eslint: "npm:^9.13.0"
