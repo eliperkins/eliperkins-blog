@@ -10,7 +10,7 @@ import { fetchPosts, fetchPostContent, fetchPost } from "@/lib/posts";
 import "../highlightjs-nightowl.css";
 
 type Props = {
-  params: { slug: string };
+  params: Promise<{ slug: string }>;
 };
 
 export async function generateStaticParams() {
@@ -19,7 +19,8 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const post = await fetchPost(params.slug);
+  const slug = (await params).slug;
+  const post = await fetchPost(slug);
 
   return {
     title: `${post.title} · Blog · Eli Perkins`,
@@ -47,8 +48,9 @@ const BlogPostHeader = () => (
 );
 
 export default async function BlogPost({ params }: Props) {
-  const post = await fetchPost(params.slug);
-  const content = await fetchPostContent(params.slug);
+  const slug = (await params).slug;
+  const post = await fetchPost(slug);
+  const content = await fetchPostContent(slug);
 
   return (
     <main className="">

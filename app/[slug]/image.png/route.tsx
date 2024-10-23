@@ -21,10 +21,10 @@ export async function generateStaticParams() {
 }
 
 export async function GET(
-  request: Request,
-  { params }: { params: { slug: string } },
+  _: Request,
+  { params }: { params: Promise<{ slug: string }> },
 ) {
-  const post = await fetchPost(params.slug);
+  const post = await fetchPost((await params).slug);
   return new ImageResponse(
     (
       <div tw="flex flex-col w-full h-full bg-white px-10 py-12 justify-between">
