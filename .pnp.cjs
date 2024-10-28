@@ -55,7 +55,7 @@ const RAW_RUNTIME_STATE =
           ["react", "npm:19.0.0-rc-45804af1-20241021"],\
           ["react-dom", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:19.0.0-rc-45804af1-20241021"],\
           ["rehype-autolink-headings", "npm:7.1.0"],\
-          ["rehype-highlight", "npm:7.0.0"],\
+          ["rehype-highlight", "npm:7.0.1"],\
           ["rehype-slug", "npm:6.0.0"],\
           ["rehype-stringify", "npm:10.0.1"],\
           ["remark", "npm:15.0.1"],\
@@ -2706,7 +2706,7 @@ const RAW_RUNTIME_STATE =
           ["react", "npm:19.0.0-rc-45804af1-20241021"],\
           ["react-dom", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:19.0.0-rc-45804af1-20241021"],\
           ["rehype-autolink-headings", "npm:7.1.0"],\
-          ["rehype-highlight", "npm:7.0.0"],\
+          ["rehype-highlight", "npm:7.0.1"],\
           ["rehype-slug", "npm:6.0.0"],\
           ["rehype-stringify", "npm:10.0.1"],\
           ["remark", "npm:15.0.1"],\
@@ -7330,10 +7330,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["rehype-highlight", [\
-      ["npm:7.0.0", {\
-        "packageLocation": "./.yarn/cache/rehype-highlight-npm-7.0.0-502cfe2791-cb8ce18bc2.zip/node_modules/rehype-highlight/",\
+      ["npm:7.0.1", {\
+        "packageLocation": "./.yarn/cache/rehype-highlight-npm-7.0.1-6fbe759227-91813a6dba.zip/node_modules/rehype-highlight/",\
         "packageDependencies": [\
-          ["rehype-highlight", "npm:7.0.0"],\
+          ["rehype-highlight", "npm:7.0.1"],\
           ["@types/hast", "npm:3.0.4"],\
           ["hast-util-to-text", "npm:4.0.2"],\
           ["lowlight", "npm:3.1.0"],\
