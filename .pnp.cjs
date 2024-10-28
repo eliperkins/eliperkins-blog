@@ -29,7 +29,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@giscus/react", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:3.0.0"],\
           ["@next/third-parties", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:15.0.1"],\
-          ["@primer/octicons-react", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:19.11.0"],\
+          ["@primer/octicons-react", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:19.12.0"],\
           ["@static/discharge", "npm:2.0.1"],\
           ["@tailwindcss/typography", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:0.5.15"],\
           ["@types/hast", "npm:3.0.4"],\
@@ -769,17 +769,17 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@primer/octicons-react", [\
-      ["npm:19.11.0", {\
-        "packageLocation": "./.yarn/cache/@primer-octicons-react-npm-19.11.0-406d4a4044-ebf47476d9.zip/node_modules/@primer/octicons-react/",\
+      ["npm:19.12.0", {\
+        "packageLocation": "./.yarn/cache/@primer-octicons-react-npm-19.12.0-e941eeb8ee-c0c0ac83f6.zip/node_modules/@primer/octicons-react/",\
         "packageDependencies": [\
-          ["@primer/octicons-react", "npm:19.11.0"]\
+          ["@primer/octicons-react", "npm:19.12.0"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:19.11.0", {\
-        "packageLocation": "./.yarn/__virtual__/@primer-octicons-react-virtual-0a0238b8ef/0/cache/@primer-octicons-react-npm-19.11.0-406d4a4044-ebf47476d9.zip/node_modules/@primer/octicons-react/",\
+      ["virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:19.12.0", {\
+        "packageLocation": "./.yarn/__virtual__/@primer-octicons-react-virtual-7f217c4ea3/0/cache/@primer-octicons-react-npm-19.12.0-e941eeb8ee-c0c0ac83f6.zip/node_modules/@primer/octicons-react/",\
         "packageDependencies": [\
-          ["@primer/octicons-react", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:19.11.0"],\
+          ["@primer/octicons-react", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:19.12.0"],\
           ["@types/react", [\
             "types-react",\
             "npm:19.0.0-rc.1"\
@@ -2680,7 +2680,7 @@ const RAW_RUNTIME_STATE =
           ["eliperkins-blog", "workspace:."],\
           ["@giscus/react", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:3.0.0"],\
           ["@next/third-parties", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:15.0.1"],\
-          ["@primer/octicons-react", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:19.11.0"],\
+          ["@primer/octicons-react", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:19.12.0"],\
           ["@static/discharge", "npm:2.0.1"],\
           ["@tailwindcss/typography", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:0.5.15"],\
           ["@types/hast", "npm:3.0.4"],\
