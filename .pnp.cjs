@@ -52,7 +52,7 @@ const RAW_RUNTIME_STATE =
           ["next", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:15.0.1"],\
           ["postcss", "npm:8.4.47"],\
           ["prettier", "npm:3.3.3"],\
-          ["react", "npm:19.0.0-rc-45804af1-20241021"],\
+          ["react", "npm:19.0.0-rc.0"],\
           ["react-dom", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:19.0.0-rc-45804af1-20241021"],\
           ["rehype-autolink-headings", "npm:7.1.0"],\
           ["rehype-highlight", "npm:7.0.0"],\
@@ -260,7 +260,7 @@ const RAW_RUNTIME_STATE =
             "npm:19.0.0-rc.1"\
           ]],\
           ["giscus", "npm:1.5.0"],\
-          ["react", "npm:19.0.0-rc-45804af1-20241021"],\
+          ["react", "npm:19.0.0-rc.0"],\
           ["react-dom", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:19.0.0-rc-45804af1-20241021"]\
         ],\
         "packagePeers": [\
@@ -692,7 +692,7 @@ const RAW_RUNTIME_STATE =
             "npm:19.0.0-rc.1"\
           ]],\
           ["next", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:15.0.1"],\
-          ["react", "npm:19.0.0-rc-45804af1-20241021"],\
+          ["react", "npm:19.0.0-rc.0"],\
           ["third-party-capital", "npm:1.0.20"]\
         ],\
         "packagePeers": [\
@@ -784,7 +784,7 @@ const RAW_RUNTIME_STATE =
             "types-react",\
             "npm:19.0.0-rc.1"\
           ]],\
-          ["react", "npm:19.0.0-rc-45804af1-20241021"]\
+          ["react", "npm:19.0.0-rc.0"]\
         ],\
         "packagePeers": [\
           "@types/react",\
@@ -2703,7 +2703,7 @@ const RAW_RUNTIME_STATE =
           ["next", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:15.0.1"],\
           ["postcss", "npm:8.4.47"],\
           ["prettier", "npm:3.3.3"],\
-          ["react", "npm:19.0.0-rc-45804af1-20241021"],\
+          ["react", "npm:19.0.0-rc.0"],\
           ["react-dom", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:19.0.0-rc-45804af1-20241021"],\
           ["rehype-autolink-headings", "npm:7.1.0"],\
           ["rehype-highlight", "npm:7.0.0"],\
@@ -6347,7 +6347,7 @@ const RAW_RUNTIME_STATE =
           ["busboy", "npm:1.6.0"],\
           ["caniuse-lite", "npm:1.0.30001649"],\
           ["postcss", "npm:8.4.31"],\
-          ["react", "npm:19.0.0-rc-45804af1-20241021"],\
+          ["react", "npm:19.0.0-rc.0"],\
           ["react-dom", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:19.0.0-rc-45804af1-20241021"],\
           ["sass", null],\
           ["sharp", "npm:0.33.5"],\
@@ -7166,10 +7166,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["react", [\
-      ["npm:19.0.0-rc-45804af1-20241021", {\
-        "packageLocation": "./.yarn/cache/react-npm-19.0.0-rc-45804af1-20241021-f037de474f-4ee08e4496.zip/node_modules/react/",\
+      ["npm:19.0.0-rc.0", {\
+        "packageLocation": "./.yarn/cache/react-npm-19.0.0-rc.0-f65601bf2f-a6409939a7.zip/node_modules/react/",\
         "packageDependencies": [\
-          ["react", "npm:19.0.0-rc-45804af1-20241021"]\
+          ["react", "npm:19.0.0-rc.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -7190,7 +7190,7 @@ const RAW_RUNTIME_STATE =
             "types-react",\
             "npm:19.0.0-rc.1"\
           ]],\
-          ["react", "npm:19.0.0-rc-45804af1-20241021"],\
+          ["react", "npm:19.0.0-rc.0"],\
           ["scheduler", "npm:0.25.0-rc-45804af1-20241021"]\
         ],\
         "packagePeers": [\
@@ -8189,7 +8189,7 @@ const RAW_RUNTIME_STATE =
           ]],\
           ["babel-plugin-macros", null],\
           ["client-only", "npm:0.0.1"],\
-          ["react", "npm:19.0.0-rc-45804af1-20241021"]\
+          ["react", "npm:19.0.0-rc.0"]\
         ],\
         "packagePeers": [\
           "@babel/core",\

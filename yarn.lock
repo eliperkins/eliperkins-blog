@@ -2115,7 +2115,7 @@ __metadata:
     next: "npm:^15.0.1"
     postcss: "npm:^8"
     prettier: "npm:^3.3.3"
-    react: "npm:19.0.0-rc-45804af1-20241021"
+    react: "npm:19.0.0-rc.0"
     react-dom: "npm:19.0.0-rc-45804af1-20241021"
     rehype-autolink-headings: "npm:^7.1.0"
     rehype-highlight: "npm:^7.0.0"
@@ -5992,10 +5992,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react@npm:19.0.0-rc-45804af1-20241021":
-  version: 19.0.0-rc-45804af1-20241021
-  resolution: "react@npm:19.0.0-rc-45804af1-20241021"
-  checksum: 10/4ee08e44960b96ec181c9f2d31ceefeb86fb6b8ecb68b36de56b8c0f1a0399518b40219b83ad5fcc11e1e2bc6eaca09aaa4913b863535b34adac057441dbcae5
+"react@npm:19.0.0-rc.0":
+  version: 19.0.0-rc.0
+  resolution: "react@npm:19.0.0-rc.0"
+  checksum: 10/a6409939a79bdadd4c8fbb211a4ed670e5ed986dc7c946b855e5d6694e956122e2cbae4bd88360920a8e0758813de7b198ebc03e8fb4b1bea53f6433b2bfec6b
   languageName: node
   linkType: hard
 
