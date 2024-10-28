@@ -4,6 +4,34 @@ updates:
     directory: "/"
     schedule:
       interval: "weekly"
+    groups:
+      nextjs:
+        patterns:
+          - "next"
+          - "@next/*"
+          - "*-next"
+      react:
+        patterns:
+          - "react"
+          - "react-dom"
+          - "@types/react"
+      types:
+        patterns:
+          - "@types/*"
+      tailwind:
+        patterns:
+          - "tailwindcss"
+          - "tailwindcss*"
+          - "@tailwindcss*"
+      eslint:
+        patterns:
+          - "eslint"
+          - "eslint-*"
+      prettier:
+        patterns:
+          - "prettier"
+          - "prettier-*"
+          - "*-prettier"
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
