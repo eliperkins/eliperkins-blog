@@ -26,11 +26,13 @@ This involves a bit of a change in my mental model of how I work with git and my
 This has also changed how I stack my pull requests too. I've found ways to break down my PRs into idempotent pieces, rather than daisy-chained ones, where I can set myself up by making the change easy, and then finally making the easy change once the other PRs have been merged.
 
 Let's look at a contrived example. Say I'm working on a feature that requires:
+
 1. Changing legacy code to add a new `isFeatureXYZEnabled` property
 2. Creating a new controller that's used when `isFeatureXYZEnabled == true`
 3. Changing the behavior within the legacy code to use the new controller if the feature is enabled
 
 In a stacked PR model, I'd have three PRs, each dependent on the one before it. So something like:
+
 1. **[1/3] Add a new `isFeatureXYZEnabled` property**<br /><span class="font-mono text-sm"><span class="text-green-700">+400</span>/<span class="text-red-700">-90</span></span> merging <span class="font-mono text-sm bg-sky-50 text-sky-800 border px-1 rounded-md">ep/add-xyz-feature</span> into <span class="font-mono text-sm bg-sky-50 text-sky-800 border px-1 rounded-md">main</span> • 1 commit
 2. **[2/3] Add `ModernXYZController` for the new feature**<br /><span class="font-mono text-sm"><span class="text-green-700">+215</span>/<span class="text-red-700">-33</span></span> merging <span class="font-mono text-sm bg-sky-50 text-sky-800 border px-1 rounded-md">ep/add-modern-xyzcontroller</span> into <span class="font-mono text-sm bg-sky-50 text-sky-800 border px-1 rounded-md">ep/add-xyz-feature</span> • 1 commit
 3. **[3/3] Use `ModernXYZController` if enabled**<br /><span class="font-mono text-sm"><span class="text-green-700">+10</span>/<span class="text-red-700">-30</span></span> merging <span class="font-mono text-sm bg-sky-50 text-sky-800 border px-1 rounded-md">ep/enable-xyz</span> into <span class="font-mono text-sm bg-sky-50 text-sky-800 border px-1 rounded-md">ep/add-modern-xyzcontroller</span> • 1 commit
@@ -38,6 +40,7 @@ In a stacked PR model, I'd have three PRs, each dependent on the one before it. 
 ![git branches showing the daisy-chained pull requests visually](/images/daisy-chained-prs.png)
 
 However, with a "stackless" stacked PR model with `git-pile`, I can break this down into two PRs that are idempotent where PR #1 and #2 can be merged in any order ([or even simulatenously with a merge queue](https://github.blog/news-insights/product-news/github-merge-queue-is-generally-available/)), and where the third PR can either be stacked on the first two, or wait until I've gotten feedback on the first two and have them merged into `main`. So something like:
+
 1. **Add a new `isFeatureXYZEnabled` property**<br /><span class="font-mono text-sm"><span class="text-green-700">+400</span>/<span class="text-red-700">-90</span></span> merging <span class="font-mono text-sm bg-sky-50 text-sky-800 border px-1 rounded-md">ep/add-xyz-feature</span> into <span class="font-mono text-sm bg-sky-50 text-sky-800 border px-1 rounded-md">main</span> • 1 commit
 2. **Add `ModernXYZController` for the new feature**<br /><span class="font-mono text-sm"><span class="text-green-700">+215</span>/<span class="text-red-700">-33</span></span> merging <span class="font-mono text-sm bg-sky-50 text-sky-800 border px-1 rounded-md">ep/add-modern-xyzcontroller</span> into <span class="font-mono text-sm bg-sky-50 text-sky-800 border px-1 rounded-md">main</span> • 1 commit
 3. **[Draft] Use `ModernXYZController` if enabled**<br /><span class="font-mono text-sm"><span class="text-green-700">+625</span>/<span class="text-red-700">-123</span></span> merging <span class="font-mono text-sm bg-sky-50 text-sky-800 border px-1 rounded-md">ep/enable-xyz</span> into <span class="font-mono text-sm bg-sky-50 text-sky-800 border px-1 rounded-md">main</span> • 3 commits
