@@ -50,7 +50,7 @@ const RAW_RUNTIME_STATE =
           ["hast", "npm:1.0.0"],\
           ["hastscript", "npm:9.0.0"],\
           ["next", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:15.0.1"],\
-          ["postcss", "npm:8.4.48"],\
+          ["postcss", "npm:8.4.49"],\
           ["prettier", "npm:3.3.3"],\
           ["react", "npm:19.0.0-rc.0"],\
           ["react-dom", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:19.0.0-rc.0"],\
@@ -2735,7 +2735,7 @@ const RAW_RUNTIME_STATE =
           ["hast", "npm:1.0.0"],\
           ["hastscript", "npm:9.0.0"],\
           ["next", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:15.0.1"],\
-          ["postcss", "npm:8.4.48"],\
+          ["postcss", "npm:8.4.49"],\
           ["prettier", "npm:3.3.3"],\
           ["react", "npm:19.0.0-rc.0"],\
           ["react-dom", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:19.0.0-rc.0"],\
@@ -6934,10 +6934,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["npm:8.4.48", {\
-        "packageLocation": "./.yarn/cache/postcss-npm-8.4.48-04e20f6dc9-94d7b22557.zip/node_modules/postcss/",\
+      ["npm:8.4.49", {\
+        "packageLocation": "./.yarn/cache/postcss-npm-8.4.49-1c13833dd1-28fe1005b1.zip/node_modules/postcss/",\
         "packageDependencies": [\
-          ["postcss", "npm:8.4.48"],\
+          ["postcss", "npm:8.4.49"],\
           ["nanoid", "npm:3.3.7"],\
           ["picocolors", "npm:1.1.1"],\
           ["source-map-js", "npm:1.2.1"]\
@@ -6958,7 +6958,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["postcss-import", "virtual:8a01faa24effac32ea1a88eb786299b8d1e569d87e2161a3a89950cfa613905e0d6ca904e843b10ffe1a57fc8276c5265230c7c9335b4d2ecd86f9d1588d8f64#npm:15.1.0"],\
           ["@types/postcss", null],\
-          ["postcss", "npm:8.4.48"],\
+          ["postcss", "npm:8.4.49"],\
           ["postcss-value-parser", "npm:4.2.0"],\
           ["read-cache", "npm:1.0.0"],\
           ["resolve", "patch:resolve@npm%3A1.22.8#optional!builtin<compat/resolve>::version=1.22.8&hash=c3c19d"]\
@@ -6984,7 +6984,7 @@ const RAW_RUNTIME_STATE =
           ["postcss-js", "virtual:8a01faa24effac32ea1a88eb786299b8d1e569d87e2161a3a89950cfa613905e0d6ca904e843b10ffe1a57fc8276c5265230c7c9335b4d2ecd86f9d1588d8f64#npm:4.0.1"],\
           ["@types/postcss", null],\
           ["camelcase-css", "npm:2.0.1"],\
-          ["postcss", "npm:8.4.48"]\
+          ["postcss", "npm:8.4.49"]\
         ],\
         "packagePeers": [\
           "@types/postcss",\
@@ -7008,7 +7008,7 @@ const RAW_RUNTIME_STATE =
           ["@types/postcss", null],\
           ["@types/ts-node", null],\
           ["lilconfig", "npm:3.1.2"],\
-          ["postcss", "npm:8.4.48"],\
+          ["postcss", "npm:8.4.49"],\
           ["ts-node", null],\
           ["yaml", "npm:2.5.0"]\
         ],\
@@ -7034,7 +7034,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["postcss-nested", "virtual:8a01faa24effac32ea1a88eb786299b8d1e569d87e2161a3a89950cfa613905e0d6ca904e843b10ffe1a57fc8276c5265230c7c9335b4d2ecd86f9d1588d8f64#npm:6.2.0"],\
           ["@types/postcss", null],\
-          ["postcss", "npm:8.4.48"],\
+          ["postcss", "npm:8.4.49"],\
           ["postcss-selector-parser", "npm:6.1.1"]\
         ],\
         "packagePeers": [\
@@ -8331,7 +8331,7 @@ const RAW_RUNTIME_STATE =
           ["normalize-path", "npm:3.0.0"],\
           ["object-hash", "npm:3.0.0"],\
           ["picocolors", "npm:1.0.1"],\
-          ["postcss", "npm:8.4.48"],\
+          ["postcss", "npm:8.4.49"],\
           ["postcss-import", "virtual:8a01faa24effac32ea1a88eb786299b8d1e569d87e2161a3a89950cfa613905e0d6ca904e843b10ffe1a57fc8276c5265230c7c9335b4d2ecd86f9d1588d8f64#npm:15.1.0"],\
           ["postcss-js", "virtual:8a01faa24effac32ea1a88eb786299b8d1e569d87e2161a3a89950cfa613905e0d6ca904e843b10ffe1a57fc8276c5265230c7c9335b4d2ecd86f9d1588d8f64#npm:4.0.1"],\
           ["postcss-load-config", "virtual:8a01faa24effac32ea1a88eb786299b8d1e569d87e2161a3a89950cfa613905e0d6ca904e843b10ffe1a57fc8276c5265230c7c9335b4d2ecd86f9d1588d8f64#npm:4.0.2"],\
