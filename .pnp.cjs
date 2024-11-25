@@ -42,7 +42,7 @@ const RAW_RUNTIME_STATE =
             "types-react-dom",\
             "npm:19.0.0-rc.1"\
           ]],\
-          ["@vercel/og", "npm:0.6.3"],\
+          ["@vercel/og", "npm:0.6.4"],\
           ["date-fns", "npm:4.1.0"],\
           ["eslint", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:9.15.0"],\
           ["eslint-config-next", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:15.0.2"],\
@@ -1371,12 +1371,12 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@vercel/og", [\
-      ["npm:0.6.3", {\
-        "packageLocation": "./.yarn/cache/@vercel-og-npm-0.6.3-cf4974ecb5-c683d2d4a9.zip/node_modules/@vercel/og/",\
+      ["npm:0.6.4", {\
+        "packageLocation": "./.yarn/cache/@vercel-og-npm-0.6.4-08d4294ff7-6941bc7e95.zip/node_modules/@vercel/og/",\
         "packageDependencies": [\
-          ["@vercel/og", "npm:0.6.3"],\
+          ["@vercel/og", "npm:0.6.4"],\
           ["@resvg/resvg-wasm", "npm:2.4.0"],\
-          ["satori", "npm:0.10.9"],\
+          ["satori", "npm:0.12.0"],\
           ["yoga-wasm-web", "npm:0.3.3"]\
         ],\
         "linkType": "HARD"\
@@ -2397,6 +2397,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["css-gradient-parser", [\
+      ["npm:0.0.16", {\
+        "packageLocation": "./.yarn/cache/css-gradient-parser-npm-0.0.16-cd34d842b2-280195e77e.zip/node_modules/css-gradient-parser/",\
+        "packageDependencies": [\
+          ["css-gradient-parser", "npm:0.0.16"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["css-to-react-native", [\
       ["npm:3.2.0", {\
         "packageLocation": "./.yarn/cache/css-to-react-native-npm-3.2.0-46e31a25e3-62ef744254.zip/node_modules/css-to-react-native/",\
@@ -2727,7 +2736,7 @@ const RAW_RUNTIME_STATE =
             "types-react-dom",\
             "npm:19.0.0-rc.1"\
           ]],\
-          ["@vercel/og", "npm:0.6.3"],\
+          ["@vercel/og", "npm:0.6.4"],\
           ["date-fns", "npm:4.1.0"],\
           ["eslint", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:9.15.0"],\
           ["eslint-config-next", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:15.0.2"],\
@@ -7657,13 +7666,14 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["satori", [\
-      ["npm:0.10.9", {\
-        "packageLocation": "./.yarn/cache/satori-npm-0.10.9-57a803828f-210b55f50f.zip/node_modules/satori/",\
+      ["npm:0.12.0", {\
+        "packageLocation": "./.yarn/cache/satori-npm-0.12.0-d570296b62-e27c63de4e.zip/node_modules/satori/",\
         "packageDependencies": [\
-          ["satori", "npm:0.10.9"],\
+          ["satori", "npm:0.12.0"],\
           ["@shuding/opentype.js", "npm:1.4.0-beta.0"],\
           ["css-background-parser", "npm:0.1.0"],\
           ["css-box-shadow", "npm:1.0.0-3"],\
+          ["css-gradient-parser", "npm:0.0.16"],\
           ["css-to-react-native", "npm:3.2.0"],\
           ["emoji-regex", "npm:10.3.0"],\
           ["escape-html", "npm:1.0.3"],\
