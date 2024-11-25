@@ -8,7 +8,7 @@ import { format, formatDuration, intervalToDuration } from "date-fns";
 type Weight = 100 | 200 | 300 | 400 | 500 | 600 | 700 | 800 | 900;
 type FontStyle = "normal" | "italic";
 interface FontOptions {
-  data: Buffer | ArrayBuffer;
+  data: ArrayBuffer | Buffer<ArrayBufferLike>;
   name: string;
   weight?: Weight;
   style?: FontStyle;
@@ -102,17 +102,23 @@ async function loadRalewayFonts(): Promise<FontOptions[]> {
     900: "assets/fonts/Raleway/static/Raleway-BlackItalic.ttf",
   };
   return Promise.all([
-    ...Object.entries(normalFontMap).map(async ([weight, path]) => ({
-      name: "Raleway",
-      weight: weight as unknown as Weight,
-      data: await loadFont(path),
-    })),
-    ...Object.entries(italicFontMap).map(async ([weight, path]) => ({
-      name: "Raleway",
-      weight: weight as unknown as Weight,
-      data: await loadFont(path),
-      style: "italic",
-    })),
+    ...Object.entries(normalFontMap).map(
+      async ([weight, path]) =>
+        ({
+          name: "Raleway",
+          weight: parseInt(weight, 10) as Weight,
+          data: await loadFont(path),
+        }) as FontOptions,
+    ),
+    ...Object.entries(italicFontMap).map(
+      async ([weight, path]) =>
+        ({
+          name: "Raleway",
+          weight: parseInt(weight, 10) as Weight,
+          data: await loadFont(path),
+          style: "italic",
+        }) as FontOptions,
+    ),
   ]);
 }
 
@@ -123,12 +129,12 @@ async function loadQuattrocentoFonts(): Promise<FontOptions[]> {
       data: await loadFont(
         "assets/fonts/Quattrocento/Quattrocento-Regular.ttf",
       ),
-    },
+    } as FontOptions,
     {
       name: "Quattrocento",
       data: await loadFont("assets/fonts/Quattrocento/Quattrocento-Bold.ttf"),
       weight: 700,
-    },
+    } as FontOptions,
   ];
 }
 
