@@ -47,7 +47,7 @@
     "eslint-config-next": "15.0.2",
     "hast": "^1.0.0",
     "postcss": "^8",
-    "prettier": "^3.3.3",
+    "prettier": "^3.4.1",
     "tailwindcss": "^3.4.15",
     "typescript": "^5"
   },
