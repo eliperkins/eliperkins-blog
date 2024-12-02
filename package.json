@@ -43,7 +43,7 @@
     "@types/node": "^22.9.3",
     "@types/react": "npm:types-react@rc",
     "@types/react-dom": "npm:types-react-dom@rc",
-    "eslint": "^9.15.0",
+    "eslint": "^9.16.0",
     "eslint-config-next": "15.0.2",
     "hast": "^1.0.0",
     "postcss": "^8",
