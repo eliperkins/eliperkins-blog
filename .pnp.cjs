@@ -51,7 +51,7 @@ const RAW_RUNTIME_STATE =
           ["hastscript", "npm:9.0.0"],\
           ["next", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:15.0.1"],\
           ["postcss", "npm:8.4.49"],\
-          ["prettier", "npm:3.4.1"],\
+          ["prettier", "npm:3.4.2"],\
           ["react", "npm:19.0.0-rc.1"],\
           ["react-dom", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:19.0.0-rc.1"],\
           ["rehype-autolink-headings", "npm:7.1.0"],\
@@ -2745,7 +2745,7 @@ const RAW_RUNTIME_STATE =
           ["hastscript", "npm:9.0.0"],\
           ["next", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:15.0.1"],\
           ["postcss", "npm:8.4.49"],\
-          ["prettier", "npm:3.4.1"],\
+          ["prettier", "npm:3.4.2"],\
           ["react", "npm:19.0.0-rc.1"],\
           ["react-dom", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:19.0.0-rc.1"],\
           ["rehype-autolink-headings", "npm:7.1.0"],\
@@ -7100,10 +7100,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["prettier", [\
-      ["npm:3.4.1", {\
-        "packageLocation": "./.yarn/unplugged/prettier-npm-3.4.1-ebb52d2db5/node_modules/prettier/",\
+      ["npm:3.4.2", {\
+        "packageLocation": "./.yarn/unplugged/prettier-npm-3.4.2-fae349e44a/node_modules/prettier/",\
         "packageDependencies": [\
-          ["prettier", "npm:3.4.1"]\
+          ["prettier", "npm:3.4.2"]\
         ],\
         "linkType": "HARD"\
       }]\
