@@ -40,7 +40,7 @@
     "@static/discharge": "^2.0.1",
     "@tailwindcss/typography": "^0.5.15",
     "@types/hast": "^3.0.4",
-    "@types/node": "^22.10.1",
+    "@types/node": "^22.10.2",
     "@types/react": "npm:types-react@rc",
     "@types/react-dom": "npm:types-react-dom@rc",
     "eslint": "^9.16.0",
