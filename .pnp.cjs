@@ -2399,32 +2399,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["cross-spawn", [\
-      ["npm:6.0.6", {\
-        "packageLocation": "./.yarn/cache/cross-spawn-npm-6.0.6-a983639a0d-7abf6137b2.zip/node_modules/cross-spawn/",\
-        "packageDependencies": [\
-          ["cross-spawn", "npm:6.0.6"],\
-          ["nice-try", "npm:1.0.5"],\
-          ["path-key", "npm:2.0.1"],\
-          ["semver", "npm:5.7.2"],\
-          ["shebang-command", "npm:1.2.0"],\
-          ["which", "npm:1.3.1"]\
-        ],\
-        "linkType": "HARD"\
-      }],\
       ["npm:7.0.5", {\
         "packageLocation": "./.yarn/cache/cross-spawn-npm-7.0.5-cf92562a27-c95062469d.zip/node_modules/cross-spawn/",\
         "packageDependencies": [\
           ["cross-spawn", "npm:7.0.5"],\
-          ["path-key", "npm:3.1.1"],\
-          ["shebang-command", "npm:2.0.0"],\
-          ["which", "npm:2.0.2"]\
-        ],\
-        "linkType": "HARD"\
-      }],\
-      ["npm:7.0.6", {\
-        "packageLocation": "./.yarn/cache/cross-spawn-npm-7.0.6-264bddf921-0d52657d7a.zip/node_modules/cross-spawn/",\
-        "packageDependencies": [\
-          ["cross-spawn", "npm:7.0.6"],\
           ["path-key", "npm:3.1.1"],\
           ["shebang-command", "npm:2.0.0"],\
           ["which", "npm:2.0.2"]\
@@ -3284,7 +3262,7 @@ const RAW_RUNTIME_STATE =
           ["@types/json-schema", "npm:7.0.15"],\
           ["ajv", "npm:6.12.6"],\
           ["chalk", "npm:4.1.2"],\
-          ["cross-spawn", "npm:7.0.6"],\
+          ["cross-spawn", "npm:7.0.5"],\
           ["debug", "virtual:ddf83a29ef667ff70930bb2532e0f0943a8a39f9e9a6fd424601e629bc797129f8a3af1697368da69640ebe56f8bc231d6833fb632ec36ef002a424eca53865f#npm:4.3.6"],\
           ["escape-string-regexp", "npm:4.0.0"],\
           ["eslint-scope", "npm:8.2.0"],\
@@ -3723,7 +3701,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/cache/execa-npm-1.0.0-7028e37029-9b7a0077ba.zip/node_modules/execa/",\
         "packageDependencies": [\
           ["execa", "npm:1.0.0"],\
-          ["cross-spawn", "npm:6.0.6"],\
+          ["cross-spawn", "npm:7.0.5"],\
           ["get-stream", "npm:4.1.0"],\
           ["is-stream", "npm:1.1.0"],\
           ["npm-run-path", "npm:2.0.2"],\
@@ -6861,15 +6839,6 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
-    ["nice-try", [\
-      ["npm:1.0.5", {\
-        "packageLocation": "./.yarn/cache/nice-try-npm-1.0.5-963856b16f-0b4af3b5bb.zip/node_modules/nice-try/",\
-        "packageDependencies": [\
-          ["nice-try", "npm:1.0.5"]\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
     ["node-gyp", [\
       ["npm:10.2.0", {\
         "packageLocation": "./.yarn/unplugged/node-gyp-npm-10.2.0-cad1109948/node_modules/node-gyp/",\
@@ -8358,14 +8327,6 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["shebang-command", [\
-      ["npm:1.2.0", {\
-        "packageLocation": "./.yarn/cache/shebang-command-npm-1.2.0-8990ba5d1d-9eed175030.zip/node_modules/shebang-command/",\
-        "packageDependencies": [\
-          ["shebang-command", "npm:1.2.0"],\
-          ["shebang-regex", "npm:1.0.0"]\
-        ],\
-        "linkType": "HARD"\
-      }],\
       ["npm:2.0.0", {\
         "packageLocation": "./.yarn/cache/shebang-command-npm-2.0.0-eb2b01921d-6b52fe8727.zip/node_modules/shebang-command/",\
         "packageDependencies": [\
@@ -8376,13 +8337,6 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["shebang-regex", [\
-      ["npm:1.0.0", {\
-        "packageLocation": "./.yarn/cache/shebang-regex-npm-1.0.0-c3612b74e9-404c5a752c.zip/node_modules/shebang-regex/",\
-        "packageDependencies": [\
-          ["shebang-regex", "npm:1.0.0"]\
-        ],\
-        "linkType": "HARD"\
-      }],\
       ["npm:3.0.0", {\
         "packageLocation": "./.yarn/cache/shebang-regex-npm-3.0.0-899a0cd65e-1a2bcae50d.zip/node_modules/shebang-regex/",\
         "packageDependencies": [\
@@ -9673,14 +9627,6 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["which", [\
-      ["npm:1.3.1", {\
-        "packageLocation": "./.yarn/cache/which-npm-1.3.1-f0ebb8bdd8-549dcf1752.zip/node_modules/which/",\
-        "packageDependencies": [\
-          ["which", "npm:1.3.1"],\
-          ["isexe", "npm:2.0.0"]\
-        ],\
-        "linkType": "HARD"\
-      }],\
       ["npm:2.0.2", {\
         "packageLocation": "./.yarn/cache/which-npm-2.0.2-320ddf72f7-4782f8a1d6.zip/node_modules/which/",\
         "packageDependencies": [\
