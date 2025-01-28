@@ -6,7 +6,7 @@ import Script from "next/script";
 import RSSLink from "@/components/rss-link";
 
 const MainHeader = () => (
-  <div className="flex justify-between w-full max-w-screen-lg items-center">
+  <div className="flex justify-between w-full max-w-(--breakpoint-lg) items-center">
     <h1 className="text-5xl mb-4 font-bold">
       <Link
         className="underline decoration-amber-600 decoration-2 underline-offset-8 hover:text-amber-700"
@@ -28,7 +28,7 @@ export default async function Home() {
       <main>
         <MainHeader />
         <Bio />
-        <ul className="prose md:prose-lg lg:prose-xl font-serif prose-a:font-semibold prose-a:underline-offset-4 prose-a:text-amber-600 hover:prose-a:text-amber-700 prose-h3:mb-0 prose-p:my-0">
+        <ul className="prose md:prose-lg lg:prose-xl font-serif prose-a:font-semibold prose-a:underline-offset-4 prose-a:text-amber-600 prose-a:hover:text-amber-700 prose-h3:mb-0 prose-p:my-0">
           {posts.map((post) => (
             <li key={post.slug}>
               <h3>

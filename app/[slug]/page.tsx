@@ -63,13 +63,13 @@ export default async function BlogPost({ params }: Props) {
       <article
         className={`font-serif prose md:prose-lg
         lg:prose-xl prose-a:font-semibold prose-a:underline-offset-4
-        prose-a:text-amber-600 hover:prose-a:text-amber-700
+        prose-a:text-amber-600 prose-a:hover:text-amber-700
         prose-pre:border
         prose-pre:bg-[#ffffff]
         dark:prose-pre:bg-[#011627]
-        prose-a:prose-headings:no-underline
-        prose-a:prose-headings:text-gray-950
-        hover:prose-a:prose-headings:text-gray-950`}
+        prose-headings:prose-a:no-underline
+        prose-headings:prose-a:text-gray-950
+        prose-headings:prose-a:hover:text-gray-950`}
         dangerouslySetInnerHTML={{ __html: content }}
       ></article>
       <hr className="mt-8 mb-6" />
