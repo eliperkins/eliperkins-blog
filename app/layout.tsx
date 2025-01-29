@@ -45,7 +45,7 @@ export const metadata: Metadata = {
 
 function Footer() {
   return (
-    <footer className="text-center text-gray-500 text-sm mt-12 space-y-2">
+    <footer className="flex flex-col items-center text-center text-gray-500 text-sm mt-12 gap-y-2">
       <RSSLink size="small" />
       <p>
         &copy; {new Date().getFullYear()}{" "}

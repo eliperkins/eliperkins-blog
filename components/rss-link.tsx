@@ -10,7 +10,7 @@ export default function RSSLink(props: RSSLinkProps) {
     return (
       <Link
         href="/rss.xml"
-        className="border px-2 py-1 rounded-sm hover:text-gray-800 hover:shadow-xs hover:border-gray-300"
+        className="border border-gray-300 px-2 py-1 rounded-sm hover:text-gray-800 hover:shadow-xs hover:border-gray-300"
       >
         <RssIcon className="mr-1 inline" />
         RSS
@@ -20,7 +20,7 @@ export default function RSSLink(props: RSSLinkProps) {
     return (
       <Link
         href="/rss.xml"
-        className="transition-all flex h-10 group border px-3 py-2 rounded-sm text-gray-400 hover:text-gray-800 hover:shadow-xs hover:border-gray-300 mb-4"
+        className="transition-all flex h-10 group border border-gray-200 px-3 py-2 rounded-sm text-gray-400 hover:text-gray-800 hover:shadow-xs hover:border-gray-300 mb-4"
       >
         <RssIcon
           size={20}

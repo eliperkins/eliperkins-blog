@@ -74,13 +74,13 @@ To keep code review as focused as possible, break up your large pull request int
 
 Instead of one PR like:
 
-- **Add XYZ feature**<br /><span class="font-mono text-sm"><span class="text-green-700">+1,029</span>/<span class="text-red-700">-1,390</span></span> merging <span class="font-mono text-sm bg-sky-50 text-sky-800 border px-1 rounded-md">ep/add-xyz-feature</span> into <span class="font-mono text-sm bg-sky-50 text-sky-800 border px-1 rounded-md">main</span>
+- **Add XYZ feature**<br /><span class="font-mono text-sm"><span class="text-green-700">+1,029</span>/<span class="text-red-700">-1,390</span></span> merging <span class="font-mono text-sm bg-sky-50 text-sky-800 border border-sky-800/24 px-1 rounded-md">ep/add-xyz-feature</span> into <span class="font-mono text-sm bg-sky-50 text-sky-800 border border-sky-800/24 px-1 rounded-md">main</span>
 
 Prefer breaking up the PR into a series of pull requests like:
 
-1. **[1/3] Add GraphQL module for XYZ**<br /><span class="font-mono text-sm"><span class="text-green-700">+400</span>/<span class="text-red-700">-90</span></span> merging <span class="font-mono text-sm bg-sky-50 text-sky-800 border px-1 rounded-md">ep/add-xyz-graphql</span> into <span class="font-mono text-sm bg-sky-50 text-sky-800 border px-1 rounded-md">main</span>
-2. **[2/3] Create XYZ view controller**<br /><span class="font-mono text-sm"><span class="text-green-700">+215</span>/<span class="text-red-700">-33</span></span> merging <span class="font-mono text-sm bg-sky-50 text-sky-800 border px-1 rounded-md">ep/create-xyz-viewcontroller</span> into <span class="font-mono text-sm bg-sky-50 text-sky-800 border px-1 rounded-md">ep/add-xyz-graphql</span>
-3. **[3/3] Use custom XYZ control throughout the app**<br /><span class="font-mono text-sm"><span class="text-green-700">+325</span>/<span class="text-red-700">-333</span></span> merging <span class="font-mono text-sm bg-sky-50 text-sky-800 border px-1 rounded-md">ep/custom-xyz-control</span> into <span class="font-mono text-sm bg-sky-50 text-sky-800 border px-1 rounded-md">ep/create-xyz-viewcontroller</span>
+1. **[1/3] Add GraphQL module for XYZ**<br /><span class="font-mono text-sm"><span class="text-green-700">+400</span>/<span class="text-red-700">-90</span></span> merging <span class="font-mono text-sm bg-sky-50 text-sky-800 border border-sky-800/24 px-1 rounded-md">ep/add-xyz-graphql</span> into <span class="font-mono text-sm bg-sky-50 text-sky-800 border border-sky-800/24 px-1 rounded-md">main</span>
+2. **[2/3] Create XYZ view controller**<br /><span class="font-mono text-sm"><span class="text-green-700">+215</span>/<span class="text-red-700">-33</span></span> merging <span class="font-mono text-sm bg-sky-50 text-sky-800 border border-sky-800/24 px-1 rounded-md">ep/create-xyz-viewcontroller</span> into <span class="font-mono text-sm bg-sky-50 text-sky-800 border border-sky-800/24 px-1 rounded-md">ep/add-xyz-graphql</span>
+3. **[3/3] Use custom XYZ control throughout the app**<br /><span class="font-mono text-sm"><span class="text-green-700">+325</span>/<span class="text-red-700">-333</span></span> merging <span class="font-mono text-sm bg-sky-50 text-sky-800 border border-sky-800/24 px-1 rounded-md">ep/custom-xyz-control</span> into <span class="font-mono text-sm bg-sky-50 text-sky-800 border border-sky-800/24 px-1 rounded-md">ep/create-xyz-viewcontroller</span>
 
 This will create three discrete pull requests for your teammates to focus on, allowing for a better review of the code you wrote and for better code to be landed in piecemeal.
 
