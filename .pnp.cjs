@@ -34,7 +34,7 @@ const RAW_RUNTIME_STATE =
           ["@tailwindcss/postcss", "npm:4.0.3"],\
           ["@tailwindcss/typography", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:0.5.16"],\
           ["@types/hast", "npm:3.0.4"],\
-          ["@types/node", "npm:22.12.0"],\
+          ["@types/node", "npm:22.13.0"],\
           ["@types/react", "npm:19.0.8"],\
           ["@types/react-dom", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:19.0.3"],\
           ["@vercel/og", "npm:0.6.5"],\
@@ -1098,10 +1098,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["npm:22.12.0", {\
-        "packageLocation": "./.yarn/cache/@types-node-npm-22.12.0-7905337c99-aac2b6f6a8.zip/node_modules/@types/node/",\
+      ["npm:22.13.0", {\
+        "packageLocation": "./.yarn/cache/@types-node-npm-22.13.0-ce5ef5ab7c-a7563e57df.zip/node_modules/@types/node/",\
         "packageDependencies": [\
-          ["@types/node", "npm:22.12.0"],\
+          ["@types/node", "npm:22.13.0"],\
           ["undici-types", "npm:6.20.0"]\
         ],\
         "linkType": "HARD"\
@@ -2683,7 +2683,7 @@ const RAW_RUNTIME_STATE =
           ["@tailwindcss/postcss", "npm:4.0.3"],\
           ["@tailwindcss/typography", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:0.5.16"],\
           ["@types/hast", "npm:3.0.4"],\
-          ["@types/node", "npm:22.12.0"],\
+          ["@types/node", "npm:22.13.0"],\
           ["@types/react", "npm:19.0.8"],\
           ["@types/react-dom", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:19.0.3"],\
           ["@vercel/og", "npm:0.6.5"],\
