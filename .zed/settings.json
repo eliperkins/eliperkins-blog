@@ -1,0 +1,16 @@
+{
+  "lsp": {
+    "vtsls": {
+      "settings": {
+        "typescript": {
+          "tsdk": ".yarn/sdks/typescript/lib"
+        }
+      }
+    },
+    "eslint": {
+      "settings": {
+        "nodePath": ".yarn/sdks"
+      }
+    }
+  }
+}
