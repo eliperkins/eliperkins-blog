@@ -43,7 +43,7 @@ const RAW_RUNTIME_STATE =
           ["eslint-config-next", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:15.1.7"],\
           ["feed", "npm:4.2.2"],\
           ["hast", "npm:1.0.0"],\
-          ["hastscript", "npm:9.0.0"],\
+          ["hastscript", "npm:9.0.1"],\
           ["next", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:15.1.6"],\
           ["postcss", "npm:8.5.2"],\
           ["prettier", "npm:3.5.0"],\
@@ -2700,7 +2700,7 @@ const RAW_RUNTIME_STATE =
           ["eslint-config-next", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:15.1.7"],\
           ["feed", "npm:4.2.2"],\
           ["hast", "npm:1.0.0"],\
-          ["hastscript", "npm:9.0.0"],\
+          ["hastscript", "npm:9.0.1"],\
           ["next", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:15.1.6"],\
           ["postcss", "npm:8.5.2"],\
           ["prettier", "npm:3.5.0"],\
@@ -4317,14 +4317,14 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["npm:9.0.0", {\
-        "packageLocation": "./.yarn/cache/hastscript-npm-9.0.0-86f664feba-0864440715.zip/node_modules/hastscript/",\
+      ["npm:9.0.1", {\
+        "packageLocation": "./.yarn/cache/hastscript-npm-9.0.1-1e9d654d34-9aa8135faf.zip/node_modules/hastscript/",\
         "packageDependencies": [\
-          ["hastscript", "npm:9.0.0"],\
+          ["hastscript", "npm:9.0.1"],\
           ["@types/hast", "npm:3.0.4"],\
           ["comma-separated-tokens", "npm:2.0.3"],\
           ["hast-util-parse-selector", "npm:4.0.0"],\
-          ["property-information", "npm:6.5.0"],\
+          ["property-information", "npm:7.0.0"],\
           ["space-separated-tokens", "npm:2.0.2"]\
         ],\
         "linkType": "HARD"\
@@ -7023,6 +7023,13 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/cache/property-information-npm-6.5.0-1c8c103bec-fced94f3a0.zip/node_modules/property-information/",\
         "packageDependencies": [\
           ["property-information", "npm:6.5.0"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:7.0.0", {\
+        "packageLocation": "./.yarn/cache/property-information-npm-7.0.0-bc950e6375-55f4430884.zip/node_modules/property-information/",\
+        "packageDependencies": [\
+          ["property-information", "npm:7.0.0"]\
         ],\
         "linkType": "HARD"\
       }]\
