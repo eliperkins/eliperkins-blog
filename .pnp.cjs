@@ -64,7 +64,7 @@ const RAW_RUNTIME_STATE =
           ["typescript", "patch:typescript@npm%3A5.8.2#optional!builtin<compat/typescript>::version=5.8.2&hash=5786d5"],\
           ["unified", "npm:11.0.5"],\
           ["vfile", "npm:6.0.3"],\
-          ["vfile-matter", "npm:5.0.0"]\
+          ["vfile-matter", "npm:5.0.1"]\
         ],\
         "linkType": "SOFT"\
       }]\
@@ -2715,7 +2715,7 @@ const RAW_RUNTIME_STATE =
           ["typescript", "patch:typescript@npm%3A5.8.2#optional!builtin<compat/typescript>::version=5.8.2&hash=5786d5"],\
           ["unified", "npm:11.0.5"],\
           ["vfile", "npm:6.0.3"],\
-          ["vfile-matter", "npm:5.0.0"]\
+          ["vfile-matter", "npm:5.0.1"]\
         ],\
         "linkType": "SOFT"\
       }]\
@@ -8815,10 +8815,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["vfile-matter", [\
-      ["npm:5.0.0", {\
-        "packageLocation": "./.yarn/cache/vfile-matter-npm-5.0.0-8f034005c1-7aa4c10820.zip/node_modules/vfile-matter/",\
+      ["npm:5.0.1", {\
+        "packageLocation": "./.yarn/cache/vfile-matter-npm-5.0.1-237e9ffde7-5eddf84861.zip/node_modules/vfile-matter/",\
         "packageDependencies": [\
-          ["vfile-matter", "npm:5.0.0"],\
+          ["vfile-matter", "npm:5.0.1"],\
           ["vfile", "npm:6.0.2"],\
           ["yaml", "npm:2.5.0"]\
         ],\
