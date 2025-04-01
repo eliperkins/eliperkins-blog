@@ -37,7 +37,7 @@ const RAW_RUNTIME_STATE =
           ["@types/node", "npm:22.13.14"],\
           ["@types/react", "npm:19.0.12"],\
           ["@types/react-dom", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:19.0.4"],\
-          ["@vercel/og", "npm:0.6.5"],\
+          ["@vercel/og", "npm:0.6.8"],\
           ["date-fns", "npm:4.1.0"],\
           ["eslint", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:9.23.0"],\
           ["eslint-config-next", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:15.2.3"],\
@@ -1414,12 +1414,12 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@vercel/og", [\
-      ["npm:0.6.5", {\
-        "packageLocation": "./.yarn/cache/@vercel-og-npm-0.6.5-f3ae895c4d-80695fe00a.zip/node_modules/@vercel/og/",\
+      ["npm:0.6.8", {\
+        "packageLocation": "./.yarn/cache/@vercel-og-npm-0.6.8-31de215c12-43b1e7c43d.zip/node_modules/@vercel/og/",\
         "packageDependencies": [\
-          ["@vercel/og", "npm:0.6.5"],\
+          ["@vercel/og", "npm:0.6.8"],\
           ["@resvg/resvg-wasm", "npm:2.4.0"],\
-          ["satori", "npm:0.12.1"],\
+          ["satori", "npm:0.12.2"],\
           ["yoga-wasm-web", "npm:0.3.3"]\
         ],\
         "linkType": "HARD"\
@@ -2688,7 +2688,7 @@ const RAW_RUNTIME_STATE =
           ["@types/node", "npm:22.13.14"],\
           ["@types/react", "npm:19.0.12"],\
           ["@types/react-dom", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:19.0.4"],\
-          ["@vercel/og", "npm:0.6.5"],\
+          ["@vercel/og", "npm:0.6.8"],\
           ["date-fns", "npm:4.1.0"],\
           ["eslint", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:9.23.0"],\
           ["eslint-config-next", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:15.2.3"],\
@@ -7575,10 +7575,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["satori", [\
-      ["npm:0.12.1", {\
-        "packageLocation": "./.yarn/cache/satori-npm-0.12.1-019d42aebb-fa5dac9094.zip/node_modules/satori/",\
+      ["npm:0.12.2", {\
+        "packageLocation": "./.yarn/cache/satori-npm-0.12.2-88097bbb1c-e927b0fcbe.zip/node_modules/satori/",\
         "packageDependencies": [\
-          ["satori", "npm:0.12.1"],\
+          ["satori", "npm:0.12.2"],\
           ["@shuding/opentype.js", "npm:1.4.0-beta.0"],\
           ["css-background-parser", "npm:0.1.0"],\
           ["css-box-shadow", "npm:1.0.0-3"],\
