@@ -57,7 +57,7 @@ const RAW_RUNTIME_STATE =
           ["remark-gfm", "npm:4.0.1"],\
           ["remark-github-blockquote-alert", "npm:1.3.0"],\
           ["remark-parse", "npm:11.0.0"],\
-          ["remark-rehype", "npm:11.1.1"],\
+          ["remark-rehype", "npm:11.1.2"],\
           ["sharp", "npm:0.33.5"],\
           ["tailwindcss", "npm:4.1.2"],\
           ["to-vfile", "npm:8.0.0"],\
@@ -2708,7 +2708,7 @@ const RAW_RUNTIME_STATE =
           ["remark-gfm", "npm:4.0.1"],\
           ["remark-github-blockquote-alert", "npm:1.3.0"],\
           ["remark-parse", "npm:11.0.0"],\
-          ["remark-rehype", "npm:11.1.1"],\
+          ["remark-rehype", "npm:11.1.2"],\
           ["sharp", "npm:0.33.5"],\
           ["tailwindcss", "npm:4.1.2"],\
           ["to-vfile", "npm:8.0.0"],\
@@ -7374,10 +7374,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["remark-rehype", [\
-      ["npm:11.1.1", {\
-        "packageLocation": "./.yarn/cache/remark-rehype-npm-11.1.1-b682bb669b-39404bd19c.zip/node_modules/remark-rehype/",\
+      ["npm:11.1.2", {\
+        "packageLocation": "./.yarn/cache/remark-rehype-npm-11.1.2-26f5ed7456-b5374a0bf0.zip/node_modules/remark-rehype/",\
         "packageDependencies": [\
-          ["remark-rehype", "npm:11.1.1"],\
+          ["remark-rehype", "npm:11.1.2"],\
           ["@types/hast", "npm:3.0.4"],\
           ["@types/mdast", "npm:4.0.4"],\
           ["mdast-util-to-hast", "npm:13.2.0"],\
