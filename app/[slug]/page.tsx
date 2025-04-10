@@ -72,7 +72,7 @@ export default async function BlogPost({ params }: Props) {
     prose-headings:prose-a:hover:text-gray-950`}
       >
         <article dangerouslySetInnerHTML={{ __html: content }} />
-        <hr className="border-gray-200 md:-mr-4 lg:-mr-14 mt-8 mb-6" />
+        <hr className="border-gray-200 md:-mr-4 lg:-mr-14 mt-0" />
       </div>
       <Bio />
       <Comments />

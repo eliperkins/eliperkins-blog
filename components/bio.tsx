@@ -5,7 +5,7 @@ import profilePic from "./headshot.jpg";
 
 function Bio() {
   return (
-    <div className="flex items-center">
+    <div className="flex items-center mt-4">
       <Image
         src={profilePic}
         alt="Eli Perkins"
@@ -22,9 +22,9 @@ function Bio() {
         , a mobile engineer based in Denver.{" "}
         <a
           className="underline underline-offset-2 text-amber-600 font-semibold hover:text-amber-700"
-          href="https://mastodon.online/@eliperkins"
+          href="https://bsky.app/profile/eliperkins.com"
         >
-          Say hello on Mastodon.
+          Say hello on Bluesky.
         </a>
       </p>
     </div>
