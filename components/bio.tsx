@@ -19,7 +19,7 @@ function Bio() {
         >
           Eli Perkins
         </Link>
-        , a mobile engineer based in Denver.{" "}
+        , an engineering leader based in Denver.{" "}
         <a
           className="underline underline-offset-2 text-amber-600 font-semibold hover:text-amber-700"
           href="https://bsky.app/profile/eliperkins.com"
