@@ -3,19 +3,19 @@ import Link from "next/link";
 
 import profilePic from "./headshot.jpg";
 
-function Bio() {
+const Bio = () => {
   return (
     <div className="flex items-center mt-4">
       <Image
-        src={profilePic}
         alt="Eli Perkins"
         className="w-16 h-16 rounded-full mr-2"
+        src={profilePic}
       />
       <p>
         Written by{" "}
         <Link
-          href="https://eliperkins.com"
           className="font-semibold underline underline-offset-2"
+          href="https://eliperkins.com"
         >
           Eli Perkins
         </Link>

@@ -1,19 +1,19 @@
 "use client";
 
+import type { NextWebVitalsMetric } from "next/app";
 import { useReportWebVitals } from "next/web-vitals";
 
-function WebVitals() {
-  useReportWebVitals(({ id, value, delta, name }) => {
+const WebVitals = () => {
+  useReportWebVitals(({ id, value, name }: NextWebVitalsMetric) => {
     window.gtag("event", name, {
       value: Math.round(name === "CLS" ? value * 1000 : value),
       event_label: id,
       metric_value: value,
-      metric_delta: delta,
       non_interaction: true,
     });
   });
 
-  return <></>;
-}
+  return null;
+};
 
 export default WebVitals;

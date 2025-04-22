@@ -38,8 +38,8 @@ export async function GET(
         </div>
         <div tw="flex items-center">
           <img
-            src={await base64DataString("components/headshot.jpg")}
             alt="Headshot of Eli Perkins"
+            src={await base64DataString("components/headshot.jpg")}
             tw="w-20 h-20 rounded-full"
           />
           <div tw="text-4xl grow flex flex-col pl-6 text-gray-700 font-medium">
@@ -79,7 +79,7 @@ export async function GET(
 }
 
 async function loadRalewayFonts(): Promise<FontOptions[]> {
-  const normalFontMap: { [key in Weight]: string } = {
+  const normalFontMap: Record<Weight, string> = {
     100: "assets/fonts/Raleway/static/Raleway-Thin.ttf",
     200: "assets/fonts/Raleway/static/Raleway-ExtraLight.ttf",
     300: "assets/fonts/Raleway/static/Raleway-Light.ttf",
@@ -90,7 +90,7 @@ async function loadRalewayFonts(): Promise<FontOptions[]> {
     800: "assets/fonts/Raleway/static/Raleway-ExtraBold.ttf",
     900: "assets/fonts/Raleway/static/Raleway-Black.ttf",
   };
-  const italicFontMap: { [key in Weight]: string } = {
+  const italicFontMap: Record<Weight, string> = {
     100: "assets/fonts/Raleway/static/Raleway-ThinItalic.ttf",
     200: "assets/fonts/Raleway/static/Raleway-ExtraLightItalic.ttf",
     300: "assets/fonts/Raleway/static/Raleway-LightItalic.ttf",

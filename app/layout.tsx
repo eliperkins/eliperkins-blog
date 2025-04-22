@@ -43,7 +43,7 @@ export const metadata: Metadata = {
   category: "technology",
 };
 
-function Footer() {
+const Footer = () => {
   return (
     <footer className="flex flex-col items-center text-center text-gray-500 text-sm mt-12 gap-y-2">
       <RSSLink size="small" />
@@ -58,17 +58,17 @@ function Footer() {
       </p>
     </footer>
   );
-}
+};
 
-export default function RootLayout({
+const RootLayout = ({
   children,
 }: Readonly<{
   children: React.ReactNode;
-}>) {
+}>) => {
   return (
     <html
-      lang="en"
       className={`${quattrocentoSans.variable} ${raleway.variable}`}
+      lang="en"
     >
       <GoogleAnalytics gaId="G-TTM2G39MRR" />
       <body className="p-8 md:p-12 lg:p-16">
@@ -79,3 +79,5 @@ export default function RootLayout({
     </html>
   );
 }
+
+export default RootLayout;

@@ -19,8 +19,8 @@ const MainHeader = () => (
   </div>
 );
 
-export default async function Home() {
-  var posts = await fetchPosts();
+const Home = async () => {
+  const posts = await fetchPosts();
 
   return (
     <>
@@ -35,18 +35,21 @@ export default async function Home() {
                 <Link href={post.slug}>{post.title}</Link>
               </h3>
               <time
-                dateTime={post.date.toISOString()}
                 className="text-sm lg:text-base"
+                dateTime={post.date.toISOString()}
               >
                 {format(post.date, "MMMM dd, yyyy")}
               </time>
-              {post.excerpt && (
+              {post.excerpt ? (
+                // eslint-disable-next-line react/no-danger
                 <div dangerouslySetInnerHTML={{ __html: post.excerpt }} />
-              )}
+              ) : null}
             </li>
           ))}
         </ul>
       </main>
     </>
   );
-}
+};
+
+export default Home;

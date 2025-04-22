@@ -9,9 +9,9 @@ import { fetchPosts, fetchPostContent, fetchPost } from "@/lib/posts";
 
 import "../highlightjs-nightowl.css";
 
-type Props = {
-  params: Promise<{ slug: string }>;
-};
+interface Props {
+  readonly params: Promise<{ slug: string }>;
+}
 
 export async function generateStaticParams() {
   const postSlugs = await fetchPosts();
@@ -47,7 +47,7 @@ const BlogPostHeader = () => (
   </h3>
 );
 
-export default async function BlogPost({ params }: Props) {
+const BlogPost = async ({ params }: Props) => {
   const slug = (await params).slug;
   const post = await fetchPost(slug);
   const content = await fetchPostContent(slug);
@@ -56,7 +56,7 @@ export default async function BlogPost({ params }: Props) {
     <main>
       <Script src="https://platform.twitter.com/widgets.js" />
       <BlogPostHeader />
-      <time dateTime={post.date.toISOString()} className="text-sm lg:text-base">
+      <time className="text-sm lg:text-base" dateTime={post.date.toISOString()}>
         {format(post.date, "MMMM dd, yyyy")}
       </time>
       <h1 className="mt-1 mb-4 text-4xl font-bold">{post.title}</h1>
@@ -71,11 +71,16 @@ export default async function BlogPost({ params }: Props) {
     prose-headings:prose-a:text-gray-950
     prose-headings:prose-a:hover:text-gray-950`}
       >
-        <article dangerouslySetInnerHTML={{ __html: content }} />
+        {
+          // eslint-disable-next-line react/no-danger
+          <article dangerouslySetInnerHTML={{ __html: content }} />
+        }
         <hr className="border-gray-200 md:-mr-4 lg:-mr-14 mt-0" />
       </div>
       <Bio />
       <Comments />
     </main>
   );
-}
+};
+
+export default BlogPost;

@@ -37,20 +37,29 @@
     "vfile-matter": "^5.0.1"
   },
   "devDependencies": {
+    "@eslint/js": "^9.25.1",
+    "@next/eslint-plugin-next": "^15.3.1",
     "@static/discharge": "^2.0.1",
     "@tailwindcss/postcss": "^4.1.4",
     "@tailwindcss/typography": "^0.5.16",
+    "@types/gtag.js": "^0.0.20",
     "@types/hast": "^3.0.4",
+    "@types/mdast": "^4.0.4",
     "@types/node": "^22.14.1",
     "@types/react": "^19.1.2",
     "@types/react-dom": "^19.1.2",
+    "@types/unist": "^3.0.3",
     "eslint": "^9.25.1",
     "eslint-config-next": "15.3.1",
+    "eslint-config-prettier": "^10.1.2",
+    "eslint-plugin-react": "^7.37.5",
+    "globals": "^16.0.0",
     "hast": "^1.0.0",
     "postcss": "^8.5.3",
     "prettier": "^3.5.3",
     "tailwindcss": "^4.1.4",
-    "typescript": "^5.8.3"
+    "typescript": "^5.8.3",
+    "typescript-eslint": "^8.31.0"
   },
   "resolutions": {
     "meow": "^9.0.0",

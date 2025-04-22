@@ -16,12 +16,12 @@ import { h } from "hastscript";
 import type { VFile } from "vfile";
 
 /** @type {import("unified").Plugin<[{ legacyTitle: boolean }]>} */
-function remarkAlertFixed(options: any) {
-  // @ts-ignore
+function remarkAlertFixed(options: { legacyTitle: boolean }) {
+  // @ts-expect-error remark-github-blockquote-alert does not have the correct types
   return remarkAlert(options);
 }
 
-type Post = {
+interface Post {
   title: string;
   date: Date;
   slug: string;
@@ -30,13 +30,13 @@ type Post = {
   unprocessedExcerpt: string;
   readingTime: number;
   wordCount: number;
-};
+}
 
-type FrontMatter = {
+interface FrontMatter {
   title: string;
   date: string;
   excerpt: string;
-};
+}
 
 export async function fetchPosts(): Promise<Post[]> {
   const slugs = await fs.promises.readdir(path.join(process.cwd(), "posts"));
@@ -59,7 +59,8 @@ async function parsePostFile(slug: string): Promise<VFile> {
 export async function fetchPost(slug: string): Promise<Post> {
   const file = await parsePostFile(slug);
 
-  const { title, date, excerpt }: FrontMatter = file.data.matter as any;
+  // @ts-expect-error file.data.matter is not typed
+  const { title, date, excerpt }: FrontMatter = file.data.matter;
 
   const content = await fetchPostContent(slug);
   const parsedExcerpt = await parseMarkdownContent(excerpt);
@@ -92,7 +93,7 @@ async function parseMarkdownContent(content: string): Promise<string> {
       headingProperties: {
         class: "heading-group group",
       },
-      content(node: h.JSX.Element) {
+      content(node) {
         return [h("span.heading-link", "#"), ...node.children];
       },
     })

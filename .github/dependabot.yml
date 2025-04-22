@@ -27,6 +27,11 @@ updates:
         patterns:
           - "eslint"
           - "eslint-*"
+          - "@eslint/*"
+      typescript-eslint:
+        patterns:
+          - "typescript-eslint"
+          - "@typescript-eslint/*"
       prettier:
         patterns:
           - "prettier"
