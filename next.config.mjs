@@ -4,6 +4,7 @@ const nextConfig = {
   images: { unoptimized: true },
   experimental: {
     webVitalsAttribution: ["CLS", "FCP", "FID", "INP", "LCP", "TTFB"],
+    reactCompiler: true,
   },
 };
 
