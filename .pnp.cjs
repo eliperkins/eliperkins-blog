@@ -41,7 +41,7 @@ const RAW_RUNTIME_STATE =
           ["@types/mdast", "npm:4.0.4"],\
           ["@types/node", "npm:22.15.3"],\
           ["@types/react", "npm:19.1.2"],\
-          ["@types/react-dom", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:19.1.2"],\
+          ["@types/react-dom", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:19.1.3"],\
           ["@types/unist", "npm:3.0.3"],\
           ["@vercel/og", "npm:0.6.8"],\
           ["babel-plugin-react-compiler", "npm:19.1.0-rc.1"],\
@@ -325,7 +325,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@giscus/react", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:3.1.0"],\
           ["@types/react", "npm:19.1.2"],\
-          ["@types/react-dom", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:19.1.2"],\
+          ["@types/react-dom", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:19.1.3"],\
           ["giscus", "npm:1.6.0"],\
           ["react", "npm:19.1.0"],\
           ["react-dom", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:19.1.0"]\
@@ -1252,18 +1252,18 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@types/react-dom", [\
-      ["npm:19.1.2", {\
-        "packageLocation": "./.yarn/cache/@types-react-dom-npm-19.1.2-59891627d2-bcadf2a1f4.zip/node_modules/@types/react-dom/",\
+      ["npm:19.1.3", {\
+        "packageLocation": "./.yarn/cache/@types-react-dom-npm-19.1.3-cd1990bce0-e951e683ee.zip/node_modules/@types/react-dom/",\
         "packageDependencies": [\
-          ["@types/react-dom", "npm:19.1.2"]\
+          ["@types/react-dom", "npm:19.1.3"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:19.1.2", {\
-        "packageLocation": "./.yarn/__virtual__/@types-react-dom-virtual-6ae845fe65/0/cache/@types-react-dom-npm-19.1.2-59891627d2-bcadf2a1f4.zip/node_modules/@types/react-dom/",\
+      ["virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:19.1.3", {\
+        "packageLocation": "./.yarn/__virtual__/@types-react-dom-virtual-293eada102/0/cache/@types-react-dom-npm-19.1.3-cd1990bce0-e951e683ee.zip/node_modules/@types/react-dom/",\
         "packageDependencies": [\
           ["@types/react", "npm:19.1.2"],\
-          ["@types/react-dom", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:19.1.2"]\
+          ["@types/react-dom", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:19.1.3"]\
         ],\
         "packagePeers": [\
           "@types/react"\
@@ -3016,7 +3016,7 @@ const RAW_RUNTIME_STATE =
           ["@types/mdast", "npm:4.0.4"],\
           ["@types/node", "npm:22.15.3"],\
           ["@types/react", "npm:19.1.2"],\
-          ["@types/react-dom", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:19.1.2"],\
+          ["@types/react-dom", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:19.1.3"],\
           ["@types/unist", "npm:3.0.3"],\
           ["@vercel/og", "npm:0.6.8"],\
           ["babel-plugin-react-compiler", "npm:19.1.0-rc.1"],\
@@ -6886,7 +6886,7 @@ const RAW_RUNTIME_STATE =
           ["@types/opentelemetry__api", null],\
           ["@types/playwright__test", null],\
           ["@types/react", "npm:19.1.2"],\
-          ["@types/react-dom", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:19.1.2"],\
+          ["@types/react-dom", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:19.1.3"],\
           ["@types/sass", null],\
           ["babel-plugin-react-compiler", "npm:19.1.0-rc.1"],\
           ["busboy", "npm:1.6.0"],\
