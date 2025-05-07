@@ -51,7 +51,7 @@ const RAW_RUNTIME_STATE =
           ["eslint-config-next", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:15.3.1"],\
           ["eslint-config-prettier", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:10.1.3"],\
           ["eslint-plugin-react", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:7.37.5"],\
-          ["feed", "npm:4.2.2"],\
+          ["feed", "npm:5.0.0"],\
           ["globals", "npm:16.0.0"],\
           ["hast", "npm:1.0.0"],\
           ["hastscript", "npm:9.0.1"],\
@@ -3216,7 +3216,7 @@ const RAW_RUNTIME_STATE =
           ["eslint-config-next", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:15.3.1"],\
           ["eslint-config-prettier", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:10.1.3"],\
           ["eslint-plugin-react", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:7.37.5"],\
-          ["feed", "npm:4.2.2"],\
+          ["feed", "npm:5.0.0"],\
           ["globals", "npm:16.0.0"],\
           ["hast", "npm:1.0.0"],\
           ["hastscript", "npm:9.0.1"],\
@@ -4337,10 +4337,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["feed", [\
-      ["npm:4.2.2", {\
-        "packageLocation": "./.yarn/cache/feed-npm-4.2.2-0c45e7a1e4-6aeee26b92.zip/node_modules/feed/",\
+      ["npm:5.0.0", {\
+        "packageLocation": "./.yarn/cache/feed-npm-5.0.0-467aa57a96-f8acc3cb12.zip/node_modules/feed/",\
         "packageDependencies": [\
-          ["feed", "npm:4.2.2"],\
+          ["feed", "npm:5.0.0"],\
           ["xml-js", "npm:1.6.11"]\
         ],\
         "linkType": "HARD"\
