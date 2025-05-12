@@ -66,7 +66,7 @@ const RAW_RUNTIME_STATE =
           ["rehype-stringify", "npm:10.0.1"],\
           ["remark", "npm:15.0.1"],\
           ["remark-gfm", "npm:4.0.1"],\
-          ["remark-github-blockquote-alert", "npm:1.3.0"],\
+          ["remark-github-blockquote-alert", "npm:1.3.1"],\
           ["remark-parse", "npm:11.0.0"],\
           ["remark-rehype", "npm:11.1.2"],\
           ["sharp", "npm:0.34.1"],\
@@ -3231,7 +3231,7 @@ const RAW_RUNTIME_STATE =
           ["rehype-stringify", "npm:10.0.1"],\
           ["remark", "npm:15.0.1"],\
           ["remark-gfm", "npm:4.0.1"],\
-          ["remark-github-blockquote-alert", "npm:1.3.0"],\
+          ["remark-github-blockquote-alert", "npm:1.3.1"],\
           ["remark-parse", "npm:11.0.0"],\
           ["remark-rehype", "npm:11.1.2"],\
           ["sharp", "npm:0.34.1"],\
@@ -8281,10 +8281,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["remark-github-blockquote-alert", [\
-      ["npm:1.3.0", {\
-        "packageLocation": "./.yarn/cache/remark-github-blockquote-alert-npm-1.3.0-6d4646b60b-50ef5622e9.zip/node_modules/remark-github-blockquote-alert/",\
+      ["npm:1.3.1", {\
+        "packageLocation": "./.yarn/cache/remark-github-blockquote-alert-npm-1.3.1-6c04dda3e6-b28308a8a8.zip/node_modules/remark-github-blockquote-alert/",\
         "packageDependencies": [\
-          ["remark-github-blockquote-alert", "npm:1.3.0"],\
+          ["remark-github-blockquote-alert", "npm:1.3.1"],\
           ["unist-util-visit", "npm:5.0.0"]\
         ],\
         "linkType": "HARD"\
