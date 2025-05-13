@@ -40,7 +40,7 @@ const RAW_RUNTIME_STATE =
           ["@types/hast", "npm:3.0.4"],\
           ["@types/mdast", "npm:4.0.4"],\
           ["@types/node", "npm:22.15.17"],\
-          ["@types/react", "npm:19.1.3"],\
+          ["@types/react", "npm:19.1.4"],\
           ["@types/react-dom", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:19.1.4"],\
           ["@types/unist", "npm:3.0.3"],\
           ["@vercel/og", "npm:0.6.8"],\
@@ -381,7 +381,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/__virtual__/@giscus-react-virtual-78c7408665/0/cache/@giscus-react-npm-3.1.0-87ec4dd403-bb7b768db1.zip/node_modules/@giscus/react/",\
         "packageDependencies": [\
           ["@giscus/react", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:3.1.0"],\
-          ["@types/react", "npm:19.1.3"],\
+          ["@types/react", "npm:19.1.4"],\
           ["@types/react-dom", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:19.1.4"],\
           ["giscus", "npm:1.6.0"],\
           ["react", "npm:19.1.0"],\
@@ -844,7 +844,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@next/third-parties", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:15.3.1"],\
           ["@types/next", null],\
-          ["@types/react", "npm:19.1.3"],\
+          ["@types/react", "npm:19.1.4"],\
           ["next", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:15.3.1"],\
           ["react", "npm:19.1.0"],\
           ["third-party-capital", "npm:1.0.20"]\
@@ -901,7 +901,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/__virtual__/@primer-octicons-react-virtual-55de249b72/0/cache/@primer-octicons-react-npm-19.15.1-6032923e0c-75caea92bf.zip/node_modules/@primer/octicons-react/",\
         "packageDependencies": [\
           ["@primer/octicons-react", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:19.15.1"],\
-          ["@types/react", "npm:19.1.3"],\
+          ["@types/react", "npm:19.1.4"],\
           ["react", "npm:19.1.0"]\
         ],\
         "packagePeers": [\
@@ -1383,10 +1383,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@types/react", [\
-      ["npm:19.1.3", {\
-        "packageLocation": "./.yarn/cache/@types-react-npm-19.1.3-f476dcbc85-f2ccb0b5eb.zip/node_modules/@types/react/",\
+      ["npm:19.1.4", {\
+        "packageLocation": "./.yarn/cache/@types-react-npm-19.1.4-b2eb0fdf24-b8744e03bc.zip/node_modules/@types/react/",\
         "packageDependencies": [\
-          ["@types/react", "npm:19.1.3"],\
+          ["@types/react", "npm:19.1.4"],\
           ["csstype", "npm:3.1.3"]\
         ],\
         "linkType": "HARD"\
@@ -1403,7 +1403,7 @@ const RAW_RUNTIME_STATE =
       ["virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:19.1.4", {\
         "packageLocation": "./.yarn/__virtual__/@types-react-dom-virtual-3f73676822/0/cache/@types-react-dom-npm-19.1.4-99f66920a0-bf25b39111.zip/node_modules/@types/react-dom/",\
         "packageDependencies": [\
-          ["@types/react", "npm:19.1.3"],\
+          ["@types/react", "npm:19.1.4"],\
           ["@types/react-dom", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:19.1.4"]\
         ],\
         "packagePeers": [\
@@ -3297,7 +3297,7 @@ const RAW_RUNTIME_STATE =
           ["@types/hast", "npm:3.0.4"],\
           ["@types/mdast", "npm:4.0.4"],\
           ["@types/node", "npm:22.15.17"],\
-          ["@types/react", "npm:19.1.3"],\
+          ["@types/react", "npm:19.1.4"],\
           ["@types/react-dom", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:19.1.4"],\
           ["@types/unist", "npm:3.0.3"],\
           ["@vercel/og", "npm:0.6.8"],\
@@ -7433,7 +7433,7 @@ const RAW_RUNTIME_STATE =
           ["@types/babel-plugin-react-compiler", null],\
           ["@types/opentelemetry__api", null],\
           ["@types/playwright__test", null],\
-          ["@types/react", "npm:19.1.3"],\
+          ["@types/react", "npm:19.1.4"],\
           ["@types/react-dom", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:19.1.4"],\
           ["@types/sass", null],\
           ["babel-plugin-react-compiler", "npm:19.1.0-rc.1"],\
@@ -8200,7 +8200,7 @@ const RAW_RUNTIME_STATE =
       ["virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:19.1.0", {\
         "packageLocation": "./.yarn/__virtual__/react-dom-virtual-e1a5cf7399/0/cache/react-dom-npm-19.1.0-773f826e46-c5b5860586.zip/node_modules/react-dom/",\
         "packageDependencies": [\
-          ["@types/react", "npm:19.1.3"],\
+          ["@types/react", "npm:19.1.4"],\
           ["react", "npm:19.1.0"],\
           ["react-dom", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:19.1.0"],\
           ["scheduler", "npm:0.26.0"]\
@@ -9306,7 +9306,7 @@ const RAW_RUNTIME_STATE =
           ["@babel/core", null],\
           ["@types/babel-plugin-macros", null],\
           ["@types/babel__core", null],\
-          ["@types/react", "npm:19.1.3"],\
+          ["@types/react", "npm:19.1.4"],\
           ["babel-plugin-macros", null],\
           ["client-only", "npm:0.0.1"],\
           ["react", "npm:19.1.0"],\
