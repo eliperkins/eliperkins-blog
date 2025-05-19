@@ -39,7 +39,7 @@ const RAW_RUNTIME_STATE =
           ["@types/gtag.js", "npm:0.0.20"],\
           ["@types/hast", "npm:3.0.4"],\
           ["@types/mdast", "npm:4.0.4"],\
-          ["@types/node", "npm:22.15.18"],\
+          ["@types/node", "npm:22.15.19"],\
           ["@types/react", "npm:19.1.4"],\
           ["@types/react-dom", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:19.1.5"],\
           ["@types/unist", "npm:3.0.3"],\
@@ -1364,10 +1364,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["npm:22.15.18", {\
-        "packageLocation": "./.yarn/cache/@types-node-npm-22.15.18-4e14c3d4f1-89c8c638be.zip/node_modules/@types/node/",\
+      ["npm:22.15.19", {\
+        "packageLocation": "./.yarn/cache/@types-node-npm-22.15.19-13a5c1edbe-02311c2b5d.zip/node_modules/@types/node/",\
         "packageDependencies": [\
-          ["@types/node", "npm:22.15.18"],\
+          ["@types/node", "npm:22.15.19"],\
           ["undici-types", "npm:6.21.0"]\
         ],\
         "linkType": "HARD"\
@@ -3296,7 +3296,7 @@ const RAW_RUNTIME_STATE =
           ["@types/gtag.js", "npm:0.0.20"],\
           ["@types/hast", "npm:3.0.4"],\
           ["@types/mdast", "npm:4.0.4"],\
-          ["@types/node", "npm:22.15.18"],\
+          ["@types/node", "npm:22.15.19"],\
           ["@types/react", "npm:19.1.4"],\
           ["@types/react-dom", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:19.1.5"],\
           ["@types/unist", "npm:3.0.3"],\
