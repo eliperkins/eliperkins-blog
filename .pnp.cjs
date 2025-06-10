@@ -39,7 +39,7 @@ const RAW_RUNTIME_STATE =
           ["@types/gtag.js", "npm:0.0.20"],\
           ["@types/hast", "npm:3.0.4"],\
           ["@types/mdast", "npm:4.0.4"],\
-          ["@types/node", "npm:22.15.30"],\
+          ["@types/node", "npm:24.0.0"],\
           ["@types/react", "npm:19.1.7"],\
           ["@types/react-dom", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:19.1.6"],\
           ["@types/unist", "npm:3.0.3"],\
@@ -1431,11 +1431,11 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["npm:22.15.30", {\
-        "packageLocation": "./.yarn/cache/@types-node-npm-22.15.30-04ae714c4d-16d03f30df.zip/node_modules/@types/node/",\
+      ["npm:24.0.0", {\
+        "packageLocation": "./.yarn/cache/@types-node-npm-24.0.0-bece872c13-5e7b5184c6.zip/node_modules/@types/node/",\
         "packageDependencies": [\
-          ["@types/node", "npm:22.15.30"],\
-          ["undici-types", "npm:6.21.0"]\
+          ["@types/node", "npm:24.0.0"],\
+          ["undici-types", "npm:7.8.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -3287,7 +3287,7 @@ const RAW_RUNTIME_STATE =
           ["@types/gtag.js", "npm:0.0.20"],\
           ["@types/hast", "npm:3.0.4"],\
           ["@types/mdast", "npm:4.0.4"],\
-          ["@types/node", "npm:22.15.30"],\
+          ["@types/node", "npm:24.0.0"],\
           ["@types/react", "npm:19.1.7"],\
           ["@types/react-dom", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:19.1.6"],\
           ["@types/unist", "npm:3.0.3"],\
@@ -9460,10 +9460,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["npm:6.21.0", {\
-        "packageLocation": "./.yarn/cache/undici-types-npm-6.21.0-eb2b0ed56a-ec8f41aa43.zip/node_modules/undici-types/",\
+      ["npm:7.8.0", {\
+        "packageLocation": "./.yarn/cache/undici-types-npm-7.8.0-86f3e2d23e-fcff3fbab2.zip/node_modules/undici-types/",\
         "packageDependencies": [\
-          ["undici-types", "npm:6.21.0"]\
+          ["undici-types", "npm:7.8.0"]\
         ],\
         "linkType": "HARD"\
       }]\
