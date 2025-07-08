@@ -43,6 +43,7 @@ const RAW_RUNTIME_STATE =
           ["@types/react", "npm:19.1.8"],\
           ["@types/react-dom", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:19.1.6"],\
           ["@types/unist", "npm:3.0.3"],\
+          ["@typescript-eslint/types", "npm:8.36.0"],\
           ["@vercel/og", "npm:0.6.8"],\
           ["babel-plugin-react-compiler", "npm:19.1.0-rc.2"],\
           ["date-fns", "npm:4.1.0"],\
@@ -3291,6 +3292,7 @@ const RAW_RUNTIME_STATE =
           ["@types/react", "npm:19.1.8"],\
           ["@types/react-dom", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:19.1.6"],\
           ["@types/unist", "npm:3.0.3"],\
+          ["@typescript-eslint/types", "npm:8.36.0"],\
           ["@vercel/og", "npm:0.6.8"],\
           ["babel-plugin-react-compiler", "npm:19.1.0-rc.2"],\
           ["date-fns", "npm:4.1.0"],\

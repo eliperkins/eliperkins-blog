@@ -2635,6 +2635,7 @@ __metadata:
     "@types/react": "npm:^19.1.8"
     "@types/react-dom": "npm:^19.1.6"
     "@types/unist": "npm:^3.0.3"
+    "@typescript-eslint/types": "npm:^8.36.0"
     "@vercel/og": "npm:^0.6.8"
     babel-plugin-react-compiler: "npm:^19.1.0-rc.2"
     date-fns: "npm:^4.1.0"
