@@ -44,7 +44,7 @@ const RAW_RUNTIME_STATE =
           ["@types/react-dom", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:19.1.6"],\
           ["@types/unist", "npm:3.0.3"],\
           ["@typescript-eslint/types", "npm:8.36.0"],\
-          ["@vercel/og", "npm:0.6.8"],\
+          ["@vercel/og", "npm:0.7.2"],\
           ["babel-plugin-react-compiler", "npm:19.1.0-rc.2"],\
           ["date-fns", "npm:4.1.0"],\
           ["eliperkins-blog", "workspace:."],\
@@ -1970,12 +1970,12 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@vercel/og", [\
-      ["npm:0.6.8", {\
-        "packageLocation": "./.yarn/cache/@vercel-og-npm-0.6.8-31de215c12-43b1e7c43d.zip/node_modules/@vercel/og/",\
+      ["npm:0.7.2", {\
+        "packageLocation": "./.yarn/cache/@vercel-og-npm-0.7.2-be65111453-5905c4c584.zip/node_modules/@vercel/og/",\
         "packageDependencies": [\
           ["@resvg/resvg-wasm", "npm:2.4.0"],\
-          ["@vercel/og", "npm:0.6.8"],\
-          ["satori", "npm:0.12.2"],\
+          ["@vercel/og", "npm:0.7.2"],\
+          ["satori", "npm:0.15.2"],\
           ["yoga-wasm-web", "npm:0.3.3"]\
         ],\
         "linkType": "HARD"\
@@ -3293,7 +3293,7 @@ const RAW_RUNTIME_STATE =
           ["@types/react-dom", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:19.1.6"],\
           ["@types/unist", "npm:3.0.3"],\
           ["@typescript-eslint/types", "npm:8.36.0"],\
-          ["@vercel/og", "npm:0.6.8"],\
+          ["@vercel/og", "npm:0.7.2"],\
           ["babel-plugin-react-compiler", "npm:19.1.0-rc.2"],\
           ["date-fns", "npm:4.1.0"],\
           ["eliperkins-blog", "workspace:."],\
@@ -3332,13 +3332,6 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["emoji-regex", [\
-      ["npm:10.3.0", {\
-        "packageLocation": "./.yarn/cache/emoji-regex-npm-10.3.0-0c9fc2ef7f-b9b084ebe9.zip/node_modules/emoji-regex/",\
-        "packageDependencies": [\
-          ["emoji-regex", "npm:10.3.0"]\
-        ],\
-        "linkType": "HARD"\
-      }],\
       ["npm:8.0.0", {\
         "packageLocation": "./.yarn/cache/emoji-regex-npm-8.0.0-213764015c-c72d67a682.zip/node_modules/emoji-regex/",\
         "packageDependencies": [\
@@ -3350,6 +3343,15 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/cache/emoji-regex-npm-9.2.2-e6fac8d058-915acf859c.zip/node_modules/emoji-regex/",\
         "packageDependencies": [\
           ["emoji-regex", "npm:9.2.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["emoji-regex-xs", [\
+      ["npm:2.0.1", {\
+        "packageLocation": "./.yarn/cache/emoji-regex-xs-npm-2.0.1-6b0338b22f-b23eb4e9cc.zip/node_modules/emoji-regex-xs/",\
+        "packageDependencies": [\
+          ["emoji-regex-xs", "npm:2.0.1"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -8341,20 +8343,20 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["satori", [\
-      ["npm:0.12.2", {\
-        "packageLocation": "./.yarn/cache/satori-npm-0.12.2-88097bbb1c-e927b0fcbe.zip/node_modules/satori/",\
+      ["npm:0.15.2", {\
+        "packageLocation": "./.yarn/cache/satori-npm-0.15.2-86b839c9dc-f8000cfce5.zip/node_modules/satori/",\
         "packageDependencies": [\
           ["@shuding/opentype.js", "npm:1.4.0-beta.0"],\
           ["css-background-parser", "npm:0.1.0"],\
           ["css-box-shadow", "npm:1.0.0-3"],\
           ["css-gradient-parser", "npm:0.0.16"],\
           ["css-to-react-native", "npm:3.2.0"],\
-          ["emoji-regex", "npm:10.3.0"],\
+          ["emoji-regex-xs", "npm:2.0.1"],\
           ["escape-html", "npm:1.0.3"],\
           ["linebreak", "npm:1.1.0"],\
           ["parse-css-color", "npm:0.2.1"],\
           ["postcss-value-parser", "npm:4.2.0"],\
-          ["satori", "npm:0.12.2"],\
+          ["satori", "npm:0.15.2"],\
           ["yoga-wasm-web", "npm:0.3.3"]\
         ],\
         "linkType": "HARD"\

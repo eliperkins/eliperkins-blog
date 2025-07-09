@@ -1501,14 +1501,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vercel/og@npm:^0.6.8":
-  version: 0.6.8
-  resolution: "@vercel/og@npm:0.6.8"
+"@vercel/og@npm:^0.7.2":
+  version: 0.7.2
+  resolution: "@vercel/og@npm:0.7.2"
   dependencies:
     "@resvg/resvg-wasm": "npm:2.4.0"
-    satori: "npm:0.12.2"
+    satori: "npm:0.15.2"
     yoga-wasm-web: "npm:0.3.3"
-  checksum: 10/43b1e7c43dcd86c6c78376c190e71138f83e5619bb89adbbf253832b2e1dfbfbc5fe60eab3a0bb5b292cea6ce4b56a2e74fbbbd74a67ac4e035b82819e46b743
+  checksum: 10/5905c4c5846ba77755787b89ec1feffa67b2140be33ff8f2734889e4775f1be26d9633ce2f5b363aa1c9ad56600cc723ecfedb5ffdad1d451ef66675d9503a74
   languageName: node
   linkType: hard
 
@@ -2636,7 +2636,7 @@ __metadata:
     "@types/react-dom": "npm:^19.1.6"
     "@types/unist": "npm:^3.0.3"
     "@typescript-eslint/types": "npm:^8.36.0"
-    "@vercel/og": "npm:^0.6.8"
+    "@vercel/og": "npm:^0.7.2"
     babel-plugin-react-compiler: "npm:^19.1.0-rc.2"
     date-fns: "npm:^4.1.0"
     eslint: "npm:^9.30.1"
@@ -2672,10 +2672,10 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"emoji-regex@npm:^10.2.1":
-  version: 10.3.0
-  resolution: "emoji-regex@npm:10.3.0"
-  checksum: 10/b9b084ebe904f13bb4b66ee4c29fb41a7a4a1165adcc33c1ce8056c0194b882cc91ebdc782f1a779b5d7ea7375c5064643a7734893d7c657b44c5c6b9d7bf1e7
+"emoji-regex-xs@npm:^2.0.1":
+  version: 2.0.1
+  resolution: "emoji-regex-xs@npm:2.0.1"
+  checksum: 10/b23eb4e9cc4485ea64c8c7a77097b50a5c9fee89edc13bb27aedcb0104ba97dea6bc388701378df4ffca0dfdc3fa3a5dde7582dceb5c4af440d9cc5bbde397b7
   languageName: node
   linkType: hard
 
@@ -7140,22 +7140,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"satori@npm:0.12.2":
-  version: 0.12.2
-  resolution: "satori@npm:0.12.2"
+"satori@npm:0.15.2":
+  version: 0.15.2
+  resolution: "satori@npm:0.15.2"
   dependencies:
     "@shuding/opentype.js": "npm:1.4.0-beta.0"
     css-background-parser: "npm:^0.1.0"
     css-box-shadow: "npm:1.0.0-3"
     css-gradient-parser: "npm:^0.0.16"
     css-to-react-native: "npm:^3.0.0"
-    emoji-regex: "npm:^10.2.1"
+    emoji-regex-xs: "npm:^2.0.1"
     escape-html: "npm:^1.0.3"
     linebreak: "npm:^1.1.0"
     parse-css-color: "npm:^0.2.1"
     postcss-value-parser: "npm:^4.2.0"
     yoga-wasm-web: "npm:^0.3.3"
-  checksum: 10/e927b0fcbe5c48d79e277f5c32c8f1ad880436b6a497205165070ff2513b12f3a93a370171e7e5c01ad4a5bd89c503abe5436304a11f3b94dde814b637d8bb1b
+  checksum: 10/f8000cfce5df7160c53e1903d57d24ab5dc54248ad5771611ac5d1233acb35161bf905ff5cd45c1ffa6a893334631395a898db77eecd4fa5df190fed46ac0fdf
   languageName: node
   linkType: hard
 
