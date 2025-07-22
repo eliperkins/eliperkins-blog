@@ -44,7 +44,7 @@ const RAW_RUNTIME_STATE =
           ["@types/react-dom", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:19.1.6"],\
           ["@types/unist", "npm:3.0.3"],\
           ["@typescript-eslint/types", "npm:8.37.0"],\
-          ["@vercel/og", "npm:0.7.2"],\
+          ["@vercel/og", "npm:0.8.1"],\
           ["babel-plugin-react-compiler", "npm:19.1.0-rc.2"],\
           ["date-fns", "npm:4.1.0"],\
           ["eliperkins-blog", "workspace:."],\
@@ -2052,13 +2052,12 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@vercel/og", [\
-      ["npm:0.7.2", {\
-        "packageLocation": "./.yarn/cache/@vercel-og-npm-0.7.2-be65111453-5905c4c584.zip/node_modules/@vercel/og/",\
+      ["npm:0.8.1", {\
+        "packageLocation": "./.yarn/cache/@vercel-og-npm-0.8.1-63133078c9-0637034f5b.zip/node_modules/@vercel/og/",\
         "packageDependencies": [\
           ["@resvg/resvg-wasm", "npm:2.4.0"],\
-          ["@vercel/og", "npm:0.7.2"],\
-          ["satori", "npm:0.15.2"],\
-          ["yoga-wasm-web", "npm:0.3.3"]\
+          ["@vercel/og", "npm:0.8.1"],\
+          ["satori", "npm:0.16.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -3375,7 +3374,7 @@ const RAW_RUNTIME_STATE =
           ["@types/react-dom", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:19.1.6"],\
           ["@types/unist", "npm:3.0.3"],\
           ["@typescript-eslint/types", "npm:8.37.0"],\
-          ["@vercel/og", "npm:0.7.2"],\
+          ["@vercel/og", "npm:0.8.1"],\
           ["babel-plugin-react-compiler", "npm:19.1.0-rc.2"],\
           ["date-fns", "npm:4.1.0"],\
           ["eliperkins-blog", "workspace:."],\
@@ -8425,8 +8424,8 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["satori", [\
-      ["npm:0.15.2", {\
-        "packageLocation": "./.yarn/cache/satori-npm-0.15.2-86b839c9dc-f8000cfce5.zip/node_modules/satori/",\
+      ["npm:0.16.0", {\
+        "packageLocation": "./.yarn/cache/satori-npm-0.16.0-2e54ade84a-1f18645a9f.zip/node_modules/satori/",\
         "packageDependencies": [\
           ["@shuding/opentype.js", "npm:1.4.0-beta.0"],\
           ["css-background-parser", "npm:0.1.0"],\
@@ -8438,8 +8437,8 @@ const RAW_RUNTIME_STATE =
           ["linebreak", "npm:1.1.0"],\
           ["parse-css-color", "npm:0.2.1"],\
           ["postcss-value-parser", "npm:4.2.0"],\
-          ["satori", "npm:0.15.2"],\
-          ["yoga-wasm-web", "npm:0.3.3"]\
+          ["satori", "npm:0.16.0"],\
+          ["yoga-layout", "npm:3.2.1"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -10068,11 +10067,11 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
-    ["yoga-wasm-web", [\
-      ["npm:0.3.3", {\
-        "packageLocation": "./.yarn/cache/yoga-wasm-web-npm-0.3.3-3f063ab1a0-7a60a7dbb6.zip/node_modules/yoga-wasm-web/",\
+    ["yoga-layout", [\
+      ["npm:3.2.1", {\
+        "packageLocation": "./.yarn/unplugged/yoga-layout-npm-3.2.1-51ec934670/node_modules/yoga-layout/",\
         "packageDependencies": [\
-          ["yoga-wasm-web", "npm:0.3.3"]\
+          ["yoga-layout", "npm:3.2.1"]\
         ],\
         "linkType": "HARD"\
       }]\
