@@ -27,7 +27,7 @@ export async function GET(
   const post = await fetchPost((await params).slug);
   return new ImageResponse(
     (
-      <div tw="flex flex-col w-full h-full bg-white px-10 py-12 justify-between">
+      <div tw="flex flex-col w-full h-full bg-white px-12 py-16 justify-between">
         <div tw="flex flex-col mb-8">
           <h1 tw="font-sans text-7xl font-bold text-black my-2 mb-8">
             {post.title}
