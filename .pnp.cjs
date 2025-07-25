@@ -44,7 +44,7 @@ const RAW_RUNTIME_STATE =
           ["@types/react-dom", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:19.1.6"],\
           ["@types/unist", "npm:3.0.3"],\
           ["@typescript-eslint/types", "npm:8.38.0"],\
-          ["@vercel/og", "npm:0.8.4"],\
+          ["@vercel/og", "npm:0.8.5"],\
           ["babel-plugin-react-compiler", "npm:19.1.0-rc.2"],\
           ["date-fns", "npm:4.1.0"],\
           ["eliperkins-blog", "workspace:."],\
@@ -2052,11 +2052,11 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@vercel/og", [\
-      ["npm:0.8.4", {\
-        "packageLocation": "./.yarn/cache/@vercel-og-npm-0.8.4-8d939fb8d0-a87f6d94c8.zip/node_modules/@vercel/og/",\
+      ["npm:0.8.5", {\
+        "packageLocation": "./.yarn/cache/@vercel-og-npm-0.8.5-48d3c8b877-8d6c8f8de7.zip/node_modules/@vercel/og/",\
         "packageDependencies": [\
           ["@resvg/resvg-wasm", "npm:2.4.0"],\
-          ["@vercel/og", "npm:0.8.4"],\
+          ["@vercel/og", "npm:0.8.5"],\
           ["satori", "npm:0.16.0"]\
         ],\
         "linkType": "HARD"\
@@ -3374,7 +3374,7 @@ const RAW_RUNTIME_STATE =
           ["@types/react-dom", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:19.1.6"],\
           ["@types/unist", "npm:3.0.3"],\
           ["@typescript-eslint/types", "npm:8.38.0"],\
-          ["@vercel/og", "npm:0.8.4"],\
+          ["@vercel/og", "npm:0.8.5"],\
           ["babel-plugin-react-compiler", "npm:19.1.0-rc.2"],\
           ["date-fns", "npm:4.1.0"],\
           ["eliperkins-blog", "workspace:."],\
