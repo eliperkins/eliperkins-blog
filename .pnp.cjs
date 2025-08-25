@@ -4356,7 +4356,7 @@ const RAW_RUNTIME_STATE =
           ["chardet", "npm:0.7.0"],\
           ["external-editor", "npm:3.1.0"],\
           ["iconv-lite", "npm:0.4.24"],\
-          ["tmp", "npm:0.0.33"]\
+          ["tmp", "npm:0.2.5"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -7561,15 +7561,6 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
-    ["os-tmpdir", [\
-      ["npm:1.0.2", {\
-        "packageLocation": "./.yarn/cache/os-tmpdir-npm-1.0.2-e305b0689b-5666560f7b.zip/node_modules/os-tmpdir/",\
-        "packageDependencies": [\
-          ["os-tmpdir", "npm:1.0.2"]\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
     ["own-keys", [\
       ["npm:1.0.1", {\
         "packageLocation": "./.yarn/cache/own-keys-npm-1.0.1-1253f9b344-ab4bb3b863.zip/node_modules/own-keys/",\
@@ -9191,11 +9182,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["tmp", [\
-      ["npm:0.0.33", {\
-        "packageLocation": "./.yarn/cache/tmp-npm-0.0.33-bcbf65df2a-09c0abfd16.zip/node_modules/tmp/",\
+      ["npm:0.2.5", {\
+        "packageLocation": "./.yarn/cache/tmp-npm-0.2.5-e146296d91-dd4b78b323.zip/node_modules/tmp/",\
         "packageDependencies": [\
-          ["os-tmpdir", "npm:1.0.2"],\
-          ["tmp", "npm:0.0.33"]\
+          ["tmp", "npm:0.2.5"]\
         ],\
         "linkType": "HARD"\
       }]\
