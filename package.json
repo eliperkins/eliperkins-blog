@@ -50,7 +50,7 @@
     "@types/react-dom": "^19.1.8",
     "@types/unist": "^3.0.3",
     "@typescript-eslint/types": "^8.41.0",
-    "babel-plugin-react-compiler": "^19.1.0-rc.2",
+    "babel-plugin-react-compiler": "^19.1.0-rc.3",
     "eslint": "^9.34.0",
     "eslint-config-next": "15.5.2",
     "eslint-config-prettier": "^10.1.8",

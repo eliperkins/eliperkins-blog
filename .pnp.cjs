@@ -45,7 +45,7 @@ const RAW_RUNTIME_STATE =
           ["@types/unist", "npm:3.0.3"],\
           ["@typescript-eslint/types", "npm:8.41.0"],\
           ["@vercel/og", "npm:0.8.5"],\
-          ["babel-plugin-react-compiler", "npm:19.1.0-rc.2"],\
+          ["babel-plugin-react-compiler", "npm:19.1.0-rc.3"],\
           ["date-fns", "npm:4.1.0"],\
           ["eliperkins-blog", "workspace:."],\
           ["eslint", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:9.34.0"],\
@@ -2482,11 +2482,11 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["babel-plugin-react-compiler", [\
-      ["npm:19.1.0-rc.2", {\
-        "packageLocation": "./.yarn/cache/babel-plugin-react-compiler-npm-19.1.0-rc.2-c61f31988c-4904021f1e.zip/node_modules/babel-plugin-react-compiler/",\
+      ["npm:19.1.0-rc.3", {\
+        "packageLocation": "./.yarn/cache/babel-plugin-react-compiler-npm-19.1.0-rc.3-6f95876f91-69981f07a3.zip/node_modules/babel-plugin-react-compiler/",\
         "packageDependencies": [\
           ["@babel/types", "npm:7.27.0"],\
-          ["babel-plugin-react-compiler", "npm:19.1.0-rc.2"]\
+          ["babel-plugin-react-compiler", "npm:19.1.0-rc.3"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -3400,7 +3400,7 @@ const RAW_RUNTIME_STATE =
           ["@types/unist", "npm:3.0.3"],\
           ["@typescript-eslint/types", "npm:8.41.0"],\
           ["@vercel/og", "npm:0.8.5"],\
-          ["babel-plugin-react-compiler", "npm:19.1.0-rc.2"],\
+          ["babel-plugin-react-compiler", "npm:19.1.0-rc.3"],\
           ["date-fns", "npm:4.1.0"],\
           ["eliperkins-blog", "workspace:."],\
           ["eslint", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:9.34.0"],\
@@ -7323,7 +7323,7 @@ const RAW_RUNTIME_STATE =
           ["@types/react", "npm:19.1.12"],\
           ["@types/react-dom", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:19.1.8"],\
           ["@types/sass", null],\
-          ["babel-plugin-react-compiler", "npm:19.1.0-rc.2"],\
+          ["babel-plugin-react-compiler", "npm:19.1.0-rc.3"],\
           ["busboy", "npm:1.6.0"],\
           ["caniuse-lite", "npm:1.0.30001649"],\
           ["next", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:15.3.5"],\
