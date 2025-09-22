@@ -35,7 +35,7 @@ const RAW_RUNTIME_STATE =
           ["@primer/octicons-react", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:19.18.0"],\
           ["@static/discharge", "npm:2.0.1"],\
           ["@tailwindcss/postcss", "npm:4.1.13"],\
-          ["@tailwindcss/typography", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:0.5.16"],\
+          ["@tailwindcss/typography", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:0.5.18"],\
           ["@types/gtag.js", "npm:0.0.20"],\
           ["@types/hast", "npm:3.0.4"],\
           ["@types/mdast", "npm:4.0.4"],\
@@ -1421,21 +1421,18 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@tailwindcss/typography", [\
-      ["npm:0.5.16", {\
-        "packageLocation": "./.yarn/cache/@tailwindcss-typography-npm-0.5.16-675125d30f-ca6cca2c82.zip/node_modules/@tailwindcss/typography/",\
+      ["npm:0.5.18", {\
+        "packageLocation": "./.yarn/cache/@tailwindcss-typography-npm-0.5.18-34819dc1e0-e67d267f4f.zip/node_modules/@tailwindcss/typography/",\
         "packageDependencies": [\
-          ["@tailwindcss/typography", "npm:0.5.16"]\
+          ["@tailwindcss/typography", "npm:0.5.18"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:0.5.16", {\
-        "packageLocation": "./.yarn/__virtual__/@tailwindcss-typography-virtual-b00ffa7807/0/cache/@tailwindcss-typography-npm-0.5.16-675125d30f-ca6cca2c82.zip/node_modules/@tailwindcss/typography/",\
+      ["virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:0.5.18", {\
+        "packageLocation": "./.yarn/__virtual__/@tailwindcss-typography-virtual-fda721993f/0/cache/@tailwindcss-typography-npm-0.5.18-34819dc1e0-e67d267f4f.zip/node_modules/@tailwindcss/typography/",\
         "packageDependencies": [\
-          ["@tailwindcss/typography", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:0.5.16"],\
+          ["@tailwindcss/typography", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:0.5.18"],\
           ["@types/tailwindcss", null],\
-          ["lodash.castarray", "npm:4.4.0"],\
-          ["lodash.isplainobject", "npm:4.0.6"],\
-          ["lodash.merge", "npm:4.6.2"],\
           ["postcss-selector-parser", "npm:6.0.10"],\
           ["tailwindcss", "npm:4.1.13"]\
         ],\
@@ -3430,7 +3427,7 @@ const RAW_RUNTIME_STATE =
           ["@primer/octicons-react", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:19.18.0"],\
           ["@static/discharge", "npm:2.0.1"],\
           ["@tailwindcss/postcss", "npm:4.1.13"],\
-          ["@tailwindcss/typography", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:0.5.16"],\
+          ["@tailwindcss/typography", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:0.5.18"],\
           ["@types/gtag.js", "npm:0.0.20"],\
           ["@types/hast", "npm:3.0.4"],\
           ["@types/mdast", "npm:4.0.4"],\
@@ -6408,15 +6405,6 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
-    ["lodash.castarray", [\
-      ["npm:4.4.0", {\
-        "packageLocation": "./.yarn/cache/lodash.castarray-npm-4.4.0-f3706198e9-fca8c7047e.zip/node_modules/lodash.castarray/",\
-        "packageDependencies": [\
-          ["lodash.castarray", "npm:4.4.0"]\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
     ["lodash.differenceby", [\
       ["npm:4.8.0", {\
         "packageLocation": "./.yarn/cache/lodash.differenceby-npm-4.8.0-763f0bf6b3-7f0304e418.zip/node_modules/lodash.differenceby/",\
@@ -6449,15 +6437,6 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/cache/lodash.intersectionwith-npm-4.4.0-44d8db28fa-500c9de104.zip/node_modules/lodash.intersectionwith/",\
         "packageDependencies": [\
           ["lodash.intersectionwith", "npm:4.4.0"]\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
-    ["lodash.isplainobject", [\
-      ["npm:4.0.6", {\
-        "packageLocation": "./.yarn/cache/lodash.isplainobject-npm-4.0.6-d73937742f-29c6351f28.zip/node_modules/lodash.isplainobject/",\
-        "packageDependencies": [\
-          ["lodash.isplainobject", "npm:4.0.6"]\
         ],\
         "linkType": "HARD"\
       }]\
