@@ -1198,14 +1198,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tailwindcss/typography@npm:^0.5.18":
-  version: 0.5.18
-  resolution: "@tailwindcss/typography@npm:0.5.18"
+"@tailwindcss/typography@npm:^0.5.19":
+  version: 0.5.19
+  resolution: "@tailwindcss/typography@npm:0.5.19"
   dependencies:
     postcss-selector-parser: "npm:6.0.10"
   peerDependencies:
     tailwindcss: "*"
-  checksum: 10/e67d267f4fccee62adb08fc24301219d8a22b66546d30f9e5f2b47e4e754b4aba024f61ab17512b85955f7c62013e848fa530ea04a22b83fc377501e27354bd1
+  checksum: 10/f7fbbad3c863f07e7c2c2ededc1cb4efc540ad5a3b8d2d99185afad31074baba90d54cddc7e2c25b39e3f2a77cccd6fd8623477577ede53dadc0fff80802a2ca
   languageName: node
   linkType: hard
 
@@ -2771,7 +2771,7 @@ __metadata:
     "@primer/octicons-react": "npm:^19.18.0"
     "@static/discharge": "npm:^2.0.1"
     "@tailwindcss/postcss": "npm:^4.1.13"
-    "@tailwindcss/typography": "npm:^0.5.18"
+    "@tailwindcss/typography": "npm:^0.5.19"
     "@types/gtag.js": "npm:^0.0.20"
     "@types/hast": "npm:^3.0.4"
     "@types/mdast": "npm:^4.0.4"
