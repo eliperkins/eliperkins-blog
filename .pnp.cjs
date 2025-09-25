@@ -35,7 +35,7 @@ const RAW_RUNTIME_STATE =
           ["@primer/octicons-react", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:19.18.0"],\
           ["@static/discharge", "npm:2.0.1"],\
           ["@tailwindcss/postcss", "npm:4.1.13"],\
-          ["@tailwindcss/typography", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:0.5.18"],\
+          ["@tailwindcss/typography", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:0.5.19"],\
           ["@types/gtag.js", "npm:0.0.20"],\
           ["@types/hast", "npm:3.0.4"],\
           ["@types/mdast", "npm:4.0.4"],\
@@ -1421,17 +1421,17 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@tailwindcss/typography", [\
-      ["npm:0.5.18", {\
-        "packageLocation": "./.yarn/cache/@tailwindcss-typography-npm-0.5.18-34819dc1e0-e67d267f4f.zip/node_modules/@tailwindcss/typography/",\
+      ["npm:0.5.19", {\
+        "packageLocation": "./.yarn/cache/@tailwindcss-typography-npm-0.5.19-0259eda217-f7fbbad3c8.zip/node_modules/@tailwindcss/typography/",\
         "packageDependencies": [\
-          ["@tailwindcss/typography", "npm:0.5.18"]\
+          ["@tailwindcss/typography", "npm:0.5.19"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:0.5.18", {\
-        "packageLocation": "./.yarn/__virtual__/@tailwindcss-typography-virtual-fda721993f/0/cache/@tailwindcss-typography-npm-0.5.18-34819dc1e0-e67d267f4f.zip/node_modules/@tailwindcss/typography/",\
+      ["virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:0.5.19", {\
+        "packageLocation": "./.yarn/__virtual__/@tailwindcss-typography-virtual-f47dc3289a/0/cache/@tailwindcss-typography-npm-0.5.19-0259eda217-f7fbbad3c8.zip/node_modules/@tailwindcss/typography/",\
         "packageDependencies": [\
-          ["@tailwindcss/typography", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:0.5.18"],\
+          ["@tailwindcss/typography", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:0.5.19"],\
           ["@types/tailwindcss", null],\
           ["postcss-selector-parser", "npm:6.0.10"],\
           ["tailwindcss", "npm:4.1.13"]\
@@ -3427,7 +3427,7 @@ const RAW_RUNTIME_STATE =
           ["@primer/octicons-react", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:19.18.0"],\
           ["@static/discharge", "npm:2.0.1"],\
           ["@tailwindcss/postcss", "npm:4.1.13"],\
-          ["@tailwindcss/typography", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:0.5.18"],\
+          ["@tailwindcss/typography", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:0.5.19"],\
           ["@types/gtag.js", "npm:0.0.20"],\
           ["@types/hast", "npm:3.0.4"],\
           ["@types/mdast", "npm:4.0.4"],\
