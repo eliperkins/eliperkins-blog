@@ -39,9 +39,9 @@ const RAW_RUNTIME_STATE =
           ["@types/gtag.js", "npm:0.0.20"],\
           ["@types/hast", "npm:3.0.4"],\
           ["@types/mdast", "npm:4.0.4"],\
-          ["@types/node", "npm:24.6.2"],\
+          ["@types/node", "npm:24.7.0"],\
           ["@types/react", "npm:19.2.0"],\
-          ["@types/react-dom", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:19.2.0"],\
+          ["@types/react-dom", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:19.2.1"],\
           ["@types/unist", "npm:3.0.3"],\
           ["@typescript-eslint/types", "npm:8.46.0"],\
           ["@vercel/og", "npm:0.8.5"],\
@@ -377,7 +377,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@giscus/react", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:3.1.0"],\
           ["@types/react", "npm:19.2.0"],\
-          ["@types/react-dom", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:19.2.0"],\
+          ["@types/react-dom", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:19.2.1"],\
           ["giscus", "npm:1.6.0"],\
           ["react", "npm:19.2.0"],\
           ["react-dom", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:19.2.0"]\
@@ -1546,11 +1546,11 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["npm:24.6.2", {\
-        "packageLocation": "./.yarn/cache/@types-node-npm-24.6.2-22876fbd21-8d1e64b37a.zip/node_modules/@types/node/",\
+      ["npm:24.7.0", {\
+        "packageLocation": "./.yarn/cache/@types-node-npm-24.7.0-fa253cad8d-db0b77e9b1.zip/node_modules/@types/node/",\
         "packageDependencies": [\
-          ["@types/node", "npm:24.6.2"],\
-          ["undici-types", "npm:7.13.0"]\
+          ["@types/node", "npm:24.7.0"],\
+          ["undici-types", "npm:7.14.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -1575,18 +1575,18 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@types/react-dom", [\
-      ["npm:19.2.0", {\
-        "packageLocation": "./.yarn/cache/@types-react-dom-npm-19.2.0-d69ab72f12-e1e2e71214.zip/node_modules/@types/react-dom/",\
+      ["npm:19.2.1", {\
+        "packageLocation": "./.yarn/cache/@types-react-dom-npm-19.2.1-cda0adc676-273730069d.zip/node_modules/@types/react-dom/",\
         "packageDependencies": [\
-          ["@types/react-dom", "npm:19.2.0"]\
+          ["@types/react-dom", "npm:19.2.1"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:19.2.0", {\
-        "packageLocation": "./.yarn/__virtual__/@types-react-dom-virtual-05a448b552/0/cache/@types-react-dom-npm-19.2.0-d69ab72f12-e1e2e71214.zip/node_modules/@types/react-dom/",\
+      ["virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:19.2.1", {\
+        "packageLocation": "./.yarn/__virtual__/@types-react-dom-virtual-8e9f2eae59/0/cache/@types-react-dom-npm-19.2.1-cda0adc676-273730069d.zip/node_modules/@types/react-dom/",\
         "packageDependencies": [\
           ["@types/react", "npm:19.2.0"],\
-          ["@types/react-dom", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:19.2.0"]\
+          ["@types/react-dom", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:19.2.1"]\
         ],\
         "packagePeers": [\
           "@types/react"\
@@ -3399,9 +3399,9 @@ const RAW_RUNTIME_STATE =
           ["@types/gtag.js", "npm:0.0.20"],\
           ["@types/hast", "npm:3.0.4"],\
           ["@types/mdast", "npm:4.0.4"],\
-          ["@types/node", "npm:24.6.2"],\
+          ["@types/node", "npm:24.7.0"],\
           ["@types/react", "npm:19.2.0"],\
-          ["@types/react-dom", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:19.2.0"],\
+          ["@types/react-dom", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:19.2.1"],\
           ["@types/unist", "npm:3.0.3"],\
           ["@typescript-eslint/types", "npm:8.46.0"],\
           ["@vercel/og", "npm:0.8.5"],\
@@ -7298,7 +7298,7 @@ const RAW_RUNTIME_STATE =
           ["@types/opentelemetry__api", null],\
           ["@types/playwright__test", null],\
           ["@types/react", "npm:19.2.0"],\
-          ["@types/react-dom", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:19.2.0"],\
+          ["@types/react-dom", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:19.2.1"],\
           ["@types/sass", null],\
           ["babel-plugin-react-compiler", "npm:19.1.0-rc.3"],\
           ["caniuse-lite", "npm:1.0.30001649"],\
@@ -9523,10 +9523,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["npm:7.13.0", {\
-        "packageLocation": "./.yarn/cache/undici-types-npm-7.13.0-df78d4ea2d-1088ad68dd.zip/node_modules/undici-types/",\
+      ["npm:7.14.0", {\
+        "packageLocation": "./.yarn/cache/undici-types-npm-7.14.0-d9eb643e6a-0f8709b214.zip/node_modules/undici-types/",\
         "packageDependencies": [\
-          ["undici-types", "npm:7.13.0"]\
+          ["undici-types", "npm:7.14.0"]\
         ],\
         "linkType": "HARD"\
       }]\
