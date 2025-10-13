@@ -15,6 +15,6 @@ jobs:
         run: yarn install --immutable --immutable-cache
       - name: Format with Prettier
         run: yarn format
-      - uses: stefanzweifel/git-auto-commit-action@v6
+      - uses: stefanzweifel/git-auto-commit-action@v7
         with:
           commit_message: "Formatted files with Prettier"
