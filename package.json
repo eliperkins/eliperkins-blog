@@ -37,7 +37,7 @@
     "vfile-matter": "^5.0.1"
   },
   "devDependencies": {
-    "@eslint/js": "^9.39.0",
+    "@eslint/js": "^9.39.1",
     "@next/eslint-plugin-next": "^15.5.2",
     "@static/discharge": "^2.0.1",
     "@tailwindcss/postcss": "^4.1.16",
@@ -51,7 +51,7 @@
     "@types/unist": "^3.0.3",
     "@typescript-eslint/types": "^8.46.2",
     "babel-plugin-react-compiler": "^19.1.0-rc.3",
-    "eslint": "^9.39.0",
+    "eslint": "^9.39.1",
     "eslint-config-next": "16.0.1",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-react": "^7.37.5",
