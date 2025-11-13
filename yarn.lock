@@ -1518,12 +1518,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:^19.2.3":
-  version: 19.2.3
-  resolution: "@types/react@npm:19.2.3"
+"@types/react@npm:^19.2.4":
+  version: 19.2.4
+  resolution: "@types/react@npm:19.2.4"
   dependencies:
     csstype: "npm:^3.0.2"
-  checksum: 10/b75aa49a8fdaf4ffd14050e8bca2b31f7ed6634880f1a0dd90511060fe052b0418688191980c7baeda2572fb993930a13090fcbc05f6d6f8981d03f372dd30ec
+  checksum: 10/99905270fe1ac5726f3447db5b8f4d5444e2a268cfd239bd3a379f65dc01d7ac6f8984f501e4edd4240e8533eaad30dd812a8443af7e356abb712aded427988e
   languageName: node
   linkType: hard
 
@@ -3045,7 +3045,7 @@ __metadata:
     "@types/hast": "npm:^3.0.4"
     "@types/mdast": "npm:^4.0.4"
     "@types/node": "npm:^24.10.1"
-    "@types/react": "npm:^19.2.3"
+    "@types/react": "npm:^19.2.4"
     "@types/react-dom": "npm:^19.2.3"
     "@types/unist": "npm:^3.0.3"
     "@typescript-eslint/types": "npm:^8.46.4"
