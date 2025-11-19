@@ -49,7 +49,7 @@
     "@types/react": "^19.2.6",
     "@types/react-dom": "^19.2.3",
     "@types/unist": "^3.0.3",
-    "@typescript-eslint/types": "^8.46.4",
+    "@typescript-eslint/types": "^8.47.0",
     "babel-plugin-react-compiler": "^19.1.0-rc.3",
     "eslint": "^9.39.1",
     "eslint-config-next": "16.0.3",
@@ -61,7 +61,7 @@
     "prettier": "^3.6.2",
     "tailwindcss": "^4.1.17",
     "typescript": "^5.9.3",
-    "typescript-eslint": "^8.46.4"
+    "typescript-eslint": "^8.47.0"
   },
   "resolutions": {
     "meow": "^9.0.0",
