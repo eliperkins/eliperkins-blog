@@ -3,9 +3,9 @@
   "version": "2.0.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
+    "dev": "next dev --webpack",
+    "build": "next build --webpack",
+    "start": "next start --webpack",
     "lint": "eslint .",
     "deploy": "discharge deploy",
     "format": "prettier --write ."
@@ -18,7 +18,7 @@
     "date-fns": "^4.1.0",
     "feed": "^5.1.0",
     "hastscript": "^9.0.1",
-    "next": "^15.5.2",
+    "next": "^16.0.4",
     "react": "19.2.0",
     "react-dom": "19.2.0",
     "rehype-autolink-headings": "^7.1.0",
@@ -46,11 +46,11 @@
     "@types/hast": "^3.0.4",
     "@types/mdast": "^4.0.4",
     "@types/node": "^24.10.1",
-    "@types/react": "^19.2.6",
+    "@types/react": "^19.2.7",
     "@types/react-dom": "^19.2.3",
     "@types/unist": "^3.0.3",
-    "@typescript-eslint/types": "^8.47.0",
-    "babel-plugin-react-compiler": "^19.1.0-rc.3",
+    "@typescript-eslint/types": "^8.48.0",
+    "babel-plugin-react-compiler": "^1.0.0",
     "eslint": "^9.39.1",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-react": "^7.37.5",
@@ -60,7 +60,7 @@
     "prettier": "^3.6.2",
     "tailwindcss": "^4.1.17",
     "typescript": "^5.9.3",
-    "typescript-eslint": "^8.47.0"
+    "typescript-eslint": "^8.48.0"
   },
   "resolutions": {
     "meow": "^9.0.0",
