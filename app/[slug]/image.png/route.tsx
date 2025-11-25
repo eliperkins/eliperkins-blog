@@ -59,7 +59,7 @@ export async function GET(
         <div tw="flex items-center">
           <img
             alt="Headshot of Eli Perkins"
-            src={await base64DataString("components/headshot.jpg")}
+            src={await base64DataString("public/images/headshot.jpg")}
             tw="w-20 h-20 rounded-full"
           />
           <div tw="text-4xl grow flex flex-col pl-6 text-gray-700 font-medium">
