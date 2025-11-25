@@ -653,15 +653,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@next/third-parties@npm:^15.5.2":
-  version: 15.5.2
-  resolution: "@next/third-parties@npm:15.5.2"
+"@next/third-parties@npm:^16.0.4":
+  version: 16.0.4
+  resolution: "@next/third-parties@npm:16.0.4"
   dependencies:
     third-party-capital: "npm:1.0.20"
   peerDependencies:
-    next: ^13.0.0 || ^14.0.0 || ^15.0.0
+    next: ^13.0.0 || ^14.0.0 || ^15.0.0 || ^16.0.0-beta.0
     react: ^18.2.0 || 19.0.0-rc-de68d2f4-20241204 || ^19.0.0
-  checksum: 10/07cd18b2d910096eff41009c23f01501279c52467c04fdaa0cb4be900ea7b45460a5c2a87af80b02dd47f9b530234f992933d1fba1dace57a2f36dc3f97b2f24
+  checksum: 10/9e23f73c46bda18856165185846ae2e801743fd63a7429b3c3e0f473b7d35b223bda9508db0b78a72e4a391370cbe57eb65f28e748d3cc12fecbad0712c9904f
   languageName: node
   linkType: hard
 
@@ -2287,7 +2287,7 @@ __metadata:
     "@eslint/js": "npm:^9.39.1"
     "@giscus/react": "npm:^3.1.0"
     "@next/eslint-plugin-next": "npm:^16.0.4"
-    "@next/third-parties": "npm:^15.5.2"
+    "@next/third-parties": "npm:^16.0.4"
     "@primer/octicons-react": "npm:^19.21.0"
     "@static/discharge": "npm:^2.0.1"
     "@tailwindcss/postcss": "npm:^4.1.17"

@@ -1,11 +1,12 @@
 import globals from "globals";
 import js from "@eslint/js";
 import nextPlugin from "@next/eslint-plugin-next";
+import { defineConfig } from "eslint/config";
 import reactPlugin from "eslint-plugin-react";
 import tseslint from "typescript-eslint";
 import prettier from "eslint-config-prettier/flat";
 
-const base = tseslint.config(
+const config = defineConfig(
   js.configs.recommended,
   tseslint.configs.strictTypeChecked,
   tseslint.configs.stylisticTypeChecked,
@@ -17,11 +18,6 @@ const base = tseslint.config(
       },
     },
   },
-);
-
-/** @type {import('eslint').Linter.Config[]} */
-export default [
-  ...base,
   {
     ignores: [
       ".next/*",
@@ -77,4 +73,6 @@ export default [
     },
   },
   prettier,
-];
+);
+
+export default config;
