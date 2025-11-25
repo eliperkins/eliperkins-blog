@@ -1,19 +1,23 @@
 import type { Metadata } from "next";
 import { GoogleAnalytics } from "@next/third-parties/google";
-import { Raleway, Quattrocento_Sans } from "next/font/google";
+import { EB_Garamond } from "next/font/google";
+import localFont from "next/font/local";
 import WebVitals from "@/components/web-vitals";
 import "./globals.css";
 import Link from "next/link";
 import RSSLink from "@/components/rss-link";
 
-const quattrocentoSans = Quattrocento_Sans({
-  weight: ["400", "700"],
+const garamond = EB_Garamond({
+  weight: "variable",
   subsets: ["latin"],
-  variable: "--font-quattrocento",
+  variable: "--font-garamond",
+  preload: true,
 });
-const raleway = Raleway({
-  subsets: ["latin"],
-  variable: "--font-raleway",
+
+const monaspace = localFont({
+  src: "./fonts/monaspace/monaspace-neon.woff2",
+  variable: "--font-monaspace",
+  preload: true,
 });
 
 export const metadata: Metadata = {
@@ -66,12 +70,9 @@ const RootLayout = ({
   children: React.ReactNode;
 }>) => {
   return (
-    <html
-      className={`${quattrocentoSans.variable} ${raleway.variable}`}
-      lang="en"
-    >
+    <html className={`${garamond.variable} ${monaspace.variable}`} lang="en">
       <GoogleAnalytics gaId="G-TTM2G39MRR" />
-      <body className="p-8 md:p-12 lg:p-16">
+      <body className="p-8 md:p-12 lg:p-16 dark:bg-gray-900">
         <WebVitals />
         {children}
         <Footer />

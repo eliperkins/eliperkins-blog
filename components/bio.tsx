@@ -8,20 +8,20 @@ const Bio = () => {
     <div className="flex items-center mt-4">
       <Image
         alt="Eli Perkins"
-        className="w-16 h-16 rounded-full mr-2"
+        className="w-16 h-16 rounded-full mr-3"
         src={profilePic}
       />
-      <p>
+      <p className="text-gray-500 text-sm">
         Written by{" "}
         <Link
-          className="font-semibold underline underline-offset-2"
+          className="font-medium underline underline-offset-2"
           href="https://eliperkins.com"
         >
           Eli Perkins
         </Link>
         , an engineering leader based in Denver.{" "}
         <a
-          className="underline underline-offset-2 text-amber-600 font-semibold hover:text-amber-700"
+          className="underline underline-offset-2 text-amber-600 font-medium hover:text-amber-700"
           href="https://bsky.app/profile/eliperkins.com"
         >
           Say hello on Bluesky.

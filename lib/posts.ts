@@ -98,7 +98,7 @@ async function parseMarkdownContent(content: string): Promise<string> {
       },
     })
     .use(rehypeStringify, { allowDangerousHtml: true })
-    .process(String(content));
+    .process(content);
 
   return String(output);
 }

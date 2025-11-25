@@ -7,8 +7,7 @@ import prettier from "eslint-config-prettier/flat";
 
 const base = tseslint.config(
   js.configs.recommended,
-  tseslint.configs.recommended,
-  tseslint.configs.recommendedTypeChecked,
+  tseslint.configs.strictTypeChecked,
   tseslint.configs.stylisticTypeChecked,
   {
     languageOptions: {
@@ -24,7 +23,24 @@ const base = tseslint.config(
 export default [
   ...base,
   {
-    ignores: [".next/*", ".yarn/*", ".pnp.cjs", "public/**"],
+    ignores: [
+      ".next/*",
+      ".yarn/*",
+      ".pnp.*",
+      "public/**",
+      "out",
+      "next-env.d.ts",
+      "*.mjs",
+    ],
+  },
+  {
+    files: ["**/*.{js,jsx,ts,tsx}"],
+    plugins: {
+      "@next/next": nextPlugin,
+    },
+    rules: {
+      ...nextPlugin.configs["core-web-vitals"].rules,
+    },
   },
   {
     settings: {
@@ -60,7 +76,5 @@ export default [
       },
     },
   },
-  nextPlugin.flatConfig.recommended, // eslint-disable-line @typescript-eslint/no-unsafe-member-access
-  nextPlugin.flatConfig.coreWebVitals, // eslint-disable-line @typescript-eslint/no-unsafe-member-access
   prettier,
 ];

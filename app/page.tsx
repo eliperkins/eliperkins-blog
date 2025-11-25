@@ -7,7 +7,7 @@ import RSSLink from "@/components/rss-link";
 
 const MainHeader = () => (
   <div className="flex justify-between w-full max-w-(--breakpoint-lg) items-center">
-    <h1 className="text-5xl mb-4 font-bold">
+    <h1 className="text-5xl mb-4 tracking-[-.035em] dark:text-slate-300">
       <Link
         className="underline decoration-amber-600 decoration-2 underline-offset-8 hover:text-amber-700"
         href="/"
@@ -31,18 +31,20 @@ const Home = async () => {
         <ul className="prose md:prose-lg lg:prose-xl font-serif prose-a:font-semibold prose-a:underline-offset-4 prose-a:text-amber-600 prose-a:hover:text-amber-700 prose-h3:mb-0 prose-p:my-0">
           {posts.map((post) => (
             <li key={post.slug}>
-              <h3>
+              <h3 className="tracking-tight font-medium">
                 <Link href={post.slug}>{post.title}</Link>
               </h3>
               <time
-                className="text-sm lg:text-base"
+                className="text-md lg:text-base text-slate-400 dark:text-gray-600"
                 dateTime={post.date.toISOString()}
               >
                 {format(post.date, "MMMM dd, yyyy")}
               </time>
               {post.excerpt ? (
-                // eslint-disable-next-line react/no-danger
-                <div dangerouslySetInnerHTML={{ __html: post.excerpt }} />
+                <div
+                  className="font-mono text-[16px] text-gray-500 dark:prose-code:text-gray-300 "
+                  dangerouslySetInnerHTML={{ __html: post.excerpt }} // eslint-disable-line react/no-danger
+                />
               ) : null}
             </li>
           ))}

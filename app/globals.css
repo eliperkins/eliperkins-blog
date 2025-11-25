@@ -2,8 +2,9 @@
 @plugin "@tailwindcss/typography";
 
 @theme {
-  --font-serif: var(--font-quattrocento), Quattrocento;
-  --font-sans: var(--font-raleway), Raleway;
+  --font-mono: var(--font-monaspace);
+  --font-serif: var(--font-garamond);
+  --font-sans: var(--font-mono);
 }
 
 @utility text-balance {
@@ -57,7 +58,7 @@
 }
 
 .markdown-alert > .markdown-alert-title {
-  @apply flex items-center font-bold gap-x-1 normal-case mb-0;
+  @apply flex items-center font-medium gap-x-1 normal-case mb-0;
 }
 
 .markdown-alert > p {
@@ -70,4 +71,28 @@
 
 .markdown-alert.markdown-alert-note > .markdown-alert-title {
   @apply text-blue-700 fill-blue-700;
+}
+
+:is(h1, h2, h3) {
+  @apply font-serif;
+}
+
+p {
+  @apply font-normal;
+}
+
+@utility prose {
+  code {
+    @apply font-normal px-1;
+    &::before {
+      display: none;
+    }
+    &::after {
+      display: none;
+    }
+  }
+
+  a {
+    @apply font-light;
+  }
 }

@@ -5,7 +5,7 @@ import Bio from "@/components/bio";
 import Comments from "@/components/comments";
 
 import type { Metadata } from "next";
-import { fetchPosts, fetchPostContent, fetchPost } from "@/lib/posts";
+import { fetchPost, fetchPostContent, fetchPosts } from "@/lib/posts";
 
 import "../highlightjs-nightowl.css";
 
@@ -39,7 +39,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 const BlogPostHeader = () => (
   <h3 className="mb-12">
     <Link
-      className="text-2xl lg:text-3xl font-semibold underline decoration-amber-600 decoration-1 underline-offset-4 hover:text-amber-700"
+      className="text-2xl lg:text-3xl font-medium underline decoration-amber-600 decoration-1 underline-offset-4 hover:text-amber-700 tracking-tight dark:text-gray-400"
       href="/"
     >
       Eli Perkins.
@@ -56,20 +56,28 @@ const BlogPost = async ({ params }: Props) => {
     <main>
       <Script src="https://platform.twitter.com/widgets.js" />
       <BlogPostHeader />
-      <time className="text-sm lg:text-base" dateTime={post.date.toISOString()}>
+      <time
+        className="text-sm lg:text-base text-gray-500 dark:text-gray-500"
+        dateTime={post.date.toISOString()}
+      >
         {format(post.date, "MMMM dd, yyyy")}
       </time>
-      <h1 className="mt-1 mb-4 text-4xl font-bold">{post.title}</h1>
+      <h1 className="mt-1 mb-4 text-4xl tracking-[-.035em] dark:text-gray-100">
+        {post.title}
+      </h1>
       <div
-        className={`font-serif prose md:prose-lg
-    lg:prose-xl prose-a:font-semibold prose-a:underline-offset-4
+        className={`font-serif prose prose-gray dark:prose-invert md:prose-xl
+    lg:prose-2xl prose-a:font-semibold prose-a:underline-offset-4
+    prose-h2:text-3xl prose-h2:tracking-tight
+    prose-strong:font-semibold
     prose-a:text-amber-600 prose-a:hover:text-amber-700
+    prose-code:inline-block
     prose-pre:border
     prose-pre:bg-[#ffffff]
     dark:prose-pre:bg-[#011627]
     prose-headings:prose-a:no-underline
-    prose-headings:prose-a:text-gray-950
-    prose-headings:prose-a:hover:text-gray-950`}
+    prose-headings:prose-a:text-gray-950 dark:prose-headings:prose-a:text-gray-50
+    prose-headings:prose-a:hover:text-gray-950 dark:prose-headings:prose-a:hover:text-gray-300`}
       >
         {
           // eslint-disable-next-line react/no-danger

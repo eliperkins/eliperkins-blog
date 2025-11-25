@@ -1,14 +1,14 @@
 /* eslint-disable @next/next/no-img-element */
 
 import { fetchPost, fetchPosts } from "@/lib/posts";
+import { format, formatDuration, intervalToDuration } from "date-fns";
 import { ImageResponse } from "@vercel/og";
 import fs from "fs";
-import { format, formatDuration, intervalToDuration } from "date-fns";
 
 type Weight = 100 | 200 | 300 | 400 | 500 | 600 | 700 | 800 | 900;
 type FontStyle = "normal" | "italic";
 interface FontOptions {
-  data: ArrayBuffer | Buffer<ArrayBufferLike>;
+  data: ArrayBuffer | Buffer;
   name: string;
   weight?: Weight;
   style?: FontStyle;
@@ -25,14 +25,34 @@ export async function GET(
   { params }: { params: Promise<{ slug: string }> },
 ) {
   const post = await fetchPost((await params).slug);
+  const durationText = formatDuration(
+    intervalToDuration({
+      start: 0,
+      end: post.readingTime * 60 * 1000,
+    }),
+  );
+  const dateText = format(post.date, "MMMM dd, yyyy");
+  const wordCountText = `${new Intl.NumberFormat("en-US", {}).format(post.wordCount)} words`;
+  const allText = [
+    "Eli Perkins",
+    post.title,
+    post.unprocessedExcerpt,
+    durationText,
+    dateText,
+    wordCountText,
+  ].join("\n");
   return new ImageResponse(
     (
-      <div tw="flex flex-col w-full h-full bg-white px-12 py-16 justify-between">
+      <div
+        style={{ fontFamily: "EB Garamond" }}
+        tw="flex flex-col w-full h-full bg-white px-16 py-24 justify-between"
+      >
         <div tw="flex flex-col mb-8">
-          <h1 tw="font-sans text-7xl font-bold text-black my-2 mb-8">
-            {post.title}
-          </h1>
-          <h3 tw="font-serif text-5xl font-semibold italic text-gray-500 mt-0">
+          <h1 tw="text-7xl font-bold text-black my-2 mb-8">{post.title}</h1>
+          <h3
+            style={{ fontFamily: "Monaspace Neon" }}
+            tw="text-4xl font-light tracking-tight text-gray-500 mt-0"
+          >
             {post.unprocessedExcerpt}
           </h3>
         </div>
@@ -44,24 +64,12 @@ export async function GET(
           />
           <div tw="text-4xl grow flex flex-col pl-6 text-gray-700 font-medium">
             <div tw="flex justify-between">
-              <p tw="text-gray-500 my-0 mr-4">
-                {format(post.date, "MMMM dd, yyyy")}
-              </p>
-              <p tw="my-0 text-gray-400">
-                {formatDuration(
-                  intervalToDuration({
-                    start: 0,
-                    end: post.readingTime * 60 * 1000,
-                  }),
-                )}
-              </p>
+              <p tw="text-gray-500 my-0 mr-4">{dateText}</p>
+              <p tw="my-0 text-gray-400">{durationText}</p>
             </div>
             <div tw="flex justify-between">
               <p tw="text-gray-500 my-0 mr-4">Eli Perkins</p>
-              <p tw="my-0 text-gray-400">
-                {new Intl.NumberFormat("en-US", {}).format(post.wordCount)}{" "}
-                words
-              </p>
+              <p tw="my-0 text-gray-400">{wordCountText}</p>
             </div>
           </div>
         </div>
@@ -71,41 +79,37 @@ export async function GET(
       width: 1200,
       height: 700,
       fonts: [
-        ...(await loadRalewayFonts()),
-        ...(await loadQuattrocentoFonts()),
+        ...(await loadMonaspaceFont()),
+        await loadGoogleFont("EB Garamond", allText),
       ],
     },
   );
 }
 
-async function loadRalewayFonts(): Promise<FontOptions[]> {
-  const normalFontMap: Record<Weight, string> = {
-    100: "assets/fonts/Raleway/static/Raleway-Thin.ttf",
-    200: "assets/fonts/Raleway/static/Raleway-ExtraLight.ttf",
-    300: "assets/fonts/Raleway/static/Raleway-Light.ttf",
-    400: "assets/fonts/Raleway/static/Raleway-Regular.ttf",
-    500: "assets/fonts/Raleway/static/Raleway-Medium.ttf",
-    600: "assets/fonts/Raleway/static/Raleway-SemiBold.ttf",
-    700: "assets/fonts/Raleway/static/Raleway-Bold.ttf",
-    800: "assets/fonts/Raleway/static/Raleway-ExtraBold.ttf",
-    900: "assets/fonts/Raleway/static/Raleway-Black.ttf",
+async function loadMonaspaceFont(): Promise<FontOptions[]> {
+  const normalFontMap = {
+    100: "assets/fonts/monaspace-neon/MonaspaceNeonFrozen-ExtraLight.ttf",
+    200: "assets/fonts/monaspace-neon/MonaspaceNeonFrozen-Light.ttf",
+    300: "assets/fonts/monaspace-neon/MonaspaceNeonFrozen-Regular.ttf",
+    400: "assets/fonts/monaspace-neon/MonaspaceNeonFrozen-Medium.ttf",
+    500: "assets/fonts/monaspace-neon/MonaspaceNeonFrozen-SemiBold.ttf",
+    600: "assets/fonts/monaspace-neon/MonaspaceNeonFrozen-Bold.ttf",
+    700: "assets/fonts/monaspace-neon/MonaspaceNeonFrozen-ExtraBold.ttf",
   };
-  const italicFontMap: Record<Weight, string> = {
-    100: "assets/fonts/Raleway/static/Raleway-ThinItalic.ttf",
-    200: "assets/fonts/Raleway/static/Raleway-ExtraLightItalic.ttf",
-    300: "assets/fonts/Raleway/static/Raleway-LightItalic.ttf",
-    400: "assets/fonts/Raleway/static/Raleway-Italic.ttf",
-    500: "assets/fonts/Raleway/static/Raleway-MediumItalic.ttf",
-    600: "assets/fonts/Raleway/static/Raleway-SemiBoldItalic.ttf",
-    700: "assets/fonts/Raleway/static/Raleway-BoldItalic.ttf",
-    800: "assets/fonts/Raleway/static/Raleway-ExtraBoldItalic.ttf",
-    900: "assets/fonts/Raleway/static/Raleway-BlackItalic.ttf",
+  const italicFontMap = {
+    100: "assets/fonts/monaspace-neon/MonaspaceNeonFrozen-ExtraLightItalic.ttf",
+    200: "assets/fonts/monaspace-neon/MonaspaceNeonFrozen-LightItalic.ttf",
+    300: "assets/fonts/monaspace-neon/MonaspaceNeonFrozen-Italic.ttf",
+    400: "assets/fonts/monaspace-neon/MonaspaceNeonFrozen-MediumItalic.ttf",
+    500: "assets/fonts/monaspace-neon/MonaspaceNeonFrozen-SemiBoldItalic.ttf",
+    600: "assets/fonts/monaspace-neon/MonaspaceNeonFrozen-BoldItalic.ttf",
+    700: "assets/fonts/monaspace-neon/MonaspaceNeonFrozen-ExtraBoldItalic.ttf",
   };
   return Promise.all([
     ...Object.entries(normalFontMap).map(
       async ([weight, path]) =>
         ({
-          name: "Raleway",
+          name: "Monaspace Neon",
           weight: parseInt(weight, 10) as Weight,
           data: await loadFont(path),
         }) as FontOptions,
@@ -113,7 +117,7 @@ async function loadRalewayFonts(): Promise<FontOptions[]> {
     ...Object.entries(italicFontMap).map(
       async ([weight, path]) =>
         ({
-          name: "Raleway",
+          name: "Monaspace Neon",
           weight: parseInt(weight, 10) as Weight,
           data: await loadFont(path),
           style: "italic",
@@ -122,26 +126,33 @@ async function loadRalewayFonts(): Promise<FontOptions[]> {
   ]);
 }
 
-async function loadQuattrocentoFonts(): Promise<FontOptions[]> {
-  return [
-    {
-      name: "Quattrocento",
-      data: await loadFont(
-        "assets/fonts/Quattrocento/Quattrocento-Regular.ttf",
-      ),
-    } as FontOptions,
-    {
-      name: "Quattrocento",
-      data: await loadFont("assets/fonts/Quattrocento/Quattrocento-Bold.ttf"),
-      weight: 700,
-    } as FontOptions,
-  ];
-}
-
 async function loadFont(path: string) {
   // load data into array buffer from fs
   const data = await fs.promises.readFile(path);
   return data.buffer;
+}
+
+async function loadGoogleFont(
+  font: string,
+  text: string,
+): Promise<FontOptions> {
+  const url = `https://fonts.googleapis.com/css2?family=${font}&text=${encodeURIComponent(text)}`;
+  const css = await (await fetch(url)).text();
+  const resource = /src: url\((.+)\) format\('(opentype|truetype)'\)/.exec(css);
+
+  if (resource) {
+    const response = await fetch(resource[1]);
+    if (response.status == 200) {
+      const data = await response.arrayBuffer();
+      return {
+        name: font,
+        data,
+        style: "normal",
+      };
+    }
+  }
+
+  throw new Error("failed to load font data");
 }
 
 async function base64DataString(path: string) {
