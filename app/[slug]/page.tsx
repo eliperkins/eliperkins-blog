@@ -7,7 +7,7 @@ import Comments from "@/components/comments";
 import type { Metadata } from "next";
 import { fetchPost, fetchPostContent, fetchPosts } from "@/lib/posts";
 
-import "../highlightjs-nightowl.css";
+import "../syntax-highlighting.css";
 
 interface Props {
   readonly params: Promise<{ slug: string }>;

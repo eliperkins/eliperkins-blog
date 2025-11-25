@@ -63,6 +63,7 @@ const RAW_RUNTIME_STATE =
           ["rehype-autolink-headings", "npm:7.1.0"],\
           ["rehype-highlight", "npm:7.0.2"],\
           ["rehype-slug", "npm:6.0.0"],\
+          ["rehype-starry-night", "npm:2.2.0"],\
           ["rehype-stringify", "npm:10.0.1"],\
           ["remark", "npm:15.0.1"],\
           ["remark-gfm", "npm:4.0.1"],\
@@ -76,7 +77,8 @@ const RAW_RUNTIME_STATE =
           ["typescript-eslint", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:8.48.0"],\
           ["unified", "npm:11.0.5"],\
           ["vfile", "npm:6.0.3"],\
-          ["vfile-matter", "npm:5.0.1"]\
+          ["vfile-matter", "npm:5.0.1"],\
+          ["vscode-oniguruma", "npm:2.0.1"]\
         ],\
         "linkType": "SOFT"\
       }]\
@@ -1670,6 +1672,19 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["@wooorm/starry-night", [\
+      ["npm:3.8.0", {\
+        "packageLocation": "./.yarn/cache/@wooorm-starry-night-npm-3.8.0-8ec184ddc0-ab996b57fc.zip/node_modules/@wooorm/starry-night/",\
+        "packageDependencies": [\
+          ["@types/hast", "npm:3.0.4"],\
+          ["@wooorm/starry-night", "npm:3.8.0"],\
+          ["import-meta-resolve", "npm:4.2.0"],\
+          ["vscode-oniguruma", "npm:2.0.1"],\
+          ["vscode-textmate", "npm:9.2.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["acorn", [\
       ["npm:8.13.0", {\
         "packageLocation": "./.yarn/cache/acorn-npm-8.13.0-a6d9510af8-33e3a03114.zip/node_modules/acorn/",\
@@ -2868,6 +2883,7 @@ const RAW_RUNTIME_STATE =
           ["rehype-autolink-headings", "npm:7.1.0"],\
           ["rehype-highlight", "npm:7.0.2"],\
           ["rehype-slug", "npm:6.0.0"],\
+          ["rehype-starry-night", "npm:2.2.0"],\
           ["rehype-stringify", "npm:10.0.1"],\
           ["remark", "npm:15.0.1"],\
           ["remark-gfm", "npm:4.0.1"],\
@@ -2881,7 +2897,8 @@ const RAW_RUNTIME_STATE =
           ["typescript-eslint", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:8.48.0"],\
           ["unified", "npm:11.0.5"],\
           ["vfile", "npm:6.0.3"],\
-          ["vfile-matter", "npm:5.0.1"]\
+          ["vfile-matter", "npm:5.0.1"],\
+          ["vscode-oniguruma", "npm:2.0.1"]\
         ],\
         "linkType": "SOFT"\
       }]\
@@ -4366,6 +4383,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["import-meta-resolve", [\
+      ["npm:4.2.0", {\
+        "packageLocation": "./.yarn/cache/import-meta-resolve-npm-4.2.0-d0ecf96035-3499ee8b7e.zip/node_modules/import-meta-resolve/",\
+        "packageDependencies": [\
+          ["import-meta-resolve", "npm:4.2.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["imurmurhash", [\
       ["npm:0.1.4", {\
         "packageLocation": "./.yarn/cache/imurmurhash-npm-0.1.4-610c5068a0-2d30b157a9.zip/node_modules/imurmurhash/",\
@@ -5132,6 +5158,15 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["latest-version", "npm:5.1.0"],\
           ["package-json", "npm:6.5.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["levenshtein-edit-distance", [\
+      ["npm:3.0.1", {\
+        "packageLocation": "./.yarn/cache/levenshtein-edit-distance-npm-3.0.1-726979f3d7-229fdf42f0.zip/node_modules/levenshtein-edit-distance/",\
+        "packageDependencies": [\
+          ["levenshtein-edit-distance", "npm:3.0.1"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -7148,6 +7183,21 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["rehype-starry-night", [\
+      ["npm:2.2.0", {\
+        "packageLocation": "./.yarn/cache/rehype-starry-night-npm-2.2.0-3b3a16f198-85868fa9cf.zip/node_modules/rehype-starry-night/",\
+        "packageDependencies": [\
+          ["@types/hast", "npm:3.0.4"],\
+          ["@wooorm/starry-night", "npm:3.8.0"],\
+          ["hast-util-to-string", "npm:3.0.0"],\
+          ["levenshtein-edit-distance", "npm:3.0.1"],\
+          ["rehype-starry-night", "npm:2.2.0"],\
+          ["unist-util-visit-parents", "npm:6.0.1"],\
+          ["vfile", "npm:6.0.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["rehype-stringify", [\
       ["npm:10.0.1", {\
         "packageLocation": "./.yarn/cache/rehype-stringify-npm-10.0.1-cc1170acb2-76ded4b2b1.zip/node_modules/rehype-stringify/",\
@@ -8647,6 +8697,24 @@ const RAW_RUNTIME_STATE =
           ["@types/unist", "npm:3.0.2"],\
           ["unist-util-stringify-position", "npm:4.0.0"],\
           ["vfile-message", "npm:4.0.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["vscode-oniguruma", [\
+      ["npm:2.0.1", {\
+        "packageLocation": "./.yarn/cache/vscode-oniguruma-npm-2.0.1-d9b64d28b2-781b8f3630.zip/node_modules/vscode-oniguruma/",\
+        "packageDependencies": [\
+          ["vscode-oniguruma", "npm:2.0.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["vscode-textmate", [\
+      ["npm:9.2.1", {\
+        "packageLocation": "./.yarn/cache/vscode-textmate-npm-9.2.1-79240fba6b-b0307f1860.zip/node_modules/vscode-textmate/",\
+        "packageDependencies": [\
+          ["vscode-textmate", "npm:9.2.1"]\
         ],\
         "linkType": "HARD"\
       }]\

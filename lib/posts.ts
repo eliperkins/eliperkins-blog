@@ -7,7 +7,7 @@ import remarkParse from "remark-parse";
 import remarkRehype from "remark-rehype";
 import rehypeStringify from "rehype-stringify";
 import remarkGfm from "remark-gfm";
-import rehypeHighlight from "rehype-highlight";
+import rehypeStarryNight from "rehype-starry-night";
 import rehypeAutolinkHeadings from "rehype-autolink-headings";
 import rehypeSlug from "rehype-slug";
 import { remarkAlert } from "remark-github-blockquote-alert";
@@ -86,7 +86,11 @@ async function parseMarkdownContent(content: string): Promise<string> {
     .use(remarkGfm)
     .use(remarkAlertFixed, { legacyTitle: true })
     .use(remarkRehype, { allowDangerousHtml: true })
-    .use(rehypeHighlight)
+    .use(rehypeStarryNight, {
+      getOnigurumaUrlFs: () => {
+        return new URL("./assets/onig.wasm", `file://${process.cwd()}/`);
+      },
+    })
     .use(rehypeSlug)
     .use(rehypeAutolinkHeadings, {
       behavior: "wrap",
