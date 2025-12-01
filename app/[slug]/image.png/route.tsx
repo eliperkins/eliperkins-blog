@@ -42,39 +42,37 @@ export async function GET(
     wordCountText,
   ].join("\n");
   return new ImageResponse(
-    (
-      <div
-        style={{ fontFamily: "EB Garamond" }}
-        tw="flex flex-col w-full h-full bg-white px-16 py-24 justify-between"
-      >
-        <div tw="flex flex-col mb-8">
-          <h1 tw="text-7xl font-bold text-black my-2 mb-8">{post.title}</h1>
-          <h3
-            style={{ fontFamily: "Monaspace Neon" }}
-            tw="text-4xl font-light tracking-tight text-gray-500 mt-0"
-          >
-            {post.unprocessedExcerpt}
-          </h3>
-        </div>
-        <div tw="flex items-center">
-          <img
-            alt="Headshot of Eli Perkins"
-            src={await base64DataString("public/images/headshot.jpg")}
-            tw="w-20 h-20 rounded-full"
-          />
-          <div tw="text-4xl grow flex flex-col pl-6 text-gray-700 font-medium">
-            <div tw="flex justify-between">
-              <p tw="text-gray-500 my-0 mr-4">{dateText}</p>
-              <p tw="my-0 text-gray-400">{durationText}</p>
-            </div>
-            <div tw="flex justify-between">
-              <p tw="text-gray-500 my-0 mr-4">Eli Perkins</p>
-              <p tw="my-0 text-gray-400">{wordCountText}</p>
-            </div>
+    <div
+      style={{ fontFamily: "EB Garamond" }}
+      tw="flex flex-col w-full h-full bg-white px-16 py-24 justify-between"
+    >
+      <div tw="flex flex-col mb-8">
+        <h1 tw="text-7xl font-bold text-black my-2 mb-8">{post.title}</h1>
+        <h3
+          style={{ fontFamily: "Monaspace Neon" }}
+          tw="text-4xl font-light tracking-tight text-gray-500 mt-0"
+        >
+          {post.unprocessedExcerpt}
+        </h3>
+      </div>
+      <div tw="flex items-center">
+        <img
+          alt="Headshot of Eli Perkins"
+          src={await base64DataString("public/images/headshot.jpg")}
+          tw="w-20 h-20 rounded-full"
+        />
+        <div tw="text-4xl grow flex flex-col pl-6 text-gray-700 font-medium">
+          <div tw="flex justify-between">
+            <p tw="text-gray-500 my-0 mr-4">{dateText}</p>
+            <p tw="my-0 text-gray-400">{durationText}</p>
+          </div>
+          <div tw="flex justify-between">
+            <p tw="text-gray-500 my-0 mr-4">Eli Perkins</p>
+            <p tw="my-0 text-gray-400">{wordCountText}</p>
           </div>
         </div>
       </div>
-    ),
+    </div>,
     {
       width: 1200,
       height: 700,
