@@ -32,7 +32,7 @@ const RAW_RUNTIME_STATE =
           ["@giscus/react", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:3.1.0"],\
           ["@next/eslint-plugin-next", "npm:16.0.4"],\
           ["@next/third-parties", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:16.0.4"],\
-          ["@primer/octicons-react", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:19.21.0"],\
+          ["@primer/octicons-react", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:19.21.1"],\
           ["@static/discharge", "npm:2.0.1"],\
           ["@tailwindcss/postcss", "npm:4.1.17"],\
           ["@tailwindcss/typography", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:0.5.19"],\
@@ -896,17 +896,17 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@primer/octicons-react", [\
-      ["npm:19.21.0", {\
-        "packageLocation": "./.yarn/cache/@primer-octicons-react-npm-19.21.0-426f1dd655-a1279ce7fa.zip/node_modules/@primer/octicons-react/",\
+      ["npm:19.21.1", {\
+        "packageLocation": "./.yarn/cache/@primer-octicons-react-npm-19.21.1-e65710810a-7408824872.zip/node_modules/@primer/octicons-react/",\
         "packageDependencies": [\
-          ["@primer/octicons-react", "npm:19.21.0"]\
+          ["@primer/octicons-react", "npm:19.21.1"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:19.21.0", {\
-        "packageLocation": "./.yarn/__virtual__/@primer-octicons-react-virtual-f1b3dc9f91/0/cache/@primer-octicons-react-npm-19.21.0-426f1dd655-a1279ce7fa.zip/node_modules/@primer/octicons-react/",\
+      ["virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:19.21.1", {\
+        "packageLocation": "./.yarn/__virtual__/@primer-octicons-react-virtual-be2c98fe02/0/cache/@primer-octicons-react-npm-19.21.1-e65710810a-7408824872.zip/node_modules/@primer/octicons-react/",\
         "packageDependencies": [\
-          ["@primer/octicons-react", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:19.21.0"],\
+          ["@primer/octicons-react", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:19.21.1"],\
           ["@types/react", "npm:19.2.7"],\
           ["react", "npm:19.2.0"]\
         ],\
@@ -2852,7 +2852,7 @@ const RAW_RUNTIME_STATE =
           ["@giscus/react", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:3.1.0"],\
           ["@next/eslint-plugin-next", "npm:16.0.4"],\
           ["@next/third-parties", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:16.0.4"],\
-          ["@primer/octicons-react", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:19.21.0"],\
+          ["@primer/octicons-react", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:19.21.1"],\
           ["@static/discharge", "npm:2.0.1"],\
           ["@tailwindcss/postcss", "npm:4.1.17"],\
           ["@tailwindcss/typography", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:0.5.19"],\
