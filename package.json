@@ -40,7 +40,7 @@
     "@eslint/js": "^9.39.1",
     "@next/eslint-plugin-next": "^16.0.7",
     "@static/discharge": "^2.0.1",
-    "@tailwindcss/postcss": "^4.1.17",
+    "@tailwindcss/postcss": "^4.1.18",
     "@tailwindcss/typography": "^0.5.19",
     "@types/gtag.js": "^0.0.20",
     "@types/hast": "^3.0.4",
@@ -59,7 +59,7 @@
     "postcss": "^8.5.6",
     "prettier": "^3.7.4",
     "rehype-starry-night": "^2.2.0",
-    "tailwindcss": "^4.1.17",
+    "tailwindcss": "^4.1.18",
     "typescript": "^5.9.3",
     "typescript-eslint": "^8.49.0",
     "vscode-oniguruma": "^2.0.1"
