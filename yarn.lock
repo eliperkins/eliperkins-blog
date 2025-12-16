@@ -1261,13 +1261,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vercel/og@npm:^0.8.5":
-  version: 0.8.5
-  resolution: "@vercel/og@npm:0.8.5"
+"@vercel/og@npm:^0.8.6":
+  version: 0.8.6
+  resolution: "@vercel/og@npm:0.8.6"
   dependencies:
     "@resvg/resvg-wasm": "npm:2.4.0"
     satori: "npm:0.16.0"
-  checksum: 10/8d6c8f8de7c755ffc386b455daf2d8a56ace635b8e51d7f891f3bab424df1b9691a82918eefa91453377436d38c31f9f6edf8b34aea74676b0eb63ccdb3a38cf
+  checksum: 10/09aae03487b336cf1e874223e7def32d0b11cf3f2344b895ca0a4f3826ee509d8b6e9369e23533c39eb6afefb42127210a3b506d4f52db9ee6889806d4ad36cc
   languageName: node
   linkType: hard
 
@@ -2301,7 +2301,7 @@ __metadata:
     "@types/react-dom": "npm:^19.2.3"
     "@types/unist": "npm:^3.0.3"
     "@typescript-eslint/types": "npm:^8.49.0"
-    "@vercel/og": "npm:^0.8.5"
+    "@vercel/og": "npm:^0.8.6"
     babel-plugin-react-compiler: "npm:^1.0.0"
     date-fns: "npm:^4.1.0"
     eslint: "npm:^9.39.2"
