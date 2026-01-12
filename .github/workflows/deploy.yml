@@ -12,6 +12,7 @@ permissions:
   issues: read
   pull-requests: read
   statuses: read
+  id-token: write
 
 jobs:
   deploy:
@@ -36,8 +37,12 @@ jobs:
           restore-keys: |
             v1-${{ runner.os }}-${{ steps.setup-node.outputs.node-version }}-nextjs-${{ hashFiles('**/yarn.lock') }}-
 
+      - name: Configure AWS OIDC
+        uses: aws-actions/configure-aws-credentials@v5
+        with:
+          role-to-assume: arn:aws:iam::738555527767:role/GitHubActionsOIDC
+          role-session-name: ${{ github.run_id }}
+          aws-region: us-east-1
+
       - name: Deploy
         run: yarn deploy
-        env:
-          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}

@@ -7,7 +7,7 @@
     "build": "next build --webpack",
     "start": "next start --webpack",
     "lint": "eslint .",
-    "deploy": "discharge deploy",
+    "deploy": "yarn build && ./scripts/deploy.sh",
     "format": "prettier --write ."
   },
   "dependencies": {
@@ -39,7 +39,6 @@
   "devDependencies": {
     "@eslint/js": "^9.39.2",
     "@next/eslint-plugin-next": "^16.1.1",
-    "@static/discharge": "^2.0.1",
     "@tailwindcss/postcss": "^4.1.18",
     "@tailwindcss/typography": "^0.5.19",
     "@types/gtag.js": "^0.0.20",
@@ -49,7 +48,7 @@
     "@types/react": "^19.2.8",
     "@types/react-dom": "^19.2.3",
     "@types/unist": "^3.0.3",
-    "@typescript-eslint/types": "^8.52.0",
+    "@typescript-eslint/types": "^8.53.0",
     "babel-plugin-react-compiler": "^1.0.0",
     "eslint": "^9.39.2",
     "eslint-config-prettier": "^10.1.8",
@@ -61,19 +60,8 @@
     "rehype-starry-night": "^2.2.0",
     "tailwindcss": "^4.1.18",
     "typescript": "^5.9.3",
-    "typescript-eslint": "^8.52.0",
+    "typescript-eslint": "^8.53.0",
     "vscode-oniguruma": "^2.0.1"
-  },
-  "resolutions": {
-    "meow": "^9.0.0",
-    "update-notifier": "^5.1.0",
-    "got": "^11.0.0",
-    "cross-spawn": "^7.0.0",
-    "tmp": "^0.2.5"
-  },
-  "overrides": {
-    "@types/react": "npm:types-react@rc",
-    "@types/react-dom": "npm:types-react-dom@rc"
   },
   "packageManager": "yarn@4.12.0"
 }
