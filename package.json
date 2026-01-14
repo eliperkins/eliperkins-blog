@@ -13,7 +13,7 @@
   "dependencies": {
     "@giscus/react": "^3.1.0",
     "@next/third-parties": "^16.1.1",
-    "@primer/octicons-react": "^19.21.1",
+    "@primer/octicons-react": "^19.21.2",
     "@vercel/og": "^0.8.6",
     "date-fns": "^4.1.0",
     "feed": "^5.2.0",
