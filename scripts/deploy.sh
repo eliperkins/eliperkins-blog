@@ -3,7 +3,13 @@
 S3_BUCKET="blog.eliperkins.me"
 CLOUDFRONT_DISTRIBUTION_ID="E8K9XZBPL2CEJ"
 
-echo "📤 Syncing output to s3://$S3_BUCKET"
+echo "🧹 Cleaning up previous build..."
+rm -rf out
+
+echo "🚧 Building for production..."
+yarn build
+
+echo "📤 Syncing output to s3://$S3_BUCKET..."
 aws s3 sync ./out "s3://$S3_BUCKET" --delete
 POLICY=$(cat << JSON
 {
@@ -20,5 +26,5 @@ JSON
 )
 aws s3api put-bucket-policy --bucket "$S3_BUCKET" --policy "$POLICY"
 
-echo "📡 Invalidating Cloudfront cache for $CLOUDFRONT_DISTRIBUTION_ID"
+echo "📡 Invalidating Cloudfront cache for $CLOUDFRONT_DISTRIBUTION_ID..."
 aws cloudfront create-invalidation --distribution-id "$CLOUDFRONT_DISTRIBUTION_ID" --paths "/*" --no-cli-pager

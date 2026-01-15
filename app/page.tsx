@@ -23,34 +23,31 @@ const Home = async () => {
   const posts = await fetchPosts();
 
   return (
-    <>
-      <Script src="/sw.js" strategy="beforeInteractive" />
-      <main>
-        <MainHeader />
-        <Bio />
-        <ul className="prose md:prose-lg lg:prose-xl font-serif prose-a:font-semibold prose-a:underline-offset-4 prose-a:text-amber-600 prose-a:hover:text-amber-700 prose-h3:mb-0 prose-p:my-0">
-          {posts.map((post) => (
-            <li key={post.slug}>
-              <h3 className="tracking-tight font-medium">
-                <Link href={post.slug}>{post.title}</Link>
-              </h3>
-              <time
-                className="text-md lg:text-base text-slate-400 dark:text-gray-600"
-                dateTime={post.date.toISOString()}
-              >
-                {format(post.date, "MMMM dd, yyyy")}
-              </time>
-              {post.excerpt ? (
-                <div
-                  className="font-mono text-[16px] text-gray-500 dark:prose-code:text-gray-300 "
-                  dangerouslySetInnerHTML={{ __html: post.excerpt }} // eslint-disable-line react/no-danger
-                />
-              ) : null}
-            </li>
-          ))}
-        </ul>
-      </main>
-    </>
+    <main>
+      <MainHeader />
+      <Bio />
+      <ul className="prose md:prose-lg lg:prose-xl font-serif prose-a:font-semibold prose-a:underline-offset-4 prose-a:text-amber-600 prose-a:hover:text-amber-700 prose-h3:mb-0 prose-p:my-0">
+        {posts.map((post) => (
+          <li key={post.slug}>
+            <h3 className="tracking-tight font-medium">
+              <Link href={post.slug}>{post.title}</Link>
+            </h3>
+            <time
+              className="text-md lg:text-base text-slate-400 dark:text-gray-600"
+              dateTime={post.date.toISOString()}
+            >
+              {format(post.date, "MMMM dd, yyyy")}
+            </time>
+            {post.excerpt ? (
+              <div
+                className="font-mono text-[16px] text-gray-500 dark:prose-code:text-gray-300 "
+                dangerouslySetInnerHTML={{ __html: post.excerpt }} // eslint-disable-line react/no-danger
+              />
+            ) : null}
+          </li>
+        ))}
+      </ul>
+    </main>
   );
 };
 

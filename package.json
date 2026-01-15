@@ -7,7 +7,7 @@
     "build": "next build --webpack",
     "start": "next start --webpack",
     "lint": "eslint .",
-    "deploy": "yarn build && ./scripts/deploy.sh",
+    "deploy": "./scripts/deploy.sh",
     "format": "prettier --write ."
   },
   "dependencies": {
