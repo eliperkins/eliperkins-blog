@@ -1,9 +1,7 @@
 ---
-title: |
-  Tools I Love: mise (mise-en-place)
+title: "Tools I Love: mise (mise-en-place)"
 date: 2026-01-15
-excerpt: |
-  Use different versions of different languages and their toolchains with ease.
+excerpt: Use different versions of different languages and their toolchains with ease.
 ---
 
 > [!NOTE/tl;dr]
