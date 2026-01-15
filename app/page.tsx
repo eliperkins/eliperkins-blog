@@ -2,7 +2,6 @@ import Bio from "@/components/bio";
 import { fetchPosts } from "@/lib/posts";
 import Link from "next/link";
 import { format } from "date-fns";
-import Script from "next/script";
 import RSSLink from "@/components/rss-link";
 
 const MainHeader = () => (
