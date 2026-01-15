@@ -1,9 +1,7 @@
-/* eslint-disable @next/next/no-img-element */
-
 import { fetchPost, fetchPosts } from "@/lib/posts";
 import { format, formatDuration, intervalToDuration } from "date-fns";
-import { ImageResponse } from "@vercel/og";
-import fs from "fs";
+import { ImageResponse } from "next/og";
+import fs from "node:fs";
 
 type Weight = 100 | 200 | 300 | 400 | 500 | 600 | 700 | 800 | 900;
 type FontStyle = "normal" | "italic";
@@ -20,10 +18,11 @@ export async function generateStaticParams() {
   return postSlugs.map(({ slug }) => ({ slug }));
 }
 
-export async function GET(
-  _: Request,
-  { params }: { params: Promise<{ slug: string }> },
-) {
+export default async function Image({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}) {
   const post = await fetchPost((await params).slug);
   const durationText = formatDuration(
     intervalToDuration({
@@ -75,7 +74,7 @@ export async function GET(
     </div>,
     {
       width: 1200,
-      height: 700,
+      height: 630,
       fonts: [
         ...(await loadMonaspaceFont()),
         await loadGoogleFont("EB Garamond", allText),
