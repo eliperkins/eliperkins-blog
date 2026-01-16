@@ -1,6 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
 
+import headshot from "../public/images/headshot.jpg";
+
 const Bio = () => {
   return (
     <div className="flex items-center mt-4">
@@ -8,7 +10,7 @@ const Bio = () => {
         alt="Eli Perkins"
         className="w-16 h-16 rounded-full mr-3"
         height={64}
-        src="images/headshot.jpg"
+        src={headshot}
         width={64}
       />
       <p className="text-gray-500 text-sm">
