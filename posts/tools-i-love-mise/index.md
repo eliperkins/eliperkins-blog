@@ -19,11 +19,11 @@ These work just fine if you're working solo from your local developer environmen
 
 ## `brew install my-tool@v???`
 
-A new version of your toolchain is released, and you `brew upgrade my-tool` to get the latest version. This works great until you realize your CI/CD or deployment environment is on an older version, or some package of yours isn't ready yet, so you'll need to go back to the previous version. 
+A new version of your toolchain is released, and you `brew upgrade my-tool` to get the latest version. This works great until you realize your CI/CD or deployment environment is on an older version, or some package of yours isn't ready yet, so you'll need to go back to the previous version.
 
-Easy enough to do `brew install my-tool@v1`, right? 
+Easy enough to do `brew install my-tool@v1`, right?
 
-Except now `my-tool` is on version 1.0 _everywhere_ across your computer, and your client's project is actually on `my-tool@v2` already. 
+Except now `my-tool` is on version 1.0 _everywhere_ across your computer, and your client's project is actually on `my-tool@v2` already.
 
 You swap between versions by doing a `brew uninstall my-tool@v1 && brew install my-tool@v2` in the morning to do your client work.
 
