@@ -51,7 +51,7 @@ const RAW_RUNTIME_STATE =
           ["eslint-config-prettier", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:10.1.8"],\
           ["eslint-plugin-react", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:7.37.5"],\
           ["feed", "npm:5.2.0"],\
-          ["globals", "npm:17.0.0"],\
+          ["globals", "npm:17.1.0"],\
           ["hast", "npm:1.0.0"],\
           ["hastscript", "npm:9.0.1"],\
           ["next", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:16.1.4"],\
@@ -2305,7 +2305,7 @@ const RAW_RUNTIME_STATE =
           ["eslint-config-prettier", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:10.1.8"],\
           ["eslint-plugin-react", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:7.37.5"],\
           ["feed", "npm:5.2.0"],\
-          ["globals", "npm:17.0.0"],\
+          ["globals", "npm:17.1.0"],\
           ["hast", "npm:1.0.0"],\
           ["hastscript", "npm:9.0.1"],\
           ["next", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:16.1.4"],\
@@ -3171,10 +3171,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["npm:17.0.0", {\
-        "packageLocation": "./.yarn/cache/globals-npm-17.0.0-cd88395af3-af6213db9b.zip/node_modules/globals/",\
+      ["npm:17.1.0", {\
+        "packageLocation": "./.yarn/cache/globals-npm-17.1.0-baf660f37b-6e77442a3b.zip/node_modules/globals/",\
         "packageDependencies": [\
-          ["globals", "npm:17.0.0"]\
+          ["globals", "npm:17.1.0"]\
         ],\
         "linkType": "HARD"\
       }]\
