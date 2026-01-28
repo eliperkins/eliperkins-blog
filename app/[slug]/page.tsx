@@ -64,26 +64,29 @@ const BlogPost = async ({ params }: Props) => {
       <h1 className="mt-1 mb-4 text-4xl tracking-[-.035em] dark:text-gray-100">
         {post.title}
       </h1>
-      <div
-        className={`font-serif prose prose-gray dark:prose-invert md:prose-xl
-    lg:prose-2xl prose-a:font-semibold prose-a:underline-offset-4
-    prose-h2:text-3xl prose-h2:tracking-tight
-    prose-strong:font-semibold
-    prose-a:text-amber-600 prose-a:hover:text-amber-700
+      {
+        <article
+          className={`font-serif prose prose-gray dark:prose-invert md:prose-xl lg:prose-2xl
+    prose-a:underline-offset-4
+    prose-h2:text-3xl
+    prose-h2:tracking-tight
+    prose-a:text-amber-600
+    prose-a:hover:text-amber-700
     prose-code:inline-block
     prose-pre:border
     prose-pre:bg-[#ffffff]
     dark:prose-pre:bg-[#011627]
     prose-headings:prose-a:no-underline
     prose-headings:prose-a:text-gray-950 dark:prose-headings:prose-a:text-gray-50
-    prose-headings:prose-a:hover:text-gray-950 dark:prose-headings:prose-a:hover:text-gray-300`}
-      >
-        {
+    prose-headings:prose-a:hover:text-gray-950 dark:prose-headings:prose-a:hover:text-gray-300
+    prose-figcaption:mt-1
+    prose-figcaption:text-center
+    `}
           // eslint-disable-next-line react/no-danger
-          <article dangerouslySetInnerHTML={{ __html: content }} />
-        }
-        <hr className="border-gray-200 md:-mr-4 lg:-mr-14 mt-0" />
-      </div>
+          dangerouslySetInnerHTML={{ __html: content }}
+        />
+      }
+      <hr className="border-gray-200 md:-mr-4 lg:-mr-14 mt-8" />
       <Bio />
       <Comments />
     </main>
