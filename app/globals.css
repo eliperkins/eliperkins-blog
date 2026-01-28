@@ -7,10 +7,6 @@
     --font-sans: var(--font-mono);
 }
 
-@utility text-balance {
-    text-wrap: balance;
-}
-
 @utility heading-group {
     @apply flex first:relative first:border-none lg:first:-ml-2 lg:first:pl-2;
     &h1 > a > .heading-link {
@@ -75,10 +71,6 @@
 
 :is(h1, h2, h3) {
     @apply font-serif;
-}
-
-p {
-    @apply font-normal;
 }
 
 @utility prose {

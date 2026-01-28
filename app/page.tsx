@@ -25,7 +25,7 @@ const Home = async () => {
     <main>
       <MainHeader />
       <Bio />
-      <ul className="prose md:prose-lg lg:prose-xl font-serif prose-a:font-semibold prose-a:underline-offset-4 prose-a:text-amber-600 prose-a:hover:text-amber-700 prose-h3:mb-0 prose-p:my-0">
+      <ul className="prose md:prose-lg lg:prose-xl font-serif prose-header:prose-a:font-semibold prose-a:underline-offset-4 prose-a:text-amber-600 prose-a:hover:text-amber-700 prose-h3:mb-0 prose-p:my-0">
         {posts.map((post) => (
           <li key={post.slug}>
             <h3 className="tracking-tight font-medium">

@@ -81,6 +81,8 @@ const BlogPost = async ({ params }: Props) => {
     prose-headings:prose-a:hover:text-gray-950 dark:prose-headings:prose-a:hover:text-gray-300
     prose-figcaption:mt-1
     prose-figcaption:text-center
+    prose-p:text-gray-600
+    prose-strong:font-medium
     `}
           // eslint-disable-next-line react/no-danger
           dangerouslySetInnerHTML={{ __html: content }}
