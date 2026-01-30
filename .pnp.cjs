@@ -1495,11 +1495,11 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@wooorm/starry-night", [\
-      ["npm:3.8.0", {\
-        "packageLocation": "./.yarn/cache/@wooorm-starry-night-npm-3.8.0-8ec184ddc0-ab996b57fc.zip/node_modules/@wooorm/starry-night/",\
+      ["npm:3.9.0", {\
+        "packageLocation": "./.yarn/cache/@wooorm-starry-night-npm-3.9.0-0d94d813fd-d5c1769ce2.zip/node_modules/@wooorm/starry-night/",\
         "packageDependencies": [\
           ["@types/hast", "npm:3.0.4"],\
-          ["@wooorm/starry-night", "npm:3.8.0"],\
+          ["@wooorm/starry-night", "npm:3.9.0"],\
           ["import-meta-resolve", "npm:4.2.0"],\
           ["vscode-oniguruma", "npm:2.0.1"],\
           ["vscode-textmate", "npm:9.2.1"]\
@@ -5486,7 +5486,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/cache/rehype-starry-night-npm-2.2.0-3b3a16f198-85868fa9cf.zip/node_modules/rehype-starry-night/",\
         "packageDependencies": [\
           ["@types/hast", "npm:3.0.4"],\
-          ["@wooorm/starry-night", "npm:3.8.0"],\
+          ["@wooorm/starry-night", "npm:3.9.0"],\
           ["hast-util-to-string", "npm:3.0.0"],\
           ["levenshtein-edit-distance", "npm:3.0.1"],\
           ["rehype-starry-night", "npm:2.2.0"],\

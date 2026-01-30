@@ -1130,14 +1130,14 @@ __metadata:
   linkType: hard
 
 "@wooorm/starry-night@npm:^3.0.0":
-  version: 3.8.0
-  resolution: "@wooorm/starry-night@npm:3.8.0"
+  version: 3.9.0
+  resolution: "@wooorm/starry-night@npm:3.9.0"
   dependencies:
     "@types/hast": "npm:^3.0.0"
     import-meta-resolve: "npm:^4.0.0"
     vscode-oniguruma: "npm:^2.0.0"
     vscode-textmate: "npm:^9.0.0"
-  checksum: 10/ab996b57fc15a6a322373c6bfda403d8f252c8c7034880b8a2a840bb961fd1febf29c05f9d2ec803fc76a41b06d7ce921486a6eefa6d5d17157263a9bd5b35cd
+  checksum: 10/d5c1769ce2d1dc5beb62aea317f274b2edd97fccf95631f9d6b100a5963714e8f8f683d3b47c7b911d89399347e5f554def938f84a7ca9cc721495aae37c5332
   languageName: node
   linkType: hard
 
