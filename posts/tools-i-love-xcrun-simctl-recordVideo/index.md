@@ -44,6 +44,6 @@ and then I'll drag-and-drop the video into the PR description that's waiting for
 
 The result is an MP4 with no artifacting or watermarks that clearly shows the change I've made in my PR.
 
-<video autoplay loop muted playsinline width="320px" src="/images/xcrecord-demo.mp4">
+<video autoplay loop muted playsinline width="320px" src="/images/xcrecord-demo.mp4"></video>
 
 It's a little quality of life thing that's fit into my workflow as a way to create high-quality recordings from the simulator!
