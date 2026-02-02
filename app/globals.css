@@ -2,85 +2,85 @@
 @plugin "@tailwindcss/typography";
 
 @theme {
-    --font-mono: var(--font-monaspace);
-    --font-serif: var(--font-garamond);
-    --font-sans: var(--font-mono);
+  --font-mono: var(--font-monaspace);
+  --font-serif: var(--font-garamond);
+  --font-sans: var(--font-mono);
 }
 
 @utility heading-group {
-    @apply flex first:relative first:border-none lg:first:-ml-2 lg:first:pl-2;
-    &h1 > a > .heading-link {
-        @apply -ml-8 pr-8;
-    }
-    &h2 > a > .heading-link {
-        @apply -ml-6 pr-6;
-    }
-    &h3 > a > .heading-link {
-        @apply -ml-6 pr-6;
-    }
+  @apply flex first:relative first:border-none lg:first:-ml-2 lg:first:pl-2;
+  &h1 > a > .heading-link {
+    @apply -ml-8 pr-8;
+  }
+  &h2 > a > .heading-link {
+    @apply -ml-6 pr-6;
+  }
+  &h3 > a > .heading-link {
+    @apply -ml-6 pr-6;
+  }
 }
 
 @utility heading-link {
-    @apply hidden transition absolute -ml-4 pr-4 items-center border-0 opacity-0 group-hover:opacity-100 group-focus:opacity-100 lg:flex text-gray-500;
-    h1.heading-group > a > & {
-        @apply -ml-8 pr-8;
-    }
-    h2.heading-group > a > & {
-        @apply -ml-6 pr-6;
-    }
-    h3.heading-group > a > & {
-        @apply -ml-6 pr-6;
-    }
+  @apply hidden transition absolute -ml-4 pr-4 items-center border-0 opacity-0 group-hover:opacity-100 group-focus:opacity-100 lg:flex text-gray-500;
+  h1.heading-group > a > & {
+    @apply -ml-8 pr-8;
+  }
+  h2.heading-group > a > & {
+    @apply -ml-6 pr-6;
+  }
+  h3.heading-group > a > & {
+    @apply -ml-6 pr-6;
+  }
 }
 
 @layer utilities {
-    :root {
-        --foreground-rgb: 0, 0, 0;
-        --background-start-rgb: 214, 219, 220;
-        --background-end-rgb: 255, 255, 255;
-    }
+  :root {
+    --foreground-rgb: 0, 0, 0;
+    --background-start-rgb: 214, 219, 220;
+    --background-end-rgb: 255, 255, 255;
+  }
 
-    @media (prefers-color-scheme: dark) {
-        :root {
-            --foreground-rgb: 255, 255, 255;
-            --background-start-rgb: 0, 0, 0;
-            --background-end-rgb: 0, 0, 0;
-        }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --foreground-rgb: 255, 255, 255;
+      --background-start-rgb: 0, 0, 0;
+      --background-end-rgb: 0, 0, 0;
     }
+  }
 }
 
 .markdown-alert {
-    @apply border-l-4 border-gray-500 px-4;
+  @apply border-l-4 border-gray-500 px-4;
 }
 
 .markdown-alert > .markdown-alert-title {
-    @apply flex items-center font-medium gap-x-1 normal-case mb-0;
+  @apply flex items-center font-medium gap-x-1 normal-case mb-0;
 }
 
 .markdown-alert > p {
-    @apply my-1;
+  @apply my-1;
 }
 
 .markdown-alert.markdown-alert-note {
-    @apply border-blue-700;
+  @apply border-blue-700;
 }
 
 .markdown-alert.markdown-alert-note > .markdown-alert-title {
-    @apply text-blue-700 fill-blue-700;
+  @apply text-blue-700 fill-blue-700;
 }
 
 :is(h1, h2, h3) {
-    @apply font-serif;
+  @apply font-serif;
 }
 
 @utility prose {
-    code {
-        @apply font-normal px-1;
-        &::before {
-            display: none;
-        }
-        &::after {
-            display: none;
-        }
+  code {
+    @apply font-normal px-1;
+    &::before {
+      display: none;
     }
+    &::after {
+      display: none;
+    }
+  }
 }
