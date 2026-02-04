@@ -26,5 +26,8 @@ JSON
 )
 aws s3api put-bucket-policy --bucket "$S3_BUCKET" --policy "$POLICY"
 
+echo "🔧 Deploying CloudFront function..."
+./scripts/deploy-cloudfront-function.sh
+
 echo "📡 Invalidating Cloudfront cache for $CLOUDFRONT_DISTRIBUTION_ID..."
 aws cloudfront create-invalidation --distribution-id "$CLOUDFRONT_DISTRIBUTION_ID" --paths "/*" --no-cli-pager

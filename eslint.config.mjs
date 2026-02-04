@@ -30,6 +30,10 @@ const config = defineConfig(
     ],
   },
   {
+    files: ["cloudfront/**/*.js"],
+    ...tseslint.configs.disableTypeChecked,
+  },
+  {
     files: ["**/*.{js,jsx,ts,tsx}"],
     plugins: {
       "@next/next": nextPlugin,

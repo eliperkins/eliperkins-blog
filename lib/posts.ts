@@ -111,3 +111,9 @@ export async function fetchPostContent(slug: string): Promise<string> {
   const file = await parsePostFile(slug);
   return parseMarkdownContent(String(file));
 }
+
+export async function fetchRawMarkdown(slug: string): Promise<string> {
+  const contentPath = path.join(process.cwd(), "posts", slug, "index.md");
+  const content = await fs.promises.readFile(contentPath, "utf-8");
+  return content;
+}
