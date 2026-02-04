@@ -8,11 +8,14 @@ CLOUDFRONT_DISTRIBUTION_ID="E8K9XZBPL2CEJ"
 echo "🔧 Deploying CloudFront function: $FUNCTION_NAME"
 
 CREATED=false
-if aws cloudfront update-function-code \
-  --name "$FUNCTION_NAME" \
-  --function-code fileb://"$FUNCTION_FILE" \
-  --if-match "$(aws cloudfront describe-function --name "$FUNCTION_NAME" --query 'ETag' --output text 2>/dev/null)" \
-  --no-cli-pager > /dev/null 2>&1; then
+if aws cloudfront describe-function --name "$FUNCTION_NAME" --no-cli-pager > /dev/null 2>&1; then
+  echo "📝 Updating existing function..."
+  ETAG=$(aws cloudfront describe-function --name "$FUNCTION_NAME" --query 'ETag' --output text --no-cli-pager)
+  aws cloudfront update-function-code \
+    --name "$FUNCTION_NAME" \
+    --function-code fileb://"$FUNCTION_FILE" \
+    --if-match "$ETAG" \
+    --no-cli-pager > /dev/null
   echo "✅ Function code updated"
 else
   echo "🆕 Function not found, creating..."
