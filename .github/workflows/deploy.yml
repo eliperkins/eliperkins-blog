@@ -38,7 +38,7 @@ jobs:
             v1-${{ runner.os }}-${{ steps.setup-node.outputs.node-version }}-nextjs-${{ hashFiles('**/yarn.lock') }}-
 
       - name: Configure AWS OIDC
-        uses: aws-actions/configure-aws-credentials@v5
+        uses: aws-actions/configure-aws-credentials@v6
         with:
           role-to-assume: arn:aws:iam::738555527767:role/GitHubActionsOIDC
           role-session-name: ${{ github.run_id }}
