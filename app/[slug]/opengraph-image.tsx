@@ -13,6 +13,9 @@ interface FontOptions {
   lang?: string;
 }
 
+export const size = { width: 1200, height: 630 };
+export const contentType = "image/png";
+
 export async function generateStaticParams() {
   const postSlugs = await fetchPosts();
   return postSlugs.map(({ slug }) => ({ slug }));
@@ -73,8 +76,7 @@ export default async function Image({
       </div>
     </div>,
     {
-      width: 1200,
-      height: 630,
+      ...size,
       fonts: [
         ...(await loadMonaspaceFont()),
         await loadGoogleFont("EB Garamond", allText),
