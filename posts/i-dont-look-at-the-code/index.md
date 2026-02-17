@@ -18,7 +18,7 @@ I wouldn't move into a building where the architect said "I don't look at the st
 
 If your business or side-project works without you needing to look at the code, great. I'm happy for you.
 
-If you are directly responsible for a codebase or product as an engineer, I'd hope you'd be able to know how and why the code works the way it does. You don't need to write every line of it (I don't these days). 
+If you are directly responsible for a codebase or product as an engineer, I'd hope you'd be able to know how and why the code works the way it does. You don't need to write every line of it (I don't these days).
 
 Understanding why code works the way it does doesn't require reading every line and memorizing it. Understanding the architecture and design principles does make you a better, more effective engineer, who can build and ship better products faster than the person who needs to have an LLM reinterpret the codebase for every prompt and bug fix needed.
 
