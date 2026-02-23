@@ -21,7 +21,7 @@ function remarkAlertFixed(options: { legacyTitle: boolean }) {
   return remarkAlert(options);
 }
 
-interface Post {
+export interface Post {
   title: string;
   date: Date;
   slug: string;

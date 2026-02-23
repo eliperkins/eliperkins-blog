@@ -69,6 +69,7 @@ const RAW_RUNTIME_STATE =
           ["remark-github-blockquote-alert", "npm:2.0.1"],\
           ["remark-parse", "npm:11.0.0"],\
           ["remark-rehype", "npm:11.1.2"],\
+          ["schema-dts", "npm:1.1.5"],\
           ["sharp", "npm:0.34.5"],\
           ["tailwindcss", "npm:4.2.0"],\
           ["to-vfile", "npm:8.0.0"],\
@@ -2340,6 +2341,7 @@ const RAW_RUNTIME_STATE =
           ["remark-github-blockquote-alert", "npm:2.0.1"],\
           ["remark-parse", "npm:11.0.0"],\
           ["remark-rehype", "npm:11.1.2"],\
+          ["schema-dts", "npm:1.1.5"],\
           ["sharp", "npm:0.34.5"],\
           ["tailwindcss", "npm:4.2.0"],\
           ["to-vfile", "npm:8.0.0"],\
@@ -5731,6 +5733,15 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/cache/scheduler-npm-0.27.0-772f0dd512-eab3c3a837.zip/node_modules/scheduler/",\
         "packageDependencies": [\
           ["scheduler", "npm:0.27.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["schema-dts", [\
+      ["npm:1.1.5", {\
+        "packageLocation": "./.yarn/cache/schema-dts-npm-1.1.5-c3997a66c5-74f8376449.zip/node_modules/schema-dts/",\
+        "packageDependencies": [\
+          ["schema-dts", "npm:1.1.5"]\
         ],\
         "linkType": "HARD"\
       }]\

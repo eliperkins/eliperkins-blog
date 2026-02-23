@@ -3,6 +3,8 @@ import { fetchPosts } from "@/lib/posts";
 import Link from "next/link";
 import { format } from "date-fns";
 import RSSLink from "@/components/rss-link";
+import { JsonLd } from "@/components/jsonld";
+import { authorWithContext } from "@/lib/jsonld";
 
 const MainHeader = () => (
   <div className="flex justify-between w-full max-w-(--breakpoint-lg) items-center">
@@ -20,11 +22,13 @@ const MainHeader = () => (
 
 const Home = async () => {
   const posts = await fetchPosts();
+  const jsonLd = authorWithContext;
 
   return (
     <main>
       <MainHeader />
       <Bio />
+      <JsonLd object={jsonLd} />
       <ul className="prose md:prose-lg lg:prose-xl font-serif prose-header:prose-a:font-semibold prose-a:underline-offset-4 prose-a:text-amber-600 prose-a:hover:text-amber-700 prose-h3:mb-0 prose-p:my-0">
         {posts.map((post) => (
           <li key={post.slug}>

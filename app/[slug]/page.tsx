@@ -3,6 +3,8 @@ import Link from "next/link";
 import Script from "next/script";
 import Bio from "@/components/bio";
 import Comments from "@/components/comments";
+import { makeGraphForPost } from "@/lib/jsonld";
+import { JsonLd } from "@/components/jsonld";
 
 import type { Metadata } from "next";
 import { fetchPost, fetchPostContent, fetchPosts } from "@/lib/posts";
@@ -28,6 +30,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       types: {
         "text/markdown": `/posts/${slug}.md`,
       },
+      canonical: `/${slug}`,
     },
     openGraph: {
       title: `${post.title} · Blog · Eli Perkins`,
@@ -55,9 +58,11 @@ const BlogPost = async ({ params }: Props) => {
   const slug = (await params).slug;
   const post = await fetchPost(slug);
   const content = await fetchPostContent(slug);
+  const jsonLd = makeGraphForPost(post);
 
   return (
     <main>
+      <JsonLd object={jsonLd} />
       <Script src="https://platform.twitter.com/widgets.js" />
       <BlogPostHeader />
       <time

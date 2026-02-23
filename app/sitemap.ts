@@ -7,7 +7,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const baseUrl = "https://blog.eliperkins.com";
   const posts = await fetchPosts();
   const postsMapEntries: MetadataRoute.Sitemap = posts.map((post) => ({
-    url: `${baseUrl}/posts/${post.slug}`,
+    url: `${baseUrl}/${post.slug}`,
     lastModified: post.date,
     changeFrequency: "yearly",
     priority: 0.8,
