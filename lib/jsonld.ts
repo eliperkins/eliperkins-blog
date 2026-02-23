@@ -29,21 +29,25 @@ export const authorWithContext: WithContext<Person> = {
   ...author,
 };
 
-export const makePost = (post: Post): BlogPosting => ({
-  "@type": "BlogPosting",
-  "@id": `https://blog.eliperkins.com/${post.slug}`,
-  mainEntityOfPage: `https://blog.eliperkins.com/${post.slug}`,
-  headline: post.title,
-  description: post.unprocessedExcerpt,
-  wordCount: post.wordCount,
-  datePublished: post.date.toISOString(),
-  url: `https://blog.eliperkins.com/${post.slug}`,
-  inLanguage: "en-US",
-  author: {
-    "@type": "Person",
-    "@id": author["@id"],
-  },
-});
+export const makePost = (post: Post): BlogPosting => {
+  const postURL = `https://blog.eliperkins.com/${post.slug}`;
+  return {
+    "@type": "BlogPosting",
+    "@id": postURL,
+    mainEntityOfPage: postURL,
+    headline: post.title,
+    description: post.unprocessedExcerpt,
+    wordCount: post.wordCount,
+    datePublished: post.date.toISOString(),
+    url: postURL,
+    image: `${postURL}/opengraph-image`,
+    inLanguage: "en-US",
+    author: {
+      "@type": "Person",
+      "@id": author["@id"],
+    },
+  };
+};
 
 export const makeGraphForPost = (post: Post): Graph => ({
   "@context": "https://schema.org",
