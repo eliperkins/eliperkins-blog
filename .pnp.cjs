@@ -43,7 +43,7 @@ const RAW_RUNTIME_STATE =
           ["@types/react-dom", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:19.2.3"],\
           ["@types/unist", "npm:3.0.3"],\
           ["@typescript-eslint/types", "npm:8.56.1"],\
-          ["@vercel/og", "npm:0.8.6"],\
+          ["@vercel/og", "npm:0.9.0"],\
           ["babel-plugin-react-compiler", "npm:1.0.0"],\
           ["date-fns", "npm:4.1.0"],\
           ["eliperkins-blog", "workspace:."],\
@@ -1502,12 +1502,12 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@vercel/og", [\
-      ["npm:0.8.6", {\
-        "packageLocation": "./.yarn/cache/@vercel-og-npm-0.8.6-ea196bc9f2-09aae03487.zip/node_modules/@vercel/og/",\
+      ["npm:0.9.0", {\
+        "packageLocation": "./.yarn/cache/@vercel-og-npm-0.9.0-125a77b8bf-a208c5224d.zip/node_modules/@vercel/og/",\
         "packageDependencies": [\
           ["@resvg/resvg-wasm", "npm:2.4.0"],\
-          ["@vercel/og", "npm:0.8.6"],\
-          ["satori", "npm:0.16.0"]\
+          ["@vercel/og", "npm:0.9.0"],\
+          ["satori", "npm:0.19.2"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -2046,10 +2046,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["css-gradient-parser", [\
-      ["npm:0.0.16", {\
-        "packageLocation": "./.yarn/cache/css-gradient-parser-npm-0.0.16-cd34d842b2-280195e77e.zip/node_modules/css-gradient-parser/",\
+      ["npm:0.0.17", {\
+        "packageLocation": "./.yarn/cache/css-gradient-parser-npm-0.0.17-a46d70ef80-7e4377eccb.zip/node_modules/css-gradient-parser/",\
         "packageDependencies": [\
-          ["css-gradient-parser", "npm:0.0.16"]\
+          ["css-gradient-parser", "npm:0.0.17"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -2322,7 +2322,7 @@ const RAW_RUNTIME_STATE =
           ["@types/react-dom", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:19.2.3"],\
           ["@types/unist", "npm:3.0.3"],\
           ["@typescript-eslint/types", "npm:8.56.1"],\
-          ["@vercel/og", "npm:0.8.6"],\
+          ["@vercel/og", "npm:0.9.0"],\
           ["babel-plugin-react-compiler", "npm:1.0.0"],\
           ["date-fns", "npm:4.1.0"],\
           ["eliperkins-blog", "workspace:."],\
@@ -5707,20 +5707,20 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["satori", [\
-      ["npm:0.16.0", {\
-        "packageLocation": "./.yarn/cache/satori-npm-0.16.0-2e54ade84a-1f18645a9f.zip/node_modules/satori/",\
+      ["npm:0.19.2", {\
+        "packageLocation": "./.yarn/cache/satori-npm-0.19.2-04fc07a2e2-cc798f073b.zip/node_modules/satori/",\
         "packageDependencies": [\
           ["@shuding/opentype.js", "npm:1.4.0-beta.0"],\
           ["css-background-parser", "npm:0.1.0"],\
           ["css-box-shadow", "npm:1.0.0-3"],\
-          ["css-gradient-parser", "npm:0.0.16"],\
+          ["css-gradient-parser", "npm:0.0.17"],\
           ["css-to-react-native", "npm:3.2.0"],\
           ["emoji-regex-xs", "npm:2.0.1"],\
           ["escape-html", "npm:1.0.3"],\
           ["linebreak", "npm:1.1.0"],\
           ["parse-css-color", "npm:0.2.1"],\
           ["postcss-value-parser", "npm:4.2.0"],\
-          ["satori", "npm:0.16.0"],\
+          ["satori", "npm:0.19.2"],\
           ["yoga-layout", "npm:3.2.1"]\
         ],\
         "linkType": "HARD"\
