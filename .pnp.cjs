@@ -244,7 +244,7 @@ const RAW_RUNTIME_STATE =
           ["@eslint/config-array", "npm:0.21.1"],\
           ["@eslint/object-schema", "npm:2.1.7"],\
           ["debug", "virtual:ddf83a29ef667ff70930bb2532e0f0943a8a39f9e9a6fd424601e629bc797129f8a3af1697368da69640ebe56f8bc231d6833fb632ec36ef002a424eca53865f#npm:4.3.6"],\
-          ["minimatch", "npm:3.1.2"]\
+          ["minimatch", "npm:3.1.5"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -281,7 +281,7 @@ const RAW_RUNTIME_STATE =
           ["ignore", "npm:5.3.1"],\
           ["import-fresh", "npm:3.3.0"],\
           ["js-yaml", "npm:4.1.1"],\
-          ["minimatch", "npm:3.1.2"],\
+          ["minimatch", "npm:3.1.5"],\
           ["strip-json-comments", "npm:3.1.1"]\
         ],\
         "linkType": "HARD"\
@@ -2698,7 +2698,7 @@ const RAW_RUNTIME_STATE =
           ["jiti", null],\
           ["json-stable-stringify-without-jsonify", "npm:1.0.1"],\
           ["lodash.merge", "npm:4.6.2"],\
-          ["minimatch", "npm:3.1.2"],\
+          ["minimatch", "npm:3.1.5"],\
           ["natural-compare", "npm:1.4.0"],\
           ["optionator", "npm:0.9.4"]\
         ],\
@@ -2754,7 +2754,7 @@ const RAW_RUNTIME_STATE =
           ["estraverse", "npm:5.3.0"],\
           ["hasown", "npm:2.0.2"],\
           ["jsx-ast-utils", "npm:3.3.5"],\
-          ["minimatch", "npm:3.1.2"],\
+          ["minimatch", "npm:3.1.5"],\
           ["object.entries", "npm:1.1.9"],\
           ["object.fromentries", "npm:2.0.8"],\
           ["object.values", "npm:1.2.1"],\
@@ -4900,11 +4900,11 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["npm:3.1.2", {\
-        "packageLocation": "./.yarn/cache/minimatch-npm-3.1.2-9405269906-e0b25b04cd.zip/node_modules/minimatch/",\
+      ["npm:3.1.5", {\
+        "packageLocation": "./.yarn/cache/minimatch-npm-3.1.5-86958baf50-b11a7ee577.zip/node_modules/minimatch/",\
         "packageDependencies": [\
           ["brace-expansion", "npm:1.1.11"],\
-          ["minimatch", "npm:3.1.2"]\
+          ["minimatch", "npm:3.1.5"]\
         ],\
         "linkType": "HARD"\
       }]\
