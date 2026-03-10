@@ -5,6 +5,7 @@ import { defineConfig } from "eslint/config";
 import reactPlugin from "eslint-plugin-react";
 import tseslint from "typescript-eslint";
 import prettier from "eslint-config-prettier/flat";
+import { fixupConfigRules } from "@eslint/compat";
 
 const config = defineConfig(
   js.configs.recommended,
@@ -45,12 +46,17 @@ const config = defineConfig(
   {
     settings: {
       react: {
-        version: "detect",
+        version: "19",
       },
     },
   },
-  reactPlugin.configs.flat.all,
-  reactPlugin.configs.flat["jsx-runtime"],
+  // TODO: remove fixup
+  // https://github.com/jsx-eslint/eslint-plugin-react/issues/3977
+  // https://github.com/jsx-eslint/eslint-plugin-react/pull/3979
+  fixupConfigRules([
+    reactPlugin.configs.flat.all,
+    reactPlugin.configs.flat["jsx-runtime"],
+  ]),
   {
     rules: {
       "react/forbid-component-props": 0,
