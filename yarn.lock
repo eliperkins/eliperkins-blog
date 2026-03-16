@@ -1830,7 +1830,7 @@ __metadata:
     rehype-stringify: "npm:^10.0.1"
     remark: "npm:^15.0.1"
     remark-gfm: "npm:^4.0.1"
-    remark-github-blockquote-alert: "npm:^2.0.1"
+    remark-github-blockquote-alert: "npm:^2.1.0"
     remark-parse: "npm:^11.0.0"
     remark-rehype: "npm:^11.1.2"
     schema-dts: "npm:^1.1.5"
@@ -4687,12 +4687,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"remark-github-blockquote-alert@npm:^2.0.1":
-  version: 2.0.1
-  resolution: "remark-github-blockquote-alert@npm:2.0.1"
+"remark-github-blockquote-alert@npm:^2.1.0":
+  version: 2.1.0
+  resolution: "remark-github-blockquote-alert@npm:2.1.0"
   dependencies:
     unist-util-visit: "npm:^5.0.0"
-  checksum: 10/40a08040e822aff75f269a0acab76b134d8ef9b3b34abf2cd91a3a0aab4f1fe59efa0bdd8636d879453185274a65a44eb079ffb99a0aa3a801b21956daab55af
+  checksum: 10/9c4591363f001eceb754a66c15dbfdbcabc0ef8121cfaef10734d3f176d7beed0f1e1304b7fc13ffdc9edd5c2e48cb29a7863f6deb8cbde179923c409b7f982c
   languageName: node
   linkType: hard
 
