@@ -33,7 +33,7 @@ const RAW_RUNTIME_STATE =
           ["@giscus/react", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:3.1.0"],\
           ["@next/eslint-plugin-next", "npm:16.1.7"],\
           ["@next/third-parties", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:16.1.7"],\
-          ["@primer/octicons-react", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:19.23.0"],\
+          ["@primer/octicons-react", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:19.23.1"],\
           ["@tailwindcss/postcss", "npm:4.2.2"],\
           ["@tailwindcss/typography", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:0.5.19"],\
           ["@types/gtag.js", "npm:0.0.20"],\
@@ -885,17 +885,17 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@primer/octicons-react", [\
-      ["npm:19.23.0", {\
-        "packageLocation": "./.yarn/cache/@primer-octicons-react-npm-19.23.0-2fdf038a15-08cf419048.zip/node_modules/@primer/octicons-react/",\
+      ["npm:19.23.1", {\
+        "packageLocation": "./.yarn/cache/@primer-octicons-react-npm-19.23.1-ac4f5fa1cf-3d52cbba50.zip/node_modules/@primer/octicons-react/",\
         "packageDependencies": [\
-          ["@primer/octicons-react", "npm:19.23.0"]\
+          ["@primer/octicons-react", "npm:19.23.1"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:19.23.0", {\
-        "packageLocation": "./.yarn/__virtual__/@primer-octicons-react-virtual-ded390447d/0/cache/@primer-octicons-react-npm-19.23.0-2fdf038a15-08cf419048.zip/node_modules/@primer/octicons-react/",\
+      ["virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:19.23.1", {\
+        "packageLocation": "./.yarn/__virtual__/@primer-octicons-react-virtual-5a23a37c5b/0/cache/@primer-octicons-react-npm-19.23.1-ac4f5fa1cf-3d52cbba50.zip/node_modules/@primer/octicons-react/",\
         "packageDependencies": [\
-          ["@primer/octicons-react", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:19.23.0"],\
+          ["@primer/octicons-react", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:19.23.1"],\
           ["@types/react", "npm:19.2.14"],\
           ["react", "npm:19.2.4"]\
         ],\
@@ -2272,7 +2272,7 @@ const RAW_RUNTIME_STATE =
           ["@giscus/react", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:3.1.0"],\
           ["@next/eslint-plugin-next", "npm:16.1.7"],\
           ["@next/third-parties", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:16.1.7"],\
-          ["@primer/octicons-react", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:19.23.0"],\
+          ["@primer/octicons-react", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:19.23.1"],\
           ["@tailwindcss/postcss", "npm:4.2.2"],\
           ["@tailwindcss/typography", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:0.5.19"],\
           ["@types/gtag.js", "npm:0.0.20"],\
