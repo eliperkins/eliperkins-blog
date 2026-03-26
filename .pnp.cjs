@@ -6483,7 +6483,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["vfile", "npm:6.0.2"],\
           ["vfile-matter", "npm:5.0.1"],\
-          ["yaml", "npm:2.5.0"]\
+          ["yaml", "npm:2.8.3"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -6644,10 +6644,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["yaml", [\
-      ["npm:2.5.0", {\
-        "packageLocation": "./.yarn/cache/yaml-npm-2.5.0-402c6c0928-72e903fdbe.zip/node_modules/yaml/",\
+      ["npm:2.8.3", {\
+        "packageLocation": "./.yarn/cache/yaml-npm-2.8.3-dfea86f9e0-ecad41d39d.zip/node_modules/yaml/",\
         "packageDependencies": [\
-          ["yaml", "npm:2.5.0"]\
+          ["yaml", "npm:2.8.3"]\
         ],\
         "linkType": "HARD"\
       }]\
