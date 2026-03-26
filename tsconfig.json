@@ -14,20 +14,21 @@
     "incremental": true,
     "plugins": [
       {
-        "name": "next"
-      }
+        "name": "next",
+      },
     ],
     "paths": {
-      "@/*": ["./*"]
+      "@/*": ["./*"],
     },
-    "target": "ESNext"
+    "target": "ESNext",
+    "types": ["@types/gtag.js"],
   },
   "include": [
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts",
-    ".next/dev/types/**/*.ts"
+    ".next/dev/types/**/*.ts",
   ],
-  "exclude": ["cloudfront", "node_modules"]
+  "exclude": ["cloudfront", "node_modules"],
 }
