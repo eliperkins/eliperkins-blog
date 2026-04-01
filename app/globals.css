@@ -84,3 +84,17 @@
     }
   }
 }
+
+@utility prose-eli {
+  @apply font-serif prose-gray dark:prose-invert md:prose-xl lg:prose-2xl;
+  @apply prose-a:underline-offset-4 prose-a:text-amber-600 prose-a:hover:text-amber-700;
+  @apply prose-h2:text-3xl prose-h2:tracking-tight;
+  @apply prose-code:inline-block;
+  @apply prose-pre:border prose-pre:bg-[#ffffff] dark:prose-pre:bg-[#011627];
+  @apply prose-headings:prose-a:no-underline;
+  @apply prose-headings:prose-a:text-gray-950 dark:prose-headings:prose-a:text-gray-50;
+  @apply prose-headings:prose-a:hover:text-gray-950 dark:prose-headings:prose-a:hover:text-gray-300;
+  @apply prose-figcaption:mt-1 prose-figcaption:text-center;
+  @apply prose-p:text-gray-600 dark:prose-p:text-gray-400;
+  @apply prose-strong:font-medium;
+}

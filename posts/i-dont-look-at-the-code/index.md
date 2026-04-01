@@ -2,6 +2,9 @@
 title: I don't look at the code
 date: 2026-02-17
 excerpt: It's not the flex you think it is.
+bsky:
+  uri: at://did:plc:wm37qzgdjvwztq6loytrtpul/app.bsky.feed.post/3mf33rar3mk2x
+  href: https://bsky.app/profile/eliperkins.com/post/3mf33rar3mk2x
 ---
 
 Saying "I don't look at the code" is not the flex you think it is.

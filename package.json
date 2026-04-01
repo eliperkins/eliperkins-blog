@@ -3,15 +3,20 @@
   "version": "2.0.0",
   "private": true,
   "scripts": {
-    "postinstall": "next typegen",
+    "postinstall": "next typegen && lex install --ci",
     "dev": "next dev --webpack",
     "build": "next build --webpack",
     "start": "next start --webpack",
     "lint": "eslint .",
     "deploy": "./scripts/deploy.sh",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "prebuild": "lex build --clear --out lib/lexicons --importExt '.ts' --indexFile",
+    "update-lexicons": "lex install --update --save"
   },
   "dependencies": {
+    "@atproto/api": "^0.19.5",
+    "@atproto/lex": "^0.0.23",
+    "@atproto/syntax": "^0.5.2",
     "@giscus/react": "^3.1.0",
     "@next/third-parties": "^16.2.1",
     "@primer/octicons-react": "^19.23.1",

@@ -28,6 +28,7 @@ const config = defineConfig(
       "out",
       "next-env.d.ts",
       "*.mjs",
+      "lib/lexicons",
     ],
   },
   {

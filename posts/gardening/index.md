@@ -2,6 +2,9 @@
 title: Gardening
 date: 2026-01-16
 excerpt: It's not only for your veggies and herbs.
+bsky:
+  uri: at://did:plc:wm37qzgdjvwztq6loytrtpul/app.bsky.feed.post/3mckmn4ofjc2x
+  href: https://bsky.app/profile/eliperkins.com/post/3mckmn4ofjc2x
 ---
 
 An old coworker of mine would spend an hour or two each week cleaning up warts or dead code in the codebase we worked on. Some weeks it would be taking on that refactor that would make the code more readable. Some weeks it would be fixing that silly edge case bug that only two users had reported over the last 12 months. **He called it "gardening".**

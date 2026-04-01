@@ -1,2 +1,5 @@
 .pnp.*
 .yarn
+lexicons
+lexicons.json
+lib/lexicons

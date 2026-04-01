@@ -2,6 +2,9 @@
 title: "Tools I Love: xcrun simctl io booted recordVideo"
 date: 2026-01-30
 excerpt: Record high quality videos of the iOS simulator right from the command line.
+bsky:
+  uri: at://did:plc:wm37qzgdjvwztq6loytrtpul/app.bsky.feed.post/3mdnybpfmq22q
+  href: https://bsky.app/profile/eliperkins.com/post/3mdnybpfmq22q
 ---
 
 I've used a million different ways to record videos of iOS apps that I've worked over the last many years. From recording with tools like [CleanShot X](https://cleanshot.com) to macOS's built-in screen recorder, to QuickTime recordings of devices.

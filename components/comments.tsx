@@ -17,7 +17,7 @@ const Comments = () => {
         repo="eliperkins/eliperkins-blog"
         repoId="MDEwOlJlcG9zaXRvcnkxMTM1MTY5NzQ="
         strict="0"
-        theme="light"
+        theme="preferred_color_scheme"
       />
     </div>
   );

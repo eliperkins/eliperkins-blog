@@ -5,9 +5,10 @@ import Bio from "@/components/bio";
 import Comments from "@/components/comments";
 import { makeGraphForPost } from "@/lib/jsonld";
 import { JsonLd } from "@/components/jsonld";
+import BlogPostConversation from "@/components/bsky/blog-post-conversation";
+import { fetchPost, fetchPostContent, fetchPosts } from "@/lib/posts";
 
 import type { Metadata } from "next";
-import { fetchPost, fetchPostContent, fetchPosts } from "@/lib/posts";
 
 import "../syntax-highlighting.css";
 
@@ -76,31 +77,14 @@ const BlogPost = async ({ params }: Props) => {
       </h1>
       {
         <article
-          className={`font-serif prose prose-gray dark:prose-invert md:prose-xl lg:prose-2xl
-    prose-a:underline-offset-4
-    prose-h2:text-3xl
-    prose-h2:tracking-tight
-    prose-a:text-amber-600
-    prose-a:hover:text-amber-700
-    prose-code:inline-block
-    prose-pre:border
-    prose-pre:bg-[#ffffff]
-    dark:prose-pre:bg-[#011627]
-    prose-headings:prose-a:no-underline
-    prose-headings:prose-a:text-gray-950 dark:prose-headings:prose-a:text-gray-50
-    prose-headings:prose-a:hover:text-gray-950 dark:prose-headings:prose-a:hover:text-gray-300
-    prose-figcaption:mt-1
-    prose-figcaption:text-center
-    prose-p:text-gray-600
-    dark:prose-p:text-gray-400
-    prose-strong:font-medium
-    `}
+          className="prose prose-eli"
           // eslint-disable-next-line react/no-danger
           dangerouslySetInnerHTML={{ __html: content }}
         />
       }
       <hr className="border-gray-200 md:-mr-4 lg:-mr-14 mt-8" />
       <Bio />
+      {post.bsky ? <BlogPostConversation bskyPost={post.bsky} /> : null}
       <Comments />
     </main>
   );

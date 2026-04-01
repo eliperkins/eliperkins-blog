@@ -2,6 +2,9 @@
 title: "Tools I Love: mise (mise-en-place)"
 date: 2026-01-15
 excerpt: Use different versions of different languages and their toolchains with ease.
+bsky:
+  uri: at://did:plc:wm37qzgdjvwztq6loytrtpul/app.bsky.feed.post/3mciayhjooc2v
+  href: https://bsky.app/profile/eliperkins.com/post/3mciayhjooc2v
 ---
 
 > [!NOTE/tl;dr]
