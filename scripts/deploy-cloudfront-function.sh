@@ -11,8 +11,9 @@ CREATED=false
 if aws cloudfront describe-function --name "$FUNCTION_NAME" --no-cli-pager > /dev/null 2>&1; then
   echo "📝 Updating existing function..."
   ETAG=$(aws cloudfront describe-function --name "$FUNCTION_NAME" --query 'ETag' --output text --no-cli-pager)
-  aws cloudfront update-function-code \
+  aws cloudfront update-function \
     --name "$FUNCTION_NAME" \
+    --function-config Comment="Redirects to markdown on Accept header",Runtime=cloudfront-js-2.0 \
     --function-code fileb://"$FUNCTION_FILE" \
     --if-match "$ETAG" \
     --no-cli-pager > /dev/null
