@@ -3,7 +3,7 @@
   "version": "2.0.0",
   "private": true,
   "scripts": {
-    "postinstall": "next typegen && lex install --ci",
+    "postinstall": "next typegen && lex install --ci && lex build --clear --out lib/lexicons --importExt '.ts' --indexFile",
     "dev": "next dev --webpack",
     "build": "next build --webpack",
     "start": "next start --webpack",
