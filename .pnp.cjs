@@ -28,7 +28,7 @@ const RAW_RUNTIME_STATE =
       [null, {\
         "packageLocation": "./",\
         "packageDependencies": [\
-          ["@atproto/api", "npm:0.19.5"],\
+          ["@atproto/api", "npm:0.19.6"],\
           ["@atproto/lex", "npm:0.0.23"],\
           ["@atproto/syntax", "npm:0.5.2"],\
           ["@eslint/compat", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:2.0.3"],\
@@ -151,13 +151,13 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@atproto/api", [\
-      ["npm:0.19.5", {\
-        "packageLocation": "./.yarn/cache/@atproto-api-npm-0.19.5-50d5c0f5c3-9eb65591c6.zip/node_modules/@atproto/api/",\
+      ["npm:0.19.6", {\
+        "packageLocation": "./.yarn/cache/@atproto-api-npm-0.19.6-16210211c6-d5db9d10ec.zip/node_modules/@atproto/api/",\
         "packageDependencies": [\
-          ["@atproto/api", "npm:0.19.5"],\
+          ["@atproto/api", "npm:0.19.6"],\
           ["@atproto/common-web", "npm:0.4.19"],\
           ["@atproto/lexicon", "npm:0.6.2"],\
-          ["@atproto/syntax", "npm:0.5.2"],\
+          ["@atproto/syntax", "npm:0.5.3"],\
           ["@atproto/xrpc", "npm:0.7.7"],\
           ["await-lock", "npm:2.2.2"],\
           ["multiformats", "npm:9.9.0"],\
@@ -392,6 +392,14 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/cache/@atproto-syntax-npm-0.5.2-ca6ac0b196-032dc7d475.zip/node_modules/@atproto/syntax/",\
         "packageDependencies": [\
           ["@atproto/syntax", "npm:0.5.2"],\
+          ["tslib", "npm:2.8.1"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:0.5.3", {\
+        "packageLocation": "./.yarn/cache/@atproto-syntax-npm-0.5.3-dded664989-84db8e8045.zip/node_modules/@atproto/syntax/",\
+        "packageDependencies": [\
+          ["@atproto/syntax", "npm:0.5.3"],\
           ["tslib", "npm:2.8.1"]\
         ],\
         "linkType": "HARD"\
@@ -2735,7 +2743,7 @@ const RAW_RUNTIME_STATE =
       ["workspace:.", {\
         "packageLocation": "./",\
         "packageDependencies": [\
-          ["@atproto/api", "npm:0.19.5"],\
+          ["@atproto/api", "npm:0.19.6"],\
           ["@atproto/lex", "npm:0.0.23"],\
           ["@atproto/syntax", "npm:0.5.2"],\
           ["@eslint/compat", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:2.0.3"],\

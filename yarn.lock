@@ -59,19 +59,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@atproto/api@npm:^0.19.5":
-  version: 0.19.5
-  resolution: "@atproto/api@npm:0.19.5"
+"@atproto/api@npm:^0.19.6":
+  version: 0.19.6
+  resolution: "@atproto/api@npm:0.19.6"
   dependencies:
     "@atproto/common-web": "npm:^0.4.19"
     "@atproto/lexicon": "npm:^0.6.2"
-    "@atproto/syntax": "npm:^0.5.2"
+    "@atproto/syntax": "npm:^0.5.3"
     "@atproto/xrpc": "npm:^0.7.7"
     await-lock: "npm:^2.2.2"
     multiformats: "npm:^9.9.0"
     tlds: "npm:^1.234.0"
     zod: "npm:^3.23.8"
-  checksum: 10/9eb65591c6b679b468cf513818038a47bf51c827aed682de76f0507e9991324305909608e4e53b6d537ffae1bf550814bf086d1ffa6366e95d6e41b6d894f000
+  checksum: 10/d5db9d10ec0b9d6ce02f8a0303825a8072f4848125cee27fba1eb2c338688983f0729166a03300224fc66f455642d47169b76184e69e1380d131fce13f98743f
   languageName: node
   linkType: hard
 
@@ -288,6 +288,15 @@ __metadata:
   dependencies:
     tslib: "npm:^2.8.1"
   checksum: 10/032dc7d475d77748e9c02533e0b58ecaa900fae89f49c238bd501ccf33623ee1a61dcac57e9887215920e085d09de62755992f9c3a7eed89b3e96b816f61afcf
+  languageName: node
+  linkType: hard
+
+"@atproto/syntax@npm:^0.5.3":
+  version: 0.5.3
+  resolution: "@atproto/syntax@npm:0.5.3"
+  dependencies:
+    tslib: "npm:^2.8.1"
+  checksum: 10/84db8e8045ca5c2b18273312b68c559051dbbbb9b1d63f7352a6ee4975f2db2945196e4aa48fd5e6d55660bfb14c306adf8a10c6dea74fcbee2aee589847235f
   languageName: node
   linkType: hard
 
@@ -2214,7 +2223,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "eliperkins-blog@workspace:."
   dependencies:
-    "@atproto/api": "npm:^0.19.5"
+    "@atproto/api": "npm:^0.19.6"
     "@atproto/lex": "npm:^0.0.23"
     "@atproto/syntax": "npm:^0.5.2"
     "@eslint/compat": "npm:^2.0.3"
