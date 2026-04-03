@@ -59,19 +59,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@atproto/api@npm:^0.19.5":
-  version: 0.19.5
-  resolution: "@atproto/api@npm:0.19.5"
+"@atproto/api@npm:^0.19.6":
+  version: 0.19.6
+  resolution: "@atproto/api@npm:0.19.6"
   dependencies:
     "@atproto/common-web": "npm:^0.4.19"
     "@atproto/lexicon": "npm:^0.6.2"
-    "@atproto/syntax": "npm:^0.5.2"
+    "@atproto/syntax": "npm:^0.5.3"
     "@atproto/xrpc": "npm:^0.7.7"
     await-lock: "npm:^2.2.2"
     multiformats: "npm:^9.9.0"
     tlds: "npm:^1.234.0"
     zod: "npm:^3.23.8"
-  checksum: 10/9eb65591c6b679b468cf513818038a47bf51c827aed682de76f0507e9991324305909608e4e53b6d537ffae1bf550814bf086d1ffa6366e95d6e41b6d894f000
+  checksum: 10/d5db9d10ec0b9d6ce02f8a0303825a8072f4848125cee27fba1eb2c338688983f0729166a03300224fc66f455642d47169b76184e69e1380d131fce13f98743f
   languageName: node
   linkType: hard
 
@@ -2223,7 +2223,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "eliperkins-blog@workspace:."
   dependencies:
-    "@atproto/api": "npm:^0.19.5"
+    "@atproto/api": "npm:^0.19.6"
     "@atproto/lex": "npm:^0.0.23"
     "@atproto/syntax": "npm:^0.5.3"
     "@eslint/compat": "npm:^2.0.3"
