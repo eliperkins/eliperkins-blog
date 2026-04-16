@@ -144,16 +144,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@atproto/lex-builder@npm:^0.0.21":
-  version: 0.0.21
-  resolution: "@atproto/lex-builder@npm:0.0.21"
+"@atproto/lex-builder@npm:^0.0.22":
+  version: 0.0.22
+  resolution: "@atproto/lex-builder@npm:0.0.22"
   dependencies:
-    "@atproto/lex-document": "npm:^0.0.19"
-    "@atproto/lex-schema": "npm:^0.0.18"
+    "@atproto/lex-document": "npm:^0.0.20"
+    "@atproto/lex-schema": "npm:^0.0.19"
     prettier: "npm:^3.2.5"
     ts-morph: "npm:^27.0.0"
     tslib: "npm:^2.8.1"
-  checksum: 10/3449b9d0e09d6a0aa940d6d7a4e38253de21a0ef2be30a940544bdccce6e567b547fc5b6b07f3171153a6d8cf7b586ca1cb7926b812230d18a2bc4d8eb93c03c
+  checksum: 10/9e7f4c72e1c7fd1074b4b8438c9a67d168a51e0f68560fec43ab64531a8aec566293a3a13bbcfc6b940d81830569443dfdc06c8ea9bf2503a00908feb5b4cf0e
   languageName: node
   linkType: hard
 
@@ -167,15 +167,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@atproto/lex-client@npm:^0.0.19":
-  version: 0.0.19
-  resolution: "@atproto/lex-client@npm:0.0.19"
+"@atproto/lex-client@npm:^0.0.20":
+  version: 0.0.20
+  resolution: "@atproto/lex-client@npm:0.0.20"
   dependencies:
     "@atproto/lex-data": "npm:^0.0.15"
-    "@atproto/lex-json": "npm:^0.0.15"
-    "@atproto/lex-schema": "npm:^0.0.18"
+    "@atproto/lex-json": "npm:^0.0.16"
+    "@atproto/lex-schema": "npm:^0.0.19"
     tslib: "npm:^2.8.1"
-  checksum: 10/24ca976ded4c4c4d62b751d44217cce50cc2bd1574d3fc068cf8074d9e0008fbf25407153a76ee50860a8beb9ba7e25f403b5cad40d9392db42a4ef69289c3b8
+  checksum: 10/7f33e04b22d7613b86c5f0b5e7a1c3cc3c177e4729e68e0f3a84e756d00b7a9cb08ed3293552b55f7b71a7f3bb6d16985540888d0f9455b69c13a63c025e98ad
   languageName: node
   linkType: hard
 
@@ -203,30 +203,30 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@atproto/lex-document@npm:^0.0.19":
-  version: 0.0.19
-  resolution: "@atproto/lex-document@npm:0.0.19"
+"@atproto/lex-document@npm:^0.0.20":
+  version: 0.0.20
+  resolution: "@atproto/lex-document@npm:0.0.20"
   dependencies:
-    "@atproto/lex-schema": "npm:^0.0.18"
+    "@atproto/lex-schema": "npm:^0.0.19"
     core-js: "npm:^3"
     tslib: "npm:^2.8.1"
-  checksum: 10/8b855c048429a1bd24a392fd3da3828316fc8464e6b2e8f22b5f7402c98274155328f2af540f27a2679aea46499e68adb375b041670bd863f650aed18463346f
+  checksum: 10/eba577caa0834356e78d30905124c4170beb2734499c56eded170775be9a7af6f137de29922cb0cfa82ffef408cc3193c44f9f8bd3d0977938bdc7d9879cfc7c
   languageName: node
   linkType: hard
 
-"@atproto/lex-installer@npm:^0.0.24":
-  version: 0.0.24
-  resolution: "@atproto/lex-installer@npm:0.0.24"
+"@atproto/lex-installer@npm:^0.0.25":
+  version: 0.0.25
+  resolution: "@atproto/lex-installer@npm:0.0.25"
   dependencies:
-    "@atproto/lex-builder": "npm:^0.0.21"
+    "@atproto/lex-builder": "npm:^0.0.22"
     "@atproto/lex-cbor": "npm:^0.0.16"
     "@atproto/lex-data": "npm:^0.0.15"
-    "@atproto/lex-document": "npm:^0.0.19"
-    "@atproto/lex-resolver": "npm:^0.0.21"
-    "@atproto/lex-schema": "npm:^0.0.18"
-    "@atproto/syntax": "npm:^0.5.3"
+    "@atproto/lex-document": "npm:^0.0.20"
+    "@atproto/lex-resolver": "npm:^0.0.22"
+    "@atproto/lex-schema": "npm:^0.0.19"
+    "@atproto/syntax": "npm:^0.5.4"
     tslib: "npm:^2.8.1"
-  checksum: 10/bc1867a802155dfb82e0fbbc275cbf75f46cae55332d24407297c5fff392b3f974d47eb8feaa5646a612a2d3853607b4d1cb25a4260f08bbc14903c5266160ec
+  checksum: 10/120b7547f84a3a300c050e74f4fb4e6e40419d7f2742043a06baca5c77953c9ce56a4095bc7af92e2989bf8047a7bcef7264f785f85d25c4af3d719c5142b40e
   languageName: node
   linkType: hard
 
@@ -260,52 +260,52 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@atproto/lex-resolver@npm:^0.0.21":
-  version: 0.0.21
-  resolution: "@atproto/lex-resolver@npm:0.0.21"
+"@atproto/lex-resolver@npm:^0.0.22":
+  version: 0.0.22
+  resolution: "@atproto/lex-resolver@npm:0.0.22"
   dependencies:
     "@atproto-labs/did-resolver": "npm:^0.2.6"
     "@atproto/crypto": "npm:^0.4.5"
-    "@atproto/lex-client": "npm:^0.0.19"
+    "@atproto/lex-client": "npm:^0.0.20"
     "@atproto/lex-data": "npm:^0.0.15"
-    "@atproto/lex-document": "npm:^0.0.19"
-    "@atproto/lex-schema": "npm:^0.0.18"
+    "@atproto/lex-document": "npm:^0.0.20"
+    "@atproto/lex-schema": "npm:^0.0.19"
     "@atproto/repo": "npm:^0.9.1"
-    "@atproto/syntax": "npm:^0.5.3"
+    "@atproto/syntax": "npm:^0.5.4"
     tslib: "npm:^2.8.1"
-  checksum: 10/bbbce78565a909700fcca7dea189af931b53909949899e6631dd979ccc586a585807b478f4ca925779f4fc0a6a1e9409d084d905677d34c32be0a8e0cffbb8c0
+  checksum: 10/9a009d12371ed5b869a68e505387ee12bab4bfcb345fb3eb229f8e71886e9a07b03b09b237ded47ec6d9c9b77d37ad5b7258be6bdd0cb88321162bc45fdb8986
   languageName: node
   linkType: hard
 
-"@atproto/lex-schema@npm:^0.0.18":
-  version: 0.0.18
-  resolution: "@atproto/lex-schema@npm:0.0.18"
+"@atproto/lex-schema@npm:^0.0.19":
+  version: 0.0.19
+  resolution: "@atproto/lex-schema@npm:0.0.19"
   dependencies:
     "@atproto/lex-data": "npm:^0.0.15"
-    "@atproto/syntax": "npm:^0.5.3"
+    "@atproto/syntax": "npm:^0.5.4"
     "@standard-schema/spec": "npm:^1.1.0"
     iso-datestring-validator: "npm:^2.2.2"
     tslib: "npm:^2.8.1"
-  checksum: 10/3d482f80f3e40ffa2f09b3e201444e52e690e9ffbd5113b19e1fa62c036e5cebb633ff8a056140e45e04ef5a4723137bd11f51f0eb99f9887cac52c4e771e254
+  checksum: 10/09399d411270068d3ddf7c89e1a93281ad79a82f2aba7cff9109832315e0f12ac0c5389554949a53a16855b84957f25fa700e78ab439e017b3973809c044c06d
   languageName: node
   linkType: hard
 
-"@atproto/lex@npm:^0.0.24":
-  version: 0.0.24
-  resolution: "@atproto/lex@npm:0.0.24"
+"@atproto/lex@npm:^0.0.25":
+  version: 0.0.25
+  resolution: "@atproto/lex@npm:0.0.25"
   dependencies:
-    "@atproto/lex-builder": "npm:^0.0.21"
-    "@atproto/lex-client": "npm:^0.0.19"
+    "@atproto/lex-builder": "npm:^0.0.22"
+    "@atproto/lex-client": "npm:^0.0.20"
     "@atproto/lex-data": "npm:^0.0.15"
-    "@atproto/lex-installer": "npm:^0.0.24"
-    "@atproto/lex-json": "npm:^0.0.15"
-    "@atproto/lex-schema": "npm:^0.0.18"
+    "@atproto/lex-installer": "npm:^0.0.25"
+    "@atproto/lex-json": "npm:^0.0.16"
+    "@atproto/lex-schema": "npm:^0.0.19"
     tslib: "npm:^2.8.1"
     yargs: "npm:^17.0.0"
   bin:
     lex: bin/lex
     ts-lex: bin/lex
-  checksum: 10/bd9ac17d77bfb2791bdb71ead78e830ad3c06f37197ac5437f371936c8953f328cc2488005b77dd60f8fc1ae8f5f282e15db81222fa966f943f103ca721528c3
+  checksum: 10/ac66ffb2479bc3b87a4733d065e07f5b83f3f39d5ae16a0d43b9ae518fe3e7ce038ed4663f69a1fa32d717a1e7004742548b43dd952040be52e1b3cf924bc6bb
   languageName: node
   linkType: hard
 
@@ -2298,7 +2298,7 @@ __metadata:
   resolution: "eliperkins-blog@workspace:."
   dependencies:
     "@atproto/api": "npm:^0.19.9"
-    "@atproto/lex": "npm:^0.0.24"
+    "@atproto/lex": "npm:^0.0.25"
     "@atproto/syntax": "npm:^0.5.3"
     "@eslint/compat": "npm:^2.0.5"
     "@eslint/js": "npm:^10.0.1"
