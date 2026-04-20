@@ -1,4 +1,5 @@
 import Bio from "@/components/bio";
+import WebMCP from "@/components/web-mcp";
 import { fetchPosts } from "@/lib/posts";
 import Link from "next/link";
 import { format } from "date-fns";
@@ -23,12 +24,20 @@ const MainHeader = () => (
 const Home = async () => {
   const posts = await fetchPosts();
   const jsonLd = authorWithContext;
+  const postSummaries = posts.map((p) => ({
+    title: p.title,
+    slug: p.slug,
+    date: format(p.date, "yyyy-MM-dd"),
+    excerpt: p.unprocessedExcerpt,
+    readingTime: p.readingTime,
+  }));
 
   return (
     <main>
       <MainHeader />
       <Bio />
       <JsonLd object={jsonLd} />
+      <WebMCP posts={postSummaries} />
       <ul className="prose md:prose-lg lg:prose-xl font-serif prose-header:prose-a:font-semibold prose-a:underline-offset-4 prose-a:text-amber-600 prose-a:hover:text-amber-700 prose-h3:mb-0 prose-p:my-0">
         {posts.map((post) => (
           <li key={post.slug}>

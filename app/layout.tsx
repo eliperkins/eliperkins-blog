@@ -42,6 +42,7 @@ export const metadata: Metadata = {
     canonical: "https://blog.eliperkins.com",
     types: {
       "application/rss+xml": "https://blog.eliperkins.com/rss.xml",
+      "text/markdown": "https://blog.eliperkins.com/index.md",
     },
   },
   category: "technology",

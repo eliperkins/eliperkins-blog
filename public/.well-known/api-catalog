@@ -1,0 +1,13 @@
+{
+  "linkset": [
+    {
+      "anchor": "https://blog.eliperkins.com",
+      "service-desc": [
+        {
+          "href": "https://blog.eliperkins.com/.well-known/agent-skills/index.json",
+          "type": "application/json"
+        }
+      ]
+    }
+  ]
+}
