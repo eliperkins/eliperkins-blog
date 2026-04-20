@@ -643,7 +643,7 @@ const RAW_RUNTIME_STATE =
           ["@eslint/config-array", "npm:0.23.5"],\
           ["@eslint/object-schema", "npm:3.0.5"],\
           ["debug", "virtual:ddf83a29ef667ff70930bb2532e0f0943a8a39f9e9a6fd424601e629bc797129f8a3af1697368da69640ebe56f8bc231d6833fb632ec36ef002a424eca53865f#npm:4.3.6"],\
-          ["minimatch", "npm:10.2.4"]\
+          ["minimatch", "npm:10.2.5"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -1888,7 +1888,7 @@ const RAW_RUNTIME_STATE =
           ["@typescript-eslint/typescript-estree", "virtual:87facc91c6ac2c7b4eee58734836f8dac9acaa25c7f302ab692a8857e91cd795a0f9ca46c6d77d2c532447e2c46228b7ccd2cf3b4f17f0631a4e74597781a1fe#npm:8.58.2"],\
           ["@typescript-eslint/visitor-keys", "npm:8.58.2"],\
           ["debug", "virtual:d36ef276e61c48f48312419595d34afad7a79d80aeee9ba11968c6d60e4cd510d509c3d4323fdbe3eeba277dce99d47dbbf393649c756978836ba4026ba97faf#npm:4.4.3"],\
-          ["minimatch", "npm:10.2.2"],\
+          ["minimatch", "npm:10.2.5"],\
           ["semver", "npm:7.7.3"],\
           ["tinyglobby", "npm:0.2.15"],\
           ["ts-api-utils", "virtual:fc58cb4b6ee4f4a94a79ee84b7fa7fef0d553022b667cecd5700291ebf8864976a10e33ce3d2d7eedec20e5d7921b4799cfd3263018dbfe7932af3382d7a16d3#npm:2.5.0"],\
@@ -3178,7 +3178,7 @@ const RAW_RUNTIME_STATE =
           ["is-glob", "npm:4.0.3"],\
           ["jiti", null],\
           ["json-stable-stringify-without-jsonify", "npm:1.0.1"],\
-          ["minimatch", "npm:10.2.4"],\
+          ["minimatch", "npm:10.2.5"],\
           ["natural-compare", "npm:1.4.0"],\
           ["optionator", "npm:0.9.4"]\
         ],\
@@ -3234,7 +3234,7 @@ const RAW_RUNTIME_STATE =
           ["estraverse", "npm:5.3.0"],\
           ["hasown", "npm:2.0.2"],\
           ["jsx-ast-utils", "npm:3.3.5"],\
-          ["minimatch", "npm:3.1.5"],\
+          ["minimatch", "npm:10.2.5"],\
           ["object.entries", "npm:1.1.9"],\
           ["object.fromentries", "npm:2.0.8"],\
           ["object.values", "npm:1.2.1"],\
@@ -5383,35 +5383,11 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["minimatch", [\
-      ["npm:10.2.2", {\
-        "packageLocation": "./.yarn/cache/minimatch-npm-10.2.2-834cf8d1d1-e135be7b50.zip/node_modules/minimatch/",\
-        "packageDependencies": [\
-          ["brace-expansion", "npm:5.0.5"],\
-          ["minimatch", "npm:10.2.2"]\
-        ],\
-        "linkType": "HARD"\
-      }],\
-      ["npm:10.2.4", {\
-        "packageLocation": "./.yarn/cache/minimatch-npm-10.2.4-11f0605299-aea4874e52.zip/node_modules/minimatch/",\
-        "packageDependencies": [\
-          ["brace-expansion", "npm:5.0.5"],\
-          ["minimatch", "npm:10.2.4"]\
-        ],\
-        "linkType": "HARD"\
-      }],\
       ["npm:10.2.5", {\
         "packageLocation": "./.yarn/cache/minimatch-npm-10.2.5-f1c8297822-19e87a931a.zip/node_modules/minimatch/",\
         "packageDependencies": [\
           ["brace-expansion", "npm:5.0.5"],\
           ["minimatch", "npm:10.2.5"]\
-        ],\
-        "linkType": "HARD"\
-      }],\
-      ["npm:3.1.5", {\
-        "packageLocation": "./.yarn/cache/minimatch-npm-3.1.5-86958baf50-b11a7ee577.zip/node_modules/minimatch/",\
-        "packageDependencies": [\
-          ["brace-expansion", "npm:5.0.5"],\
-          ["minimatch", "npm:3.1.5"]\
         ],\
         "linkType": "HARD"\
       }]\

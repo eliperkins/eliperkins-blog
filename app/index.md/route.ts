@@ -17,7 +17,7 @@ export async function GET() {
     lines.push(
       `### [${post.title}](https://blog.eliperkins.com/${post.slug})`,
     );
-    lines.push(`*${dateStr}* · ${post.readingTime} min read`, "");
+    lines.push(`*${dateStr}* · ${String(post.readingTime)} min read`, "");
     if (post.unprocessedExcerpt) {
       lines.push(post.unprocessedExcerpt, "");
     }

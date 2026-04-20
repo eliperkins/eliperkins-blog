@@ -24,7 +24,7 @@ interface PostSummary {
   readingTime: number;
 }
 
-const WebMCP = ({ posts }: { posts: PostSummary[] }) => {
+const WebMCP = ({ posts }: { readonly posts: PostSummary[] }) => {
   useEffect(() => {
     if (!navigator.modelContext) return;
 
