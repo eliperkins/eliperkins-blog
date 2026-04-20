@@ -2313,7 +2313,7 @@ __metadata:
     eslint: "npm:^10.2.1"
     eslint-config-prettier: "npm:^10.1.8"
     eslint-plugin-react: "npm:^7.37.5"
-    feed: "npm:^5.2.0"
+    feed: "npm:^5.2.1"
     globals: "npm:^17.5.0"
     hast: "npm:^1.0.0"
     hastscript: "npm:^9.0.1"
@@ -2879,12 +2879,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"feed@npm:^5.2.0":
-  version: 5.2.0
-  resolution: "feed@npm:5.2.0"
+"feed@npm:^5.2.1":
+  version: 5.2.1
+  resolution: "feed@npm:5.2.1"
   dependencies:
     xml-js: "npm:^1.6.11"
-  checksum: 10/caec08981d350188ce0a1c5f92cb303bce51bd5a0538be91c2cad9a7b7cbc7526055f38e14ca2a84d373cad59c2aa2e98c50209dcd58df523542b180d0d2c8bd
+  checksum: 10/6f6028d1c26331a70949e56b56adb1d5e50238bd7c11e223820e99747ae690091ddd03f7b93cc617f8bc0712560eeb7944595b3f8225e0f05e26a6eb6bf62816
   languageName: node
   linkType: hard
 

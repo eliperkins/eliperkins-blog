@@ -54,7 +54,7 @@ const RAW_RUNTIME_STATE =
           ["eslint", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:10.2.1"],\
           ["eslint-config-prettier", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:10.1.8"],\
           ["eslint-plugin-react", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:7.37.5"],\
-          ["feed", "npm:5.2.0"],\
+          ["feed", "npm:5.2.1"],\
           ["globals", "npm:17.5.0"],\
           ["hast", "npm:1.0.0"],\
           ["hastscript", "npm:9.0.1"],\
@@ -2828,7 +2828,7 @@ const RAW_RUNTIME_STATE =
           ["eslint", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:10.2.1"],\
           ["eslint-config-prettier", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:10.1.8"],\
           ["eslint-plugin-react", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:7.37.5"],\
-          ["feed", "npm:5.2.0"],\
+          ["feed", "npm:5.2.1"],\
           ["globals", "npm:17.5.0"],\
           ["hast", "npm:1.0.0"],\
           ["hastscript", "npm:9.0.1"],\
@@ -3480,10 +3480,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["feed", [\
-      ["npm:5.2.0", {\
-        "packageLocation": "./.yarn/cache/feed-npm-5.2.0-a770610f78-caec08981d.zip/node_modules/feed/",\
+      ["npm:5.2.1", {\
+        "packageLocation": "./.yarn/cache/feed-npm-5.2.1-1cc002b018-6f6028d1c2.zip/node_modules/feed/",\
         "packageDependencies": [\
-          ["feed", "npm:5.2.0"],\
+          ["feed", "npm:5.2.1"],\
           ["xml-js", "npm:1.6.11"]\
         ],\
         "linkType": "HARD"\
