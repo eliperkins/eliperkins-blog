@@ -25,8 +25,7 @@ export async function GET() {
       {
         name: "get-rss-feed",
         type: "skill-md",
-        description:
-          "Get the RSS feed of all blog posts with full content",
+        description: "Get the RSS feed of all blog posts with full content",
         url: "https://blog.eliperkins.com/rss.xml",
       },
     ],
