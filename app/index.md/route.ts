@@ -14,9 +14,7 @@ export async function GET() {
 
   for (const post of posts) {
     const dateStr = format(post.date, "yyyy-MM-dd");
-    lines.push(
-      `### [${post.title}](https://blog.eliperkins.com/${post.slug})`,
-    );
+    lines.push(`### [${post.title}](https://blog.eliperkins.com/${post.slug})`);
     lines.push(`*${dateStr}* · ${String(post.readingTime)} min read`, "");
     if (post.unprocessedExcerpt) {
       lines.push(post.unprocessedExcerpt, "");
