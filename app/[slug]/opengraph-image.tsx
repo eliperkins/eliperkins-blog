@@ -105,23 +105,17 @@ async function loadMonaspaceFont(): Promise<FontOptions[]> {
     700: "assets/fonts/monaspace-neon/MonaspaceNeonFrozen-ExtraBoldItalic.ttf",
   };
   return Promise.all([
-    ...Object.entries(normalFontMap).map(
-      async ([weight, path]) =>
-        ({
-          name: "Monaspace Neon",
-          weight: parseInt(weight, 10) as Weight,
-          data: await loadFont(path),
-        }) as FontOptions,
-    ),
-    ...Object.entries(italicFontMap).map(
-      async ([weight, path]) =>
-        ({
-          name: "Monaspace Neon",
-          weight: parseInt(weight, 10) as Weight,
-          data: await loadFont(path),
-          style: "italic",
-        }) as FontOptions,
-    ),
+    ...Object.entries(normalFontMap).map(async ([weight, path]) => ({
+      name: "Monaspace Neon",
+      weight: parseInt(weight, 10) as Weight,
+      data: await loadFont(path),
+    })),
+    ...Object.entries(italicFontMap).map(async ([weight, path]) => ({
+      name: "Monaspace Neon",
+      weight: parseInt(weight, 10) as Weight,
+      data: await loadFont(path),
+      style: "italic",
+    })),
   ]);
 }
 
