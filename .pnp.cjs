@@ -59,6 +59,7 @@ const RAW_RUNTIME_STATE =
           ["hast", "npm:1.0.0"],\
           ["hastscript", "npm:9.0.1"],\
           ["next", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:16.2.4"],\
+          ["postcss", "npm:8.5.10"],\
           ["prettier", "npm:3.8.3"],\
           ["react", "npm:19.2.5"],\
           ["react-dom", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:19.2.5"],\
@@ -2799,6 +2800,7 @@ const RAW_RUNTIME_STATE =
           ["hast", "npm:1.0.0"],\
           ["hastscript", "npm:9.0.1"],\
           ["next", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:16.2.4"],\
+          ["postcss", "npm:8.5.10"],\
           ["prettier", "npm:3.8.3"],\
           ["react", "npm:19.2.5"],\
           ["react-dom", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:19.2.5"],\
