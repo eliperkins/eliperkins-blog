@@ -1505,7 +1505,7 @@ const RAW_RUNTIME_STATE =
           ["@tailwindcss/node", "npm:4.2.4"],\
           ["@tailwindcss/oxide", "npm:4.2.4"],\
           ["@tailwindcss/postcss", "npm:4.2.4"],\
-          ["postcss", "npm:8.5.6"],\
+          ["postcss", "npm:8.5.10"],\
           ["tailwindcss", "npm:4.2.4"]\
         ],\
         "linkType": "HARD"\
@@ -5821,16 +5821,6 @@ const RAW_RUNTIME_STATE =
           ["nanoid", "npm:3.3.11"],\
           ["picocolors", "npm:1.1.1"],\
           ["postcss", "npm:8.5.10"],\
-          ["source-map-js", "npm:1.2.1"]\
-        ],\
-        "linkType": "HARD"\
-      }],\
-      ["npm:8.5.6", {\
-        "packageLocation": "./.yarn/cache/postcss-npm-8.5.6-e7f126c6f3-9e4fbe9757.zip/node_modules/postcss/",\
-        "packageDependencies": [\
-          ["nanoid", "npm:3.3.11"],\
-          ["picocolors", "npm:1.1.1"],\
-          ["postcss", "npm:8.5.6"],\
           ["source-map-js", "npm:1.2.1"]\
         ],\
         "linkType": "HARD"\
