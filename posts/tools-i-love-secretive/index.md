@@ -2,6 +2,9 @@
 title: "Tools I Love: Secretive"
 date: 2026-05-13
 excerpt: Using the Secure Enclave inside that hunk of metal and glass on your desk to do the mundane, safely.
+bsky:
+  uri: at://did:plc:wm37qzgdjvwztq6loytrtpul/app.bsky.feed.post/3mltm6w56qy2y
+  href: https://bsky.app/profile/eliperkins.com/post/3mltm6w56qy2y
 ---
 
 I did a `git commit` and a `git push` this morning and realized there's a tool that I've used for many years now (or at least 4 years, depending on [when I actually put it in my Brewfile](https://github.com/eliperkins/dotfiles/blob/8fd4a95d2fe257839963f3e396db959b7d1a60c7/homebrew/Brewfile#L154)).
