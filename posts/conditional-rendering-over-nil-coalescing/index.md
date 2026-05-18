@@ -2,6 +2,9 @@
 title: Conditional Rendering Over Nil Coalescing
 date: 2026-05-18
 excerpt: Stop using empty strings, empty arrays and zeros as fallbacks for your nullable values.
+bsky:
+  uri: at://did:plc:wm37qzgdjvwztq6loytrtpul/app.bsky.feed.post/3mm5h3ouorh2v
+  href: https://bsky.app/profile/eliperkins.com/post/3mm5h3ouorh2v
 ---
 
 Stop writing `count ?? 0`{swift} in your UI code.
