@@ -49,7 +49,7 @@ const RAW_RUNTIME_STATE =
           ["@typescript-eslint/types", "npm:8.59.3"],\
           ["@vercel/og", "npm:0.11.1"],\
           ["babel-plugin-react-compiler", "npm:1.0.0"],\
-          ["date-fns", "npm:4.1.0"],\
+          ["date-fns", "npm:4.2.1"],\
           ["eliperkins-blog", "workspace:."],\
           ["eslint", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:10.4.0"],\
           ["eslint-config-prettier", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:10.1.8"],\
@@ -2611,10 +2611,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["date-fns", [\
-      ["npm:4.1.0", {\
-        "packageLocation": "./.yarn/cache/date-fns-npm-4.1.0-764604ee0f-d5f6e9de5b.zip/node_modules/date-fns/",\
+      ["npm:4.2.1", {\
+        "packageLocation": "./.yarn/cache/date-fns-npm-4.2.1-0d5977878b-c2731946a2.zip/node_modules/date-fns/",\
         "packageDependencies": [\
-          ["date-fns", "npm:4.1.0"]\
+          ["date-fns", "npm:4.2.1"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -2788,7 +2788,7 @@ const RAW_RUNTIME_STATE =
           ["@typescript-eslint/types", "npm:8.59.3"],\
           ["@vercel/og", "npm:0.11.1"],\
           ["babel-plugin-react-compiler", "npm:1.0.0"],\
-          ["date-fns", "npm:4.1.0"],\
+          ["date-fns", "npm:4.2.1"],\
           ["eliperkins-blog", "workspace:."],\
           ["eslint", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:10.4.0"],\
           ["eslint-config-prettier", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:10.1.8"],\
