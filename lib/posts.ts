@@ -22,11 +22,6 @@ function remarkAlertFixed(options: { legacyTitle: boolean }) {
   return remarkAlert(options);
 }
 
-export interface BskyPost {
-  uri: string;
-  href: string;
-}
-
 export interface Post {
   title: string;
   date: Date;
@@ -36,14 +31,14 @@ export interface Post {
   unprocessedExcerpt: string;
   readingTime: number;
   wordCount: number;
-  bsky?: BskyPost;
+  blueskyPostID?: string;
 }
 
 interface FrontMatter {
   title: string;
   date: string;
   excerpt: string;
-  bsky?: BskyPost;
+  blueskyPostID?: string;
 }
 
 export async function fetchPosts(): Promise<Post[]> {
@@ -68,7 +63,7 @@ export async function fetchPost(slug: string): Promise<Post> {
   const file = await parsePostFile(slug);
 
   // @ts-expect-error file.data.matter is not typed
-  const { title, date, excerpt, bsky }: FrontMatter = file.data.matter;
+  const { title, date, excerpt, blueskyPostID }: FrontMatter = file.data.matter;
 
   const content = await fetchPostContent(slug);
   const parsedExcerpt = await parseMarkdownContent(excerpt);
@@ -85,7 +80,7 @@ export async function fetchPost(slug: string): Promise<Post> {
     unprocessedExcerpt: excerpt,
     readingTime,
     wordCount,
-    bsky,
+    blueskyPostID,
   };
 }
 

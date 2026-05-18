@@ -84,7 +84,7 @@ const BlogPost = async ({ params }: Props) => {
       }
       <hr className="border-gray-200 md:-mr-4 lg:-mr-14 mt-8" />
       <Bio />
-      {post.bsky ? <BlogPostConversation bskyPost={post.bsky} /> : null}
+      {post.blueskyPostID ? <BlogPostConversation blueskyPostID={post.blueskyPostID} /> : null}
       <Comments />
     </main>
   );

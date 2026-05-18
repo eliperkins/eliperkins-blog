@@ -4,15 +4,20 @@ import { useEffect, useState } from "react";
 import { isAtUriString, xrpc } from "@atproto/lex";
 
 import { app } from "../../lib/lexicons";
-import { type BskyPost } from "../../lib/posts";
 import AvatarStack from "./avatar-stack";
 import ThreadPost from "./thread-post";
 
+const BSKY_DID = "did:plc:wm37qzgdjvwztq6loytrtpul";
+const BSKY_HANDLE = "eliperkins.com";
+
 const BlogPostConversation = ({
-  bskyPost,
+  blueskyPostID,
 }: {
-  readonly bskyPost: BskyPost;
+  readonly blueskyPostID: string;
 }) => {
+  const uri = `at://${BSKY_DID}/app.bsky.feed.post/${blueskyPostID}`;
+  const href = `https://bsky.app/profile/${BSKY_HANDLE}/post/${blueskyPostID}`;
+
   const [postThread, setPostThread] =
     useState<app.bsky.feed.defs.ThreadViewPost | null>(null);
   const [likes, setLikes] = useState<app.bsky.feed.getLikes.Like[] | null>(
@@ -23,7 +28,7 @@ const BlogPostConversation = ({
     let ignore = false;
 
     const fetchPost = async () => {
-      if (!isAtUriString(bskyPost.uri)) return;
+      if (!isAtUriString(uri)) return;
 
       try {
         const postThread = await xrpc(
@@ -31,7 +36,7 @@ const BlogPostConversation = ({
           app.bsky.feed.getPostThread,
           {
             params: {
-              uri: bskyPost.uri,
+              uri,
             },
           },
         );
@@ -41,7 +46,7 @@ const BlogPostConversation = ({
           app.bsky.feed.getLikes,
           {
             params: {
-              uri: bskyPost.uri,
+              uri,
             },
           },
         );
@@ -64,7 +69,7 @@ const BlogPostConversation = ({
     return () => {
       ignore = true;
     };
-  }, [bskyPost]);
+  }, [uri]);
 
   if (!postThread || !likes) {
     return <p>Loading Bluesky conversation...</p>;
@@ -96,7 +101,7 @@ const BlogPostConversation = ({
         </div>
         <a
           className="underline underline-offset-4 text-amber-600 hover:text-amber-700 hover:after:content-['_↗']"
-          href={bskyPost.href}
+          href={href}
           rel="noopener noreferrer"
           target="_blank"
         >
