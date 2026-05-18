@@ -12,6 +12,7 @@ import rehypeAutolinkHeadings from "rehype-autolink-headings";
 import rehypeSlug from "rehype-slug";
 import { remarkAlert } from "remark-github-blockquote-alert";
 import { h } from "hastscript";
+import remarkInlineCodeLang from "./remark-inline-code-lang";
 
 import type { VFile } from "vfile";
 
@@ -93,6 +94,7 @@ async function parseMarkdownContent(content: string): Promise<string> {
     .use(remarkParse)
     .use(remarkGfm)
     .use(remarkAlertFixed, { legacyTitle: true })
+    .use(remarkInlineCodeLang)
     .use(remarkRehype, { allowDangerousHtml: true })
     .use(rehypeStarryNight, {
       getOnigurumaUrlFs: () => {

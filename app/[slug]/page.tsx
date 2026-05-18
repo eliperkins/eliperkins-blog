@@ -10,7 +10,7 @@ import { fetchPost, fetchPostContent, fetchPosts } from "@/lib/posts";
 
 import type { Metadata } from "next";
 
-import "../syntax-highlighting.css";
+import "@wooorm/starry-night/style/both";
 
 interface Props {
   readonly params: Promise<{ slug: string }>;
