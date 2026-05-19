@@ -1,5 +1,5 @@
 import { visit } from "unist-util-visit";
-import type { Root, InlineCode, Text, Parent } from "mdast";
+import type { Root, InlineCode, Parent } from "mdast";
 
 export default function remarkInlineCodeLang() {
   return (tree: Root) => {
@@ -13,11 +13,12 @@ export default function remarkInlineCodeLang() {
       ) => {
         if (index === undefined || !parent) return;
 
+        if (index + 1 >= parent.children.length) return;
         const next = parent.children[index + 1];
-        if (!next || next.type !== "text") return;
+        if (next.type !== "text") return;
 
-        const textNode = next as Text;
-        const match = textNode.value.match(/^\{(\w+)\}/);
+        const textNode = next;
+        const match = /^\{(\w+)\}/.exec(textNode.value);
         if (!match) return;
 
         const lang = match[1];
