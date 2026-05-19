@@ -93,7 +93,7 @@
     @apply prose-a:underline-offset-4 prose-a:text-amber-600 prose-a:hover:text-amber-700;
     @apply prose-h2:text-3xl prose-h2:tracking-tight;
     @apply prose-code:inline-block;
-    @apply prose-pre:border prose-pre:bg-[#ffffff] dark:prose-pre:bg-[#011627];
+    @apply prose-pre:border prose-pre:border-gray-200 dark:prose-pre:border-gray-700 prose-pre:bg-[#ffffff] dark:prose-pre:bg-[#011627] prose-pre:[--tw-prose-pre-code:#24292e] dark:prose-pre:[--tw-prose-pre-code:#e6edf3];
     @apply prose-headings:prose-a:no-underline;
     @apply prose-headings:prose-a:text-gray-950 dark:prose-headings:prose-a:text-gray-50;
     @apply prose-headings:prose-a:hover:text-gray-950 dark:prose-headings:prose-a:hover:text-gray-300;
