@@ -6,7 +6,11 @@ export default function remarkInlineCodeLang() {
     visit(
       tree,
       "inlineCode",
-      (node: InlineCode, index: number | undefined, parent: Parent | undefined) => {
+      (
+        node: InlineCode,
+        index: number | undefined,
+        parent: Parent | undefined,
+      ) => {
         if (index === undefined || !parent) return;
 
         const next = parent.children[index + 1];
@@ -25,7 +29,7 @@ export default function remarkInlineCodeLang() {
         };
 
         textNode.value = textNode.value.slice(match[0].length);
-      }
+      },
     );
   };
 }
