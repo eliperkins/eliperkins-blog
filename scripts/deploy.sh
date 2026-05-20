@@ -14,12 +14,13 @@ aws s3 sync ./out "s3://$S3_BUCKET" --delete
 
 echo "🖼️  Fixing content-type for OpenGraph images..."
 aws s3 cp "s3://$S3_BUCKET" "s3://$S3_BUCKET" \
-  --recursive \
-  --exclude "*" \
-  --include "*/opengraph-image" \
-  --content-type "image/png" \
-  --metadata-directive REPLACE
-POLICY=$(cat << JSON
+    --recursive \
+    --exclude "*" \
+    --include "*/opengraph-image" \
+    --content-type "image/png" \
+    --metadata-directive REPLACE
+POLICY=$(
+    cat <<JSON
 {
   "Version": "2012-10-17",
   "Statement": [{
@@ -39,3 +40,6 @@ echo "🔧 Deploying CloudFront function..."
 
 echo "📡 Invalidating Cloudfront cache for $CLOUDFRONT_DISTRIBUTION_ID..."
 aws cloudfront create-invalidation --distribution-id "$CLOUDFRONT_DISTRIBUTION_ID" --paths "/*" --no-cli-pager
+
+echo "📝 Publishing ATProto records for new posts..."
+yarn tsx scripts/publish-atproto.mts

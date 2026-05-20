@@ -10,14 +10,29 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
+
       - name: Use Node.js
+        id: setup-node
         uses: actions/setup-node@v6
         with:
-          node-version: "22"
+          node-version: "26"
           cache: "yarn"
+
       - name: Install dependencies
-        run: yarn install --immutable --immutable-cache
+        run: |
+          npm install -g corepack
+          corepack enable
+          yarn install --immutable --immutable-cache
+
+      - uses: actions/cache@v5
+        with:
+          path: ${{ github.workspace }}/.next/cache
+          key: v1-${{ runner.os }}-${{ steps.setup-node.outputs.node-version }}-nextjs-${{ hashFiles('**/yarn.lock') }}-${{ hashFiles('**/*.js', '**/*.jsx', '**/*.ts', '**/*.tsx', '**/*.md', '**/*.css') }}
+          restore-keys: |
+            v1-${{ runner.os }}-${{ steps.setup-node.outputs.node-version }}-nextjs-${{ hashFiles('**/yarn.lock') }}-
+
       - name: Lint
         run: yarn lint
+
       - name: Check types
         run: yarn tsc --noEmit

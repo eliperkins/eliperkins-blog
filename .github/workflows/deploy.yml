@@ -24,11 +24,14 @@ jobs:
         id: setup-node
         uses: actions/setup-node@v6
         with:
-          node-version: "20"
+          node-version: "26"
           cache: "yarn"
 
       - name: Install dependencies
-        run: yarn install --immutable --immutable-cache
+        run: |
+          npm install -g corepack
+          corepack enable
+          yarn install --immutable --immutable-cache
 
       - uses: actions/cache@v5
         with:
@@ -46,3 +49,6 @@ jobs:
 
       - name: Deploy
         run: yarn deploy
+        env:
+          ATPROTO_IDENTIFIER: ${{ secrets.ATPROTO_IDENTIFIER }}
+          ATPROTO_APP_PASSWORD: ${{ secrets.ATPROTO_APP_PASSWORD }}
