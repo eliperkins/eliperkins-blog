@@ -4,6 +4,7 @@ date: 2014-02-04
 excerpt:
   Find success by seeking to learn more, shaping one's own personal opinion, and
   changing one's mind.
+atUri: at://did:plc:wm37qzgdjvwztq6loytrtpul/site.standard.document/3bll7d6gs22wr
 ---
 
 > He said people who were right a lot of the time _were people who often changed

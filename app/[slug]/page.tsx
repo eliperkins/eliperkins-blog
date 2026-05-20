@@ -63,6 +63,10 @@ const BlogPost = async ({ params }: Props) => {
 
   return (
     <main>
+      {post.atUri ? (
+        // eslint-disable-next-line react/no-invalid-html-attribute
+        <link href={post.atUri} rel="site.standard.document" />
+      ) : null}
       <JsonLd object={jsonLd} />
       <Script src="https://platform.twitter.com/widgets.js" />
       <BlogPostHeader />

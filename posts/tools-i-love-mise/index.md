@@ -3,6 +3,7 @@ title: "Tools I Love: mise (mise-en-place)"
 date: 2026-01-15
 excerpt: Use different versions of different languages and their toolchains with ease.
 blueskyPostID: 3mciayhjooc2v
+atUri: at://did:plc:wm37qzgdjvwztq6loytrtpul/site.standard.document/3mcgbnyj222mv
 ---
 
 > [!NOTE/tl;dr]

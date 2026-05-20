@@ -3,6 +3,7 @@ title: I don't look at the code
 date: 2026-02-17
 excerpt: It's not the flex you think it is.
 blueskyPostID: 3mf33rar3mk2x
+atUri: at://did:plc:wm37qzgdjvwztq6loytrtpul/site.standard.document/3mezb2eps22tu
 ---
 
 Saying "I don't look at the code" is not the flex you think it is.

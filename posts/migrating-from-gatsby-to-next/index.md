@@ -2,6 +2,7 @@
 title: Migrating from Gatsby to Next.js
 date: 2024-05-24
 excerpt: Sometimes paying off tech debt comes at the cost of a rewrite
+atUri: at://did:plc:wm37qzgdjvwztq6loytrtpul/site.standard.document/3kt6zgoic22hl
 ---
 
 Some years ago, I migrated both my personal site and my blog to [Gatsby](https://www.gatsbyjs.com). At the time, Gatsby was the new hotness, using GraphQL for data fetching and with, at the time, a rich ecosystem of developers and plugins. The site rendered out to some static JavaScript and HTML, and ran completely statically on S3 and Cloudfront. At the cost of a dollar a month, both were completely functional for what I wanted them to be: a home for me on the internet.

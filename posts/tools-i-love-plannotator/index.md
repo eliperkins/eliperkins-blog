@@ -3,6 +3,7 @@ title: "Tools I Love: Plannotator"
 date: 2026-03-18
 excerpt: Make working with your clanker feel more like collaborating in Google Docs.
 blueskyPostID: 3mhe5kxg6bc2a
+atUri: at://did:plc:wm37qzgdjvwztq6loytrtpul/site.standard.document/3mhc6l33k22ql
 ---
 
 I've been using Claude Code a lot more over the last 6 months. The best outputs I've gotten from Claude Code have come from plans that are well thought out, explore a variety of edge cases or various strategies, and then consolidate on a plan of attack. The terminal is great, but the chat UI in general can leave me feeling less precise and more like I'm backseat driving a junior developer via Slack than writing my best code.

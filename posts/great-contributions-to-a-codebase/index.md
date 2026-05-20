@@ -2,6 +2,7 @@
 title: What makes a great contribution to a codebase?
 date: 2024-06-05T00:00:00
 excerpt: Guidelines and principles learned in going from two to seven ICs.
+atUri: at://did:plc:wm37qzgdjvwztq6loytrtpul/site.standard.document/3ku56zpzc22a5
 ---
 
 Some years ago, my team at GitHub grew from 2 full time individual iOS contributors (and one [manager who could still code](https://github.com/rnystrom)), to 7 of us ICs. Growing a team by 3.5x meant that certain behaviors, concepts or principles that were easy enough to agree upon with just two folks now needed to scale up to many independent people.

@@ -2,6 +2,7 @@
 title: Writing Great Release Notes Doesn't Need to Be Hard
 date: 2024-08-23
 excerpt: Passing on the opportunity to engage with your customers means giving up on showing your biggest fans that you're putting work into polishing and improving your app.
+atUri: at://did:plc:wm37qzgdjvwztq6loytrtpul/site.standard.document/3l2dtuhgk22qo
 ---
 
 Communicating with your app's customers is an art. Large companies and lazy businesses choose the lazy way out, writing the infamous "Bug fixes and performance improvements" week after week for their app's release notes. **Writing great release notes doesn't need to be hard**. Passing on the opportunity to engage with your customers means giving up on showing your biggest fans that you're putting work into polishing and improving your app.

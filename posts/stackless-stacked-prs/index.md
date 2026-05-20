@@ -3,6 +3,7 @@ title: Stackless Stacked Pull Requests
 date: 2024-10-24
 excerpt: |
   How I've made my workflow more efficient with `git-pile` and gotten feedback on my work faster and easier.
+atUri: at://did:plc:wm37qzgdjvwztq6loytrtpul/site.standard.document/3l77qrjz222vz
 ---
 
 No one likes to review a <span class="font-mono text-sm"><span class="text-green-700">+4,490</span>/<span class="text-red-700">-903</span></span> pull request. It's far too much code for one reviewer to hold in their head, and results in worse feedback and slower review times. However, sometimes a large swath of code needs to be changed to close out an issue or to ship a new feature.

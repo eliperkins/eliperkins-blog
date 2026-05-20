@@ -2,6 +2,7 @@
 title: SE-0117, API Design, and You
 date: 2016-07-19
 excerpt: Use composition over inheritance. Pass values into functions.
+atUri: at://did:plc:wm37qzgdjvwztq6loytrtpul/site.standard.document/3dryb43gs22ja
 ---
 
 A lot of conversation has been going around about

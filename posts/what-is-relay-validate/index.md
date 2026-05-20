@@ -3,6 +3,7 @@ title: Validating Relay Queries With This One Weird Trick™
 date: 2019-03-22
 excerpt: |
   tl;dr: Use `relay --validate` to catch Relay validation errors in CI.
+atUri: at://did:plc:wm37qzgdjvwztq6loytrtpul/site.standard.document/3g6oi6ncs22be
 ---
 
 > tl;dr: Use `relay --validate` to catch Relay validation errors in CI!

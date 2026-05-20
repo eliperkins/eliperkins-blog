@@ -32,6 +32,7 @@ export interface Post {
   readingTime: number;
   wordCount: number;
   blueskyPostID?: string;
+  atUri?: string;
 }
 
 interface FrontMatter {
@@ -39,6 +40,7 @@ interface FrontMatter {
   date: string;
   excerpt: string;
   blueskyPostID?: string;
+  atUri?: string;
 }
 
 export async function fetchPosts(): Promise<Post[]> {
@@ -63,7 +65,7 @@ export async function fetchPost(slug: string): Promise<Post> {
   const file = await parsePostFile(slug);
 
   // @ts-expect-error file.data.matter is not typed
-  const { title, date, excerpt, blueskyPostID }: FrontMatter = file.data.matter;
+  const { title, date, excerpt, blueskyPostID, atUri }: FrontMatter = file.data.matter;
 
   const content = await fetchPostContent(slug);
   const parsedExcerpt = await parseMarkdownContent(excerpt);
@@ -81,6 +83,7 @@ export async function fetchPost(slug: string): Promise<Post> {
     readingTime,
     wordCount,
     blueskyPostID,
+    atUri,
   };
 }
 

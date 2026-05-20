@@ -2,6 +2,7 @@
 title: WWDC 2014 Predictions
 date: 2014-05-28
 excerpt: Boy, was I wrong... maybe?
+atUri: at://did:plc:wm37qzgdjvwztq6loytrtpul/site.standard.document/3buhdz7jk22tk
 ---
 
 I figured I'd put my hat in the ring here.

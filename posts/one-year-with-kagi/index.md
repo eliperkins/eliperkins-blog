@@ -3,6 +3,7 @@ title: One Year with Kagi
 date: 2026-01-28
 excerpt: "Restore your mental health with a quality search engine sans AI slop."
 blueskyPostID: 3mdixl4eju223
+atUri: at://did:plc:wm37qzgdjvwztq6loytrtpul/site.standard.document/3mdgxpxis22jt
 ---
 
 One year ago, I started paying for a search engine. I've used Google Search since its advent. In the early 2000s, I texted Google via T9 to get SMS responses. I had used Google Search via Java Applets on my pretty-dumb phones. I used Google Search to help me learn programming and software engineering. I contemplated teaching a course to other aspiring programmers at iD Tech Camps called "How to Learn via Google Searches." I worked professionally to integrate with Google services up and down the board. But last year, something changed in my brain.

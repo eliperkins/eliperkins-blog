@@ -4,6 +4,7 @@ date: 2014-02-13
 excerpt:
   Respect each other's opinions in the iOS community and let's focus on creating
   cool things with the tools we like.
+atUri: at://did:plc:wm37qzgdjvwztq6loytrtpul/site.standard.document/3bmbtjhlk22qx
 ---
 
 There's been a lot of drama among the iOS community these days relating to a

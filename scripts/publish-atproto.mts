@@ -9,9 +9,9 @@ import remarkGfm from "remark-gfm";
 import remarkRehype from "remark-rehype";
 import rehypeStringify from "rehype-stringify";
 import { toString as mdastToString } from "mdast-util-to-string";
+import { tidFromDateAndPath } from "../lib/atproto.ts";
 
 const COLLECTION = "site.standard.document";
-const BASE32_SORT = "234567abcdefghijklmnopqrstuvwxyz";
 
 interface StrongRef {
   uri: string;
@@ -42,27 +42,7 @@ interface PostMetadata {
   description: string;
   textContent: string;
   blueskyPostID?: string;
-}
-
-function encodeBase32Sort(value: bigint, length: number): string {
-  const chars: string[] = [];
-  let v = value;
-  for (let i = 0; i < length; i++) {
-    chars.unshift(BASE32_SORT[Number(v & 31n)]);
-    v >>= 5n;
-  }
-  return chars.join("");
-}
-
-async function tidFromDateAndString(date: Date, str: string): Promise<string> {
-  const dateMs = Math.floor(date.getTime() / 1000) * 1000;
-  const microseconds = BigInt(dateMs) * 1000n;
-  const hashBuffer = await crypto.subtle.digest(
-    "SHA-256",
-    new TextEncoder().encode(str),
-  );
-  const clockId = BigInt(new DataView(hashBuffer).getUint16(0)) & 0x3ffn;
-  return encodeBase32Sort((microseconds << 10n) | clockId, 13);
+  atUri?: string;
 }
 
 async function fetchPostsMetadata(): Promise<PostMetadata[]> {
@@ -73,12 +53,14 @@ async function fetchPostsMetadata(): Promise<PostMetadata[]> {
         path.join(process.cwd(), "posts", slug, "index.md"),
       );
       matter(file, { strip: true });
-      const { title, date, excerpt, blueskyPostID } = file.data.matter as {
-        title: string;
-        date: string;
-        excerpt: string;
-        blueskyPostID?: string;
-      };
+      const { title, date, excerpt, blueskyPostID, atUri } =
+        file.data.matter as {
+          title: string;
+          date: string;
+          excerpt: string;
+          blueskyPostID?: string;
+          atUri?: string;
+        };
 
       // normalize to UTC midnight for consistent TID and rkeys
       const utcDate = new Date(`${date.slice(0, 10)}T00:00:00.000Z`);
@@ -105,6 +87,7 @@ async function fetchPostsMetadata(): Promise<PostMetadata[]> {
         description,
         textContent,
         blueskyPostID,
+        atUri,
       };
     }),
   );
@@ -168,7 +151,16 @@ async function main() {
 
   for (const post of posts) {
     const postPath = `/${post.slug}`;
-    const rkey = await tidFromDateAndString(post.date, postPath);
+    const rkey = await tidFromDateAndPath(post.date, postPath);
+    const atUri = `at://${did}/${COLLECTION}/${rkey}`;
+
+    if (post.atUri && post.atUri !== atUri) {
+      console.error(
+        `atUri mismatch for ${post.slug}:\n  frontmatter: ${post.atUri}\n  computed:    ${atUri}`,
+      );
+      process.exit(1);
+    }
+
     const existing = existingByRkey.get(rkey);
 
     let bskyPostRef = existing?.comparable.bskyPostRef;

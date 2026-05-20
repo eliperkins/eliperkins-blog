@@ -6,6 +6,9 @@ CLOUDFRONT_DISTRIBUTION_ID="E8K9XZBPL2CEJ"
 echo "🧹 Cleaning up previous build..."
 rm -rf out
 
+echo "🔗 Writing AT-URIs to post frontmatter..."
+yarn write-aturis
+
 echo "🚧 Building for production..."
 yarn build
 
