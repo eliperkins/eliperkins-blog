@@ -19,7 +19,7 @@
     "@atproto/syntax": "^0.5.4",
     "@giscus/react": "^3.1.0",
     "@next/third-parties": "^16.2.6",
-    "@primer/octicons-react": "^19.25.0",
+    "@primer/octicons-react": "^19.26.0",
     "@vercel/og": "^0.11.1",
     "@wooorm/starry-night": "^3.9.0",
     "date-fns": "^4.2.1",
