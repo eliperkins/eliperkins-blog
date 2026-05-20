@@ -57,7 +57,7 @@
     "@types/react": "^19.2.15",
     "@types/react-dom": "^19.2.3",
     "@types/unist": "^3.0.3",
-    "@typescript-eslint/types": "^8.59.3",
+    "@typescript-eslint/types": "^8.59.4",
     "babel-plugin-react-compiler": "^1.0.0",
     "eslint": "^10.4.0",
     "eslint-config-prettier": "^10.1.8",
@@ -70,7 +70,7 @@
     "schema-dts": "^2.0.0",
     "tailwindcss": "^4.3.0",
     "typescript": "^6.0.3",
-    "typescript-eslint": "^8.59.3",
+    "typescript-eslint": "^8.59.4",
     "vscode-oniguruma": "^2.0.1"
   },
   "resolutions": {
