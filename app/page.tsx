@@ -1,3 +1,5 @@
+import fs from "fs";
+import path from "path";
 import Bio from "@/components/bio";
 import WebMCP from "@/components/web-mcp";
 import { fetchPosts } from "@/lib/posts";
@@ -21,6 +23,13 @@ const MainHeader = () => (
   </div>
 );
 
+const publicationUri = fs
+  .readFileSync(
+    path.join(process.cwd(), "public/.well-known/site.standard.publication"),
+    "utf-8",
+  )
+  .trim();
+
 const Home = async () => {
   const posts = await fetchPosts();
   const jsonLd = authorWithContext;
@@ -34,6 +43,8 @@ const Home = async () => {
 
   return (
     <main>
+      {/* eslint-disable-next-line react/no-invalid-html-attribute */}
+      <link href={publicationUri} rel="site.standard.publication" />
       <MainHeader />
       <Bio />
       <JsonLd object={jsonLd} />
