@@ -1684,7 +1684,7 @@ const RAW_RUNTIME_STATE =
           ["@tailwindcss/node", "npm:4.3.0"],\
           ["@tailwindcss/oxide", "npm:4.3.0"],\
           ["@tailwindcss/postcss", "npm:4.3.0"],\
-          ["postcss", "npm:8.5.14"],\
+          ["postcss", "npm:8.5.15"],\
           ["tailwindcss", "npm:4.3.0"]\
         ],\
         "linkType": "HARD"\
@@ -5717,13 +5717,6 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["nanoid", [\
-      ["npm:3.3.11", {\
-        "packageLocation": "./.yarn/cache/nanoid-npm-3.3.11-f98c1f9ef6-73b5afe597.zip/node_modules/nanoid/",\
-        "packageDependencies": [\
-          ["nanoid", "npm:3.3.11"]\
-        ],\
-        "linkType": "HARD"\
-      }],\
       ["npm:3.3.12", {\
         "packageLocation": "./.yarn/cache/nanoid-npm-3.3.12-41f8e0bb94-6eec280694.zip/node_modules/nanoid/",\
         "packageDependencies": [\
@@ -6147,16 +6140,6 @@ const RAW_RUNTIME_STATE =
           ["picocolors", "npm:1.0.1"],\
           ["postcss", "npm:8.4.31"],\
           ["source-map-js", "npm:1.2.0"]\
-        ],\
-        "linkType": "HARD"\
-      }],\
-      ["npm:8.5.14", {\
-        "packageLocation": "./.yarn/cache/postcss-npm-8.5.14-1cf8d01c78-2e3f4dea69.zip/node_modules/postcss/",\
-        "packageDependencies": [\
-          ["nanoid", "npm:3.3.11"],\
-          ["picocolors", "npm:1.1.1"],\
-          ["postcss", "npm:8.5.14"],\
-          ["source-map-js", "npm:1.2.1"]\
         ],\
         "linkType": "HARD"\
       }],\
