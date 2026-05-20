@@ -13,12 +13,12 @@ import { toString as mdastToString } from "mdast-util-to-string";
 const COLLECTION = "site.standard.document";
 const BASE32_SORT = "234567abcdefghijklmnopqrstuvwxyz";
 
-type StrongRef = {
+interface StrongRef {
   uri: string;
   cid: string;
-};
+}
 
-type DocumentRecord = {
+interface DocumentRecord {
   $type: typeof COLLECTION;
   title: string;
   path: string;
@@ -27,9 +27,12 @@ type DocumentRecord = {
   textContent: string;
   site: string;
   bskyPostRef?: StrongRef;
-};
+}
 
-type ExistingRecord = { comparable: DocumentRecord; coverImage?: BlobRef };
+interface ExistingRecord {
+  comparable: DocumentRecord;
+  coverImage?: BlobRef;
+}
 
 interface PostMetadata {
   slug: string;
@@ -78,7 +81,7 @@ async function fetchPostsMetadata(): Promise<PostMetadata[]> {
       };
 
       // normalize to UTC midnight for consistent TID and rkeys
-      const utcDate = new Date(`${date.toString().slice(0, 10)}T00:00:00.000Z`);
+      const utcDate = new Date(`${date.slice(0, 10)}T00:00:00.000Z`);
 
       const tree = unified()
         .use(remarkParse)
@@ -140,7 +143,8 @@ async function main() {
       ...(cursor ? { cursor } : {}),
     });
     for (const record of data.records) {
-      const rkey = record.uri.split("/").at(-1)!;
+      const rkey = record.uri.split("/").at(-1);
+      if (!rkey) continue;
       const v = record.value;
       if (typeof v.path !== "string") continue;
       existingByRkey.set(rkey, {
@@ -174,7 +178,9 @@ async function main() {
         collection: "app.bsky.feed.post",
         rkey: post.blueskyPostID,
       });
-      bskyPostRef = { uri: data.uri, cid: data.cid! };
+      if (data.cid) {
+        bskyPostRef = { uri: data.uri, cid: data.cid };
+      }
     }
 
     const newRecord: DocumentRecord = {
@@ -223,7 +229,7 @@ async function main() {
   }
 }
 
-main().catch((err) => {
+main().catch((err: unknown) => {
   console.error(err);
   process.exit(1);
 });
