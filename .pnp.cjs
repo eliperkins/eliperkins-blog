@@ -61,7 +61,6 @@ const RAW_RUNTIME_STATE =
           ["hastscript", "npm:9.0.1"],\
           ["mdast-util-to-string", "npm:4.0.0"],\
           ["next", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#patch:next@npm%3A16.2.6#~/.yarn/patches/next-npm-16.2.6-49082aa5f6.patch::version=16.2.6&hash=812768"],\
-          ["postcss", "npm:8.5.15"],\
           ["prettier", "npm:3.8.3"],\
           ["react", "npm:19.2.6"],\
           ["react-dom", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:19.2.6"],\
@@ -1684,7 +1683,7 @@ const RAW_RUNTIME_STATE =
           ["@tailwindcss/node", "npm:4.3.0"],\
           ["@tailwindcss/oxide", "npm:4.3.0"],\
           ["@tailwindcss/postcss", "npm:4.3.0"],\
-          ["postcss", "npm:8.5.14"],\
+          ["postcss", "npm:8.5.15"],\
           ["tailwindcss", "npm:4.3.0"]\
         ],\
         "linkType": "HARD"\
@@ -3008,7 +3007,6 @@ const RAW_RUNTIME_STATE =
           ["hastscript", "npm:9.0.1"],\
           ["mdast-util-to-string", "npm:4.0.0"],\
           ["next", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#patch:next@npm%3A16.2.6#~/.yarn/patches/next-npm-16.2.6-49082aa5f6.patch::version=16.2.6&hash=812768"],\
-          ["postcss", "npm:8.5.15"],\
           ["prettier", "npm:3.8.3"],\
           ["react", "npm:19.2.6"],\
           ["react-dom", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:19.2.6"],\
@@ -5717,13 +5715,6 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["nanoid", [\
-      ["npm:3.3.11", {\
-        "packageLocation": "./.yarn/cache/nanoid-npm-3.3.11-f98c1f9ef6-73b5afe597.zip/node_modules/nanoid/",\
-        "packageDependencies": [\
-          ["nanoid", "npm:3.3.11"]\
-        ],\
-        "linkType": "HARD"\
-      }],\
       ["npm:3.3.12", {\
         "packageLocation": "./.yarn/cache/nanoid-npm-3.3.12-41f8e0bb94-6eec280694.zip/node_modules/nanoid/",\
         "packageDependencies": [\
@@ -6147,16 +6138,6 @@ const RAW_RUNTIME_STATE =
           ["picocolors", "npm:1.0.1"],\
           ["postcss", "npm:8.4.31"],\
           ["source-map-js", "npm:1.2.0"]\
-        ],\
-        "linkType": "HARD"\
-      }],\
-      ["npm:8.5.14", {\
-        "packageLocation": "./.yarn/cache/postcss-npm-8.5.14-1cf8d01c78-2e3f4dea69.zip/node_modules/postcss/",\
-        "packageDependencies": [\
-          ["nanoid", "npm:3.3.11"],\
-          ["picocolors", "npm:1.1.1"],\
-          ["postcss", "npm:8.5.14"],\
-          ["source-map-js", "npm:1.2.1"]\
         ],\
         "linkType": "HARD"\
       }],\
