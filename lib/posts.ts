@@ -65,7 +65,8 @@ export async function fetchPost(slug: string): Promise<Post> {
   const file = await parsePostFile(slug);
 
   // @ts-expect-error file.data.matter is not typed
-  const { title, date, excerpt, blueskyPostID, atUri }: FrontMatter = file.data.matter;
+  const { title, date, excerpt, blueskyPostID, atUri }: FrontMatter =
+    file.data.matter;
 
   const content = await fetchPostContent(slug);
   const parsedExcerpt = await parseMarkdownContent(excerpt);

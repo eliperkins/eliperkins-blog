@@ -53,14 +53,14 @@ async function fetchPostsMetadata(): Promise<PostMetadata[]> {
         path.join(process.cwd(), "posts", slug, "index.md"),
       );
       matter(file, { strip: true });
-      const { title, date, excerpt, blueskyPostID, atUri } =
-        file.data.matter as {
-          title: string;
-          date: string;
-          excerpt: string;
-          blueskyPostID?: string;
-          atUri?: string;
-        };
+      const { title, date, excerpt, blueskyPostID, atUri } = file.data
+        .matter as {
+        title: string;
+        date: string;
+        excerpt: string;
+        blueskyPostID?: string;
+        atUri?: string;
+      };
 
       // normalize to UTC midnight for consistent TID and rkeys
       const utcDate = new Date(`${date.slice(0, 10)}T00:00:00.000Z`);
