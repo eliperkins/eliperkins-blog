@@ -1,0 +1,25 @@
+{
+  "$type": "site.standard.publication",
+  "name": "Eli Perkins's Blog",
+  "description": "A bunch of ramblings from Eli Perkins",
+  "url": "https://blog.eliperkins.com",
+  "icon": {
+    "$type": "blob",
+    "ref": {
+      "$link": "bafkreibtg3vkq2aneacnr2zrc65radfrgmslhe62rhv5ayigjc6cmteaaa"
+    },
+    "mimeType": "image/jpeg",
+    "size": 696014
+  },
+  "basicTheme": {
+    "$type": "site.standard.theme.basic",
+    "accent": { "$type": "site.standard.theme.color#rgb", "r": 217, "g": 119, "b": 6 },
+    "background": { "$type": "site.standard.theme.color#rgb", "r": 255, "g": 255, "b": 255 },
+    "foreground": { "$type": "site.standard.theme.color#rgb", "r": 0, "g": 0, "b": 0 },
+    "accentForeground": { "$type": "site.standard.theme.color#rgb", "r": 255, "g": 255, "b": 255 }
+  },
+  "preferences": {
+    "$type": "site.standard.publication#preferences",
+    "showInDiscover": true
+  }
+}

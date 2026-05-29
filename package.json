@@ -9,6 +9,7 @@
     "start": "next start --webpack",
     "lint": "eslint .",
     "deploy": "./scripts/deploy.sh",
+    "update-publication": "./scripts/update-publication.sh",
     "write-aturis": "tsx scripts/write-aturis.mts",
     "format": "prettier --write .",
     "prebuild": "lex build --clear --out lib/lexicons --importExt '.ts' --indexFile",
