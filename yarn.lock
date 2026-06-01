@@ -1062,12 +1062,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@next/eslint-plugin-next@npm:^16.2.6":
-  version: 16.2.6
-  resolution: "@next/eslint-plugin-next@npm:16.2.6"
+"@next/eslint-plugin-next@npm:^16.2.7":
+  version: 16.2.7
+  resolution: "@next/eslint-plugin-next@npm:16.2.7"
   dependencies:
     fast-glob: "npm:3.3.1"
-  checksum: 10/2ee412966d41ac2072dd470a2a6f6ea178d26ead45ea5d4f24b248e81e1bea4d5b2ab8d268f0605f901b4b20401e264cd4e67a6770b474b56e66da50d88b6458
+  checksum: 10/52c005d73dfd52188b9d06609c1e8ce3dca20a69744dd7e17ca9621e8405c3e21fd6166c1d40190e04287a5ee7d0b9a7f43ac5b9781287acc07d93fbac222b7c
   languageName: node
   linkType: hard
 
@@ -1127,15 +1127,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@next/third-parties@npm:^16.2.6":
-  version: 16.2.6
-  resolution: "@next/third-parties@npm:16.2.6"
+"@next/third-parties@npm:^16.2.7":
+  version: 16.2.7
+  resolution: "@next/third-parties@npm:16.2.7"
   dependencies:
     third-party-capital: "npm:1.0.20"
   peerDependencies:
     next: ^13.0.0 || ^14.0.0 || ^15.0.0 || ^16.0.0-beta.0
     react: ^18.2.0 || 19.0.0-rc-de68d2f4-20241204 || ^19.0.0
-  checksum: 10/7940dd66533aa02cd8c7b31e30005d16047d42bc2e3be092d1d09ed72d6395a583c57d1be86dec5a0e9608c59ea693e9932bf14e448186e7a5630285c07a2e6e
+  checksum: 10/f97e31cb017899cfd6278b68f5370951abddd35273f8fcd6f15adffb0397a12e9ee926dc9432a3c00f662d1fd292f445f77b35bd5cbf7aa88fde14aeb9bdf54d
   languageName: node
   linkType: hard
 
@@ -2409,8 +2409,8 @@ __metadata:
     "@eslint/compat": "npm:^2.1.0"
     "@eslint/js": "npm:^10.0.1"
     "@giscus/react": "npm:^3.1.0"
-    "@next/eslint-plugin-next": "npm:^16.2.6"
-    "@next/third-parties": "npm:^16.2.6"
+    "@next/eslint-plugin-next": "npm:^16.2.7"
+    "@next/third-parties": "npm:^16.2.7"
     "@primer/octicons-react": "npm:^19.27.0"
     "@tailwindcss/postcss": "npm:^4.3.0"
     "@tailwindcss/typography": "npm:^0.5.19"
