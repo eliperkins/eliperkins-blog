@@ -13,10 +13,30 @@
   },
   "basicTheme": {
     "$type": "site.standard.theme.basic",
-    "accent": { "$type": "site.standard.theme.color#rgb", "r": 217, "g": 119, "b": 6 },
-    "background": { "$type": "site.standard.theme.color#rgb", "r": 255, "g": 255, "b": 255 },
-    "foreground": { "$type": "site.standard.theme.color#rgb", "r": 0, "g": 0, "b": 0 },
-    "accentForeground": { "$type": "site.standard.theme.color#rgb", "r": 255, "g": 255, "b": 255 }
+    "accent": {
+      "$type": "site.standard.theme.color#rgb",
+      "r": 217,
+      "g": 119,
+      "b": 6
+    },
+    "background": {
+      "$type": "site.standard.theme.color#rgb",
+      "r": 255,
+      "g": 255,
+      "b": 255
+    },
+    "foreground": {
+      "$type": "site.standard.theme.color#rgb",
+      "r": 0,
+      "g": 0,
+      "b": 0
+    },
+    "accentForeground": {
+      "$type": "site.standard.theme.color#rgb",
+      "r": 255,
+      "g": 255,
+      "b": 255
+    }
   },
   "preferences": {
     "$type": "site.standard.publication#preferences",
