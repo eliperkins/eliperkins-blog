@@ -24,7 +24,7 @@
     "@primer/octicons-react": "^19.27.0",
     "@vercel/og": "^0.11.1",
     "@wooorm/starry-night": "^3.9.0",
-    "date-fns": "^4.3.0",
+    "date-fns": "^4.4.0",
     "feed": "^5.2.1",
     "hastscript": "^9.0.1",
     "next": "patch:next@npm%3A16.2.6#~/.yarn/patches/next-npm-16.2.6-49082aa5f6.patch",
