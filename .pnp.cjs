@@ -48,7 +48,7 @@ const RAW_RUNTIME_STATE =
           ["@types/unist", "npm:3.0.3"],\
           ["@typescript-eslint/types", "npm:8.61.0"],\
           ["@vercel/og", "npm:0.11.1"],\
-          ["@wooorm/starry-night", "npm:3.9.0"],\
+          ["@wooorm/starry-night", "npm:3.10.0"],\
           ["babel-plugin-react-compiler", "npm:1.0.0"],\
           ["date-fns", "npm:4.4.0"],\
           ["eliperkins-blog", "workspace:."],\
@@ -2177,6 +2177,17 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@wooorm/starry-night", [\
+      ["npm:3.10.0", {\
+        "packageLocation": "./.yarn/cache/@wooorm-starry-night-npm-3.10.0-e3eb5738f8-894e924d42.zip/node_modules/@wooorm/starry-night/",\
+        "packageDependencies": [\
+          ["@types/hast", "npm:3.0.4"],\
+          ["@wooorm/starry-night", "npm:3.10.0"],\
+          ["import-meta-resolve", "npm:4.2.0"],\
+          ["vscode-oniguruma", "npm:2.0.1"],\
+          ["vscode-textmate", "npm:9.2.1"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
       ["npm:3.9.0", {\
         "packageLocation": "./.yarn/cache/@wooorm-starry-night-npm-3.9.0-0d94d813fd-d5c1769ce2.zip/node_modules/@wooorm/starry-night/",\
         "packageDependencies": [\
@@ -3018,7 +3029,7 @@ const RAW_RUNTIME_STATE =
           ["@types/unist", "npm:3.0.3"],\
           ["@typescript-eslint/types", "npm:8.61.0"],\
           ["@vercel/og", "npm:0.11.1"],\
-          ["@wooorm/starry-night", "npm:3.9.0"],\
+          ["@wooorm/starry-night", "npm:3.10.0"],\
           ["babel-plugin-react-compiler", "npm:1.0.0"],\
           ["date-fns", "npm:4.4.0"],\
           ["eliperkins-blog", "workspace:."],\
