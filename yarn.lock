@@ -1694,7 +1694,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@wooorm/starry-night@npm:^3.0.0, @wooorm/starry-night@npm:^3.9.0":
+"@wooorm/starry-night@npm:^3.0.0":
   version: 3.9.0
   resolution: "@wooorm/starry-night@npm:3.9.0"
   dependencies:
@@ -1703,6 +1703,18 @@ __metadata:
     vscode-oniguruma: "npm:^2.0.0"
     vscode-textmate: "npm:^9.0.0"
   checksum: 10/d5c1769ce2d1dc5beb62aea317f274b2edd97fccf95631f9d6b100a5963714e8f8f683d3b47c7b911d89399347e5f554def938f84a7ca9cc721495aae37c5332
+  languageName: node
+  linkType: hard
+
+"@wooorm/starry-night@npm:^3.10.0":
+  version: 3.10.0
+  resolution: "@wooorm/starry-night@npm:3.10.0"
+  dependencies:
+    "@types/hast": "npm:^3.0.0"
+    import-meta-resolve: "npm:^4.0.0"
+    vscode-oniguruma: "npm:^2.0.0"
+    vscode-textmate: "npm:^9.0.0"
+  checksum: 10/894e924d42083d796b5105d1138f61656008ea8812de77c00a34710b0a1b7c719c040c21a3a47f1c0e97b7739053b16a6c17d5aa137519b81c6bce846d5fa592
   languageName: node
   linkType: hard
 
@@ -2423,7 +2435,7 @@ __metadata:
     "@types/unist": "npm:^3.0.3"
     "@typescript-eslint/types": "npm:^8.61.0"
     "@vercel/og": "npm:^0.11.1"
-    "@wooorm/starry-night": "npm:^3.9.0"
+    "@wooorm/starry-night": "npm:^3.10.0"
     babel-plugin-react-compiler: "npm:^1.0.0"
     date-fns: "npm:^4.4.0"
     eslint: "npm:^10.4.1"
