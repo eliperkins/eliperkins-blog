@@ -6,8 +6,6 @@ import { matter } from "vfile-matter";
 import { unified } from "unified";
 import remarkParse from "remark-parse";
 import remarkGfm from "remark-gfm";
-import remarkRehype from "remark-rehype";
-import rehypeStringify from "rehype-stringify";
 import { toString as mdastToString } from "mdast-util-to-string";
 import { tidFromDateAndPath } from "../lib/atproto.ts";
 
@@ -69,13 +67,8 @@ async function fetchPostsMetadata(): Promise<PostMetadata[]> {
         .use(remarkParse)
         .use(remarkGfm)
         .parse(String(file));
-      const description = String(
-        await unified()
-          .use(remarkParse)
-          .use(remarkGfm)
-          .use(remarkRehype)
-          .use(rehypeStringify)
-          .process(excerpt),
+      const description = mdastToString(
+        unified().use(remarkParse).use(remarkGfm).parse(excerpt),
       );
       const textContent = mdastToString(tree);
 
