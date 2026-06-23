@@ -59,7 +59,7 @@
     "@types/react": "^19.2.17",
     "@types/react-dom": "^19.2.3",
     "@types/unist": "^3.0.3",
-    "@typescript-eslint/types": "^8.61.1",
+    "@typescript-eslint/types": "^8.62.0",
     "babel-plugin-react-compiler": "^1.0.0",
     "eslint": "^10.5.0",
     "eslint-config-prettier": "^10.1.8",
@@ -74,7 +74,7 @@
     "tailwindcss": "^4.3.1",
     "tsx": "^4.22.4",
     "typescript": "^6.0.3",
-    "typescript-eslint": "^8.61.1",
+    "typescript-eslint": "^8.62.0",
     "vscode-oniguruma": "^2.0.1"
   },
   "resolutions": {
