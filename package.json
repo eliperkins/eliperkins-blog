@@ -79,7 +79,8 @@
   },
   "resolutions": {
     "minimatch": "^10.2.5",
-    "picomatch": "^4.0.4"
+    "picomatch": "^4.0.4",
+    "postcss": "^8.5.15"
   },
-  "packageManager": "yarn@4.15.0"
+  "packageManager": "yarn@4.17.0"
 }
