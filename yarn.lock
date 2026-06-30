@@ -2687,7 +2687,7 @@ __metadata:
   dependencies:
     "@atproto/api": "npm:^0.20.22"
     "@atproto/lex": "npm:^0.1.4"
-    "@atproto/syntax": "npm:^0.6.2"
+    "@atproto/syntax": "npm:^0.6.3"
     "@eslint/compat": "npm:^2.1.0"
     "@eslint/js": "npm:^10.0.1"
     "@giscus/react": "npm:^3.1.0"
