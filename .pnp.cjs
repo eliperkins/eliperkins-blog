@@ -29,7 +29,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./",\
         "packageDependencies": [\
           ["@atproto/api", "npm:0.20.22"],\
-          ["@atproto/lex", "npm:0.1.4"],\
+          ["@atproto/lex", "npm:0.1.5"],\
           ["@atproto/syntax", "npm:0.6.3"],\
           ["@eslint/compat", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:2.1.0"],\
           ["@eslint/js", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:10.0.1"],\
@@ -101,54 +101,54 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@atproto-labs/did-resolver", [\
-      ["npm:0.3.2", {\
-        "packageLocation": "./.yarn/cache/@atproto-labs-did-resolver-npm-0.3.2-cabd0230d2-b894d82e0f.zip/node_modules/@atproto-labs/did-resolver/",\
+      ["npm:0.3.3", {\
+        "packageLocation": "./.yarn/cache/@atproto-labs-did-resolver-npm-0.3.3-863b3f5a20-36449ab8cb.zip/node_modules/@atproto-labs/did-resolver/",\
         "packageDependencies": [\
-          ["@atproto-labs/did-resolver", "npm:0.3.2"],\
-          ["@atproto-labs/fetch", "npm:0.3.1"],\
-          ["@atproto-labs/pipe", "npm:0.2.1"],\
-          ["@atproto-labs/simple-store", "npm:0.4.1"],\
-          ["@atproto-labs/simple-store-memory", "npm:0.2.1"],\
-          ["@atproto/did", "npm:0.5.1"],\
+          ["@atproto-labs/did-resolver", "npm:0.3.3"],\
+          ["@atproto-labs/fetch", "npm:0.3.2"],\
+          ["@atproto-labs/pipe", "npm:0.2.2"],\
+          ["@atproto-labs/simple-store", "npm:0.4.2"],\
+          ["@atproto-labs/simple-store-memory", "npm:0.2.2"],\
+          ["@atproto/did", "npm:0.5.2"],\
           ["zod", "npm:3.25.76"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@atproto-labs/fetch", [\
-      ["npm:0.3.1", {\
-        "packageLocation": "./.yarn/cache/@atproto-labs-fetch-npm-0.3.1-114794fb7d-833f64badf.zip/node_modules/@atproto-labs/fetch/",\
+      ["npm:0.3.2", {\
+        "packageLocation": "./.yarn/cache/@atproto-labs-fetch-npm-0.3.2-bc1a41cd6f-e2b214b2c7.zip/node_modules/@atproto-labs/fetch/",\
         "packageDependencies": [\
-          ["@atproto-labs/fetch", "npm:0.3.1"],\
-          ["@atproto-labs/pipe", "npm:0.2.1"]\
+          ["@atproto-labs/fetch", "npm:0.3.2"],\
+          ["@atproto-labs/pipe", "npm:0.2.2"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@atproto-labs/pipe", [\
-      ["npm:0.2.1", {\
-        "packageLocation": "./.yarn/cache/@atproto-labs-pipe-npm-0.2.1-6863f316ef-f62d07f842.zip/node_modules/@atproto-labs/pipe/",\
+      ["npm:0.2.2", {\
+        "packageLocation": "./.yarn/cache/@atproto-labs-pipe-npm-0.2.2-c7d2d49ff9-e5bd146ca6.zip/node_modules/@atproto-labs/pipe/",\
         "packageDependencies": [\
-          ["@atproto-labs/pipe", "npm:0.2.1"]\
+          ["@atproto-labs/pipe", "npm:0.2.2"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@atproto-labs/simple-store", [\
-      ["npm:0.4.1", {\
-        "packageLocation": "./.yarn/cache/@atproto-labs-simple-store-npm-0.4.1-014ad198dc-bef9a960ae.zip/node_modules/@atproto-labs/simple-store/",\
+      ["npm:0.4.2", {\
+        "packageLocation": "./.yarn/cache/@atproto-labs-simple-store-npm-0.4.2-6349190255-6a72a97e8f.zip/node_modules/@atproto-labs/simple-store/",\
         "packageDependencies": [\
-          ["@atproto-labs/simple-store", "npm:0.4.1"]\
+          ["@atproto-labs/simple-store", "npm:0.4.2"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@atproto-labs/simple-store-memory", [\
-      ["npm:0.2.1", {\
-        "packageLocation": "./.yarn/cache/@atproto-labs-simple-store-memory-npm-0.2.1-92458086d5-6364f5c596.zip/node_modules/@atproto-labs/simple-store-memory/",\
+      ["npm:0.2.2", {\
+        "packageLocation": "./.yarn/cache/@atproto-labs-simple-store-memory-npm-0.2.2-d11985b1d0-a462f9c4b3.zip/node_modules/@atproto-labs/simple-store-memory/",\
         "packageDependencies": [\
-          ["@atproto-labs/simple-store", "npm:0.4.1"],\
-          ["@atproto-labs/simple-store-memory", "npm:0.2.1"],\
+          ["@atproto-labs/simple-store", "npm:0.4.2"],\
+          ["@atproto-labs/simple-store-memory", "npm:0.2.2"],\
           ["lru-cache", "npm:10.4.3"]\
         ],\
         "linkType": "HARD"\
@@ -172,31 +172,20 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@atproto/common", [\
-      ["npm:0.6.3", {\
-        "packageLocation": "./.yarn/cache/@atproto-common-npm-0.6.3-8b7f9ce5c3-3beab38444.zip/node_modules/@atproto/common/",\
+      ["npm:0.6.4", {\
+        "packageLocation": "./.yarn/cache/@atproto-common-npm-0.6.4-5ac76a022a-b8b302a9e9.zip/node_modules/@atproto/common/",\
         "packageDependencies": [\
-          ["@atproto/common", "npm:0.6.3"],\
-          ["@atproto/common-web", "npm:0.5.1"],\
-          ["@atproto/lex-cbor", "npm:0.1.1"],\
-          ["@atproto/lex-data", "npm:0.1.2"],\
+          ["@atproto/common", "npm:0.6.4"],\
+          ["@atproto/common-web", "npm:0.5.2"],\
+          ["@atproto/lex-cbor", "npm:0.1.2"],\
+          ["@atproto/lex-data", "npm:0.1.3"],\
           ["multiformats", "npm:13.4.2"],\
-          ["pino", "npm:8.21.0"]\
+          ["pino", "npm:10.3.1"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@atproto/common-web", [\
-      ["npm:0.5.1", {\
-        "packageLocation": "./.yarn/cache/@atproto-common-web-npm-0.5.1-8cc474dcc0-96707bfa90.zip/node_modules/@atproto/common-web/",\
-        "packageDependencies": [\
-          ["@atproto/common-web", "npm:0.5.1"],\
-          ["@atproto/lex-data", "npm:0.1.2"],\
-          ["@atproto/lex-json", "npm:0.1.1"],\
-          ["@atproto/syntax", "npm:0.6.2"],\
-          ["zod", "npm:3.25.76"]\
-        ],\
-        "linkType": "HARD"\
-      }],\
       ["npm:0.5.2", {\
         "packageLocation": "./.yarn/cache/@atproto-common-web-npm-0.5.2-ca66552771-2b24804e4c.zip/node_modules/@atproto/common-web/",\
         "packageDependencies": [\
@@ -210,10 +199,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@atproto/crypto", [\
-      ["npm:0.5.1", {\
-        "packageLocation": "./.yarn/cache/@atproto-crypto-npm-0.5.1-aafd3e8f42-136aa2e854.zip/node_modules/@atproto/crypto/",\
+      ["npm:0.5.2", {\
+        "packageLocation": "./.yarn/cache/@atproto-crypto-npm-0.5.2-ab0ce5a211-06fd169697.zip/node_modules/@atproto/crypto/",\
         "packageDependencies": [\
-          ["@atproto/crypto", "npm:0.5.1"],\
+          ["@atproto/crypto", "npm:0.5.2"],\
           ["@noble/curves", "npm:1.9.7"],\
           ["@noble/hashes", "npm:1.8.0"],\
           ["uint8arrays", "npm:5.1.1"]\
@@ -222,26 +211,26 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@atproto/did", [\
-      ["npm:0.5.1", {\
-        "packageLocation": "./.yarn/cache/@atproto-did-npm-0.5.1-f5c47d3377-0331c3dabc.zip/node_modules/@atproto/did/",\
+      ["npm:0.5.2", {\
+        "packageLocation": "./.yarn/cache/@atproto-did-npm-0.5.2-8f24713d88-db5273b19a.zip/node_modules/@atproto/did/",\
         "packageDependencies": [\
-          ["@atproto/did", "npm:0.5.1"],\
+          ["@atproto/did", "npm:0.5.2"],\
           ["zod", "npm:3.25.76"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@atproto/lex", [\
-      ["npm:0.1.4", {\
-        "packageLocation": "./.yarn/cache/@atproto-lex-npm-0.1.4-fd222fcc09-cf70ddb867.zip/node_modules/@atproto/lex/",\
+      ["npm:0.1.5", {\
+        "packageLocation": "./.yarn/cache/@atproto-lex-npm-0.1.5-ec1a0d818e-096eff44b1.zip/node_modules/@atproto/lex/",\
         "packageDependencies": [\
-          ["@atproto/lex", "npm:0.1.4"],\
-          ["@atproto/lex-builder", "npm:0.1.3"],\
-          ["@atproto/lex-client", "npm:0.1.4"],\
-          ["@atproto/lex-data", "npm:0.1.2"],\
-          ["@atproto/lex-installer", "npm:0.1.1"],\
-          ["@atproto/lex-json", "npm:0.1.1"],\
-          ["@atproto/lex-schema", "npm:0.1.4"],\
+          ["@atproto/lex", "npm:0.1.5"],\
+          ["@atproto/lex-builder", "npm:0.1.4"],\
+          ["@atproto/lex-client", "npm:0.1.5"],\
+          ["@atproto/lex-data", "npm:0.1.3"],\
+          ["@atproto/lex-installer", "npm:0.1.2"],\
+          ["@atproto/lex-json", "npm:0.1.2"],\
+          ["@atproto/lex-schema", "npm:0.1.5"],\
           ["tslib", "npm:2.8.1"],\
           ["yargs", "npm:18.0.0"]\
         ],\
@@ -249,12 +238,12 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@atproto/lex-builder", [\
-      ["npm:0.1.3", {\
-        "packageLocation": "./.yarn/cache/@atproto-lex-builder-npm-0.1.3-50c68d1ab9-f632d448ff.zip/node_modules/@atproto/lex-builder/",\
+      ["npm:0.1.4", {\
+        "packageLocation": "./.yarn/cache/@atproto-lex-builder-npm-0.1.4-458eb7cf75-45d2feb9a8.zip/node_modules/@atproto/lex-builder/",\
         "packageDependencies": [\
-          ["@atproto/lex-builder", "npm:0.1.3"],\
-          ["@atproto/lex-document", "npm:0.1.1"],\
-          ["@atproto/lex-schema", "npm:0.1.4"],\
+          ["@atproto/lex-builder", "npm:0.1.4"],\
+          ["@atproto/lex-document", "npm:0.1.2"],\
+          ["@atproto/lex-schema", "npm:0.1.5"],\
           ["prettier", "npm:3.8.1"],\
           ["ts-morph", "npm:27.0.2"],\
           ["tslib", "npm:2.8.1"]\
@@ -263,11 +252,11 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@atproto/lex-cbor", [\
-      ["npm:0.1.1", {\
-        "packageLocation": "./.yarn/cache/@atproto-lex-cbor-npm-0.1.1-bf5c4126a9-70299bb204.zip/node_modules/@atproto/lex-cbor/",\
+      ["npm:0.1.2", {\
+        "packageLocation": "./.yarn/cache/@atproto-lex-cbor-npm-0.1.2-d3a6faeec3-7195f56f39.zip/node_modules/@atproto/lex-cbor/",\
         "packageDependencies": [\
-          ["@atproto/lex-cbor", "npm:0.1.1"],\
-          ["@atproto/lex-data", "npm:0.1.2"],\
+          ["@atproto/lex-cbor", "npm:0.1.2"],\
+          ["@atproto/lex-data", "npm:0.1.3"],\
           ["cborg", "npm:4.5.8"],\
           ["tslib", "npm:2.8.1"]\
         ],\
@@ -275,30 +264,19 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@atproto/lex-client", [\
-      ["npm:0.1.4", {\
-        "packageLocation": "./.yarn/cache/@atproto-lex-client-npm-0.1.4-51e9ae91bd-2a019f87e8.zip/node_modules/@atproto/lex-client/",\
+      ["npm:0.1.5", {\
+        "packageLocation": "./.yarn/cache/@atproto-lex-client-npm-0.1.5-d5138a2c90-2ea7277501.zip/node_modules/@atproto/lex-client/",\
         "packageDependencies": [\
-          ["@atproto/lex-client", "npm:0.1.4"],\
-          ["@atproto/lex-data", "npm:0.1.2"],\
-          ["@atproto/lex-json", "npm:0.1.1"],\
-          ["@atproto/lex-schema", "npm:0.1.4"],\
+          ["@atproto/lex-client", "npm:0.1.5"],\
+          ["@atproto/lex-data", "npm:0.1.3"],\
+          ["@atproto/lex-json", "npm:0.1.2"],\
+          ["@atproto/lex-schema", "npm:0.1.5"],\
           ["tslib", "npm:2.8.1"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@atproto/lex-data", [\
-      ["npm:0.1.2", {\
-        "packageLocation": "./.yarn/cache/@atproto-lex-data-npm-0.1.2-56bd7adcb5-c6810e3a89.zip/node_modules/@atproto/lex-data/",\
-        "packageDependencies": [\
-          ["@atproto/lex-data", "npm:0.1.2"],\
-          ["multiformats", "npm:13.4.2"],\
-          ["tslib", "npm:2.8.1"],\
-          ["uint8arrays", "npm:5.1.1"],\
-          ["unicode-segmenter", "npm:0.14.5"]\
-        ],\
-        "linkType": "HARD"\
-      }],\
       ["npm:0.1.3", {\
         "packageLocation": "./.yarn/cache/@atproto-lex-data-npm-0.1.3-fb81732630-55be82a8e5.zip/node_modules/@atproto/lex-data/",\
         "packageDependencies": [\
@@ -312,11 +290,11 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@atproto/lex-document", [\
-      ["npm:0.1.1", {\
-        "packageLocation": "./.yarn/cache/@atproto-lex-document-npm-0.1.1-84773f3489-2da2e4cc68.zip/node_modules/@atproto/lex-document/",\
+      ["npm:0.1.2", {\
+        "packageLocation": "./.yarn/cache/@atproto-lex-document-npm-0.1.2-1c13cce279-25be2980b9.zip/node_modules/@atproto/lex-document/",\
         "packageDependencies": [\
-          ["@atproto/lex-document", "npm:0.1.1"],\
-          ["@atproto/lex-schema", "npm:0.1.4"],\
+          ["@atproto/lex-document", "npm:0.1.2"],\
+          ["@atproto/lex-schema", "npm:0.1.5"],\
           ["core-js", "npm:3.49.0"],\
           ["tslib", "npm:2.8.1"]\
         ],\
@@ -324,32 +302,23 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@atproto/lex-installer", [\
-      ["npm:0.1.1", {\
-        "packageLocation": "./.yarn/cache/@atproto-lex-installer-npm-0.1.1-53307748cf-493f75f474.zip/node_modules/@atproto/lex-installer/",\
+      ["npm:0.1.2", {\
+        "packageLocation": "./.yarn/cache/@atproto-lex-installer-npm-0.1.2-b0cc5a5f9d-446d3f08f6.zip/node_modules/@atproto/lex-installer/",\
         "packageDependencies": [\
-          ["@atproto/lex-builder", "npm:0.1.3"],\
-          ["@atproto/lex-cbor", "npm:0.1.1"],\
-          ["@atproto/lex-data", "npm:0.1.2"],\
-          ["@atproto/lex-document", "npm:0.1.1"],\
-          ["@atproto/lex-installer", "npm:0.1.1"],\
-          ["@atproto/lex-resolver", "npm:0.1.1"],\
-          ["@atproto/lex-schema", "npm:0.1.4"],\
-          ["@atproto/syntax", "npm:0.6.2"],\
+          ["@atproto/lex-builder", "npm:0.1.4"],\
+          ["@atproto/lex-cbor", "npm:0.1.2"],\
+          ["@atproto/lex-data", "npm:0.1.3"],\
+          ["@atproto/lex-document", "npm:0.1.2"],\
+          ["@atproto/lex-installer", "npm:0.1.2"],\
+          ["@atproto/lex-resolver", "npm:0.1.2"],\
+          ["@atproto/lex-schema", "npm:0.1.5"],\
+          ["@atproto/syntax", "npm:0.6.3"],\
           ["tslib", "npm:2.8.1"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@atproto/lex-json", [\
-      ["npm:0.1.1", {\
-        "packageLocation": "./.yarn/cache/@atproto-lex-json-npm-0.1.1-0125176b77-ae19bf7295.zip/node_modules/@atproto/lex-json/",\
-        "packageDependencies": [\
-          ["@atproto/lex-data", "npm:0.1.2"],\
-          ["@atproto/lex-json", "npm:0.1.1"],\
-          ["tslib", "npm:2.8.1"]\
-        ],\
-        "linkType": "HARD"\
-      }],\
       ["npm:0.1.2", {\
         "packageLocation": "./.yarn/cache/@atproto-lex-json-npm-0.1.2-b887501a15-12216a6a7f.zip/node_modules/@atproto/lex-json/",\
         "packageDependencies": [\
@@ -361,30 +330,30 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@atproto/lex-resolver", [\
-      ["npm:0.1.1", {\
-        "packageLocation": "./.yarn/cache/@atproto-lex-resolver-npm-0.1.1-9a6e7ae945-4fe8a238bf.zip/node_modules/@atproto/lex-resolver/",\
+      ["npm:0.1.2", {\
+        "packageLocation": "./.yarn/cache/@atproto-lex-resolver-npm-0.1.2-bdb119fd34-736c32f872.zip/node_modules/@atproto/lex-resolver/",\
         "packageDependencies": [\
-          ["@atproto-labs/did-resolver", "npm:0.3.2"],\
-          ["@atproto/crypto", "npm:0.5.1"],\
-          ["@atproto/lex-client", "npm:0.1.4"],\
-          ["@atproto/lex-data", "npm:0.1.2"],\
-          ["@atproto/lex-document", "npm:0.1.1"],\
-          ["@atproto/lex-resolver", "npm:0.1.1"],\
-          ["@atproto/lex-schema", "npm:0.1.4"],\
-          ["@atproto/repo", "npm:0.10.1"],\
-          ["@atproto/syntax", "npm:0.6.2"],\
+          ["@atproto-labs/did-resolver", "npm:0.3.3"],\
+          ["@atproto/crypto", "npm:0.5.2"],\
+          ["@atproto/lex-client", "npm:0.1.5"],\
+          ["@atproto/lex-data", "npm:0.1.3"],\
+          ["@atproto/lex-document", "npm:0.1.2"],\
+          ["@atproto/lex-resolver", "npm:0.1.2"],\
+          ["@atproto/lex-schema", "npm:0.1.5"],\
+          ["@atproto/repo", "npm:0.10.2"],\
+          ["@atproto/syntax", "npm:0.6.3"],\
           ["tslib", "npm:2.8.1"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@atproto/lex-schema", [\
-      ["npm:0.1.4", {\
-        "packageLocation": "./.yarn/cache/@atproto-lex-schema-npm-0.1.4-d7b1a27a00-e51dff524c.zip/node_modules/@atproto/lex-schema/",\
+      ["npm:0.1.5", {\
+        "packageLocation": "./.yarn/cache/@atproto-lex-schema-npm-0.1.5-1051dca8a6-80b6e67013.zip/node_modules/@atproto/lex-schema/",\
         "packageDependencies": [\
-          ["@atproto/lex-data", "npm:0.1.2"],\
-          ["@atproto/lex-schema", "npm:0.1.4"],\
-          ["@atproto/syntax", "npm:0.6.2"],\
+          ["@atproto/lex-data", "npm:0.1.3"],\
+          ["@atproto/lex-schema", "npm:0.1.5"],\
+          ["@atproto/syntax", "npm:0.6.3"],\
           ["@standard-schema/spec", "npm:1.1.0"],\
           ["tslib", "npm:2.8.1"]\
         ],\
@@ -405,16 +374,16 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@atproto/repo", [\
-      ["npm:0.10.1", {\
-        "packageLocation": "./.yarn/cache/@atproto-repo-npm-0.10.1-c00d128fb5-42172f7365.zip/node_modules/@atproto/repo/",\
+      ["npm:0.10.2", {\
+        "packageLocation": "./.yarn/cache/@atproto-repo-npm-0.10.2-7b2898f066-acfc2d4656.zip/node_modules/@atproto/repo/",\
         "packageDependencies": [\
-          ["@atproto/common", "npm:0.6.3"],\
-          ["@atproto/common-web", "npm:0.5.1"],\
-          ["@atproto/crypto", "npm:0.5.1"],\
-          ["@atproto/lex-cbor", "npm:0.1.1"],\
-          ["@atproto/lex-data", "npm:0.1.2"],\
-          ["@atproto/repo", "npm:0.10.1"],\
-          ["@atproto/syntax", "npm:0.6.2"],\
+          ["@atproto/common", "npm:0.6.4"],\
+          ["@atproto/common-web", "npm:0.5.2"],\
+          ["@atproto/crypto", "npm:0.5.2"],\
+          ["@atproto/lex-cbor", "npm:0.1.2"],\
+          ["@atproto/lex-data", "npm:0.1.3"],\
+          ["@atproto/repo", "npm:0.10.2"],\
+          ["@atproto/syntax", "npm:0.6.3"],\
           ["varint", "npm:6.0.0"],\
           ["zod", "npm:3.25.76"]\
         ],\
@@ -422,15 +391,6 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@atproto/syntax", [\
-      ["npm:0.6.2", {\
-        "packageLocation": "./.yarn/cache/@atproto-syntax-npm-0.6.2-27806f3306-50535c70a5.zip/node_modules/@atproto/syntax/",\
-        "packageDependencies": [\
-          ["@atproto/syntax", "npm:0.6.2"],\
-          ["iso-datestring-validator", "npm:2.2.2"],\
-          ["tslib", "npm:2.8.1"]\
-        ],\
-        "linkType": "HARD"\
-      }],\
       ["npm:0.6.3", {\
         "packageLocation": "./.yarn/cache/@atproto-syntax-npm-0.6.3-e8cd50382b-0869fe1618.zip/node_modules/@atproto/syntax/",\
         "packageDependencies": [\
@@ -1718,6 +1678,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["@pinojs/redact", [\
+      ["npm:0.4.0", {\
+        "packageLocation": "./.yarn/cache/@pinojs-redact-npm-0.4.0-445417bca6-2210ffb6b3.zip/node_modules/@pinojs/redact/",\
+        "packageDependencies": [\
+          ["@pinojs/redact", "npm:0.4.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["@primer/octicons-react", [\
       ["npm:19.28.1", {\
         "packageLocation": "./.yarn/cache/@primer-octicons-react-npm-19.28.1-4d35c6340e-08105c603f.zip/node_modules/@primer/octicons-react/",\
@@ -2437,16 +2406,6 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
-    ["abort-controller", [\
-      ["npm:3.0.0", {\
-        "packageLocation": "./.yarn/cache/abort-controller-npm-3.0.0-2f3a9a2bcb-ed84af329f.zip/node_modules/abort-controller/",\
-        "packageDependencies": [\
-          ["abort-controller", "npm:3.0.0"],\
-          ["event-target-shim", "npm:5.0.1"]\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
     ["acorn", [\
       ["npm:8.16.0", {\
         "packageLocation": "./.yarn/cache/acorn-npm-8.16.0-b2096bf83f-690c673bb4.zip/node_modules/acorn/",\
@@ -2693,13 +2652,6 @@ const RAW_RUNTIME_STATE =
           ["base64-js", "npm:0.0.8"]\
         ],\
         "linkType": "HARD"\
-      }],\
-      ["npm:1.5.1", {\
-        "packageLocation": "./.yarn/cache/base64-js-npm-1.5.1-b2f7275641-669632eb37.zip/node_modules/base64-js/",\
-        "packageDependencies": [\
-          ["base64-js", "npm:1.5.1"]\
-        ],\
-        "linkType": "HARD"\
       }]\
     ]],\
     ["baseline-browser-mapping", [\
@@ -2727,17 +2679,6 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["braces", "npm:3.0.3"],\
           ["fill-range", "npm:7.1.1"]\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
-    ["buffer", [\
-      ["npm:6.0.3", {\
-        "packageLocation": "./.yarn/cache/buffer-npm-6.0.3-cd90dfedfe-b6bc68237e.zip/node_modules/buffer/",\
-        "packageDependencies": [\
-          ["base64-js", "npm:1.5.1"],\
-          ["buffer", "npm:6.0.3"],\
-          ["ieee754", "npm:1.2.1"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -3238,7 +3179,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./",\
         "packageDependencies": [\
           ["@atproto/api", "npm:0.20.22"],\
-          ["@atproto/lex", "npm:0.1.4"],\
+          ["@atproto/lex", "npm:0.1.5"],\
           ["@atproto/syntax", "npm:0.6.3"],\
           ["@eslint/compat", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:2.1.0"],\
           ["@eslint/js", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:10.0.1"],\
@@ -3853,24 +3794,6 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
-    ["event-target-shim", [\
-      ["npm:5.0.1", {\
-        "packageLocation": "./.yarn/cache/event-target-shim-npm-5.0.1-cb48709025-49ff46c3a7.zip/node_modules/event-target-shim/",\
-        "packageDependencies": [\
-          ["event-target-shim", "npm:5.0.1"]\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
-    ["events", [\
-      ["npm:3.3.0", {\
-        "packageLocation": "./.yarn/cache/events-npm-3.3.0-c280bc7e48-a3d47e285e.zip/node_modules/events/",\
-        "packageDependencies": [\
-          ["events", "npm:3.3.0"]\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
     ["exponential-backoff", [\
       ["npm:3.1.3", {\
         "packageLocation": "./.yarn/cache/exponential-backoff-npm-3.1.3-28be78d98e-ca25962b4b.zip/node_modules/exponential-backoff/",\
@@ -3926,15 +3849,6 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/cache/fast-levenshtein-npm-2.0.6-fcd74b8df5-eb7e220ecf.zip/node_modules/fast-levenshtein/",\
         "packageDependencies": [\
           ["fast-levenshtein", "npm:2.0.6"]\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
-    ["fast-redact", [\
-      ["npm:3.5.0", {\
-        "packageLocation": "./.yarn/cache/fast-redact-npm-3.5.0-80acfe2b04-24b27e2023.zip/node_modules/fast-redact/",\
-        "packageDependencies": [\
-          ["fast-redact", "npm:3.5.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -4556,15 +4470,6 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/cache/html-void-elements-npm-3.0.0-e1a7d1151b-59be397525.zip/node_modules/html-void-elements/",\
         "packageDependencies": [\
           ["html-void-elements", "npm:3.0.0"]\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
-    ["ieee754", [\
-      ["npm:1.2.1", {\
-        "packageLocation": "./.yarn/cache/ieee754-npm-1.2.1-fb63b3caeb-d9f2557a59.zip/node_modules/ieee754/",\
-        "packageDependencies": [\
-          ["ieee754", "npm:1.2.1"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -6332,41 +6237,40 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["pino", [\
-      ["npm:8.21.0", {\
-        "packageLocation": "./.yarn/cache/pino-npm-8.21.0-deea3c97b7-5a054eab53.zip/node_modules/pino/",\
+      ["npm:10.3.1", {\
+        "packageLocation": "./.yarn/cache/pino-npm-10.3.1-41e9e37ffb-46cad7bf18.zip/node_modules/pino/",\
         "packageDependencies": [\
+          ["@pinojs/redact", "npm:0.4.0"],\
           ["atomic-sleep", "npm:1.0.0"],\
-          ["fast-redact", "npm:3.5.0"],\
           ["on-exit-leak-free", "npm:2.1.2"],\
-          ["pino", "npm:8.21.0"],\
-          ["pino-abstract-transport", "npm:1.2.0"],\
-          ["pino-std-serializers", "npm:6.2.2"],\
-          ["process-warning", "npm:3.0.0"],\
+          ["pino", "npm:10.3.1"],\
+          ["pino-abstract-transport", "npm:3.0.0"],\
+          ["pino-std-serializers", "npm:7.1.0"],\
+          ["process-warning", "npm:5.0.0"],\
           ["quick-format-unescaped", "npm:4.0.4"],\
           ["real-require", "npm:0.2.0"],\
           ["safe-stable-stringify", "npm:2.5.0"],\
-          ["sonic-boom", "npm:3.8.1"],\
-          ["thread-stream", "npm:2.7.0"]\
+          ["sonic-boom", "npm:4.2.1"],\
+          ["thread-stream", "npm:4.2.0"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["pino-abstract-transport", [\
-      ["npm:1.2.0", {\
-        "packageLocation": "./.yarn/cache/pino-abstract-transport-npm-1.2.0-8567d0d819-6ec1d19a7f.zip/node_modules/pino-abstract-transport/",\
+      ["npm:3.0.0", {\
+        "packageLocation": "./.yarn/cache/pino-abstract-transport-npm-3.0.0-52788012f1-f42b85b266.zip/node_modules/pino-abstract-transport/",\
         "packageDependencies": [\
-          ["pino-abstract-transport", "npm:1.2.0"],\
-          ["readable-stream", "npm:4.7.0"],\
+          ["pino-abstract-transport", "npm:3.0.0"],\
           ["split2", "npm:4.2.0"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["pino-std-serializers", [\
-      ["npm:6.2.2", {\
-        "packageLocation": "./.yarn/cache/pino-std-serializers-npm-6.2.2-0e907a1130-a00cdff4e1.zip/node_modules/pino-std-serializers/",\
+      ["npm:7.1.0", {\
+        "packageLocation": "./.yarn/cache/pino-std-serializers-npm-7.1.0-74aa4b6842-6e27f6f885.zip/node_modules/pino-std-serializers/",\
         "packageDependencies": [\
-          ["pino-std-serializers", "npm:6.2.2"]\
+          ["pino-std-serializers", "npm:7.1.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -6446,20 +6350,11 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
-    ["process", [\
-      ["npm:0.11.10", {\
-        "packageLocation": "./.yarn/cache/process-npm-0.11.10-aeb3b641ae-dbaa7e8d1d.zip/node_modules/process/",\
-        "packageDependencies": [\
-          ["process", "npm:0.11.10"]\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
     ["process-warning", [\
-      ["npm:3.0.0", {\
-        "packageLocation": "./.yarn/cache/process-warning-npm-3.0.0-e1380c08e2-2d82fa641e.zip/node_modules/process-warning/",\
+      ["npm:5.0.0", {\
+        "packageLocation": "./.yarn/cache/process-warning-npm-5.0.0-7999058ecd-10f3e00ac9.zip/node_modules/process-warning/",\
         "packageDependencies": [\
-          ["process-warning", "npm:3.0.0"]\
+          ["process-warning", "npm:5.0.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -6560,25 +6455,18 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
-    ["readable-stream", [\
-      ["npm:4.7.0", {\
-        "packageLocation": "./.yarn/cache/readable-stream-npm-4.7.0-2aa0761036-bdf096c8ff.zip/node_modules/readable-stream/",\
-        "packageDependencies": [\
-          ["abort-controller", "npm:3.0.0"],\
-          ["buffer", "npm:6.0.3"],\
-          ["events", "npm:3.3.0"],\
-          ["process", "npm:0.11.10"],\
-          ["readable-stream", "npm:4.7.0"],\
-          ["string_decoder", "npm:1.3.0"]\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
     ["real-require", [\
       ["npm:0.2.0", {\
         "packageLocation": "./.yarn/cache/real-require-npm-0.2.0-7f69dbc7b6-ddf44ee763.zip/node_modules/real-require/",\
         "packageDependencies": [\
           ["real-require", "npm:0.2.0"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:1.0.0", {\
+        "packageLocation": "./.yarn/cache/real-require-npm-1.0.0-602b2bb42e-ac2ae7681e.zip/node_modules/real-require/",\
+        "packageDependencies": [\
+          ["real-require", "npm:1.0.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -6825,15 +6713,6 @@ const RAW_RUNTIME_STATE =
           ["has-symbols", "npm:1.1.0"],\
           ["isarray", "npm:2.0.5"],\
           ["safe-array-concat", "npm:1.1.3"]\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
-    ["safe-buffer", [\
-      ["npm:5.2.1", {\
-        "packageLocation": "./.yarn/cache/safe-buffer-npm-5.2.1-3481c8aa9b-32872cd0ff.zip/node_modules/safe-buffer/",\
-        "packageDependencies": [\
-          ["safe-buffer", "npm:5.2.1"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -7174,11 +7053,11 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["sonic-boom", [\
-      ["npm:3.8.1", {\
-        "packageLocation": "./.yarn/cache/sonic-boom-npm-3.8.1-1ea933ec95-e03c9611e4.zip/node_modules/sonic-boom/",\
+      ["npm:4.2.1", {\
+        "packageLocation": "./.yarn/cache/sonic-boom-npm-4.2.1-92311a8eb8-161af46b3e.zip/node_modules/sonic-boom/",\
         "packageDependencies": [\
           ["atomic-sleep", "npm:1.0.0"],\
-          ["sonic-boom", "npm:3.8.1"]\
+          ["sonic-boom", "npm:4.2.1"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -7326,16 +7205,6 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
-    ["string_decoder", [\
-      ["npm:1.3.0", {\
-        "packageLocation": "./.yarn/cache/string_decoder-npm-1.3.0-2422117fd0-54d23f4a6a.zip/node_modules/string_decoder/",\
-        "packageDependencies": [\
-          ["safe-buffer", "npm:5.2.1"],\
-          ["string_decoder", "npm:1.3.0"]\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
     ["stringify-entities", [\
       ["npm:4.0.4", {\
         "packageLocation": "./.yarn/cache/stringify-entities-npm-4.0.4-68e836e40b-42bd2f3752.zip/node_modules/stringify-entities/",\
@@ -7439,11 +7308,11 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["thread-stream", [\
-      ["npm:2.7.0", {\
-        "packageLocation": "./.yarn/cache/thread-stream-npm-2.7.0-b184293d78-03e743a2cc.zip/node_modules/thread-stream/",\
+      ["npm:4.2.0", {\
+        "packageLocation": "./.yarn/cache/thread-stream-npm-4.2.0-395d6075d4-040d1f5284.zip/node_modules/thread-stream/",\
         "packageDependencies": [\
-          ["real-require", "npm:0.2.0"],\
-          ["thread-stream", "npm:2.7.0"]\
+          ["real-require", "npm:1.0.0"],\
+          ["thread-stream", "npm:4.2.0"]\
         ],\
         "linkType": "HARD"\
       }]\
