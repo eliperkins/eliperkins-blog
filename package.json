@@ -68,7 +68,7 @@
     "hast": "^1.0.0",
     "mdast-util-to-string": "^4.0.0",
     "postcss": "^8.5.15",
-    "prettier": "^3.8.4",
+    "prettier": "^3.9.4",
     "rehype-starry-night": "^2.2.0",
     "schema-dts": "^2.0.0",
     "tailwindcss": "^4.3.1",
