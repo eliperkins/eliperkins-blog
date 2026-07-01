@@ -61,7 +61,7 @@ const RAW_RUNTIME_STATE =
           ["hastscript", "npm:9.0.1"],\
           ["mdast-util-to-string", "npm:4.0.0"],\
           ["next", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:16.2.9"],\
-          ["postcss", "npm:8.5.15"],\
+          ["postcss", "npm:8.5.16"],\
           ["prettier", "npm:3.8.4"],\
           ["react", "npm:19.2.7"],\
           ["react-dom", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:19.2.7"],\
@@ -1907,7 +1907,7 @@ const RAW_RUNTIME_STATE =
           ["@tailwindcss/node", "npm:4.3.1"],\
           ["@tailwindcss/oxide", "npm:4.3.1"],\
           ["@tailwindcss/postcss", "npm:4.3.1"],\
-          ["postcss", "npm:8.5.15"],\
+          ["postcss", "npm:8.5.16"],\
           ["tailwindcss", "npm:4.3.1"]\
         ],\
         "linkType": "HARD"\
@@ -3211,7 +3211,7 @@ const RAW_RUNTIME_STATE =
           ["hastscript", "npm:9.0.1"],\
           ["mdast-util-to-string", "npm:4.0.0"],\
           ["next", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:16.2.9"],\
-          ["postcss", "npm:8.5.15"],\
+          ["postcss", "npm:8.5.16"],\
           ["prettier", "npm:3.8.4"],\
           ["react", "npm:19.2.7"],\
           ["react-dom", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:19.2.7"],\
@@ -5934,7 +5934,7 @@ const RAW_RUNTIME_STATE =
           ["baseline-browser-mapping", "npm:2.10.8"],\
           ["caniuse-lite", "npm:1.0.30001649"],\
           ["next", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:16.2.9"],\
-          ["postcss", "npm:8.5.15"],\
+          ["postcss", "npm:8.5.16"],\
           ["react", "npm:19.2.7"],\
           ["react-dom", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:19.2.7"],\
           ["sass", null],\
@@ -6285,12 +6285,12 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["postcss", [\
-      ["npm:8.5.15", {\
-        "packageLocation": "./.yarn/cache/postcss-npm-8.5.15-8e6eef9b78-d02ad19eb1.zip/node_modules/postcss/",\
+      ["npm:8.5.16", {\
+        "packageLocation": "./.yarn/cache/postcss-npm-8.5.16-086b209555-b39408900a.zip/node_modules/postcss/",\
         "packageDependencies": [\
           ["nanoid", "npm:3.3.12"],\
           ["picocolors", "npm:1.1.1"],\
-          ["postcss", "npm:8.5.15"],\
+          ["postcss", "npm:8.5.16"],\
           ["source-map-js", "npm:1.2.1"]\
         ],\
         "linkType": "HARD"\
