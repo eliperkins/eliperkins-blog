@@ -72,7 +72,7 @@
     "rehype-starry-night": "^2.2.0",
     "schema-dts": "^2.0.0",
     "tailwindcss": "^4.3.2",
-    "tsx": "^4.22.4",
+    "tsx": "^4.22.5",
     "typescript": "^6.0.3",
     "typescript-eslint": "^8.62.1",
     "vscode-oniguruma": "^2.0.1"
