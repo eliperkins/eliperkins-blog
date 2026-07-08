@@ -335,6 +335,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@atproto/syntax@npm:^0.7.1":
+  version: 0.7.1
+  resolution: "@atproto/syntax@npm:0.7.1"
+  dependencies:
+    iso-datestring-validator: "npm:^2.2.2"
+    tslib: "npm:^2.8.1"
+  checksum: 10/f83a9fd301082f565b5aae3b2d7b25c6fa753010c7d9e75823c252d43f99d6aa8ae8c31865a04a4ed11d721f7815c0f779a6f5f273f0e161362fea426f2b78b0
+  languageName: node
+  linkType: hard
+
 "@atproto/xrpc@npm:^0.8.4":
   version: 0.8.4
   resolution: "@atproto/xrpc@npm:0.8.4"
@@ -2659,7 +2669,7 @@ __metadata:
   dependencies:
     "@atproto/api": "npm:^0.20.26"
     "@atproto/lex": "npm:^0.1.5"
-    "@atproto/syntax": "npm:^0.6.3"
+    "@atproto/syntax": "npm:^0.7.1"
     "@eslint/compat": "npm:^2.1.0"
     "@eslint/js": "npm:^10.0.1"
     "@giscus/react": "npm:^3.1.0"
