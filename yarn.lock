@@ -12,50 +12,50 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@atproto-labs/did-resolver@npm:^0.3.3":
-  version: 0.3.3
-  resolution: "@atproto-labs/did-resolver@npm:0.3.3"
+"@atproto-labs/did-resolver@npm:^0.3.5":
+  version: 0.3.5
+  resolution: "@atproto-labs/did-resolver@npm:0.3.5"
   dependencies:
-    "@atproto-labs/fetch": "npm:^0.3.2"
-    "@atproto-labs/pipe": "npm:^0.2.2"
-    "@atproto-labs/simple-store": "npm:^0.4.2"
-    "@atproto-labs/simple-store-memory": "npm:^0.2.2"
-    "@atproto/did": "npm:^0.5.2"
+    "@atproto-labs/fetch": "npm:^0.3.4"
+    "@atproto-labs/pipe": "npm:^0.2.4"
+    "@atproto-labs/simple-store": "npm:^0.4.4"
+    "@atproto-labs/simple-store-memory": "npm:^0.2.4"
+    "@atproto/did": "npm:^0.5.4"
     zod: "npm:^3.23.8"
-  checksum: 10/36449ab8cb8afdefdec5482867691b65d598e7103ad8f17d00c368966fcc4ec1b350e48c690c4503f23e3385c4a84686abefb630fabdc8742bb6b4e8ef58c726
+  checksum: 10/94bad95c4c07d94b5b73b710893d2a27288039a543bd1c868625ea75bb77f021645bc8a0aae7431e31abc59c4cfe8008d8e709411366df458c702cb613e5d78c
   languageName: node
   linkType: hard
 
-"@atproto-labs/fetch@npm:^0.3.2":
-  version: 0.3.2
-  resolution: "@atproto-labs/fetch@npm:0.3.2"
+"@atproto-labs/fetch@npm:^0.3.4":
+  version: 0.3.4
+  resolution: "@atproto-labs/fetch@npm:0.3.4"
   dependencies:
-    "@atproto-labs/pipe": "npm:^0.2.2"
-  checksum: 10/e2b214b2c73fbd265b812e2f5e878426d790ebea73c609318fecb061bb39e5b07a91e79d4b22598e267d4dc9884df7bf2947a2f66c7468ddee78aa18c4d46192
+    "@atproto-labs/pipe": "npm:^0.2.4"
+  checksum: 10/ba46ba8ef383b58503cfbd6704f14bed080bc4e387f6fac212387ca816cfb8caefe8452138c0da72d0e267f42083519d589fb3cc55a63dd5d7d5a65ac9dc04c5
   languageName: node
   linkType: hard
 
-"@atproto-labs/pipe@npm:^0.2.2":
-  version: 0.2.2
-  resolution: "@atproto-labs/pipe@npm:0.2.2"
-  checksum: 10/e5bd146ca64ea19fc4f8adf1dd76b65dc9ca64222b6ac4c2217fa548fa7d48a818953da538c960074e952c87d240060841746ae409b28c93ab22714cf452e117
+"@atproto-labs/pipe@npm:^0.2.4":
+  version: 0.2.4
+  resolution: "@atproto-labs/pipe@npm:0.2.4"
+  checksum: 10/9a1f4492ec709535abd79257917c85720d0210f6de01fba59ab8a05cab49b846d1e270238463bbc66f89ab64d78b0b804b49f179191325dea1f437e27eb556e4
   languageName: node
   linkType: hard
 
-"@atproto-labs/simple-store-memory@npm:^0.2.2":
-  version: 0.2.2
-  resolution: "@atproto-labs/simple-store-memory@npm:0.2.2"
+"@atproto-labs/simple-store-memory@npm:^0.2.4":
+  version: 0.2.4
+  resolution: "@atproto-labs/simple-store-memory@npm:0.2.4"
   dependencies:
-    "@atproto-labs/simple-store": "npm:^0.4.2"
+    "@atproto-labs/simple-store": "npm:^0.4.4"
     lru-cache: "npm:^10.2.0"
-  checksum: 10/a462f9c4b3fdcaa782c3ee0c469e144338113a15b7c0490be1b5b8e58833e816023ca3be49ee6c1a63c7c72d12ede5546877f6a69a036d36720e375a9f637367
+  checksum: 10/adab7541e4dc2cccea66575e67b7a37869525d06d8e24a8c68367998cc988fc49e636fcd5cdd1db9b98de2333f7a9fc346c0936cf1edd7d44534d7e5139b9efa
   languageName: node
   linkType: hard
 
-"@atproto-labs/simple-store@npm:^0.4.2":
-  version: 0.4.2
-  resolution: "@atproto-labs/simple-store@npm:0.4.2"
-  checksum: 10/6a72a97e8f5e56aaac2bc6d07fe001dd552825d5738a02c27cfb0bd5dec15e3986b05ca8ee24163c3184af56cceb9af0c77ae306e4e4bb596f5377ae4c184a7a
+"@atproto-labs/simple-store@npm:^0.4.4":
+  version: 0.4.4
+  resolution: "@atproto-labs/simple-store@npm:0.4.4"
+  checksum: 10/c8b4d5edac644bb14e7845e31d21a189d08a186c223702a3c4b02b10af6481f9f98d2b7cb825c3f220bc595a2138c548a5fabbc1c769b7bcf56478fbfc50e76f
   languageName: node
   linkType: hard
 
@@ -75,18 +75,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@atproto/common-web@npm:^0.5.2":
-  version: 0.5.2
-  resolution: "@atproto/common-web@npm:0.5.2"
-  dependencies:
-    "@atproto/lex-data": "npm:^0.1.3"
-    "@atproto/lex-json": "npm:^0.1.2"
-    "@atproto/syntax": "npm:^0.6.3"
-    zod: "npm:^3.23.8"
-  checksum: 10/2b24804e4c25fe4afcdc64d9ed3896d85f1a56380da93677c00e6b7fb0246971bf51c43c97538c10060cc5c757662e4a4ecfcbc3c0c7a3e2684a8cc3ad926025
-  languageName: node
-  linkType: hard
-
 "@atproto/common-web@npm:^0.5.4":
   version: 0.5.4
   resolution: "@atproto/common-web@npm:0.5.4"
@@ -99,84 +87,84 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@atproto/common@npm:^0.6.4":
-  version: 0.6.4
-  resolution: "@atproto/common@npm:0.6.4"
+"@atproto/common-web@npm:^0.5.6":
+  version: 0.5.6
+  resolution: "@atproto/common-web@npm:0.5.6"
   dependencies:
-    "@atproto/common-web": "npm:^0.5.2"
-    "@atproto/lex-cbor": "npm:^0.1.2"
-    "@atproto/lex-data": "npm:^0.1.3"
-    multiformats: "npm:^13.0.0"
-    pino: "npm:^10.3.1"
-  checksum: 10/b8b302a9e9134e5899377105bdc090c9b8946cd2e1cf5c93c15d303a9add30ec1bf8a1a0e94a5e00c7f72d60e4e25f2c6257ecdf325e1b3719cfdc4af943c2b3
+    "@atproto/lex-data": "npm:^0.1.5"
+    "@atproto/lex-json": "npm:^0.1.4"
+    "@atproto/syntax": "npm:^0.7.2"
+    zod: "npm:^3.23.8"
+  checksum: 10/84ddb58ed78ec59f5bb490a62e2da9a57dcda0988b3f363d83dcdd765d0f509661b8a585949b9c7671b31755491607fb4da99c46a44fb85aefbdc2b1a0541a6c
   languageName: node
   linkType: hard
 
-"@atproto/crypto@npm:^0.5.2":
-  version: 0.5.2
-  resolution: "@atproto/crypto@npm:0.5.2"
+"@atproto/common@npm:^0.7.2":
+  version: 0.7.2
+  resolution: "@atproto/common@npm:0.7.2"
+  dependencies:
+    "@atproto/common-web": "npm:^0.5.6"
+    "@atproto/lex-cbor": "npm:^0.1.4"
+    "@atproto/lex-data": "npm:^0.1.5"
+    multiformats: "npm:^13.0.0"
+    pino: "npm:^10.3.1"
+  checksum: 10/ac9fa1d265c186fd74e63d5c3bfb1055eb0c7aa243c942f47cb468a16c916ecfbf3f7ab6b5e4a3d3e7e46cd736e20ed02bb53e0bd6670f8680827514ed23baaa
+  languageName: node
+  linkType: hard
+
+"@atproto/crypto@npm:^0.5.4":
+  version: 0.5.4
+  resolution: "@atproto/crypto@npm:0.5.4"
   dependencies:
     "@noble/curves": "npm:^1.7.0"
     "@noble/hashes": "npm:^1.6.1"
     uint8arrays: "npm:^5.0.0"
-  checksum: 10/06fd1696979aa94b63107d07d15e43c290dfa34029268fa97e4d5dda5bfa7d2db354b085b2ba7e20c55af9c5e8ecf08191c78eacd1eed990b94c14daf311ad68
+  checksum: 10/756c6ae231eacdfa95ca60ede7cb83f78bff0da0a64967e34a90e89ec34a5c2b1602373669d9bfce72b150ba902626be7154d0b893dfb05291c93468bcaae9a1
   languageName: node
   linkType: hard
 
-"@atproto/did@npm:^0.5.2":
-  version: 0.5.2
-  resolution: "@atproto/did@npm:0.5.2"
+"@atproto/did@npm:^0.5.4":
+  version: 0.5.4
+  resolution: "@atproto/did@npm:0.5.4"
   dependencies:
     zod: "npm:^3.23.8"
-  checksum: 10/db5273b19a43bed9dbdbfd709eeaa89ff776eb03bfc410d5979c1e72144240ff9d5714510a4ca644f399ad378bec747c235e78487a9200c06b577598ef1ef07e
+  checksum: 10/c3093929aa2506ec21638a91beca5fcbe97f903c2cb0e542c09cc415654034051b91634cf81f8d7d5dde9161edd1c146b766682a27b397802c985942b47f4ef0
   languageName: node
   linkType: hard
 
-"@atproto/lex-builder@npm:^0.1.4":
-  version: 0.1.4
-  resolution: "@atproto/lex-builder@npm:0.1.4"
+"@atproto/lex-builder@npm:^0.1.8":
+  version: 0.1.8
+  resolution: "@atproto/lex-builder@npm:0.1.8"
   dependencies:
-    "@atproto/lex-document": "npm:^0.1.2"
-    "@atproto/lex-schema": "npm:^0.1.5"
+    "@atproto/lex-document": "npm:^0.1.6"
+    "@atproto/lex-schema": "npm:^0.2.2"
     prettier: "npm:^3.2.5"
     ts-morph: "npm:^27.0.0"
     tslib: "npm:^2.8.1"
-  checksum: 10/45d2feb9a8c83afb5fb024861437b69fe625fa4558c82c94c9e779f13efc0502e6a2914a4a015ad3ca2859f4ed5ca1acd5ab7592e3f0d56e7f357d1a216a5de2
+  checksum: 10/9a96ee50b70dc1051a9bb02f4ba3b830cd95350baf8ec9c21c49dbaf22788b3d8e40823f15f8ffc48747856fa9d41a5203dad2c1d85a504980c8254077bce0c1
   languageName: node
   linkType: hard
 
-"@atproto/lex-cbor@npm:^0.1.2":
-  version: 0.1.2
-  resolution: "@atproto/lex-cbor@npm:0.1.2"
+"@atproto/lex-cbor@npm:^0.1.4":
+  version: 0.1.4
+  resolution: "@atproto/lex-cbor@npm:0.1.4"
   dependencies:
-    "@atproto/lex-data": "npm:^0.1.3"
+    "@atproto/lex-data": "npm:^0.1.5"
     cborg: "npm:^4.5.8"
     tslib: "npm:^2.8.1"
-  checksum: 10/7195f56f398186b7af63dea0d905ee5e31780180bcf503dcd35479271f14f07a70c6acd51affc90b205db9cb36fcbc554903f77c10a09d9bd262ad2ba35b2b9b
+  checksum: 10/f97cd59fc146d06f839dc61c07ea4e6e9f0b22773ff5ac7a0527da3b8cb3a6e26e91c4762c526aeac256ec65f7411ea202226e0f2cbf983580b01a52af93c5ee
   languageName: node
   linkType: hard
 
-"@atproto/lex-client@npm:^0.1.5":
-  version: 0.1.5
-  resolution: "@atproto/lex-client@npm:0.1.5"
+"@atproto/lex-client@npm:^0.2.4":
+  version: 0.2.4
+  resolution: "@atproto/lex-client@npm:0.2.4"
   dependencies:
-    "@atproto/lex-data": "npm:^0.1.3"
-    "@atproto/lex-json": "npm:^0.1.2"
-    "@atproto/lex-schema": "npm:^0.1.5"
+    "@atproto/lex-data": "npm:^0.1.5"
+    "@atproto/lex-json": "npm:^0.1.4"
+    "@atproto/lex-schema": "npm:^0.2.2"
     tslib: "npm:^2.8.1"
-  checksum: 10/2ea7277501494b2d7c9bc73f8865f5a86d7b27530a38860cc024fc6a5456e1639a67e141b9505fa7dcd12fcea10142baeec128a0b3130d2be2c2b47b8da10cb2
-  languageName: node
-  linkType: hard
-
-"@atproto/lex-data@npm:^0.1.3":
-  version: 0.1.3
-  resolution: "@atproto/lex-data@npm:0.1.3"
-  dependencies:
-    multiformats: "npm:^13.0.0"
-    tslib: "npm:^2.8.1"
-    uint8arrays: "npm:^5.0.0"
-    unicode-segmenter: "npm:^0.14.0"
-  checksum: 10/55be82a8e5baa74f4f82f3d344d42d739a102b6626de503a5edfb539f7acdb2b9d5da89d29a440e7c7ffccbd462833efc35ba65ba2bee34640b85f27e63f895e
+  checksum: 10/8a2e949db30af74858fd3abb87d47f0ed9720e0ac7328fa86145500af62bf4084e2ef921b0b422ecefe3e45347a3c6d60e30c650d069ae6c309d2e54c3b4b694
   languageName: node
   linkType: hard
 
@@ -192,40 +180,41 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@atproto/lex-document@npm:^0.1.2":
-  version: 0.1.2
-  resolution: "@atproto/lex-document@npm:0.1.2"
+"@atproto/lex-data@npm:^0.1.5":
+  version: 0.1.5
+  resolution: "@atproto/lex-data@npm:0.1.5"
   dependencies:
-    "@atproto/lex-schema": "npm:^0.1.5"
+    multiformats: "npm:^13.0.0"
+    tslib: "npm:^2.8.1"
+    unicode-segmenter: "npm:^0.14.0"
+  checksum: 10/dbd89357df1dc762ece5c1c28bf0707c753e1cd2b0a7112ce9e4dfbe25aaf4a9419e659b296bf8d5d17f57cad1d0984d4e0e4bd44893e46b3cd25b62209764ac
+  languageName: node
+  linkType: hard
+
+"@atproto/lex-document@npm:^0.1.6":
+  version: 0.1.6
+  resolution: "@atproto/lex-document@npm:0.1.6"
+  dependencies:
+    "@atproto/lex-schema": "npm:^0.2.2"
     core-js: "npm:^3"
     tslib: "npm:^2.8.1"
-  checksum: 10/25be2980b9c948da26f43fad1db7aae269118b2be0961b3b74e6e017124a01e0dac930e3dda8531e74f8fda4f590a9f8ee5649e2cb601b27754ca1a2e97e8c24
+  checksum: 10/ae287b6f3da97d94af03a99264439d82cda215d2f3e43ed01b960ead3c3a1e2461645d7b1558f8f8cc0339887fbdd39ad13d676b0081f359ed8e36a8121cdd34
   languageName: node
   linkType: hard
 
-"@atproto/lex-installer@npm:^0.1.2":
-  version: 0.1.2
-  resolution: "@atproto/lex-installer@npm:0.1.2"
+"@atproto/lex-installer@npm:^0.1.7":
+  version: 0.1.7
+  resolution: "@atproto/lex-installer@npm:0.1.7"
   dependencies:
-    "@atproto/lex-builder": "npm:^0.1.4"
-    "@atproto/lex-cbor": "npm:^0.1.2"
-    "@atproto/lex-data": "npm:^0.1.3"
-    "@atproto/lex-document": "npm:^0.1.2"
-    "@atproto/lex-resolver": "npm:^0.1.2"
-    "@atproto/lex-schema": "npm:^0.1.5"
-    "@atproto/syntax": "npm:^0.6.3"
+    "@atproto/lex-builder": "npm:^0.1.8"
+    "@atproto/lex-cbor": "npm:^0.1.4"
+    "@atproto/lex-data": "npm:^0.1.5"
+    "@atproto/lex-document": "npm:^0.1.6"
+    "@atproto/lex-resolver": "npm:^0.2.1"
+    "@atproto/lex-schema": "npm:^0.2.2"
+    "@atproto/syntax": "npm:^0.7.2"
     tslib: "npm:^2.8.1"
-  checksum: 10/446d3f08f6a00b8b84fe7151d24e773dd7dbc4babe8f6a8f67ac8b3ff932854f4db466287659b577d0785a55babb4eeb2fb5a9ebaa0c81801a3cf0afc949ea91
-  languageName: node
-  linkType: hard
-
-"@atproto/lex-json@npm:^0.1.2":
-  version: 0.1.2
-  resolution: "@atproto/lex-json@npm:0.1.2"
-  dependencies:
-    "@atproto/lex-data": "npm:^0.1.3"
-    tslib: "npm:^2.8.1"
-  checksum: 10/12216a6a7f1a4bc4b0f983ba7078aab4e07467073768b5dd5f7405416d493bb4a34c3f350710c1809cb7af17ee5bf287e96c964a110bcb0233848d98b4f0ca8c
+  checksum: 10/66ae43eaf5c2eba37b898bcb458287801576933f2434116c00c29434d93de8a1e7f40e5205344e9bd73dafc3cb631f077fd1dc8c94c900f57d4fe1633eac5c89
   languageName: node
   linkType: hard
 
@@ -239,51 +228,61 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@atproto/lex-resolver@npm:^0.1.2":
-  version: 0.1.2
-  resolution: "@atproto/lex-resolver@npm:0.1.2"
+"@atproto/lex-json@npm:^0.1.4":
+  version: 0.1.4
+  resolution: "@atproto/lex-json@npm:0.1.4"
   dependencies:
-    "@atproto-labs/did-resolver": "npm:^0.3.3"
-    "@atproto/crypto": "npm:^0.5.2"
-    "@atproto/lex-client": "npm:^0.1.5"
-    "@atproto/lex-data": "npm:^0.1.3"
-    "@atproto/lex-document": "npm:^0.1.2"
-    "@atproto/lex-schema": "npm:^0.1.5"
-    "@atproto/repo": "npm:^0.10.2"
-    "@atproto/syntax": "npm:^0.6.3"
+    "@atproto/lex-data": "npm:^0.1.5"
     tslib: "npm:^2.8.1"
-  checksum: 10/736c32f872a6846142303a8a166501d6b954f48e80fdae31cc4aeb396ae31c6376477f0e112deff34c7bc281e8f74e96c23ba8e76f615b15e7747ccaa4295b74
+  checksum: 10/a7c54c58ef2c36d8f8960c3dabf48046d2f9256dd49ec1d3349edeca706343cf8d3f45e89deedd6135a3f2371f613d6c1220331c964fd8279573fb883e7499a7
   languageName: node
   linkType: hard
 
-"@atproto/lex-schema@npm:^0.1.5":
-  version: 0.1.5
-  resolution: "@atproto/lex-schema@npm:0.1.5"
+"@atproto/lex-resolver@npm:^0.2.1":
+  version: 0.2.1
+  resolution: "@atproto/lex-resolver@npm:0.2.1"
   dependencies:
-    "@atproto/lex-data": "npm:^0.1.3"
-    "@atproto/syntax": "npm:^0.6.3"
+    "@atproto-labs/did-resolver": "npm:^0.3.5"
+    "@atproto/crypto": "npm:^0.5.4"
+    "@atproto/lex-client": "npm:^0.2.4"
+    "@atproto/lex-data": "npm:^0.1.5"
+    "@atproto/lex-document": "npm:^0.1.6"
+    "@atproto/lex-schema": "npm:^0.2.2"
+    "@atproto/repo": "npm:^0.10.6"
+    "@atproto/syntax": "npm:^0.7.2"
+    tslib: "npm:^2.8.1"
+  checksum: 10/0f77bef987ae8e2741b99527ae283bf8d127e5abd93303585d6fa03c2c17ced90c09722d3f9fc476adffbcffc5fd752486335076714820f4c702b89dcc4f4001
+  languageName: node
+  linkType: hard
+
+"@atproto/lex-schema@npm:^0.2.2":
+  version: 0.2.2
+  resolution: "@atproto/lex-schema@npm:0.2.2"
+  dependencies:
+    "@atproto/lex-data": "npm:^0.1.5"
+    "@atproto/syntax": "npm:^0.7.2"
     "@standard-schema/spec": "npm:^1.1.0"
     tslib: "npm:^2.8.1"
-  checksum: 10/80b6e670130728d632706825796442d460abbd133bfdd55aeb26b1a7ebcb584084e53af9023daccd7ce255bf7475e79cf30c39c080628f8497e04b6fada557a0
+  checksum: 10/b9b883f7b446fd5cc207f9bd72b5a383ede45df52f6726204c0ed13b77bb5fb3622e0e8dae59636ef046237666a3d5e30bdeace5ca82f8f49ab19eaa12ab11fe
   languageName: node
   linkType: hard
 
-"@atproto/lex@npm:^0.1.5":
-  version: 0.1.5
-  resolution: "@atproto/lex@npm:0.1.5"
+"@atproto/lex@npm:^0.2.2":
+  version: 0.2.2
+  resolution: "@atproto/lex@npm:0.2.2"
   dependencies:
-    "@atproto/lex-builder": "npm:^0.1.4"
-    "@atproto/lex-client": "npm:^0.1.5"
-    "@atproto/lex-data": "npm:^0.1.3"
-    "@atproto/lex-installer": "npm:^0.1.2"
-    "@atproto/lex-json": "npm:^0.1.2"
-    "@atproto/lex-schema": "npm:^0.1.5"
+    "@atproto/lex-builder": "npm:^0.1.8"
+    "@atproto/lex-client": "npm:^0.2.4"
+    "@atproto/lex-data": "npm:^0.1.5"
+    "@atproto/lex-installer": "npm:^0.1.7"
+    "@atproto/lex-json": "npm:^0.1.4"
+    "@atproto/lex-schema": "npm:^0.2.2"
     tslib: "npm:^2.8.1"
     yargs: "npm:^18.0.0"
   bin:
     lex: ./bin/lex
     ts-lex: ./bin/lex
-  checksum: 10/096eff44b13d94f574e022219bcea309f51157ac6843c9c6e05aad075cf1254f724c6dc4118872927111537bd81288483257e71e73cdc21d69d7251f799c1f8b
+  checksum: 10/6368fe539644882d2f9420fec49b63c956b3603818928491a2b5aba8f265c414c7fbc7e555d43c85a41b1890f446a52c930723452a1c6f0643e229ec47e23572
   languageName: node
   linkType: hard
 
@@ -299,19 +298,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@atproto/repo@npm:^0.10.2":
-  version: 0.10.2
-  resolution: "@atproto/repo@npm:0.10.2"
+"@atproto/repo@npm:^0.10.6":
+  version: 0.10.6
+  resolution: "@atproto/repo@npm:0.10.6"
   dependencies:
-    "@atproto/common": "npm:^0.6.4"
-    "@atproto/common-web": "npm:^0.5.2"
-    "@atproto/crypto": "npm:^0.5.2"
-    "@atproto/lex-cbor": "npm:^0.1.2"
-    "@atproto/lex-data": "npm:^0.1.3"
-    "@atproto/syntax": "npm:^0.6.3"
+    "@atproto/common": "npm:^0.7.2"
+    "@atproto/common-web": "npm:^0.5.6"
+    "@atproto/crypto": "npm:^0.5.4"
+    "@atproto/lex-cbor": "npm:^0.1.4"
+    "@atproto/lex-data": "npm:^0.1.5"
+    "@atproto/syntax": "npm:^0.7.2"
     varint: "npm:^6.0.0"
     zod: "npm:^3.23.8"
-  checksum: 10/acfc2d46567882577857823f1ab092d7bea3dad822374718cace046e4fdbfe372199254cebccf421106981a8bc15b19c1808de1b19f04b2ff6fe690f6a2eebdb
+  checksum: 10/2765911308900beae403cc4f67bd2d491de0d41ce56ae698b77fd5f04f6069275cce1ee91bfcf2bef9e583bcff6344a708847019dcb156809be6aea23508cb03
   languageName: node
   linkType: hard
 
@@ -332,6 +331,16 @@ __metadata:
     iso-datestring-validator: "npm:^2.2.2"
     tslib: "npm:^2.8.1"
   checksum: 10/b3228acadac32d0bf4d545242af49ce00c52d471a1680655bc57427b8b21d33f6382010fdfd5e175c700e3c587dc8e44cfadb34a68b82b04210b3cd821ac4099
+  languageName: node
+  linkType: hard
+
+"@atproto/syntax@npm:^0.7.2":
+  version: 0.7.2
+  resolution: "@atproto/syntax@npm:0.7.2"
+  dependencies:
+    iso-datestring-validator: "npm:^2.2.2"
+    tslib: "npm:^2.8.1"
+  checksum: 10/8091bea0e48bc5505e06cb4b276d8f989a04dc85685b52e631f3a10bc231d7d82a191f44d48a11474dfe5a23e294ff767cb8087a83d0e30f06ac46ba43060dc4
   languageName: node
   linkType: hard
 
@@ -2667,7 +2676,7 @@ __metadata:
   resolution: "eliperkins-blog@workspace:."
   dependencies:
     "@atproto/api": "npm:^0.20.26"
-    "@atproto/lex": "npm:^0.1.5"
+    "@atproto/lex": "npm:^0.2.2"
     "@atproto/syntax": "npm:^0.6.3"
     "@eslint/compat": "npm:^2.1.0"
     "@eslint/js": "npm:^10.0.1"
