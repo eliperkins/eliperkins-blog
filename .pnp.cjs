@@ -76,7 +76,7 @@ const RAW_RUNTIME_STATE =
           ["remark-parse", "npm:11.0.0"],\
           ["remark-rehype", "npm:11.1.2"],\
           ["schema-dts", "npm:2.0.0"],\
-          ["sharp", "npm:0.35.2"],\
+          ["sharp", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:0.35.3"],\
           ["tailwindcss", "npm:4.3.2"],\
           ["to-vfile", "npm:8.0.0"],\
           ["tsx", "npm:4.23.0"],\
@@ -1000,11 +1000,11 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["npm:0.35.2", {\
-        "packageLocation": "./.yarn/unplugged/@img-sharp-darwin-arm64-npm-0.35.2-3d99cf9fe8/node_modules/@img/sharp-darwin-arm64/",\
+      ["npm:0.35.3", {\
+        "packageLocation": "./.yarn/unplugged/@img-sharp-darwin-arm64-npm-0.35.3-9d6690b6f6/node_modules/@img/sharp-darwin-arm64/",\
         "packageDependencies": [\
-          ["@img/sharp-darwin-arm64", "npm:0.35.2"],\
-          ["@img/sharp-libvips-darwin-arm64", "npm:1.3.1"]\
+          ["@img/sharp-darwin-arm64", "npm:0.35.3"],\
+          ["@img/sharp-libvips-darwin-arm64", "npm:1.3.2"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -1018,21 +1018,21 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["npm:0.35.2", {\
-        "packageLocation": "./.yarn/unplugged/@img-sharp-darwin-x64-npm-0.35.2-a7453b25ee/node_modules/@img/sharp-darwin-x64/",\
+      ["npm:0.35.3", {\
+        "packageLocation": "./.yarn/unplugged/@img-sharp-darwin-x64-npm-0.35.3-affdef3e0c/node_modules/@img/sharp-darwin-x64/",\
         "packageDependencies": [\
-          ["@img/sharp-darwin-x64", "npm:0.35.2"],\
-          ["@img/sharp-libvips-darwin-x64", "npm:1.3.1"]\
+          ["@img/sharp-darwin-x64", "npm:0.35.3"],\
+          ["@img/sharp-libvips-darwin-x64", "npm:1.3.2"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@img/sharp-freebsd-wasm32", [\
-      ["npm:0.35.2", {\
-        "packageLocation": "./.yarn/unplugged/@img-sharp-freebsd-wasm32-npm-0.35.2-b0620a0026/node_modules/@img/sharp-freebsd-wasm32/",\
+      ["npm:0.35.3", {\
+        "packageLocation": "./.yarn/unplugged/@img-sharp-freebsd-wasm32-npm-0.35.3-e2c03b345b/node_modules/@img/sharp-freebsd-wasm32/",\
         "packageDependencies": [\
-          ["@img/sharp-freebsd-wasm32", "npm:0.35.2"],\
-          ["@img/sharp-wasm32", "npm:0.35.2"]\
+          ["@img/sharp-freebsd-wasm32", "npm:0.35.3"],\
+          ["@img/sharp-wasm32", "npm:0.35.3"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -1045,10 +1045,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["npm:1.3.1", {\
-        "packageLocation": "./.yarn/unplugged/@img-sharp-libvips-darwin-arm64-npm-1.3.1-48e4c3242b/node_modules/@img/sharp-libvips-darwin-arm64/",\
+      ["npm:1.3.2", {\
+        "packageLocation": "./.yarn/unplugged/@img-sharp-libvips-darwin-arm64-npm-1.3.2-9b60b8d41d/node_modules/@img/sharp-libvips-darwin-arm64/",\
         "packageDependencies": [\
-          ["@img/sharp-libvips-darwin-arm64", "npm:1.3.1"]\
+          ["@img/sharp-libvips-darwin-arm64", "npm:1.3.2"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -1061,10 +1061,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["npm:1.3.1", {\
-        "packageLocation": "./.yarn/unplugged/@img-sharp-libvips-darwin-x64-npm-1.3.1-cef8a803a6/node_modules/@img/sharp-libvips-darwin-x64/",\
+      ["npm:1.3.2", {\
+        "packageLocation": "./.yarn/unplugged/@img-sharp-libvips-darwin-x64-npm-1.3.2-5595f31689/node_modules/@img/sharp-libvips-darwin-x64/",\
         "packageDependencies": [\
-          ["@img/sharp-libvips-darwin-x64", "npm:1.3.1"]\
+          ["@img/sharp-libvips-darwin-x64", "npm:1.3.2"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -1077,10 +1077,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["npm:1.3.1", {\
-        "packageLocation": "./.yarn/unplugged/@img-sharp-libvips-linux-arm-npm-1.3.1-eca7a18ee8/node_modules/@img/sharp-libvips-linux-arm/",\
+      ["npm:1.3.2", {\
+        "packageLocation": "./.yarn/unplugged/@img-sharp-libvips-linux-arm-npm-1.3.2-a9da668ac7/node_modules/@img/sharp-libvips-linux-arm/",\
         "packageDependencies": [\
-          ["@img/sharp-libvips-linux-arm", "npm:1.3.1"]\
+          ["@img/sharp-libvips-linux-arm", "npm:1.3.2"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -1093,10 +1093,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["npm:1.3.1", {\
-        "packageLocation": "./.yarn/unplugged/@img-sharp-libvips-linux-arm64-npm-1.3.1-d64962c8cc/node_modules/@img/sharp-libvips-linux-arm64/",\
+      ["npm:1.3.2", {\
+        "packageLocation": "./.yarn/unplugged/@img-sharp-libvips-linux-arm64-npm-1.3.2-5d0389d455/node_modules/@img/sharp-libvips-linux-arm64/",\
         "packageDependencies": [\
-          ["@img/sharp-libvips-linux-arm64", "npm:1.3.1"]\
+          ["@img/sharp-libvips-linux-arm64", "npm:1.3.2"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -1109,10 +1109,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["npm:1.3.1", {\
-        "packageLocation": "./.yarn/unplugged/@img-sharp-libvips-linux-ppc64-npm-1.3.1-2591429998/node_modules/@img/sharp-libvips-linux-ppc64/",\
+      ["npm:1.3.2", {\
+        "packageLocation": "./.yarn/unplugged/@img-sharp-libvips-linux-ppc64-npm-1.3.2-ec39f92e2c/node_modules/@img/sharp-libvips-linux-ppc64/",\
         "packageDependencies": [\
-          ["@img/sharp-libvips-linux-ppc64", "npm:1.3.1"]\
+          ["@img/sharp-libvips-linux-ppc64", "npm:1.3.2"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -1125,10 +1125,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["npm:1.3.1", {\
-        "packageLocation": "./.yarn/unplugged/@img-sharp-libvips-linux-riscv64-npm-1.3.1-cd5f193aee/node_modules/@img/sharp-libvips-linux-riscv64/",\
+      ["npm:1.3.2", {\
+        "packageLocation": "./.yarn/unplugged/@img-sharp-libvips-linux-riscv64-npm-1.3.2-66b1a76907/node_modules/@img/sharp-libvips-linux-riscv64/",\
         "packageDependencies": [\
-          ["@img/sharp-libvips-linux-riscv64", "npm:1.3.1"]\
+          ["@img/sharp-libvips-linux-riscv64", "npm:1.3.2"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -1141,10 +1141,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["npm:1.3.1", {\
-        "packageLocation": "./.yarn/unplugged/@img-sharp-libvips-linux-s390x-npm-1.3.1-592153c859/node_modules/@img/sharp-libvips-linux-s390x/",\
+      ["npm:1.3.2", {\
+        "packageLocation": "./.yarn/unplugged/@img-sharp-libvips-linux-s390x-npm-1.3.2-9fe80dfa43/node_modules/@img/sharp-libvips-linux-s390x/",\
         "packageDependencies": [\
-          ["@img/sharp-libvips-linux-s390x", "npm:1.3.1"]\
+          ["@img/sharp-libvips-linux-s390x", "npm:1.3.2"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -1157,10 +1157,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["npm:1.3.1", {\
-        "packageLocation": "./.yarn/unplugged/@img-sharp-libvips-linux-x64-npm-1.3.1-8a0ba9015f/node_modules/@img/sharp-libvips-linux-x64/",\
+      ["npm:1.3.2", {\
+        "packageLocation": "./.yarn/unplugged/@img-sharp-libvips-linux-x64-npm-1.3.2-72fc7e4630/node_modules/@img/sharp-libvips-linux-x64/",\
         "packageDependencies": [\
-          ["@img/sharp-libvips-linux-x64", "npm:1.3.1"]\
+          ["@img/sharp-libvips-linux-x64", "npm:1.3.2"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -1173,10 +1173,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["npm:1.3.1", {\
-        "packageLocation": "./.yarn/unplugged/@img-sharp-libvips-linuxmusl-arm64-npm-1.3.1-4339f5feb7/node_modules/@img/sharp-libvips-linuxmusl-arm64/",\
+      ["npm:1.3.2", {\
+        "packageLocation": "./.yarn/unplugged/@img-sharp-libvips-linuxmusl-arm64-npm-1.3.2-53702721d1/node_modules/@img/sharp-libvips-linuxmusl-arm64/",\
         "packageDependencies": [\
-          ["@img/sharp-libvips-linuxmusl-arm64", "npm:1.3.1"]\
+          ["@img/sharp-libvips-linuxmusl-arm64", "npm:1.3.2"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -1189,10 +1189,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["npm:1.3.1", {\
-        "packageLocation": "./.yarn/unplugged/@img-sharp-libvips-linuxmusl-x64-npm-1.3.1-9c6a821751/node_modules/@img/sharp-libvips-linuxmusl-x64/",\
+      ["npm:1.3.2", {\
+        "packageLocation": "./.yarn/unplugged/@img-sharp-libvips-linuxmusl-x64-npm-1.3.2-1b3dd5b8f5/node_modules/@img/sharp-libvips-linuxmusl-x64/",\
         "packageDependencies": [\
-          ["@img/sharp-libvips-linuxmusl-x64", "npm:1.3.1"]\
+          ["@img/sharp-libvips-linuxmusl-x64", "npm:1.3.2"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -1206,11 +1206,11 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["npm:0.35.2", {\
-        "packageLocation": "./.yarn/unplugged/@img-sharp-linux-arm-npm-0.35.2-8cafdc6143/node_modules/@img/sharp-linux-arm/",\
+      ["npm:0.35.3", {\
+        "packageLocation": "./.yarn/unplugged/@img-sharp-linux-arm-npm-0.35.3-70b49fddbc/node_modules/@img/sharp-linux-arm/",\
         "packageDependencies": [\
-          ["@img/sharp-libvips-linux-arm", "npm:1.3.1"],\
-          ["@img/sharp-linux-arm", "npm:0.35.2"]\
+          ["@img/sharp-libvips-linux-arm", "npm:1.3.2"],\
+          ["@img/sharp-linux-arm", "npm:0.35.3"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -1224,11 +1224,11 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["npm:0.35.2", {\
-        "packageLocation": "./.yarn/unplugged/@img-sharp-linux-arm64-npm-0.35.2-67002f1514/node_modules/@img/sharp-linux-arm64/",\
+      ["npm:0.35.3", {\
+        "packageLocation": "./.yarn/unplugged/@img-sharp-linux-arm64-npm-0.35.3-aba566deb3/node_modules/@img/sharp-linux-arm64/",\
         "packageDependencies": [\
-          ["@img/sharp-libvips-linux-arm64", "npm:1.3.1"],\
-          ["@img/sharp-linux-arm64", "npm:0.35.2"]\
+          ["@img/sharp-libvips-linux-arm64", "npm:1.3.2"],\
+          ["@img/sharp-linux-arm64", "npm:0.35.3"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -1242,11 +1242,11 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["npm:0.35.2", {\
-        "packageLocation": "./.yarn/unplugged/@img-sharp-linux-ppc64-npm-0.35.2-66a28661dc/node_modules/@img/sharp-linux-ppc64/",\
+      ["npm:0.35.3", {\
+        "packageLocation": "./.yarn/unplugged/@img-sharp-linux-ppc64-npm-0.35.3-c1a8293ddc/node_modules/@img/sharp-linux-ppc64/",\
         "packageDependencies": [\
-          ["@img/sharp-libvips-linux-ppc64", "npm:1.3.1"],\
-          ["@img/sharp-linux-ppc64", "npm:0.35.2"]\
+          ["@img/sharp-libvips-linux-ppc64", "npm:1.3.2"],\
+          ["@img/sharp-linux-ppc64", "npm:0.35.3"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -1260,11 +1260,11 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["npm:0.35.2", {\
-        "packageLocation": "./.yarn/unplugged/@img-sharp-linux-riscv64-npm-0.35.2-46c468682f/node_modules/@img/sharp-linux-riscv64/",\
+      ["npm:0.35.3", {\
+        "packageLocation": "./.yarn/unplugged/@img-sharp-linux-riscv64-npm-0.35.3-1924ff3332/node_modules/@img/sharp-linux-riscv64/",\
         "packageDependencies": [\
-          ["@img/sharp-libvips-linux-riscv64", "npm:1.3.1"],\
-          ["@img/sharp-linux-riscv64", "npm:0.35.2"]\
+          ["@img/sharp-libvips-linux-riscv64", "npm:1.3.2"],\
+          ["@img/sharp-linux-riscv64", "npm:0.35.3"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -1278,11 +1278,11 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["npm:0.35.2", {\
-        "packageLocation": "./.yarn/unplugged/@img-sharp-linux-s390x-npm-0.35.2-f7c27c511d/node_modules/@img/sharp-linux-s390x/",\
+      ["npm:0.35.3", {\
+        "packageLocation": "./.yarn/unplugged/@img-sharp-linux-s390x-npm-0.35.3-e2f49de9e4/node_modules/@img/sharp-linux-s390x/",\
         "packageDependencies": [\
-          ["@img/sharp-libvips-linux-s390x", "npm:1.3.1"],\
-          ["@img/sharp-linux-s390x", "npm:0.35.2"]\
+          ["@img/sharp-libvips-linux-s390x", "npm:1.3.2"],\
+          ["@img/sharp-linux-s390x", "npm:0.35.3"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -1296,11 +1296,11 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["npm:0.35.2", {\
-        "packageLocation": "./.yarn/unplugged/@img-sharp-linux-x64-npm-0.35.2-3c8016d980/node_modules/@img/sharp-linux-x64/",\
+      ["npm:0.35.3", {\
+        "packageLocation": "./.yarn/unplugged/@img-sharp-linux-x64-npm-0.35.3-bad60d0741/node_modules/@img/sharp-linux-x64/",\
         "packageDependencies": [\
-          ["@img/sharp-libvips-linux-x64", "npm:1.3.1"],\
-          ["@img/sharp-linux-x64", "npm:0.35.2"]\
+          ["@img/sharp-libvips-linux-x64", "npm:1.3.2"],\
+          ["@img/sharp-linux-x64", "npm:0.35.3"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -1314,11 +1314,11 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["npm:0.35.2", {\
-        "packageLocation": "./.yarn/unplugged/@img-sharp-linuxmusl-arm64-npm-0.35.2-aae9b5ab47/node_modules/@img/sharp-linuxmusl-arm64/",\
+      ["npm:0.35.3", {\
+        "packageLocation": "./.yarn/unplugged/@img-sharp-linuxmusl-arm64-npm-0.35.3-36672934cb/node_modules/@img/sharp-linuxmusl-arm64/",\
         "packageDependencies": [\
-          ["@img/sharp-libvips-linuxmusl-arm64", "npm:1.3.1"],\
-          ["@img/sharp-linuxmusl-arm64", "npm:0.35.2"]\
+          ["@img/sharp-libvips-linuxmusl-arm64", "npm:1.3.2"],\
+          ["@img/sharp-linuxmusl-arm64", "npm:0.35.3"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -1332,11 +1332,11 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["npm:0.35.2", {\
-        "packageLocation": "./.yarn/unplugged/@img-sharp-linuxmusl-x64-npm-0.35.2-869005a3f2/node_modules/@img/sharp-linuxmusl-x64/",\
+      ["npm:0.35.3", {\
+        "packageLocation": "./.yarn/unplugged/@img-sharp-linuxmusl-x64-npm-0.35.3-c144c7d491/node_modules/@img/sharp-linuxmusl-x64/",\
         "packageDependencies": [\
-          ["@img/sharp-libvips-linuxmusl-x64", "npm:1.3.1"],\
-          ["@img/sharp-linuxmusl-x64", "npm:0.35.2"]\
+          ["@img/sharp-libvips-linuxmusl-x64", "npm:1.3.2"],\
+          ["@img/sharp-linuxmusl-x64", "npm:0.35.3"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -1350,21 +1350,21 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["npm:0.35.2", {\
-        "packageLocation": "./.yarn/unplugged/@img-sharp-wasm32-npm-0.35.2-01896497e0/node_modules/@img/sharp-wasm32/",\
+      ["npm:0.35.3", {\
+        "packageLocation": "./.yarn/unplugged/@img-sharp-wasm32-npm-0.35.3-2c9d41be0a/node_modules/@img/sharp-wasm32/",\
         "packageDependencies": [\
           ["@emnapi/runtime", "npm:1.11.1"],\
-          ["@img/sharp-wasm32", "npm:0.35.2"]\
+          ["@img/sharp-wasm32", "npm:0.35.3"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@img/sharp-webcontainers-wasm32", [\
-      ["npm:0.35.2", {\
-        "packageLocation": "./.yarn/unplugged/@img-sharp-webcontainers-wasm32-npm-0.35.2-28dc6f90cd/node_modules/@img/sharp-webcontainers-wasm32/",\
+      ["npm:0.35.3", {\
+        "packageLocation": "./.yarn/unplugged/@img-sharp-webcontainers-wasm32-npm-0.35.3-b036c0a596/node_modules/@img/sharp-webcontainers-wasm32/",\
         "packageDependencies": [\
-          ["@img/sharp-wasm32", "npm:0.35.2"],\
-          ["@img/sharp-webcontainers-wasm32", "npm:0.35.2"]\
+          ["@img/sharp-wasm32", "npm:0.35.3"],\
+          ["@img/sharp-webcontainers-wasm32", "npm:0.35.3"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -1377,10 +1377,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["npm:0.35.2", {\
-        "packageLocation": "./.yarn/unplugged/@img-sharp-win32-arm64-npm-0.35.2-dd85451348/node_modules/@img/sharp-win32-arm64/",\
+      ["npm:0.35.3", {\
+        "packageLocation": "./.yarn/unplugged/@img-sharp-win32-arm64-npm-0.35.3-a5be91d702/node_modules/@img/sharp-win32-arm64/",\
         "packageDependencies": [\
-          ["@img/sharp-win32-arm64", "npm:0.35.2"]\
+          ["@img/sharp-win32-arm64", "npm:0.35.3"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -1393,10 +1393,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["npm:0.35.2", {\
-        "packageLocation": "./.yarn/unplugged/@img-sharp-win32-ia32-npm-0.35.2-44159ef927/node_modules/@img/sharp-win32-ia32/",\
+      ["npm:0.35.3", {\
+        "packageLocation": "./.yarn/unplugged/@img-sharp-win32-ia32-npm-0.35.3-9ca47261e7/node_modules/@img/sharp-win32-ia32/",\
         "packageDependencies": [\
-          ["@img/sharp-win32-ia32", "npm:0.35.2"]\
+          ["@img/sharp-win32-ia32", "npm:0.35.3"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -1409,10 +1409,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["npm:0.35.2", {\
-        "packageLocation": "./.yarn/unplugged/@img-sharp-win32-x64-npm-0.35.2-ce90e38716/node_modules/@img/sharp-win32-x64/",\
+      ["npm:0.35.3", {\
+        "packageLocation": "./.yarn/unplugged/@img-sharp-win32-x64-npm-0.35.3-932392e8e6/node_modules/@img/sharp-win32-x64/",\
         "packageDependencies": [\
-          ["@img/sharp-win32-x64", "npm:0.35.2"]\
+          ["@img/sharp-win32-x64", "npm:0.35.3"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -3265,7 +3265,7 @@ const RAW_RUNTIME_STATE =
           ["remark-parse", "npm:11.0.0"],\
           ["remark-rehype", "npm:11.1.2"],\
           ["schema-dts", "npm:2.0.0"],\
-          ["sharp", "npm:0.35.2"],\
+          ["sharp", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:0.35.3"],\
           ["tailwindcss", "npm:4.3.2"],\
           ["to-vfile", "npm:8.0.0"],\
           ["tsx", "npm:4.23.0"],\
@@ -6890,10 +6890,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["npm:7.8.4", {\
-        "packageLocation": "./.yarn/cache/semver-npm-7.8.4-9c59dc7144-a9c139031d.zip/node_modules/semver/",\
+      ["npm:7.8.5", {\
+        "packageLocation": "./.yarn/cache/semver-npm-7.8.5-785968bbf9-9b01d2ff11.zip/node_modules/semver/",\
         "packageDependencies": [\
-          ["semver", "npm:7.8.4"]\
+          ["semver", "npm:7.8.5"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -6973,38 +6973,49 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["npm:0.35.2", {\
-        "packageLocation": "./.yarn/unplugged/sharp-npm-0.35.2-e74f400454/node_modules/sharp/",\
+      ["npm:0.35.3", {\
+        "packageLocation": "./.yarn/unplugged/sharp-virtual-959b0615e5/node_modules/sharp/",\
+        "packageDependencies": [\
+          ["sharp", "npm:0.35.3"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:0.35.3", {\
+        "packageLocation": "./.yarn/unplugged/sharp-virtual-959b0615e5/node_modules/sharp/",\
         "packageDependencies": [\
           ["@img/colour", "npm:1.1.0"],\
-          ["@img/sharp-darwin-arm64", "npm:0.35.2"],\
-          ["@img/sharp-darwin-x64", "npm:0.35.2"],\
-          ["@img/sharp-freebsd-wasm32", "npm:0.35.2"],\
-          ["@img/sharp-libvips-darwin-arm64", "npm:1.3.1"],\
-          ["@img/sharp-libvips-darwin-x64", "npm:1.3.1"],\
-          ["@img/sharp-libvips-linux-arm", "npm:1.3.1"],\
-          ["@img/sharp-libvips-linux-arm64", "npm:1.3.1"],\
-          ["@img/sharp-libvips-linux-ppc64", "npm:1.3.1"],\
-          ["@img/sharp-libvips-linux-riscv64", "npm:1.3.1"],\
-          ["@img/sharp-libvips-linux-s390x", "npm:1.3.1"],\
-          ["@img/sharp-libvips-linux-x64", "npm:1.3.1"],\
-          ["@img/sharp-libvips-linuxmusl-arm64", "npm:1.3.1"],\
-          ["@img/sharp-libvips-linuxmusl-x64", "npm:1.3.1"],\
-          ["@img/sharp-linux-arm", "npm:0.35.2"],\
-          ["@img/sharp-linux-arm64", "npm:0.35.2"],\
-          ["@img/sharp-linux-ppc64", "npm:0.35.2"],\
-          ["@img/sharp-linux-riscv64", "npm:0.35.2"],\
-          ["@img/sharp-linux-s390x", "npm:0.35.2"],\
-          ["@img/sharp-linux-x64", "npm:0.35.2"],\
-          ["@img/sharp-linuxmusl-arm64", "npm:0.35.2"],\
-          ["@img/sharp-linuxmusl-x64", "npm:0.35.2"],\
-          ["@img/sharp-webcontainers-wasm32", "npm:0.35.2"],\
-          ["@img/sharp-win32-arm64", "npm:0.35.2"],\
-          ["@img/sharp-win32-ia32", "npm:0.35.2"],\
-          ["@img/sharp-win32-x64", "npm:0.35.2"],\
+          ["@img/sharp-darwin-arm64", "npm:0.35.3"],\
+          ["@img/sharp-darwin-x64", "npm:0.35.3"],\
+          ["@img/sharp-freebsd-wasm32", "npm:0.35.3"],\
+          ["@img/sharp-libvips-darwin-arm64", "npm:1.3.2"],\
+          ["@img/sharp-libvips-darwin-x64", "npm:1.3.2"],\
+          ["@img/sharp-libvips-linux-arm", "npm:1.3.2"],\
+          ["@img/sharp-libvips-linux-arm64", "npm:1.3.2"],\
+          ["@img/sharp-libvips-linux-ppc64", "npm:1.3.2"],\
+          ["@img/sharp-libvips-linux-riscv64", "npm:1.3.2"],\
+          ["@img/sharp-libvips-linux-s390x", "npm:1.3.2"],\
+          ["@img/sharp-libvips-linux-x64", "npm:1.3.2"],\
+          ["@img/sharp-libvips-linuxmusl-arm64", "npm:1.3.2"],\
+          ["@img/sharp-libvips-linuxmusl-x64", "npm:1.3.2"],\
+          ["@img/sharp-linux-arm", "npm:0.35.3"],\
+          ["@img/sharp-linux-arm64", "npm:0.35.3"],\
+          ["@img/sharp-linux-ppc64", "npm:0.35.3"],\
+          ["@img/sharp-linux-riscv64", "npm:0.35.3"],\
+          ["@img/sharp-linux-s390x", "npm:0.35.3"],\
+          ["@img/sharp-linux-x64", "npm:0.35.3"],\
+          ["@img/sharp-linuxmusl-arm64", "npm:0.35.3"],\
+          ["@img/sharp-linuxmusl-x64", "npm:0.35.3"],\
+          ["@img/sharp-webcontainers-wasm32", "npm:0.35.3"],\
+          ["@img/sharp-win32-arm64", "npm:0.35.3"],\
+          ["@img/sharp-win32-ia32", "npm:0.35.3"],\
+          ["@img/sharp-win32-x64", "npm:0.35.3"],\
+          ["@types/node", "npm:26.1.1"],\
           ["detect-libc", "npm:2.1.2"],\
-          ["semver", "npm:7.8.4"],\
-          ["sharp", "npm:0.35.2"]\
+          ["semver", "npm:7.8.5"],\
+          ["sharp", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:0.35.3"]\
+        ],\
+        "packagePeers": [\
+          "@types/node"\
         ],\
         "linkType": "HARD"\
       }]\
