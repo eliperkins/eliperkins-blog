@@ -28,7 +28,7 @@ const RAW_RUNTIME_STATE =
       [null, {\
         "packageLocation": "./",\
         "packageDependencies": [\
-          ["@atproto/api", "npm:0.20.26"],\
+          ["@atproto/api", "npm:0.20.28"],\
           ["@atproto/lex", "npm:0.2.2"],\
           ["@atproto/syntax", "npm:0.7.2"],\
           ["@eslint/compat", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:2.1.0"],\
@@ -155,14 +155,14 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@atproto/api", [\
-      ["npm:0.20.26", {\
-        "packageLocation": "./.yarn/cache/@atproto-api-npm-0.20.26-7a5b8fe265-74723641a3.zip/node_modules/@atproto/api/",\
+      ["npm:0.20.28", {\
+        "packageLocation": "./.yarn/cache/@atproto-api-npm-0.20.28-1d68c56767-6576e281c6.zip/node_modules/@atproto/api/",\
         "packageDependencies": [\
-          ["@atproto/api", "npm:0.20.26"],\
-          ["@atproto/common-web", "npm:0.5.4"],\
-          ["@atproto/lexicon", "npm:0.7.5"],\
-          ["@atproto/syntax", "npm:0.7.0"],\
-          ["@atproto/xrpc", "npm:0.8.4"],\
+          ["@atproto/api", "npm:0.20.28"],\
+          ["@atproto/common-web", "npm:0.5.6"],\
+          ["@atproto/lexicon", "npm:0.7.7"],\
+          ["@atproto/syntax", "npm:0.7.2"],\
+          ["@atproto/xrpc", "npm:0.8.6"],\
           ["await-lock", "npm:3.0.0"],\
           ["multiformats", "npm:13.4.2"],\
           ["tlds", "npm:1.261.0"],\
@@ -186,17 +186,6 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@atproto/common-web", [\
-      ["npm:0.5.4", {\
-        "packageLocation": "./.yarn/cache/@atproto-common-web-npm-0.5.4-f5daf80d6b-8c47290b48.zip/node_modules/@atproto/common-web/",\
-        "packageDependencies": [\
-          ["@atproto/common-web", "npm:0.5.4"],\
-          ["@atproto/lex-data", "npm:0.1.4"],\
-          ["@atproto/lex-json", "npm:0.1.3"],\
-          ["@atproto/syntax", "npm:0.7.0"],\
-          ["zod", "npm:3.25.76"]\
-        ],\
-        "linkType": "HARD"\
-      }],\
       ["npm:0.5.6", {\
         "packageLocation": "./.yarn/cache/@atproto-common-web-npm-0.5.6-6ff8168119-84ddb58ed7.zip/node_modules/@atproto/common-web/",\
         "packageDependencies": [\
@@ -288,17 +277,6 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@atproto/lex-data", [\
-      ["npm:0.1.4", {\
-        "packageLocation": "./.yarn/cache/@atproto-lex-data-npm-0.1.4-42df1ea377-6af79ee1d8.zip/node_modules/@atproto/lex-data/",\
-        "packageDependencies": [\
-          ["@atproto/lex-data", "npm:0.1.4"],\
-          ["multiformats", "npm:13.4.2"],\
-          ["tslib", "npm:2.8.1"],\
-          ["uint8arrays", "npm:5.1.1"],\
-          ["unicode-segmenter", "npm:0.14.5"]\
-        ],\
-        "linkType": "HARD"\
-      }],\
       ["npm:0.1.5", {\
         "packageLocation": "./.yarn/cache/@atproto-lex-data-npm-0.1.5-4d7cdd907a-dbd89357df.zip/node_modules/@atproto/lex-data/",\
         "packageDependencies": [\
@@ -340,15 +318,6 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@atproto/lex-json", [\
-      ["npm:0.1.3", {\
-        "packageLocation": "./.yarn/cache/@atproto-lex-json-npm-0.1.3-7ec1cd586a-540d97072b.zip/node_modules/@atproto/lex-json/",\
-        "packageDependencies": [\
-          ["@atproto/lex-data", "npm:0.1.4"],\
-          ["@atproto/lex-json", "npm:0.1.3"],\
-          ["tslib", "npm:2.8.1"]\
-        ],\
-        "linkType": "HARD"\
-      }],\
       ["npm:0.1.4", {\
         "packageLocation": "./.yarn/cache/@atproto-lex-json-npm-0.1.4-b9ee3d8ec1-a7c54c58ef.zip/node_modules/@atproto/lex-json/",\
         "packageDependencies": [\
@@ -391,12 +360,12 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@atproto/lexicon", [\
-      ["npm:0.7.5", {\
-        "packageLocation": "./.yarn/cache/@atproto-lexicon-npm-0.7.5-8e65280361-5b276b7384.zip/node_modules/@atproto/lexicon/",\
+      ["npm:0.7.7", {\
+        "packageLocation": "./.yarn/cache/@atproto-lexicon-npm-0.7.7-a4bc9d6ac4-00c58272c8.zip/node_modules/@atproto/lexicon/",\
         "packageDependencies": [\
-          ["@atproto/common-web", "npm:0.5.4"],\
-          ["@atproto/lexicon", "npm:0.7.5"],\
-          ["@atproto/syntax", "npm:0.7.0"],\
+          ["@atproto/common-web", "npm:0.5.6"],\
+          ["@atproto/lexicon", "npm:0.7.7"],\
+          ["@atproto/syntax", "npm:0.7.2"],\
           ["multiformats", "npm:13.4.2"],\
           ["zod", "npm:3.25.76"]\
         ],\
@@ -421,15 +390,6 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@atproto/syntax", [\
-      ["npm:0.7.0", {\
-        "packageLocation": "./.yarn/cache/@atproto-syntax-npm-0.7.0-dc075185f9-b3228acada.zip/node_modules/@atproto/syntax/",\
-        "packageDependencies": [\
-          ["@atproto/syntax", "npm:0.7.0"],\
-          ["iso-datestring-validator", "npm:2.2.2"],\
-          ["tslib", "npm:2.8.1"]\
-        ],\
-        "linkType": "HARD"\
-      }],\
       ["npm:0.7.2", {\
         "packageLocation": "./.yarn/cache/@atproto-syntax-npm-0.7.2-d89e35bb33-8091bea0e4.zip/node_modules/@atproto/syntax/",\
         "packageDependencies": [\
@@ -441,11 +401,11 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@atproto/xrpc", [\
-      ["npm:0.8.4", {\
-        "packageLocation": "./.yarn/cache/@atproto-xrpc-npm-0.8.4-7df751b513-35a12d7083.zip/node_modules/@atproto/xrpc/",\
+      ["npm:0.8.6", {\
+        "packageLocation": "./.yarn/cache/@atproto-xrpc-npm-0.8.6-a36af5cf61-be9294fc14.zip/node_modules/@atproto/xrpc/",\
         "packageDependencies": [\
-          ["@atproto/lexicon", "npm:0.7.5"],\
-          ["@atproto/xrpc", "npm:0.8.4"],\
+          ["@atproto/lexicon", "npm:0.7.7"],\
+          ["@atproto/xrpc", "npm:0.8.6"],\
           ["zod", "npm:3.25.76"]\
         ],\
         "linkType": "HARD"\
@@ -3217,7 +3177,7 @@ const RAW_RUNTIME_STATE =
       ["workspace:.", {\
         "packageLocation": "./",\
         "packageDependencies": [\
-          ["@atproto/api", "npm:0.20.26"],\
+          ["@atproto/api", "npm:0.20.28"],\
           ["@atproto/lex", "npm:0.2.2"],\
           ["@atproto/syntax", "npm:0.7.2"],\
           ["@eslint/compat", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:2.1.0"],\
