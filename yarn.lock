@@ -178,9 +178,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@atproto/lex-installer@npm:^0.1.7":
-  version: 0.1.7
-  resolution: "@atproto/lex-installer@npm:0.1.7"
+"@atproto/lex-installer@npm:^0.1.8":
+  version: 0.1.8
+  resolution: "@atproto/lex-installer@npm:0.1.8"
   dependencies:
     "@atproto/lex-builder": "npm:^0.1.8"
     "@atproto/lex-cbor": "npm:^0.1.4"
@@ -190,7 +190,7 @@ __metadata:
     "@atproto/lex-schema": "npm:^0.2.2"
     "@atproto/syntax": "npm:^0.7.2"
     tslib: "npm:^2.8.1"
-  checksum: 10/66ae43eaf5c2eba37b898bcb458287801576933f2434116c00c29434d93de8a1e7f40e5205344e9bd73dafc3cb631f077fd1dc8c94c900f57d4fe1633eac5c89
+  checksum: 10/5d1fd205c73f470f1a9486f0bfa628d8f22fbb2632a0eccd9e749faab29121b6ff194a91973822011f9654fa680aa309fe153e4b4f2d0237d7989c65dc496216
   languageName: node
   linkType: hard
 
@@ -233,14 +233,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@atproto/lex@npm:^0.2.2":
-  version: 0.2.2
-  resolution: "@atproto/lex@npm:0.2.2"
+"@atproto/lex@npm:^0.2.3":
+  version: 0.2.3
+  resolution: "@atproto/lex@npm:0.2.3"
   dependencies:
     "@atproto/lex-builder": "npm:^0.1.8"
     "@atproto/lex-client": "npm:^0.2.4"
     "@atproto/lex-data": "npm:^0.1.5"
-    "@atproto/lex-installer": "npm:^0.1.7"
+    "@atproto/lex-installer": "npm:^0.1.8"
     "@atproto/lex-json": "npm:^0.1.4"
     "@atproto/lex-schema": "npm:^0.2.2"
     tslib: "npm:^2.8.1"
@@ -248,7 +248,7 @@ __metadata:
   bin:
     lex: ./bin/lex
     ts-lex: ./bin/lex
-  checksum: 10/6368fe539644882d2f9420fec49b63c956b3603818928491a2b5aba8f265c414c7fbc7e555d43c85a41b1890f446a52c930723452a1c6f0643e229ec47e23572
+  checksum: 10/40d5703e45b19c8c241f2aaf0b35738b4ede1c6d01e3be0b4ac147f8d86a873fd68cb9af43cde9c7b4c1bf143098c65ef464c2a9152bbcca82e27e00483045b7
   languageName: node
   linkType: hard
 
@@ -2622,7 +2622,7 @@ __metadata:
   resolution: "eliperkins-blog@workspace:."
   dependencies:
     "@atproto/api": "npm:^0.20.28"
-    "@atproto/lex": "npm:^0.2.2"
+    "@atproto/lex": "npm:^0.2.3"
     "@atproto/syntax": "npm:^0.7.2"
     "@eslint/compat": "npm:^2.1.0"
     "@eslint/js": "npm:^10.0.1"
