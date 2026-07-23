@@ -59,9 +59,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@atproto/api@npm:^0.20.29":
-  version: 0.20.29
-  resolution: "@atproto/api@npm:0.20.29"
+"@atproto/api@npm:^0.20.32":
+  version: 0.20.32
+  resolution: "@atproto/api@npm:0.20.32"
   dependencies:
     "@atproto/common-web": "npm:^0.5.6"
     "@atproto/lexicon": "npm:^0.7.7"
@@ -71,7 +71,7 @@ __metadata:
     multiformats: "npm:^13.0.0"
     tlds: "npm:^1.234.0"
     zod: "npm:^3.23.8"
-  checksum: 10/1d5c613085899a8ded57a88f76fb8ff356a67414bd7eab74be57c4c48eeb6412b4b3f8b6dcfa14e49bcba437d4f4409ff7ae125e736a00f623d0df293f011e73
+  checksum: 10/06b8292154c4ff6ab01c582370ff50952590361cf5251bb2916770b404b6b636db3e3e151a24fca2f2ae9825fe14644d3db68bc2e285b0ba1980fad11dc60a55
   languageName: node
   linkType: hard
 
@@ -2621,7 +2621,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "eliperkins-blog@workspace:."
   dependencies:
-    "@atproto/api": "npm:^0.20.29"
+    "@atproto/api": "npm:^0.20.32"
     "@atproto/lex": "npm:^0.2.3"
     "@atproto/syntax": "npm:^0.7.2"
     "@eslint/compat": "npm:^2.1.0"

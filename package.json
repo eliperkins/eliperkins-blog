@@ -16,7 +16,7 @@
     "update-lexicons": "lex install --update --save"
   },
   "dependencies": {
-    "@atproto/api": "^0.20.29",
+    "@atproto/api": "^0.20.32",
     "@atproto/lex": "^0.2.3",
     "@atproto/syntax": "^0.7.2",
     "@giscus/react": "^3.1.0",
