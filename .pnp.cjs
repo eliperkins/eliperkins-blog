@@ -29,7 +29,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./",\
         "packageDependencies": [\
           ["@atproto/api", "npm:0.20.29"],\
-          ["@atproto/lex", "npm:0.2.3"],\
+          ["@atproto/lex", "npm:0.3.0"],\
           ["@atproto/syntax", "npm:0.7.2"],\
           ["@eslint/compat", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:2.1.0"],\
           ["@eslint/js", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:10.0.1"],\
@@ -221,14 +221,14 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@atproto/lex", [\
-      ["npm:0.2.3", {\
-        "packageLocation": "./.yarn/cache/@atproto-lex-npm-0.2.3-8c86f3a4f8-40d5703e45.zip/node_modules/@atproto/lex/",\
+      ["npm:0.3.0", {\
+        "packageLocation": "./.yarn/cache/@atproto-lex-npm-0.3.0-c1655b35fc-2a1f00c583.zip/node_modules/@atproto/lex/",\
         "packageDependencies": [\
-          ["@atproto/lex", "npm:0.2.3"],\
+          ["@atproto/lex", "npm:0.3.0"],\
           ["@atproto/lex-builder", "npm:0.1.8"],\
-          ["@atproto/lex-client", "npm:0.2.4"],\
+          ["@atproto/lex-client", "npm:0.3.0"],\
           ["@atproto/lex-data", "npm:0.1.5"],\
-          ["@atproto/lex-installer", "npm:0.1.8"],\
+          ["@atproto/lex-installer", "npm:0.1.9"],\
           ["@atproto/lex-json", "npm:0.1.4"],\
           ["@atproto/lex-schema", "npm:0.2.2"],\
           ["tslib", "npm:2.8.1"],\
@@ -264,10 +264,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@atproto/lex-client", [\
-      ["npm:0.2.4", {\
-        "packageLocation": "./.yarn/cache/@atproto-lex-client-npm-0.2.4-faba016c39-8a2e949db3.zip/node_modules/@atproto/lex-client/",\
+      ["npm:0.3.0", {\
+        "packageLocation": "./.yarn/cache/@atproto-lex-client-npm-0.3.0-5cd53f3182-e2c96bae4d.zip/node_modules/@atproto/lex-client/",\
         "packageDependencies": [\
-          ["@atproto/lex-client", "npm:0.2.4"],\
+          ["@atproto/lex-client", "npm:0.3.0"],\
           ["@atproto/lex-data", "npm:0.1.5"],\
           ["@atproto/lex-json", "npm:0.1.4"],\
           ["@atproto/lex-schema", "npm:0.2.2"],\
@@ -301,15 +301,15 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@atproto/lex-installer", [\
-      ["npm:0.1.8", {\
-        "packageLocation": "./.yarn/cache/@atproto-lex-installer-npm-0.1.8-a71a1321f4-5d1fd205c7.zip/node_modules/@atproto/lex-installer/",\
+      ["npm:0.1.9", {\
+        "packageLocation": "./.yarn/cache/@atproto-lex-installer-npm-0.1.9-1ace2e2d9a-3f202577a1.zip/node_modules/@atproto/lex-installer/",\
         "packageDependencies": [\
           ["@atproto/lex-builder", "npm:0.1.8"],\
           ["@atproto/lex-cbor", "npm:0.1.4"],\
           ["@atproto/lex-data", "npm:0.1.5"],\
           ["@atproto/lex-document", "npm:0.1.6"],\
-          ["@atproto/lex-installer", "npm:0.1.8"],\
-          ["@atproto/lex-resolver", "npm:0.2.1"],\
+          ["@atproto/lex-installer", "npm:0.1.9"],\
+          ["@atproto/lex-resolver", "npm:0.2.2"],\
           ["@atproto/lex-schema", "npm:0.2.2"],\
           ["@atproto/syntax", "npm:0.7.2"],\
           ["tslib", "npm:2.8.1"]\
@@ -329,15 +329,15 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@atproto/lex-resolver", [\
-      ["npm:0.2.1", {\
-        "packageLocation": "./.yarn/cache/@atproto-lex-resolver-npm-0.2.1-f3d8556a5b-0f77bef987.zip/node_modules/@atproto/lex-resolver/",\
+      ["npm:0.2.2", {\
+        "packageLocation": "./.yarn/cache/@atproto-lex-resolver-npm-0.2.2-acb2e44862-004bbf4083.zip/node_modules/@atproto/lex-resolver/",\
         "packageDependencies": [\
           ["@atproto-labs/did-resolver", "npm:0.3.5"],\
           ["@atproto/crypto", "npm:0.5.4"],\
-          ["@atproto/lex-client", "npm:0.2.4"],\
+          ["@atproto/lex-client", "npm:0.3.0"],\
           ["@atproto/lex-data", "npm:0.1.5"],\
           ["@atproto/lex-document", "npm:0.1.6"],\
-          ["@atproto/lex-resolver", "npm:0.2.1"],\
+          ["@atproto/lex-resolver", "npm:0.2.2"],\
           ["@atproto/lex-schema", "npm:0.2.2"],\
           ["@atproto/repo", "npm:0.10.6"],\
           ["@atproto/syntax", "npm:0.7.2"],\
@@ -3178,7 +3178,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./",\
         "packageDependencies": [\
           ["@atproto/api", "npm:0.20.29"],\
-          ["@atproto/lex", "npm:0.2.3"],\
+          ["@atproto/lex", "npm:0.3.0"],\
           ["@atproto/syntax", "npm:0.7.2"],\
           ["@eslint/compat", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:2.1.0"],\
           ["@eslint/js", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:10.0.1"],\
