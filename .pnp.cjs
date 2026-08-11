@@ -3734,7 +3734,7 @@ const RAW_RUNTIME_STATE =
           ["object.fromentries", "npm:2.0.8"],\
           ["object.values", "npm:1.2.1"],\
           ["prop-types", "npm:15.8.1"],\
-          ["resolve", "patch:resolve@npm%3A2.0.0-next.5#optional!builtin<compat/resolve>::version=2.0.0-next.5&hash=c3c19d"],\
+          ["resolve", "patch:resolve@npm%3A2.0.0-next.5#optional!builtin<compat/resolve>::version=2.0.0-next.5&hash=9bd1a5"],\
           ["semver", "npm:6.3.1"],\
           ["string.prototype.matchall", "npm:4.0.12"],\
           ["string.prototype.repeat", "npm:1.0.0"]\
@@ -6700,12 +6700,12 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["resolve", [\
-      ["patch:resolve@npm%3A2.0.0-next.5#optional!builtin<compat/resolve>::version=2.0.0-next.5&hash=c3c19d", {\
-        "packageLocation": "./.yarn/cache/resolve-patch-95f8f5d302-05fa778de9.zip/node_modules/resolve/",\
+      ["patch:resolve@npm%3A2.0.0-next.5#optional!builtin<compat/resolve>::version=2.0.0-next.5&hash=9bd1a5", {\
+        "packageLocation": "./.yarn/cache/resolve-patch-cb8aca1f89-76c221deb1.zip/node_modules/resolve/",\
         "packageDependencies": [\
           ["is-core-module", "npm:2.15.0"],\
           ["path-parse", "npm:1.0.7"],\
-          ["resolve", "patch:resolve@npm%3A2.0.0-next.5#optional!builtin<compat/resolve>::version=2.0.0-next.5&hash=c3c19d"],\
+          ["resolve", "patch:resolve@npm%3A2.0.0-next.5#optional!builtin<compat/resolve>::version=2.0.0-next.5&hash=9bd1a5"],\
           ["supports-preserve-symlinks-flag", "npm:1.0.0"]\
         ],\
         "linkType": "HARD"\
