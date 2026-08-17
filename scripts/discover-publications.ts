@@ -130,8 +130,12 @@ function main() {
     if (err.code === "EPIPE") exit(0);
   });
 
-  process.on("SIGINT", () => { exit(0); });
-  process.on("SIGTERM", () => { exit(0); });
+  process.on("SIGINT", () => {
+    exit(0);
+  });
+  process.on("SIGTERM", () => {
+    exit(0);
+  });
 }
 
 main();
