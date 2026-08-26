@@ -36,6 +36,13 @@ const config = defineConfig(
     ...tseslint.configs.disableTypeChecked,
   },
   {
+    files: ["cloudfront/**/*.js"],
+    rules: {
+      // The cloudfront-js-2.0 runtime has no for-of statement.
+      "@typescript-eslint/prefer-for-of": 0,
+    },
+  },
+  {
     files: ["**/*.{js,jsx,ts,tsx}"],
     plugins: {
       "@next/next": nextPlugin,
