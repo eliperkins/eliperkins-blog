@@ -1677,17 +1677,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vercel/og@npm:^1.0.1":
-  version: 1.0.1
-  resolution: "@vercel/og@npm:1.0.1"
+"@vercel/og@npm:^1.0.2":
+  version: 1.0.2
+  resolution: "@vercel/og@npm:1.0.2"
   dependencies:
     "@resvg/resvg-wasm": "npm:2.4.1"
-    satori: "npm:0.29.0"
+    satori: "npm:0.33.3"
     sharp: "npm:^0.35.3"
   dependenciesMeta:
     sharp:
       optional: true
-  checksum: 10/c3cee1cc7978635ff6966bbaad610653da6e605188398b40fadbfa69d8da2872143c7b651e19fa55e202d21119f7efe63d52102d3f5453147087873c29c0dca9
+  checksum: 10/b86b872787b1898eb5b6179ffc243487ac6305b22d3149173dde3972fa258ba1906719d87bd4a7d5f52a0e766c1eeecd53d581f693407a992393dc97128f156c
   languageName: node
   linkType: hard
 
@@ -2405,7 +2405,7 @@ __metadata:
     "@types/react-dom": "npm:^19.2.5"
     "@types/unist": "npm:^3.0.3"
     "@typescript-eslint/types": "npm:^8.68.0"
-    "@vercel/og": "npm:^1.0.1"
+    "@vercel/og": "npm:^1.0.2"
     "@wooorm/starry-night": "npm:^3.10.0"
     babel-plugin-react-compiler: "npm:^1.0.0"
     date-fns: "npm:^4.4.0"
@@ -3072,6 +3072,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"fflate@npm:0.7.3":
+  version: 0.7.3
+  resolution: "fflate@npm:0.7.3"
+  checksum: 10/986fabcb4f003ccf00a9732d4c9d3835f7c9b39da96c47e03293c4ae5138ddfb6ee683d6886d35872ac91e1d42dc9244e5698961bb3b638660a06ab60a28e5dc
+  languageName: node
+  linkType: hard
+
 "fflate@npm:^0.7.3":
   version: 0.7.4
   resolution: "fflate@npm:0.7.4"
@@ -3358,6 +3365,13 @@ __metadata:
   version: 4.2.11
   resolution: "graceful-fs@npm:4.2.11"
   checksum: 10/bf152d0ed1dc159239db1ba1f74fdbc40cb02f626770dcd5815c427ce0688c2635a06ed69af364396da4636d0408fcf7d4afdf7881724c3307e46aff30ca49e2
+  languageName: node
+  linkType: hard
+
+"harfbuzzjs@npm:0.10.0":
+  version: 0.10.0
+  resolution: "harfbuzzjs@npm:0.10.0"
+  checksum: 10/61dbfbbbca122c716ec998b0e5a1d986b7618d1bcdd4d9f3a9160e69d3a665b50abe2a51915c6140e664ae4379392b18bccc2020fc514b8dab4f8c296c016688
   languageName: node
   linkType: hard
 
@@ -5699,9 +5713,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"satori@npm:0.29.0":
-  version: 0.29.0
-  resolution: "satori@npm:0.29.0"
+"satori@npm:0.33.3":
+  version: 0.33.3
+  resolution: "satori@npm:0.33.3"
   dependencies:
     "@shuding/opentype.js": "npm:1.4.0-beta.0"
     css-background-parser: "npm:^0.1.0"
@@ -5710,11 +5724,13 @@ __metadata:
     css-to-react-native: "npm:^3.0.0"
     emoji-regex-xs: "npm:^2.0.1"
     escape-html: "npm:^1.0.3"
+    fflate: "npm:0.7.3"
+    harfbuzzjs: "npm:0.10.0"
     linebreak: "npm:^1.1.0"
     parse-css-color: "npm:^0.2.1"
     postcss-value-parser: "npm:^4.2.0"
     yoga-layout: "npm:^3.2.1"
-  checksum: 10/5a48be7ade4fa51bc3e08d183b9711012fbb59273e2a4f5f2aaa4b87771f77e20e3c2874968120be2974339a3fe899cd8d48ee95418605ec2588dd7a39e9132f
+  checksum: 10/e7a965c0f879aa4d6c13bf21b61c1365a98cf2df69be4ae7e65e2ba3357297db50f99ea82b5eb16e8e0df69ee9830404108864984412ff34f279c5f43ee8fbd1
   languageName: node
   linkType: hard
 
