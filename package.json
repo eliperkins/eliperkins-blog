@@ -18,7 +18,7 @@
   "dependencies": {
     "@atproto/api": "^0.20.41",
     "@atproto/lex": "^0.3.8",
-    "@atproto/syntax": "^0.7.4",
+    "@atproto/syntax": "^0.7.5",
     "@giscus/react": "^3.1.0",
     "@next/third-parties": "^16.3.0",
     "@primer/octicons-react": "^19.33.0",
