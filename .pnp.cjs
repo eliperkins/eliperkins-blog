@@ -28,7 +28,7 @@ const RAW_RUNTIME_STATE =
       [null, {\
         "packageLocation": "./",\
         "packageDependencies": [\
-          ["@atproto/api", "npm:0.20.41"],\
+          ["@atproto/api", "npm:0.20.42"],\
           ["@atproto/lex", "npm:0.3.8"],\
           ["@atproto/syntax", "npm:0.7.4"],\
           ["@eslint/compat", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:2.1.0"],\
@@ -155,14 +155,14 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@atproto/api", [\
-      ["npm:0.20.41", {\
-        "packageLocation": "./.yarn/cache/@atproto-api-npm-0.20.41-c420a87188-a7f19f9913.zip/node_modules/@atproto/api/",\
+      ["npm:0.20.42", {\
+        "packageLocation": "./.yarn/cache/@atproto-api-npm-0.20.42-e8553a54eb-957909e186.zip/node_modules/@atproto/api/",\
         "packageDependencies": [\
-          ["@atproto/api", "npm:0.20.41"],\
-          ["@atproto/common-web", "npm:0.5.9"],\
-          ["@atproto/lexicon", "npm:0.7.11"],\
-          ["@atproto/syntax", "npm:0.7.4"],\
-          ["@atproto/xrpc", "npm:0.8.10"],\
+          ["@atproto/api", "npm:0.20.42"],\
+          ["@atproto/common-web", "npm:0.5.10"],\
+          ["@atproto/lexicon", "npm:0.7.12"],\
+          ["@atproto/syntax", "npm:0.7.5"],\
+          ["@atproto/xrpc", "npm:0.8.11"],\
           ["await-lock", "npm:3.0.0"],\
           ["multiformats", "npm:13.4.2"],\
           ["tlds", "npm:1.261.0"],\
@@ -193,17 +193,6 @@ const RAW_RUNTIME_STATE =
           ["@atproto/lex-data", "npm:0.1.7"],\
           ["@atproto/lex-json", "npm:0.1.6"],\
           ["@atproto/syntax", "npm:0.7.5"],\
-          ["zod", "npm:3.25.76"]\
-        ],\
-        "linkType": "HARD"\
-      }],\
-      ["npm:0.5.9", {\
-        "packageLocation": "./.yarn/cache/@atproto-common-web-npm-0.5.9-6bfb704d49-40cbd80893.zip/node_modules/@atproto/common-web/",\
-        "packageDependencies": [\
-          ["@atproto/common-web", "npm:0.5.9"],\
-          ["@atproto/lex-data", "npm:0.1.7"],\
-          ["@atproto/lex-json", "npm:0.1.6"],\
-          ["@atproto/syntax", "npm:0.7.4"],\
           ["zod", "npm:3.25.76"]\
         ],\
         "linkType": "HARD"\
@@ -371,12 +360,12 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@atproto/lexicon", [\
-      ["npm:0.7.11", {\
-        "packageLocation": "./.yarn/cache/@atproto-lexicon-npm-0.7.11-2bad1183be-7990f89b61.zip/node_modules/@atproto/lexicon/",\
+      ["npm:0.7.12", {\
+        "packageLocation": "./.yarn/cache/@atproto-lexicon-npm-0.7.12-adbf83bba3-cb5992a969.zip/node_modules/@atproto/lexicon/",\
         "packageDependencies": [\
-          ["@atproto/common-web", "npm:0.5.9"],\
-          ["@atproto/lexicon", "npm:0.7.11"],\
-          ["@atproto/syntax", "npm:0.7.4"],\
+          ["@atproto/common-web", "npm:0.5.10"],\
+          ["@atproto/lexicon", "npm:0.7.12"],\
+          ["@atproto/syntax", "npm:0.7.5"],\
           ["multiformats", "npm:13.4.2"],\
           ["zod", "npm:3.25.76"]\
         ],\
@@ -421,11 +410,11 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@atproto/xrpc", [\
-      ["npm:0.8.10", {\
-        "packageLocation": "./.yarn/cache/@atproto-xrpc-npm-0.8.10-b7c27ef57f-f202e35898.zip/node_modules/@atproto/xrpc/",\
+      ["npm:0.8.11", {\
+        "packageLocation": "./.yarn/cache/@atproto-xrpc-npm-0.8.11-e92ff0f500-ff1aae9516.zip/node_modules/@atproto/xrpc/",\
         "packageDependencies": [\
-          ["@atproto/lexicon", "npm:0.7.11"],\
-          ["@atproto/xrpc", "npm:0.8.10"],\
+          ["@atproto/lexicon", "npm:0.7.12"],\
+          ["@atproto/xrpc", "npm:0.8.11"],\
           ["zod", "npm:3.25.76"]\
         ],\
         "linkType": "HARD"\
@@ -3221,7 +3210,7 @@ const RAW_RUNTIME_STATE =
       ["workspace:.", {\
         "packageLocation": "./",\
         "packageDependencies": [\
-          ["@atproto/api", "npm:0.20.41"],\
+          ["@atproto/api", "npm:0.20.42"],\
           ["@atproto/lex", "npm:0.3.8"],\
           ["@atproto/syntax", "npm:0.7.4"],\
           ["@eslint/compat", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:2.1.0"],\
