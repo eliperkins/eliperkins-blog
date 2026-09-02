@@ -79,7 +79,7 @@ const RAW_RUNTIME_STATE =
           ["sharp", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:0.35.4"],\
           ["tailwindcss", "npm:4.3.3"],\
           ["to-vfile", "npm:8.0.0"],\
-          ["tsx", "npm:4.23.12"],\
+          ["tsx", "npm:4.23.13"],\
           ["typescript", "patch:typescript@npm%3A6.0.3#optional!builtin<compat/typescript>::version=6.0.3&hash=5786d5"],\
           ["typescript-eslint", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:8.68.0"],\
           ["unified", "npm:11.0.5"],\
@@ -390,15 +390,6 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@atproto/syntax", [\
-      ["npm:0.7.4", {\
-        "packageLocation": "./.yarn/cache/@atproto-syntax-npm-0.7.4-6b9ea3a66d-fa401df28d.zip/node_modules/@atproto/syntax/",\
-        "packageDependencies": [\
-          ["@atproto/syntax", "npm:0.7.4"],\
-          ["iso-datestring-validator", "npm:2.2.2"],\
-          ["tslib", "npm:2.8.1"]\
-        ],\
-        "linkType": "HARD"\
-      }],\
       ["npm:0.7.5", {\
         "packageLocation": "./.yarn/cache/@atproto-syntax-npm-0.7.5-d91ce2b533-5fa6187864.zip/node_modules/@atproto/syntax/",\
         "packageDependencies": [\
@@ -3261,7 +3252,7 @@ const RAW_RUNTIME_STATE =
           ["sharp", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:0.35.4"],\
           ["tailwindcss", "npm:4.3.3"],\
           ["to-vfile", "npm:8.0.0"],\
-          ["tsx", "npm:4.23.12"],\
+          ["tsx", "npm:4.23.13"],\
           ["typescript", "patch:typescript@npm%3A6.0.3#optional!builtin<compat/typescript>::version=6.0.3&hash=5786d5"],\
           ["typescript-eslint", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:8.68.0"],\
           ["unified", "npm:11.0.5"],\
@@ -7509,12 +7500,12 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["tsx", [\
-      ["npm:4.23.12", {\
-        "packageLocation": "./.yarn/cache/tsx-npm-4.23.12-b92d1c4fd1-167a5571cb.zip/node_modules/tsx/",\
+      ["npm:4.23.13", {\
+        "packageLocation": "./.yarn/cache/tsx-npm-4.23.13-4fa1b003d5-064c7de2b3.zip/node_modules/tsx/",\
         "packageDependencies": [\
           ["esbuild", "npm:0.28.1"],\
           ["fsevents", "patch:fsevents@npm%3A2.3.3#optional!builtin<compat/fsevents>::version=2.3.3&hash=df0bf1"],\
-          ["tsx", "npm:4.23.12"]\
+          ["tsx", "npm:4.23.13"]\
         ],\
         "linkType": "HARD"\
       }]\
