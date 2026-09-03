@@ -23,7 +23,7 @@
     "@next/third-parties": "^16.3.0",
     "@primer/octicons-react": "^19.33.0",
     "@vercel/og": "^1.0.2",
-    "@wooorm/starry-night": "^3.10.0",
+    "@wooorm/starry-night": "^3.11.0",
     "date-fns": "^4.4.0",
     "feed": "^6.0.0",
     "hastscript": "^9.0.1",
