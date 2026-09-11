@@ -2729,7 +2729,7 @@ __metadata:
     hastscript: "npm:^9.0.1"
     mdast-util-to-string: "npm:^4.0.0"
     next: "npm:^16.3.3"
-    postcss: "npm:^8.5.26"
+    postcss: "npm:^8.5.28"
     prettier: "npm:^3.9.6"
     react: "npm:19.2.8"
     react-dom: "npm:19.2.8"
