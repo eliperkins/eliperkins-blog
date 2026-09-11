@@ -2689,10 +2689,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["baseline-browser-mapping", [\
-      ["npm:2.10.8", {\
-        "packageLocation": "./.yarn/cache/baseline-browser-mapping-npm-2.10.8-ac45efd2b9-820972372c.zip/node_modules/baseline-browser-mapping/",\
+      ["npm:2.11.22", {\
+        "packageLocation": "./.yarn/cache/baseline-browser-mapping-npm-2.11.22-b8e02e7b3f-edcd3b5a65.zip/node_modules/baseline-browser-mapping/",\
         "packageDependencies": [\
-          ["baseline-browser-mapping", "npm:2.10.8"]\
+          ["baseline-browser-mapping", "npm:2.11.22"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -5981,7 +5981,7 @@ const RAW_RUNTIME_STATE =
           ["@types/react-dom", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:19.2.5"],\
           ["@types/sass", null],\
           ["babel-plugin-react-compiler", "npm:1.0.0"],\
-          ["baseline-browser-mapping", "npm:2.10.8"],\
+          ["baseline-browser-mapping", "npm:2.11.22"],\
           ["caniuse-lite", "npm:1.0.30001649"],\
           ["next", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:16.3.0"],\
           ["postcss", "npm:8.5.26"],\
