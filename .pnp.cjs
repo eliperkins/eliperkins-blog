@@ -28,7 +28,7 @@ const RAW_RUNTIME_STATE =
       [null, {\
         "packageLocation": "./",\
         "packageDependencies": [\
-          ["@atproto/api", "npm:0.20.42"],\
+          ["@atproto/api", "npm:0.20.44"],\
           ["@atproto/lex", "npm:0.3.11"],\
           ["@atproto/syntax", "npm:0.7.6"],\
           ["@eslint/compat", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:2.1.1"],\
@@ -155,14 +155,14 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@atproto/api", [\
-      ["npm:0.20.42", {\
-        "packageLocation": "./.yarn/cache/@atproto-api-npm-0.20.42-e8553a54eb-957909e186.zip/node_modules/@atproto/api/",\
+      ["npm:0.20.44", {\
+        "packageLocation": "./.yarn/cache/@atproto-api-npm-0.20.44-42fb4c2042-8e7e287eec.zip/node_modules/@atproto/api/",\
         "packageDependencies": [\
-          ["@atproto/api", "npm:0.20.42"],\
-          ["@atproto/common-web", "npm:0.5.10"],\
-          ["@atproto/lexicon", "npm:0.7.12"],\
-          ["@atproto/syntax", "npm:0.7.5"],\
-          ["@atproto/xrpc", "npm:0.8.11"],\
+          ["@atproto/api", "npm:0.20.44"],\
+          ["@atproto/common-web", "npm:0.5.12"],\
+          ["@atproto/lexicon", "npm:0.7.14"],\
+          ["@atproto/syntax", "npm:0.7.6"],\
+          ["@atproto/xrpc", "npm:0.8.13"],\
           ["await-lock", "npm:3.0.0"],\
           ["multiformats", "npm:13.4.2"],\
           ["tlds", "npm:1.261.0"],\
@@ -186,17 +186,6 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@atproto/common-web", [\
-      ["npm:0.5.10", {\
-        "packageLocation": "./.yarn/cache/@atproto-common-web-npm-0.5.10-9ca113168a-e6a8fc5556.zip/node_modules/@atproto/common-web/",\
-        "packageDependencies": [\
-          ["@atproto/common-web", "npm:0.5.10"],\
-          ["@atproto/lex-data", "npm:0.1.7"],\
-          ["@atproto/lex-json", "npm:0.1.6"],\
-          ["@atproto/syntax", "npm:0.7.5"],\
-          ["zod", "npm:3.25.76"]\
-        ],\
-        "linkType": "HARD"\
-      }],\
       ["npm:0.5.12", {\
         "packageLocation": "./.yarn/cache/@atproto-common-web-npm-0.5.12-869f937067-0e6e658641.zip/node_modules/@atproto/common-web/",\
         "packageDependencies": [\
@@ -371,12 +360,12 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@atproto/lexicon", [\
-      ["npm:0.7.12", {\
-        "packageLocation": "./.yarn/cache/@atproto-lexicon-npm-0.7.12-adbf83bba3-cb5992a969.zip/node_modules/@atproto/lexicon/",\
+      ["npm:0.7.14", {\
+        "packageLocation": "./.yarn/cache/@atproto-lexicon-npm-0.7.14-e92309a645-3ed37cb416.zip/node_modules/@atproto/lexicon/",\
         "packageDependencies": [\
-          ["@atproto/common-web", "npm:0.5.10"],\
-          ["@atproto/lexicon", "npm:0.7.12"],\
-          ["@atproto/syntax", "npm:0.7.5"],\
+          ["@atproto/common-web", "npm:0.5.12"],\
+          ["@atproto/lexicon", "npm:0.7.14"],\
+          ["@atproto/syntax", "npm:0.7.6"],\
           ["multiformats", "npm:13.4.2"],\
           ["zod", "npm:3.25.76"]\
         ],\
@@ -401,15 +390,6 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@atproto/syntax", [\
-      ["npm:0.7.5", {\
-        "packageLocation": "./.yarn/cache/@atproto-syntax-npm-0.7.5-d91ce2b533-5fa6187864.zip/node_modules/@atproto/syntax/",\
-        "packageDependencies": [\
-          ["@atproto/syntax", "npm:0.7.5"],\
-          ["iso-datestring-validator", "npm:2.2.2"],\
-          ["tslib", "npm:2.8.1"]\
-        ],\
-        "linkType": "HARD"\
-      }],\
       ["npm:0.7.6", {\
         "packageLocation": "./.yarn/cache/@atproto-syntax-npm-0.7.6-8d147d4d5b-027c087b1a.zip/node_modules/@atproto/syntax/",\
         "packageDependencies": [\
@@ -421,11 +401,11 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@atproto/xrpc", [\
-      ["npm:0.8.11", {\
-        "packageLocation": "./.yarn/cache/@atproto-xrpc-npm-0.8.11-e92ff0f500-ff1aae9516.zip/node_modules/@atproto/xrpc/",\
+      ["npm:0.8.13", {\
+        "packageLocation": "./.yarn/cache/@atproto-xrpc-npm-0.8.13-b6d556fdaa-ae58ab4a98.zip/node_modules/@atproto/xrpc/",\
         "packageDependencies": [\
-          ["@atproto/lexicon", "npm:0.7.12"],\
-          ["@atproto/xrpc", "npm:0.8.11"],\
+          ["@atproto/lexicon", "npm:0.7.14"],\
+          ["@atproto/xrpc", "npm:0.8.13"],\
           ["zod", "npm:3.25.76"]\
         ],\
         "linkType": "HARD"\
@@ -3303,7 +3283,7 @@ const RAW_RUNTIME_STATE =
       ["workspace:.", {\
         "packageLocation": "./",\
         "packageDependencies": [\
-          ["@atproto/api", "npm:0.20.42"],\
+          ["@atproto/api", "npm:0.20.44"],\
           ["@atproto/lex", "npm:0.3.11"],\
           ["@atproto/syntax", "npm:0.7.6"],\
           ["@eslint/compat", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:2.1.1"],\
