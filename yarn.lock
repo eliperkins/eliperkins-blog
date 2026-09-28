@@ -1975,17 +1975,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vercel/og@npm:^1.0.2":
-  version: 1.0.2
-  resolution: "@vercel/og@npm:1.0.2"
+"@vercel/og@npm:^1.0.3":
+  version: 1.0.3
+  resolution: "@vercel/og@npm:1.0.3"
   dependencies:
     "@resvg/resvg-wasm": "npm:2.4.1"
-    satori: "npm:0.33.3"
+    satori: "npm:0.33.5"
     sharp: "npm:^0.35.3"
   dependenciesMeta:
     sharp:
       optional: true
-  checksum: 10/b86b872787b1898eb5b6179ffc243487ac6305b22d3149173dde3972fa258ba1906719d87bd4a7d5f52a0e766c1eeecd53d581f693407a992393dc97128f156c
+  checksum: 10/c7e02643d1ec286107042d645a2f3d2747b15534e224963cdb2624c2afca747d65dd00e1bcedf94f9c1e01a216b1b9506b0ce572ca813c029efc60a2215ead31
   languageName: node
   linkType: hard
 
@@ -2716,7 +2716,7 @@ __metadata:
     "@types/react-dom": "npm:^19.3.0"
     "@types/unist": "npm:^3.0.3"
     "@typescript-eslint/types": "npm:^8.70.1"
-    "@vercel/og": "npm:^1.0.2"
+    "@vercel/og": "npm:^1.0.3"
     "@wooorm/starry-night": "npm:^3.11.0"
     babel-plugin-react-compiler: "npm:^1.0.0"
     date-fns: "npm:^4.4.0"
@@ -6059,9 +6059,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"satori@npm:0.33.3":
-  version: 0.33.3
-  resolution: "satori@npm:0.33.3"
+"satori@npm:0.33.5":
+  version: 0.33.5
+  resolution: "satori@npm:0.33.5"
   dependencies:
     "@shuding/opentype.js": "npm:1.4.0-beta.0"
     css-background-parser: "npm:^0.1.0"
@@ -6076,7 +6076,7 @@ __metadata:
     parse-css-color: "npm:^0.2.1"
     postcss-value-parser: "npm:^4.2.0"
     yoga-layout: "npm:^3.2.1"
-  checksum: 10/e7a965c0f879aa4d6c13bf21b61c1365a98cf2df69be4ae7e65e2ba3357297db50f99ea82b5eb16e8e0df69ee9830404108864984412ff34f279c5f43ee8fbd1
+  checksum: 10/9be45eb8526c7a21d210e9514b40481b80a84bdd7ce64c5f642ba625ed111aa3cc0e0b78bd4cb4572cd56c0a9250c16d00b17881caca3ce517a81f614652b7cd
   languageName: node
   linkType: hard
 
