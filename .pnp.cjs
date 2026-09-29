@@ -28,7 +28,7 @@ const RAW_RUNTIME_STATE =
       [null, {\
         "packageLocation": "./",\
         "packageDependencies": [\
-          ["@atproto/api", "npm:0.20.44"],\
+          ["@atproto/api", "npm:0.21.0"],\
           ["@atproto/lex", "npm:0.3.11"],\
           ["@atproto/syntax", "npm:0.7.6"],\
           ["@eslint/compat", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:2.1.1"],\
@@ -155,10 +155,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@atproto/api", [\
-      ["npm:0.20.44", {\
-        "packageLocation": "./.yarn/cache/@atproto-api-npm-0.20.44-42fb4c2042-8e7e287eec.zip/node_modules/@atproto/api/",\
+      ["npm:0.21.0", {\
+        "packageLocation": "./.yarn/cache/@atproto-api-npm-0.21.0-727f31a706-9a45fb1d12.zip/node_modules/@atproto/api/",\
         "packageDependencies": [\
-          ["@atproto/api", "npm:0.20.44"],\
+          ["@atproto/api", "npm:0.21.0"],\
           ["@atproto/common-web", "npm:0.5.12"],\
           ["@atproto/lexicon", "npm:0.7.14"],\
           ["@atproto/syntax", "npm:0.7.6"],\
@@ -3283,7 +3283,7 @@ const RAW_RUNTIME_STATE =
       ["workspace:.", {\
         "packageLocation": "./",\
         "packageDependencies": [\
-          ["@atproto/api", "npm:0.20.44"],\
+          ["@atproto/api", "npm:0.21.0"],\
           ["@atproto/lex", "npm:0.3.11"],\
           ["@atproto/syntax", "npm:0.7.6"],\
           ["@eslint/compat", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:2.1.1"],\
