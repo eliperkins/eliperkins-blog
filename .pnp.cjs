@@ -75,7 +75,7 @@ const RAW_RUNTIME_STATE =
           ["remark-github-blockquote-alert", "npm:2.1.0"],\
           ["remark-parse", "npm:11.0.0"],\
           ["remark-rehype", "npm:11.1.2"],\
-          ["schema-dts", "npm:2.0.0"],\
+          ["schema-dts", "npm:2.1.0"],\
           ["sharp", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:0.35.5"],\
           ["tailwindcss", "npm:4.3.3"],\
           ["to-vfile", "npm:8.0.0"],\
@@ -3360,7 +3360,7 @@ const RAW_RUNTIME_STATE =
           ["remark-github-blockquote-alert", "npm:2.1.0"],\
           ["remark-parse", "npm:11.0.0"],\
           ["remark-rehype", "npm:11.1.2"],\
-          ["schema-dts", "npm:2.0.0"],\
+          ["schema-dts", "npm:2.1.0"],\
           ["sharp", "virtual:bdc10cfedd76fb704c02762a808a17815727adf0d95dc5f1bc99c1e7d8c56771399076b4339d6acb24cff864b0906f37963c44f15ce8daa343fbbc93454d4f9c#npm:0.35.5"],\
           ["tailwindcss", "npm:4.3.3"],\
           ["to-vfile", "npm:8.0.0"],\
@@ -6979,33 +6979,20 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["schema-dts", [\
-      ["npm:2.0.0", {\
-        "packageLocation": "./.yarn/cache/schema-dts-npm-2.0.0-2355aebe94-62c1ecc50b.zip/node_modules/schema-dts/",\
+      ["npm:2.1.0", {\
+        "packageLocation": "./.yarn/cache/schema-dts-npm-2.1.0-6094282c96-6c770948a6.zip/node_modules/schema-dts/",\
         "packageDependencies": [\
-          ["schema-dts", "npm:2.0.0"],\
-          ["schema-dts-lib", "virtual:2355aebe9416837050f0e71bf4231afba412addb84135fa37672c50d4bed9fab10a1fcfbe8a3296da9b3019f010431c144b7d51932b9eb4117d6e1069126f9e4#npm:1.0.0"]\
+          ["schema-dts", "npm:2.1.0"],\
+          ["schema-dts-lib", "npm:1.1.0"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["schema-dts-lib", [\
-      ["npm:1.0.0", {\
-        "packageLocation": "./.yarn/cache/schema-dts-lib-npm-1.0.0-bfb92bf0f2-1c21734eee.zip/node_modules/schema-dts-lib/",\
+      ["npm:1.1.0", {\
+        "packageLocation": "./.yarn/cache/schema-dts-lib-npm-1.1.0-2011367dc2-4890f3b01d.zip/node_modules/schema-dts-lib/",\
         "packageDependencies": [\
-          ["schema-dts-lib", "npm:1.0.0"]\
-        ],\
-        "linkType": "SOFT"\
-      }],\
-      ["virtual:2355aebe9416837050f0e71bf4231afba412addb84135fa37672c50d4bed9fab10a1fcfbe8a3296da9b3019f010431c144b7d51932b9eb4117d6e1069126f9e4#npm:1.0.0", {\
-        "packageLocation": "./.yarn/__virtual__/schema-dts-lib-virtual-f9827a7b6b/0/cache/schema-dts-lib-npm-1.0.0-bfb92bf0f2-1c21734eee.zip/node_modules/schema-dts-lib/",\
-        "packageDependencies": [\
-          ["@types/typescript", null],\
-          ["schema-dts-lib", "virtual:2355aebe9416837050f0e71bf4231afba412addb84135fa37672c50d4bed9fab10a1fcfbe8a3296da9b3019f010431c144b7d51932b9eb4117d6e1069126f9e4#npm:1.0.0"],\
-          ["typescript", null]\
-        ],\
-        "packagePeers": [\
-          "@types/typescript",\
-          "typescript"\
+          ["schema-dts-lib", "npm:1.1.0"]\
         ],\
         "linkType": "HARD"\
       }]\
