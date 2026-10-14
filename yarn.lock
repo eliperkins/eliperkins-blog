@@ -1492,12 +1492,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@primer/octicons-react@npm:^19.38.0":
-  version: 19.38.0
-  resolution: "@primer/octicons-react@npm:19.38.0"
+"@primer/octicons-react@npm:^19.40.0":
+  version: 19.40.0
+  resolution: "@primer/octicons-react@npm:19.40.0"
   peerDependencies:
     react: ">=16.3"
-  checksum: 10/83830470fc28358b802c3499760f1f1b95d294616bdc0507be625b63d56fc8f4029bc81dc677d92bfb188fc56b05723aacc5b4b36daefd3d3f30a2fbc2d5c619
+  checksum: 10/697b731073fb732799ba224840517aeaafc84422d91cecb58e42ad36013e6b6c5f414b21160b164bb56f8312416cd91b36a1c09d746843abb4e21d17e0d2898f
   languageName: node
   linkType: hard
 
@@ -2738,7 +2738,7 @@ __metadata:
     "@giscus/react": "npm:^3.1.0"
     "@next/eslint-plugin-next": "npm:^16.3.0"
     "@next/third-parties": "npm:^16.3.0"
-    "@primer/octicons-react": "npm:^19.38.0"
+    "@primer/octicons-react": "npm:^19.40.0"
     "@tailwindcss/postcss": "npm:^4.3.3"
     "@tailwindcss/typography": "npm:^0.5.20"
     "@types/gtag.js": "npm:^0.0.20"
