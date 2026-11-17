@@ -7,10 +7,10 @@ echo "🧹 Cleaning up previous build..."
 rm -rf out
 
 echo "🔗 Writing AT-URIs to post frontmatter..."
-yarn write-aturis
+pnpm write-aturis
 
 echo "🚧 Building for production..."
-yarn build
+pnpm build
 
 echo "📤 Syncing output to s3://$S3_BUCKET..."
 aws s3 sync ./out "s3://$S3_BUCKET" --delete
@@ -45,4 +45,4 @@ echo "📡 Invalidating Cloudfront cache for $CLOUDFRONT_DISTRIBUTION_ID..."
 aws cloudfront create-invalidation --distribution-id "$CLOUDFRONT_DISTRIBUTION_ID" --paths "/*" --no-cli-pager
 
 echo "📝 Publishing ATProto records for new posts..."
-yarn tsx scripts/publish-atproto.mts
+pnpm exec tsx scripts/publish-atproto.mts

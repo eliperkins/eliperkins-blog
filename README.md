@@ -9,6 +9,6 @@ Home of words written by Eli Perkins.
 ## Running in development
 
 ```bash
-yarn install
-yarn dev
+pnpm install
+pnpm dev
 ```
