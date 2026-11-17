@@ -17,7 +17,6 @@
   },
   "ignorePatterns": [
     ".next/*",
-    ".yarn/*",
     "public/**",
     "out",
     "next-env.d.ts",
