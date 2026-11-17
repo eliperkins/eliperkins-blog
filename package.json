@@ -63,7 +63,7 @@
     "oxlint": "^1.94.0",
     "oxlint-tsgolint": "^7.0.2007",
     "postcss": "^8.5.33",
-    "prettier": "^3.9.10",
+    "prettier": "^3.10.1",
     "rehype-starry-night": "^2.2.0",
     "schema-dts": "^2.1.0",
     "tailwindcss": "^4.3.4",
