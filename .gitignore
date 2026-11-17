@@ -39,3 +39,4 @@ yarn-error.log*
 next-env.d.ts
 
 lib/lexicons
+node_modules

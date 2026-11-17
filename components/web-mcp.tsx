@@ -88,7 +88,9 @@ const WebMCP = ({ posts }: { readonly posts: PostSummary[] }) => {
         required: ["query"],
       },
       handler: (params) => {
-        const query = (params?.query as string).toLowerCase();
+        const query = (
+          (params?.query as string | undefined) ?? ""
+        ).toLowerCase();
         const results = posts.filter(
           (p) =>
             p.title.toLowerCase().includes(query) ||
