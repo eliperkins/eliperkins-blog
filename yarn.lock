@@ -2310,7 +2310,7 @@ __metadata:
     feed: "npm:^6.0.0"
     globals: "npm:^17.13.0"
     hast: "npm:^1.0.0"
-    hastscript: "npm:^9.0.1"
+    hastscript: "npm:^9.0.3"
     mdast-util-to-string: "npm:^4.0.0"
     next: "npm:^16.4.5"
     oxlint: "npm:^1.94.0"
@@ -2766,16 +2766,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"hastscript@npm:^9.0.1":
-  version: 9.0.1
-  resolution: "hastscript@npm:9.0.1"
+"hastscript@npm:^9.0.3":
+  version: 9.0.3
+  resolution: "hastscript@npm:9.0.3"
   dependencies:
     "@types/hast": "npm:^3.0.0"
     comma-separated-tokens: "npm:^2.0.0"
     hast-util-parse-selector: "npm:^4.0.0"
     property-information: "npm:^7.0.0"
     space-separated-tokens: "npm:^2.0.0"
-  checksum: 10/9aa8135faf0307807cca4075bef4e3403ae1ce959ad4b9e6720892ba957d58ff98b2f60b5eb3ac67d88ae897dc918997299cd4249d7ac602a0066dd46442c5d4
+  checksum: 10/4c2b489dfdeedccd78babd643d86ed2c49c7fb9837455f0b5b603d07357d3f142729cc4a4509cec2180f78b9ff5f495191f4c196dd9a84c7e6921931e6c8ed1e
   languageName: node
   linkType: hard
 
