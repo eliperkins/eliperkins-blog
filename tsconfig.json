@@ -31,7 +31,8 @@
     "**/*.mts",
     "**/*.tsx",
     ".next/types/**/*.ts",
-    ".next/dev/types/**/*.ts"
+    ".next/dev/types/**/*.ts",
+    "app/.well-known/**/*.ts"
   ],
   "exclude": ["cloudfront", "node_modules"]
 }

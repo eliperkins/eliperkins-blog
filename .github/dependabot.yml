@@ -23,15 +23,10 @@ updates:
           - "tailwindcss"
           - "tailwindcss*"
           - "@tailwindcss*"
-      eslint:
+      oxlint:
         patterns:
-          - "eslint"
-          - "eslint-*"
-          - "@eslint/*"
-      typescript-eslint:
-        patterns:
-          - "typescript-eslint"
-          - "@typescript-eslint/*"
+          - "oxlint"
+          - "oxlint-*"
       prettier:
         patterns:
           - "prettier"
