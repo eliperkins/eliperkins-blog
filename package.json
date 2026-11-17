@@ -57,7 +57,7 @@
     "@types/react-dom": "^19.3.0",
     "@types/unist": "^3.0.3",
     "babel-plugin-react-compiler": "^1.0.0",
-    "globals": "^17.13.0",
+    "globals": "^17.14.0",
     "hast": "^1.0.0",
     "mdast-util-to-string": "^4.0.0",
     "oxlint": "^1.94.0",
