@@ -187,8 +187,8 @@ importers:
         specifier: ^0.6.0
         version: 0.6.0
       '@atproto/syntax':
-        specifier: ^0.7.8
-        version: 0.7.8
+        specifier: ^0.7.9
+        version: 0.7.9
       '@giscus/react':
         specifier: ^3.1.0
         version: 3.1.0(react-dom@19.3.1(react@19.3.1))(react@19.3.1)
@@ -451,8 +451,8 @@ packages:
     resolution: {integrity: sha512-lmNT/dq5gTRSkFR/zQwKrN6sw5EcqfyRanpeKKsTvXSFmelQvC00j3757fJ6bByBeqems8TDio+iWdMq/z3rPg==}
     engines: {node: '>=22'}
 
-  '@atproto/syntax@0.7.8':
-    resolution: {integrity: sha512-ss/UFa0UAekTs/22YDP6oz+99QvlQ+pHEye53LzNCIg9dShp8EfTPj5IJJijR/UyjqHAJdAFuQWSbrcCbq+mwg==}
+  '@atproto/syntax@0.7.9':
+    resolution: {integrity: sha512-jC4JsFc2MdDS69+AuLdJo2dyI1K4UJiCn5ys77Ml8jxG6YdvcIO86jJW4gmNNALP9+VROBGE5MtbyJlUNm/LHQ==}
     engines: {node: '>=22'}
 
   '@atproto/ws-client@0.2.2':
@@ -2264,7 +2264,7 @@ snapshots:
     dependencies:
       '@atproto/common-web': 0.5.18
       '@atproto/lexicon': 0.7.20
-      '@atproto/syntax': 0.7.8
+      '@atproto/syntax': 0.7.9
       '@atproto/xrpc': 0.8.19
       await-lock: 3.0.0
       multiformats: 13.4.2
@@ -2275,7 +2275,7 @@ snapshots:
     dependencies:
       '@atproto/lex-data': 0.1.11
       '@atproto/lex-json': 0.1.10
-      '@atproto/syntax': 0.7.8
+      '@atproto/syntax': 0.7.9
       zod: 3.25.76
 
   '@atproto/common@0.8.11':
@@ -2346,7 +2346,7 @@ snapshots:
       '@atproto/lex-resolver': 0.4.7
       '@atproto/lex-rpc': 0.2.0
       '@atproto/lex-schema': 0.3.0
-      '@atproto/syntax': 0.7.8
+      '@atproto/syntax': 0.7.9
       prettier: 3.10.1
       tslib: 2.9.1
       yargs: 18.2.0
@@ -2368,7 +2368,7 @@ snapshots:
       '@atproto/lex-rpc': 0.2.0
       '@atproto/lex-schema': 0.3.0
       '@atproto/repo': 0.11.6
-      '@atproto/syntax': 0.7.8
+      '@atproto/syntax': 0.7.9
       tslib: 2.9.1
     transitivePeerDependencies:
       - bufferutil
@@ -2389,7 +2389,7 @@ snapshots:
   '@atproto/lex-schema@0.3.0':
     dependencies:
       '@atproto/lex-data': 0.1.11
-      '@atproto/syntax': 0.7.8
+      '@atproto/syntax': 0.7.9
       '@standard-schema/spec': 1.1.0
       tslib: 2.9.1
 
@@ -2412,7 +2412,7 @@ snapshots:
   '@atproto/lexicon@0.7.20':
     dependencies:
       '@atproto/common-web': 0.5.18
-      '@atproto/syntax': 0.7.8
+      '@atproto/syntax': 0.7.9
       multiformats: 13.4.2
       zod: 3.25.76
 
@@ -2423,11 +2423,11 @@ snapshots:
       '@atproto/crypto': 0.5.8
       '@atproto/lex-cbor': 0.1.11
       '@atproto/lex-data': 0.1.11
-      '@atproto/syntax': 0.7.8
+      '@atproto/syntax': 0.7.9
       varint: 6.0.0
       zod: 3.25.76
 
-  '@atproto/syntax@0.7.8':
+  '@atproto/syntax@0.7.9':
     dependencies:
       iso-datestring-validator: 2.2.2
       tslib: 2.9.1
