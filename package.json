@@ -17,7 +17,7 @@
   },
   "dependencies": {
     "@atproto/api": "^0.32.5",
-    "@atproto/lex": "^0.6.0",
+    "@atproto/lex": "^0.6.1",
     "@atproto/syntax": "^0.7.9",
     "@giscus/react": "^3.1.0",
     "@next/third-parties": "^16.3.0",
